@@ -1,0 +1,9 @@
+baseURL = "https://ratheronfire.com/"
+languageCode = "en-us"
+title = "Ratheronfire's Assorted Collection of Odd Projects"
+theme = "ratheronfire-theme"
+
+[params]
+    categories = ["jnd","Projects"]
+[taxonomies]
+  category = "categories"

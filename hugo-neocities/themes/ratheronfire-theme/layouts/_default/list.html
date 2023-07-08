@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content" id="flex">
+            <main>
+                <h1 class="title">{{ .Title }}</h1>
+                {{ .Content }}
+
+                {{ range $taxonomy, $terms := site.Taxonomies }}
+                <ul>
+                    {{ range $term, $weightedPages := $terms }}
+                    {{ $page := site.GetPage (path.Join $taxonomy $term) }}
+                    {{ if eq $page.Params.section page.Title }}
+                    <li>
+                        {{ $page.LinkTitle }} - {{ $page.Params.caption }}
+                    </li>
+                    <ul>
+                        {{ range $weightedPages }}
+                        <li>
+                            <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+                {{ end }}
+
+            </main>
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content" id="flex">
+            <main>
+                {{ .Content }}
+            </main>
+
+            <aside id="leftSidebar" style="margin-right: 0px;">
+                <h2>Updates</h2>
+                <div class="box">
+                    <p>April 27, 2023</p>
+                    <ul style="padding-left:10px;">
+                        <li>Created the site.</li>
+                    </ul>
+                    <p>July 3, 2023</p>
+                    <ul style="padding-left:10px;">
+                        <li>Added some more social media links and a guestbook because that's what you do in 2023.</li>
+                    </ul>
+                </div>
+                <h3>Inferior Social Media</h3>
+                <ul>
+                    <li><a rel="me" href="https://mastodon.social/@Ratheronfire" target="_blank">Mastodon</a></li>
+                    <li><a href="https://cohost.org/Ratheronfire" target="_blank">Cohost</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCPlBIsX20DaKlA62wGWurUQ" target="_blank">YouTube</a>
+                    </li>
+                    <li><a href="https://letterboxd.com/Ratheronfire/" target="_blank">Letterboxd</a></li>
+                    <li><a href="https://backloggd.com/u/Ratheronfire/" target="_blank">Backloggd</a></li>
+                    <li><a href="https://www.serializd.com/user/Ratheronfire/profile" target="_blank">Serializd</a></li>
+                    <li><a href="https://twitter.com/Ratheronfire" target="_blank"
+                            title="If that site still exists when you see this page...">Twitter</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+</div>
+{{ end }}
