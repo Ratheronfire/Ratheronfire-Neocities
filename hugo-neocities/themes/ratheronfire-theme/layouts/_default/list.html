@@ -12,13 +12,20 @@
                     {{ $page := site.GetPage (path.Join $taxonomy $term) }}
                     {{ if eq $page.Params.section page.Title }}
                     <li>
+                        {{ if $page.Params.caption }}
                         {{ $page.LinkTitle }} - {{ $page.Params.caption }}
+                        {{ else }}
+                        {{ $page.LinkTitle }}
+                        {{ end }}
                     </li>
                     <ul>
                         {{ range $weightedPages }}
+                        
+                        {{ if not .Params.is_subpage }}
                         <li>
                             <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
                         </li>
+                        {{ end }}
                         {{ end }}
                     </ul>
                     {{ end }}

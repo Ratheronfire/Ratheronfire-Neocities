@@ -1,6 +1,7 @@
 ---
 title: "The 100% Accurate Chronological Storyline of Metal Gear (From Memory) [PART 2]"
-date: 2023-07-08T00:55:23-04:00
+section: "Thoughts"
+date: 2021-01-19T21:59:41-04:00
 draft: false
 categories: ["jnd"]
 ---

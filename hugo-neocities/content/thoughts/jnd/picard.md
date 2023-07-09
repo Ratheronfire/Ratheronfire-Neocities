@@ -1,6 +1,6 @@
 ---
 title: "Ratheronfire's Unorganized 1 AM Picard Season 1 Thoughts"
-date: 2023-07-08T01:40:56-04:00
+date: 2020-05-31T02:30:28-04:00
 draft: false
 categories: ["jnd"]
 ---

@@ -1,0 +1,86 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content" id="flex">
+            <main>
+                {{ if .Params.thumbnail_mainpage }}
+                <div class="card">
+                    <img src="{{ .Params.thumbnail_mainpage }}" align="right" class="thumbnail">
+                    <h1>{{ .Title }}</h1>
+                    <br />
+                    <p>{{ .Params.caption_mainpage | markdownify }}</p>
+                </div>
+
+                {{ else }}
+                <h1 class="title">{{ .Title }}</h1>
+                {{ end }}
+
+                {{ .Content }}
+
+                {{ range $entry := .Params.entries }}
+                <hr>
+
+                <div class="card">
+                    <div class="review-header">
+                        {{ if $entry.review_page }}
+                        <h3 class="review-title"><a href="{{ $entry.review_page }}">{{ $entry.title }} ({{ $entry.year }})</a></h2>
+                        {{ else }}
+                        <h3 class="review-title">{{ $entry.title }} ({{ $entry.year }})</h2>
+                        {{ end }}
+
+                        <div class="rating">
+                            {{ if eq $entry.rating 0.5 }}
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                            {{ else if gt $entry.rating 0 }}
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            {{ else }}
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{ end }}
+
+                            {{ if eq $entry.rating 1.5 }}
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                            {{ else if gt $entry.rating 1 }}
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            {{ else }}
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{ end }}
+
+                            {{ if eq $entry.rating 2.5 }}
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                            {{ else if gt $entry.rating 2 }}
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            {{ else }}
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{ end }}
+
+                            {{ if eq $entry.rating 3.5 }}
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                            {{ else if gt $entry.rating 3 }}
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            {{ else }}
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{ end }}
+
+                            {{ if eq $entry.rating 4.5 }}
+                            <i class="fa fa-star-half" aria-hidden="true"></i>
+                            {{ else if gt $entry.rating 4 }}
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            {{ else }}
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            {{ end }}
+                        </div>
+                    </div>
+
+                    {{ if $entry.has_spoilers }}
+                    <i>Spoilers ahead!</i>
+                    {{ end }}
+
+                    <p><i>{{ $entry.short_review | markdownify }}</i></p>
+                </div>
+                {{ end }}
+
+            </main>
+        </div>
+    </div>
+</div>
+{{ end }}
