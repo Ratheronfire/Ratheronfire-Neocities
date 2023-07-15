@@ -1,0 +1,9 @@
+<ul>
+    {{ range .Params.manual_links }}
+    {{ with site.GetPage . }}
+    <li>
+        <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
+    </li>
+    {{ end }}
+    {{ end }}
+</ul>

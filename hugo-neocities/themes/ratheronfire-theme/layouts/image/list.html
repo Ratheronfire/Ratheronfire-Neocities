@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content" id="flex">
+            <main>
+                <h1 class="title">{{ .Title }}</h1>
+                {{ .Content }}
+
+                <ul>
+                    {{ range sort (.Pages) ".Params.date" "asc" }}
+                    <li>
+                        <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+
+            </main>
+        </div>
+    </div>
+</div>
+{{ end }}

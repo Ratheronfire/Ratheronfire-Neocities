@@ -83,7 +83,6 @@ and change the media query according to the comment! */
     margin: 0 auto;
     /* this centers the entire page */
 }
-
 /* the area below is for all links on your page
 EXCEPT for the navigation */
 .container a {
@@ -291,6 +290,19 @@ feel free to play around with the order!
         flex-wrap: wrap;
     }
 }
+
+/* Image gallery display */
+
+.image_scaled {
+    display: flex;
+}
+
+.image_scaled img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Page navigation buttons */
 
 .blog__navigateButtons{  
     display: flex;  

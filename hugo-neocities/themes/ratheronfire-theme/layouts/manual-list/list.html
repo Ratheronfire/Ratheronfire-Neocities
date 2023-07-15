@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content" id="flex">
+            <main>
+                <h1 class="title">{{ .Title }}</h1>
+                {{ .Content }}
+
+                {{ partial "manual_links" . }}
+            </main>
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -4,27 +4,21 @@
         <div class="content" id="flex">
             <main>
                 {{ if .Params.thumbnail_mainpage }}
-				<div class="card">
-					<img src="{{ .Params.thumbnail_mainpage }}" align="right" class="thumbnail">                
+                <div class="card">
+                    <img src="{{ .Params.thumbnail_mainpage }}" align="right" class="thumbnail">
                     <h1>{{ .Title }}</h1>
-					<br />
-					<p>{{ .Params.caption_mainpage | markdownify }}</p>
-				</div>
+                    <br />
+                    <p>{{ .Params.caption_mainpage | markdownify }}</p>
+                </div>
 
                 <hr>
                 {{ else }}
                 <h1 class="title">{{ .Title }}</h1>
                 {{ end }}
-                
+
                 {{ .Content }}
 
-                {{ range $taxonomy, $terms := site.Taxonomies }}
-                {{ range $term, $weightedPages := $terms }}
-                {{ $page := site.GetPage (path.Join $taxonomy $term) }}
-
-                {{ if eq $page.Params.section page.Title }}
-
-                {{ range $weightedPages }}
+                {{ range .Pages}}
                 <div class="card">
                     <img src="{{ .Params.thumbnail }}" title="{{ .Params.thumbnail_alt }}" align="right"
                         class="thumbnail">
@@ -40,12 +34,6 @@
 
                 <hr>
                 {{ end }}
-
-                {{ end }}
-
-                {{ end }}
-                {{ end }}
-
             </main>
         </div>
     </div>

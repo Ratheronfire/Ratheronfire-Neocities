@@ -13,25 +13,14 @@
 					<p>{{ .Params.caption_mainpage | markdownify }}</p>
 				</div>
 
+                {{ .Date | time.Format ":date_long" }}
+
                 <hr>
                 
                 {{ .Content }}
                 {{ end }}
 
-                <div class="blog__navigate">
-                    <div class="blog__navigateButtons">
-                        <div class="blog__navigateButtons__previous">
-                            {{ with .PrevInSection }}
-                            <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a> </button>
-                            {{ end }}
-                        </div>
-                        <div class="blog__navigateButtons__next">
-                            {{ with .NextInSection }}
-                            <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
+                {{ partial "page_nav" . }}
             </main>
         </div>
     </div>

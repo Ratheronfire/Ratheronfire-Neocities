@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content" id="flex">
+            <main>
+                <h1>{{ .Title }}</h1>
+
+                <i>{{ .Date | time.Format ":date_long" }}</i>
+
+                <hr>
+                
+                {{ if .Params.image_paths }}
+                {{ range .Params.image_paths }}
+                <a href="{{ . }}" target="_blank" class="image_scaled">
+                    <img src="{{ . }}" title="{{ page.Params.alt_text }}" alt="{{ page.Params.alt_text }}">
+                </a>
+                {{ end }}
+                {{ else }}
+                <a href="{{ page.Params.image_path }}" target="_blank" class="image_scaled">
+                    <img src="{{ page.Params.image_path }}" title="{{ page.Params.alt_text }}" alt="{{ page.Params.alt_text }}">
+                </a>
+                {{ end }}
+
+                {{ .Content }}
+
+                {{ partial "page_nav" . }}
+            </main>
+        </div>
+    </div>
+</div>
+{{ end }}

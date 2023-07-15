@@ -1,3 +1,7 @@
 <div class="container">
-    <footer id="footer" style="margin-top: 0px;"></footer>
+    <footer id="footer" style="margin-top: 0px;">
+        {{ range (.Ancestors).Reverse }}
+        <a href="{{ .RelPermalink }}"><-- {{ cond (eq .Name "") "Home" .Name }}/</a>
+        {{ end }}
+    </footer>
 </div>

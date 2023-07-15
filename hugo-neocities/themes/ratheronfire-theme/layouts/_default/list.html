@@ -6,33 +6,13 @@
                 <h1 class="title">{{ .Title }}</h1>
                 {{ .Content }}
 
-                {{ range $taxonomy, $terms := site.Taxonomies }}
                 <ul>
-                    {{ range $term, $weightedPages := $terms }}
-                    {{ $page := site.GetPage (path.Join $taxonomy $term) }}
-                    {{ if eq $page.Params.section page.Title }}
+                    {{ range .Pages}}
                     <li>
-                        {{ if $page.Params.caption }}
-                        {{ $page.LinkTitle }} - {{ $page.Params.caption }}
-                        {{ else }}
-                        {{ $page.LinkTitle }}
-                        {{ end }}
+                        <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
                     </li>
-                    <ul>
-                        {{ range $weightedPages }}
-                        
-                        {{ if not .Params.is_subpage }}
-                        <li>
-                            <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
-                        </li>
-                        {{ end }}
-                        {{ end }}
-                    </ul>
-                    {{ end }}
                     {{ end }}
                 </ul>
-                {{ end }}
-
             </main>
         </div>
     </div>
