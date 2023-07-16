@@ -1,9 +1,9 @@
 ---
-title: "Grafald bonus 36 -  Grafald nd Fridns fights for Net Nutrisystem"
+title: "Grafald bonus 36 - Pokmon S&M Special"
 type: "image"
-date: 2017-07-12T00:00:00-04:00
+date: 2016-11-21T00:00:00-04:00
 draft: false
 categories: ["Projects"]
-image_path: "../img/2017/bonus_36.png"
+image_path: "../img/2016/bonus_36.png"
 alt_text: ""
 ---

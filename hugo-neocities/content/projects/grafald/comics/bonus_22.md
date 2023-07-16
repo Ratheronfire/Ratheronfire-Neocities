@@ -1,9 +1,9 @@
 ---
-title: "Grafald bonus 22-Crossibrb Who Even Makes This I Don't Ev"
+title: "Grafald bonus 22 - GRAFALD INTENSIFIES"
 type: "image"
-date: 2014-01-18T00:01:00-04:00
+date: 2014-01-15T00:00:00-04:00
 draft: false
 categories: ["Projects"]
-image_path: "../img/2014/bonus_22.png"
+image_path: "../img/2014/bonus_22.gif"
 alt_text: ""
 ---

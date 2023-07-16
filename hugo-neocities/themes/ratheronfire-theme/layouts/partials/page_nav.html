@@ -1,8 +1,24 @@
+{{ $using_category := ne .Params.nav_category nil }}
+
+{{ $category_pages := where .Site.RegularPages ".Params.nav_category" page.Params.nav_category }}
 {{ $pages := where (where .Site.RegularPages "File.Dir" .File.Dir) ".Params.exclude_from_nav" "!=" "true" }}
 
 <div class="blog__navigate">
     <div class="blog__navigateButtons">
         <div class="blog__navigateButtons__previous">
+            {{ if $using_category }}
+
+            {{ with $category_pages.Prev . }}
+            <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a> </button>
+            {{ end }}
+        </div>
+        <div class="blog__navigateButtons__next">
+            {{ with $category_pages.Next . }}
+            <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
+            
+            {{ end }}
+            {{ else }}
+
             {{ with $pages.Prev . }}
             <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a> </button>
             {{ end }}
@@ -10,6 +26,8 @@
         <div class="blog__navigateButtons__next">
             {{ with $pages.Next . }}
             <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
+            {{ end }}
+
             {{ end }}
         </div>
     </div>

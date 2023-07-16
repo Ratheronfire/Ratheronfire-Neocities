@@ -1,9 +1,9 @@
 ---
-title: "Grafald bonus 27-happy birtday jim davis"
+title: "Grafald bonus 27 - mini comc with gode spel"
 type: "image"
-date: 2015-06-28T00:00:00-04:00
+date: 2014-10-26T00:00:00-04:00
 draft: false
 categories: ["Projects"]
-image_path: "../img/2015/bonus_27.png"
+image_path: "../img/2014/bonus_27.png"
 alt_text: ""
 ---

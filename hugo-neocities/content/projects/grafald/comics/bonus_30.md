@@ -1,9 +1,9 @@
 ---
-title: "Grafald bonus 30 - Grazorpazorpfald #1"
+title: "Grafald bonus 30 - Thanksgiving aftermath"
 type: "image"
-date: 2016-06-11T00:00:00-04:00
+date: 2015-11-05T00:01:00-04:00
 draft: false
 categories: ["Projects"]
-image_path: "../img/2016/bonus_30.png"
+image_path: "../img/2015/bonus_30.png"
 alt_text: ""
 ---

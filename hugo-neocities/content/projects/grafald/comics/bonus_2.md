@@ -1,5 +1,5 @@
 ---
-title: "Grafald bonus 2-Grafald Caracter Gide"
+title: "Grafald bonus 2 - Grafald Caracter Gide"
 type: "image"
 date: 2012-04-21T02:00:00-04:00
 draft: false

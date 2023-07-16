@@ -1,5 +1,5 @@
 ---
-title: "Grafald bonus 3-Milk Fightre"
+title: "Grafald bonus 3 - Milk Fightre"
 type: "image"
 date: 2012-04-24T00:00:00-04:00
 draft: false

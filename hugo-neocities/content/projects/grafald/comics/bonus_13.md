@@ -1,9 +1,9 @@
 ---
-title: "Grafald bonus 13-Wallpapper"
+title: "Grafald bonus 13 - Grumpfald"
 type: "image"
-date: 2013-02-25T00:00:00-04:00
+date: 2012-10-13T01:00:00-04:00
 draft: false
 categories: ["Projects"]
-image_path: "../img/2013/bonus_13.jpg"
+image_path: "../img/2012/bonus_13.png"
 alt_text: ""
 ---

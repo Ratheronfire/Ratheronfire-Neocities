@@ -1,5 +1,5 @@
 ---
-title: "Grafald bonus 1-Grafalds Diner"
+title: "Grafald bonus 1 - Grafalds Diner"
 type: "image"
 date: 2012-04-21T00:00:-04:00
 draft: false
