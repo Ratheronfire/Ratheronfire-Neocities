@@ -1,5 +1,5 @@
 ---
-title: "Age of Clicking - Angular Version"
+title: "Age of Clicking - Unity Version"
 type: "detailed"
 date: 2019-01-28T00:00:00-04:00
 draft: false
