@@ -23,6 +23,13 @@ thumbnail_mainpage: "img/gameplay.png"
 categories: ["Projects"]
 ---
 
+{{< rawhtml >}}
+  <video width="800" height="450" controls>
+    <source src="trailer_mandolin.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video> 
+{{< /rawhtml >}}
+
 ## Credits & Thanks
 
 Original Game Developed by Mike Chapman, Matt Chapman, Jonathan Howe, and [Jez Swanson](https://twitter.com/jezzamonn)  
