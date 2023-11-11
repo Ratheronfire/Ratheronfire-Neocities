@@ -17,67 +17,53 @@
 
                 {{ .Content }}
 
+                <div style="text-align: right; font-size: min(1.87vw, 70%); opacity: 0.7;">Templates adapted from <a href="https://cohost.org/nex3?">@nex3's</a> <a
+                    href="https://nex3.github.io/cohost-letterboxd">Letterboxd formatter</a></div>
+
+                <!--
                 {{ range $entry := .Params.entries }}
-                <hr>
+                {{
+                    $review := dict
+                    "title" $entry.title
+                    "rating" $entry.rating
+                    "year" $entry.year
+                    "date" $entry.review_date
+                    "content" ($entry.review_text | markdownify)
+                    "has_spoilers" $entry.has_spoilers
+                    "fanart_url" $entry.fanart_url
+                    "poster_url" $entry.poster_url
+                    "review_page" $entry.review_page
+                    "external_review_url" $entry.external_review_url
+                    "is_preview" true
+                }}
 
-                <div class="card">
-                    <div class="review-header">
-                        {{ if $entry.review_page }}
-                        <h3 class="review-title"><a href="{{ $entry.review_page }}">{{ $entry.title }} ({{ $entry.year }})</a></h2>
-                        {{ else }}
-                        <h3 class="review-title">{{ $entry.title }} ({{ $entry.year }})</h2>
-                        {{ end }}
-
-                        <div class="rating">
-                            {{ if eq $entry.rating 0.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt $entry.rating 0 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
-
-                            {{ if eq $entry.rating 1.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt $entry.rating 1 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
-
-                            {{ if eq $entry.rating 2.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt $entry.rating 2 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
-
-                            {{ if eq $entry.rating 3.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt $entry.rating 3 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
-
-                            {{ if eq $entry.rating 4.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt $entry.rating 4 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
-                        </div>
-                    </div>
-
-                    {{ if $entry.has_spoilers }}
-                    <i>Spoilers ahead!</i>
-                    {{ end }}
-
-                    <p><i>{{ $entry.short_review | markdownify }}</i></p>
-                </div>
+                {{ partial "review" $review }}
                 {{ end }}
+
+                <br />
+                <hr />
+                <br />-->
+
+                {{ range $entry := (.Paginator 15).Pages }}
+                {{
+                    $review := dict
+                    "title" $entry.Params.title
+                    "rating" $entry.Params.rating
+                    "year" $entry.Params.year
+                    "date" $entry.Params.date
+                    "content" $entry.Content
+                    "has_spoilers" $entry.Params.has_spoilers
+                    "fanart_url" $entry.Params.fanart_url
+                    "poster_url" $entry.Params.poster_url
+                    "review_page" .Page.Permalink
+                    "external_review_url" $entry.Params.external_review_url
+                    "is_preview" true
+                }}
+
+                {{ partial "review" $review }}
+                {{ end }}
+
+                {{ template "_internal/pagination.html" . }}
 
             </main>
         </div>

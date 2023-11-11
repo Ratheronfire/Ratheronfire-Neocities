@@ -6,61 +6,23 @@
                 {{ if .Params.override_url }}
                 <h2><a href="{{ .Params.override_url }}">{{ .LinkTitle }}</a></h2>
                 {{ else }}
-				<div class="card">
-                    <div class="review-header">
-                        {{ if .Params.review_page }}
-                        <h3 class="review-title"><a href="{{ .Params.review_page }}">{{ .Params.title }} ({{ .Params.year }})</a></h2>
-                        {{ else }}
-                        <h3 class="review-title">{{ .Params.title }} ({{ .Params.year }})</h2>
-                        {{ end }}
 
-                        <div class="rating">
-                            {{ if eq .Params.rating 0.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt .Params.rating 0 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
+                {{
+                    $review := dict
+                    "title" .Params.title
+                    "rating" .Params.rating
+                    "year" .Params.year
+                    "date" .Date
+                    "content" .Content
+                    "has_spoilers" .Params.has_spoilers
+                    "fanart_url" .Params.fanart_url
+                    "poster_url" .Params.poster_url
+                    "external_review_url" .Params.external_review_url
+                    "is_preview" false
+                }}
 
-                            {{ if eq .Params.rating 1.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt .Params.rating 1 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
+                {{ partial "review" $review }}
 
-                            {{ if eq .Params.rating 2.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt .Params.rating 2 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
-
-                            {{ if eq .Params.rating 3.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt .Params.rating 3 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
-
-                            {{ if eq .Params.rating 4.5 }}
-                            <i class="fa fa-star-half" aria-hidden="true"></i>
-                            {{ else if gt .Params.rating 4 }}
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            {{ else }}
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            {{ end }}
-                        </div>
-                    </div>
-				</div>
-
-                <hr>
-                
-                {{ .Content }}
                 {{ end }}
 
                 {{ partial "page_nav" . }}

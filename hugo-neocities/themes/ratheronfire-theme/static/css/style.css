@@ -1,4 +1,3 @@
-
 /* user styles */
 
 /* styles are what change the color and sizes of stuff on your site. */
@@ -83,6 +82,7 @@ and change the media query according to the comment! */
     margin: 0 auto;
     /* this centers the entire page */
 }
+
 /* the area below is for all links on your page
 EXCEPT for the navigation */
 .container a {
@@ -304,29 +304,289 @@ feel free to play around with the order!
 
 /* Page navigation buttons */
 
-.blog__navigateButtons{  
-    display: flex;  
-    justify-content: space-between;  
-    align-items: center;  
-  }  
-    
-  .blog__navigate{  
-    margin-bottom: 20px;  
-  }  
-  .blog__navigate button{  
-    border: none;  
-    outline: none;  
-    background: rgb(88, 123, 240);  
-    color: #fff;  
-    padding: 10px 20px;  
-    border-radius: 5px;  
-    cursor: pointer;  
-    transition: all 200ms;  
-  }  
-  .blog__navigate button:hover{  
-    transform: translateY(1.5);  
-    background: rgb(43, 92, 226);  
-  }  
-  .blog__navigate a{  
-    color: #fff;  
-  }  
+.blog__navigateButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__navigate {
+    margin-bottom: 20px;
+}
+
+.blog__navigate button {
+    border: none;
+    outline: none;
+    background: rgb(88, 123, 240);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.blog__navigate button:hover,
+.pagination>.page-item:hover {
+    transform: translateY(1.5);
+    background: rgb(43, 92, 226);
+}
+
+.blog__navigate a,
+.pagination>.page-item a {
+    color: #fff;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.pagination>.page-item {
+    flex-grow: 1;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: rgb(88, 123, 240);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.blog__navigate button, .pagination > .page-item.disabled {
+    background: gray;
+    cursor: default;
+}
+
+.blog__navigate button, .pagination > .page-item.active {
+    background: blueviolet;
+    cursor: default;
+}
+
+.blog__navigate button, .pagination > .page-item a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+/* Letterboxd review cards */
+
+.hidden {
+    display: none;
+}
+
+.review__review {
+    background: #2c3440;
+    border-radius: 5px;
+    border: 1px solid #2c3440;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 70%) 2px 2px 5px;
+    color: #9ab;
+    display: flex;
+    flex-direction: column;
+}
+
+/** Header **/
+
+.review__header {
+    display: flex;
+    padding: 13.846px 16px 0;
+    background: #456;
+    z-index: 1;
+    position: relative;
+}
+
+.review__poster-container {
+    align-self: flex-start;
+    flex-shrink: 0;
+    order: 2;
+    width: 30%;
+    max-width: 110px;
+    position: relative;
+    z-index: 0;
+    height: 0px;
+}
+
+.review__poster-container-small {
+    max-width: 60px;
+    top: -10px;
+    right: -10px;
+}
+
+.review__poster-border {
+    height: auto;
+    width: 100%;
+    background: #161718;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 35%);
+    border-radius: 4px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.review__poster {
+    height: auto;
+    width: 100%;
+    border-radius: 4px;
+    margin: 0;
+    display: block;
+}
+
+.review__poster-border a {
+    box-shadow: inset 0 0 1px #ddeeff;
+    background-clip: padding-box;
+    background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, hsla(0, 0%, 100%, .5) 50%, hsla(0, 0%, 100%, 0));
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 110%;
+}
+
+.review__title-container {
+    align-self: center;
+    flex-grow: 1;
+    order: 1;
+    padding-right: 13.846px;
+}
+
+.review__title-container>h2 {
+    margin-bottom: 9.231px;
+    font-size: 20.3077px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    font-family: TiemposTextWeb-Semibold, Georgia, serif;
+    font-weight: 700;
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+
+.review__title {
+    margin-right: 3px;
+}
+
+.review__title>a:nth-child(1) {
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.review__title-year {
+    font-size: 16.6154px;
+    color: #89a;
+    font-weight: 400;
+}
+
+.review__title-year>a {
+    color: #abc;
+    text-decoration: none;
+}
+
+.review__title-rating {
+    background: url("https://s.ltrbxd.com/static/img/sprite.bb4a4c3d.svg") -390px -130px no-repeat;
+    display: inline-block;
+    height: 14px;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+}
+
+.review__review-subheader {
+    display: flex;
+    align-items: center;
+}
+
+.review__note {
+    font-size: 14px;
+    line-height: 1.5;
+
+    margin-bottom: 9.231px;
+    margin-right: 20px;
+}
+
+.review__watched-date {
+    color: wheat;
+}
+
+.review__watched-date>a {
+    color: wheat;
+    text-decoration: none;
+}
+
+.review__info {
+    color: cyan;
+    flex: min-content;
+}
+
+.review__warning {
+    color: yellowgreen;
+    flex: max-content;
+}
+
+.review__to-full {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+/** Body **/
+
+.review__fanart {
+    width: 100%;
+    height: 0;
+    margin-bottom: 160px;
+}
+
+.review__fanart>img {
+    min-width: 100%;
+    width: 100%;
+    min-height: 267px;
+    object-fit: cover;
+    margin: 0;
+    transform: translateY(-20%);
+}
+
+.review__body {
+    line-height: 1.6875;
+    font-size: 14.7692px;
+    padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(0.5rem - 160px);
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(125, 185, 232, 0) 0, #16181c calc(160px + 3rem));
+    padding-top: 160px;
+}
+
+.review__body>p {
+    margin: 0 0 0.625em 0;
+}
+
+/** List view **/
+
+.review__review details>summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.review__review details>summary>div {
+    margin-bottom: 0 !important;
+}
+
+.review__attribution {
+    text-align: right;
+    font-size: min(1.87vw, 70%);
+    opacity: 0.7;
+}

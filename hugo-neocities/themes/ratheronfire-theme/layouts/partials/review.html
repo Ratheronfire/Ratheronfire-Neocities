@@ -1,0 +1,93 @@
+{{ define "header" }}
+    <div class="review__header"
+        {{ if and (.is_preview) .fanart_url }}
+            class="review__header review__header-preview-backdrop" style="background: linear-gradient(to left,rgba(125,185,232,0) 0,hsl(220, 12%, 10%, 80%) 40%), url('{{ .fanart_url }}')"
+        {{ end }}
+        >
+        {{ if .poster_url }}
+        <div
+            class="review__poster-container {{ if .is_preview }} review__poster-container-small {{ end }}">
+            <div
+                class="review__poster-border">
+                <img class="review__poster"src="{{ .poster_url }}"><a href="{{ .external_review_url }}"></a>
+                </div>
+        </div>
+        {{ end }}
+
+        <div class="review__title-container">
+            <h2>
+                <div class="review__title">
+                    <a href="{{ .external_review_url }}">{{ .title }}</a>
+                    <small class="review__title-year"><a href="https://letterboxd.com/films/year/{{ .year }}">{{ .year }}</a></small>
+                </div>
+                <span class="review__title-rating" style="width: {{ mul .rating 16 }}px">
+                    {{ if eq .rating 0.5 }}⯨{{ else if gt .rating 0 }}★{{ else }}✫{{ end }}{{ if eq .rating 1.5 }}⯨{{ else if gt .rating 1 }}★{{ else }}✫{{ end }}{{ if eq .rating 2.5 }}⯨{{ else if gt .rating 2 }}★{{ else }}✫{{ end }}{{ if eq .rating 3.5 }}⯨{{ else if gt .rating 3 }}★{{ else }}✫{{ end }}{{ if eq .rating 4.5 }}⯨{{ else if gt .rating 4 }}★{{ else }}✫{{ end }}
+                </span>
+            </h2>
+
+            <div class="review__review-subheader">
+                {{ if .date }}
+                    <div class="review__note review__watched-date">
+                        Reviewed    
+                        <a href="https://letterboxd.com/ratheronfire//films/diary/for/{{ .date | time.Format "2006" }}/{{ .date | time.Format "01" }}">
+                            {{ .date | time.Format "January" }}
+                        </a>
+                        <a href="https://letterboxd.com/ratheronfire//films/diary/for/{{ .date | time.Format "2006" }}/{{ .date | time.Format "01" }}/{{ .date | time.Format "2" }}">
+                            {{ .date | time.Format "2," }}
+                        </a>
+                        <a href="https://letterboxd.com/ratheronfire//films/diary/for/{{ .date | time.Format "2006" }}/">
+                            {{ .date | time.Format "2006" }}
+                        </a>
+                    </div>
+                {{ end }}
+
+                {{ if and .is_preview .content }}
+                    <div class="review__note review__info">Has written review</div>
+                {{ end }}
+
+                {{ if .has_spoilers }}
+                    <div class="review__note review__warning"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> This review contains spoilers.</div>
+                {{ end }}
+            </div>
+        </div>
+
+        {{ if .review_page }}
+            <a href="{{ .review_page }}" class="review__to-full"></a>
+        {{ end }}
+    </div>
+{{ end }}
+
+{{ define "body" }}
+    {{ if and .fanart_url (not .is_preview) }}
+    <div class="review__fanart"><img src="{{ .fanart_url }}"></div>
+    {{end}}
+
+    <div class="review__body">
+        <p>
+            {{ or .content "No written review yet for this page." }}
+        </p>
+    </div>
+{{ end }}
+
+<div class="hidden">{{ .title }} Review</div>
+<div class="review__review">
+    {{ if and .is_preview .content }}
+    <details>
+        <summary>{{ template "header" . }}</summary>
+        {{ template "body" . }}
+    </details>
+    {{ else }}
+        {{ template "header" . }}
+        {{ if not .is_preview }}
+            {{ template "body" . }}
+        {{ end }}
+    {{ end }}
+</div>
+
+{{ if not .is_preview }}
+<div class="review__attribution"> Adapted from <a href="https://cohost.org/nex3?">@nex3's</a> <a
+        href="https://nex3.github.io/cohost-letterboxd">Letterboxd formatter</a></div>
+{{ end }}
+
+<style>
+</style>
