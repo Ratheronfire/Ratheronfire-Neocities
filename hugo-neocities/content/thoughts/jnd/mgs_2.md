@@ -4,6 +4,8 @@ section: "Thoughts"
 date: 2021-01-19T21:59:41-04:00
 draft: false
 categories: ["jnd"]
+tags:
+- metal-gear-solid
 ---
 
 *Originally posted to /r/JNDDeskscraps on January 19, 2021.*

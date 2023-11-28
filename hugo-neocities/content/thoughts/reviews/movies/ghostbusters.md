@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/ghostbusters_fanart.png
 poster_url: /thoughts/reviews/movies/img/ghostbusters_poster.png
 external_review_url: https://boxd.it/g2w
 page_name: ghostbusters
+tags:
+- ghostbusters
 ---
 

@@ -12,6 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/the-super-mario-bros-movie_fanart.png
 poster_url: /thoughts/reviews/movies/img/the-super-mario-bros-movie_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-super-mario-bros-movie/
 page_name: the-super-mario-bros-movie
+tags:
+- mario
 ---
 
 There was a character who called Mario and Luigi the Stupid Mario Brothers, which I think makes this movie canon to the Richard Michael Alvarez Cinematic Universe (the RMACU).

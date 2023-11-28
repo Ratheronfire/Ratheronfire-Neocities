@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/indiana-jones-and-the-temple-of-doom_fa
 poster_url: /thoughts/reviews/movies/img/indiana-jones-and-the-temple-of-doom_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/indiana-jones-and-the-temple-of-doom/
 page_name: indiana-jones-and-the-temple-of-doom
+tags:
+- indiana-jones
 ---
 

@@ -12,5 +12,9 @@ fanart_url: /thoughts/reviews/movies/img/batman-mr-freeze-subzero_fanart.png
 poster_url: /thoughts/reviews/movies/img/batman-mr-freeze-subzero_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/batman-mr-freeze-subzero/
 page_name: batman-mr-freeze-subzero
+tags:
+- batman
+- batman-tas
+- dcau
 ---
 

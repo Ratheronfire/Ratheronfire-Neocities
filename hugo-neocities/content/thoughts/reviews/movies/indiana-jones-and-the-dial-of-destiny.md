@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/indiana-jones-and-the-dial-of-destiny_f
 poster_url: /thoughts/reviews/movies/img/indiana-jones-and-the-dial-of-destiny_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/indiana-jones-and-the-dial-of-destiny/
 page_name: indiana-jones-and-the-dial-of-destiny
+tags:
+- indiana-jones
 ---
 

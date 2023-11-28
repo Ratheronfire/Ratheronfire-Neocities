@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/jurassic-park_fanart.png
 poster_url: /thoughts/reviews/movies/img/jurassic-park_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/jurassic-park/
 page_name: jurassic-park
+tags:
+- jurassic-park
 ---
 

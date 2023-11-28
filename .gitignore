@@ -5,3 +5,6 @@
 
 *.lock
 hugo-neocities/public/
+
+__pycache__/
+.idea/

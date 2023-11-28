@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/oceans-eight_fanart.png
 poster_url: /thoughts/reviews/movies/img/oceans-eight_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/oceans-eight/
 page_name: oceans-eight
+tags:
+- oceans
 ---
 

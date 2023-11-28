@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/sonic-the-hedgehog_fanart.png
 poster_url: /thoughts/reviews/movies/img/sonic-the-hedgehog_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/sonic-the-hedgehog/
 page_name: sonic-the-hedgehog
+tags:
+- sonic-the-hedgehog
 ---
 

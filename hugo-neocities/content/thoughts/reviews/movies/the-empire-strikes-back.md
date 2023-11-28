@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/the-empire-strikes-back_fanart.png
 poster_url: /thoughts/reviews/movies/img/the-empire-strikes-back_poster.png
 external_review_url: https://boxd.it/27Vw
 page_name: the-empire-strikes-back
+tags:
+- star-wars
 ---
 

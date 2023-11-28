@@ -12,6 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/indiana-jones-and-the-kingdom-of-the-cr
 poster_url: /thoughts/reviews/movies/img/indiana-jones-and-the-kingdom-of-the-crystal-skull_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/indiana-jones-and-the-kingdom-of-the-crystal-skull/
 page_name: indiana-jones-and-the-kingdom-of-the-crystal-skull
+tags:
+- indiana-jones
 ---
 
 If this movie destroyed your childhood, then clearly your childhood was already pretty weak. My childhood could beat up your childhood easily.

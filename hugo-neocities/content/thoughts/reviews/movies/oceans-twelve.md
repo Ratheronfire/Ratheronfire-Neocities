@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/oceans-twelve_fanart.png
 poster_url: /thoughts/reviews/movies/img/oceans-twelve_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/oceans-twelve/
 page_name: oceans-twelve
+tags:
+- oceans
 ---
 

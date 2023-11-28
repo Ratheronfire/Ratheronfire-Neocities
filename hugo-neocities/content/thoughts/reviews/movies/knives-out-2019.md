@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/knives-out-2019_fanart.png
 poster_url: /thoughts/reviews/movies/img/knives-out-2019_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/knives-out-2019/
 page_name: knives-out-2019
+tags:
+- knives-out
 ---
 

@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-wars-episode-iii-revenge-of-the-si
 poster_url: /thoughts/reviews/movies/img/star-wars-episode-iii-revenge-of-the-sith_poster.png
 external_review_url: https://boxd.it/27US
 page_name: star-wars-episode-iii-revenge-of-the-sith
+tags:
+- star-wars
 ---
 

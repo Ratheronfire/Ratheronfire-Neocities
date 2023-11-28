@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-trek_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-trek_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/star-trek/
 page_name: star-trek
+tags:
+- star-trek
 ---
 

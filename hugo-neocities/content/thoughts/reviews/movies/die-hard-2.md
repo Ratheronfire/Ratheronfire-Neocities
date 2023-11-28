@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/die-hard-2_fanart.png
 poster_url: /thoughts/reviews/movies/img/die-hard-2_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/die-hard-2/
 page_name: die-hard-2
+tags:
+- die-hard
 ---
 

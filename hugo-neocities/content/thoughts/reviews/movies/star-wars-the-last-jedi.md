@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-wars-the-last-jedi_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-wars-the-last-jedi_poster.png
 external_review_url: https://boxd.it/5xme
 page_name: star-wars-the-last-jedi
+tags:
+- star-wars
 ---
 

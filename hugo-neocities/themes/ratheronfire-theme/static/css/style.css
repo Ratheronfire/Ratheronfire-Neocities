@@ -355,21 +355,32 @@ feel free to play around with the order!
     transition: all 200ms;
 }
 
-.blog__navigate button, .pagination > .page-item.disabled {
+.blog__navigate button,
+.pagination>.page-item.disabled {
     background: gray;
     cursor: default;
 }
 
-.blog__navigate button, .pagination > .page-item.active {
+.blog__navigate button,
+.pagination>.page-item.active {
     background: blueviolet;
     cursor: default;
 }
 
-.blog__navigate button, .pagination > .page-item a {
+.blog__navigate button,
+.pagination>.page-item a {
     display: inline-block;
     width: 100%;
     height: 100%;
     padding: 10px 20px;
+}
+
+/* Tag buttons */
+
+a.tag {
+    background: aqua;
+    border-radius: 7px;
+    padding: 0 5px 0 5px;
 }
 
 /* Letterboxd review cards */
@@ -501,9 +512,17 @@ feel free to play around with the order!
     white-space: nowrap;
 }
 
+.review__title-rating-inline {
+    margin-left: 10px;
+}
+
 .review__review-subheader {
     display: flex;
     align-items: center;
+}
+
+.review__warnings {
+    display: flex;
 }
 
 .review__note {
@@ -512,15 +531,6 @@ feel free to play around with the order!
 
     margin-bottom: 9.231px;
     margin-right: 20px;
-}
-
-.review__watched-date {
-    color: wheat;
-}
-
-.review__watched-date>a {
-    color: wheat;
-    text-decoration: none;
 }
 
 .review__info {
@@ -533,12 +543,30 @@ feel free to play around with the order!
     flex: max-content;
 }
 
+.review__context {
+    color: #9999FF;
+    flex: max-content;
+}
+
+.review__watched-date {
+    color: wheat;
+}
+
+.review__watched-date>a {
+    color: wheat;
+    text-decoration: none;
+}
+
 .review__to-full {
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
+}
+
+.review__table {
+    width: 100%;
 }
 
 /** Body **/

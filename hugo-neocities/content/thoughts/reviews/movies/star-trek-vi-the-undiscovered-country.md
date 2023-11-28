@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-trek-vi-the-undiscovered-country_f
 poster_url: /thoughts/reviews/movies/img/star-trek-vi-the-undiscovered-country_poster.png
 external_review_url: https://boxd.it/2aXg
 page_name: star-trek-vi-the-undiscovered-country
+tags:
+- star-trek
 ---
 

@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/blade-runner-2049_fanart.png
 poster_url: /thoughts/reviews/movies/img/blade-runner-2049_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/blade-runner-2049/
 page_name: blade-runner-2049
+tags:
+- blade-runner
 ---
 

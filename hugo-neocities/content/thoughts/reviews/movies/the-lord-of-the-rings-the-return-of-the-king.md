@@ -12,5 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/the-lord-of-the-rings-the-return-of-the
 poster_url: /thoughts/reviews/movies/img/the-lord-of-the-rings-the-return-of-the-king_poster.png
 external_review_url: https://boxd.it/2b5u
 page_name: the-lord-of-the-rings-the-return-of-the-king
+tags:
+- lord-of-the-rings
+- middle-earth
 ---
 

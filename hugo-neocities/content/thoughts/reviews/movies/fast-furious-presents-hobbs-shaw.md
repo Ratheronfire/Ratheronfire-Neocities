@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/fast-furious-presents-hobbs-shaw_fanart
 poster_url: /thoughts/reviews/movies/img/fast-furious-presents-hobbs-shaw_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/fast-furious-presents-hobbs-shaw/
 page_name: fast-furious-presents-hobbs-shaw
+tags:
+- fast-and-furious
 ---
 

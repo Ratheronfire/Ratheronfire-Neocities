@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-trek-iv-the-voyage-home_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-trek-iv-the-voyage-home_poster.png
 external_review_url: https://boxd.it/2aYe
 page_name: star-trek-iv-the-voyage-home
+tags:
+- star-trek
 ---
 

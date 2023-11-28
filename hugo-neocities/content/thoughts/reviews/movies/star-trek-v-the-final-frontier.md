@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-trek-v-the-final-frontier_fanart.p
 poster_url: /thoughts/reviews/movies/img/star-trek-v-the-final-frontier_poster.png
 external_review_url: https://boxd.it/2aXA
 page_name: star-trek-v-the-final-frontier
+tags:
+- star-trek
 ---
 

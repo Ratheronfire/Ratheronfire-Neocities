@@ -12,5 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/jurassic-world-fallen-kingdom_fanart.pn
 poster_url: /thoughts/reviews/movies/img/jurassic-world-fallen-kingdom_poster.png
 external_review_url: https://boxd.it/bOnU
 page_name: jurassic-world-fallen-kingdom
+tags:
+- jurassic-world
+- jurassic-park
 ---
 

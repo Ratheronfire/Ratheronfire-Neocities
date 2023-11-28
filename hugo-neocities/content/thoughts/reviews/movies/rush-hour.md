@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/rush-hour_fanart.png
 poster_url: /thoughts/reviews/movies/img/rush-hour_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/rush-hour/
 page_name: rush-hour
+tags:
+- rush-hour
 ---
 

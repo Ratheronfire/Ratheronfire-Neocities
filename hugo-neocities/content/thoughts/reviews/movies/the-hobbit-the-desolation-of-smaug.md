@@ -10,7 +10,10 @@ rating: 3.5
 has_spoilers: false
 fanart_url: /thoughts/reviews/movies/img/the-hobbit-the-desolation-of-smaug_fanart.png
 poster_url: /thoughts/reviews/movies/img/the-hobbit-the-desolation-of-smaug_poster.png
-external_review_url: https://letterboxd.com/ratheronfire/film/the-hobbit-the-desolation-of-smaug/
+external_review_url: https://letterboxd.com/film/the-hobbit-the-desolation-of-smaug/
 page_name: the-hobbit-the-desolation-of-smaug
+tags:
+- the-hobbit
+- middle-earth
 ---
 

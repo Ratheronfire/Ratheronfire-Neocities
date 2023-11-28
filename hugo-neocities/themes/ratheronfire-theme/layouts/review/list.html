@@ -17,51 +17,57 @@
 
                 {{ .Content }}
 
-                <div style="text-align: right; font-size: min(1.87vw, 70%); opacity: 0.7;">Templates adapted from <a href="https://cohost.org/nex3?">@nex3's</a> <a
-                    href="https://nex3.github.io/cohost-letterboxd">Letterboxd formatter</a></div>
+                <table class="review__table">
+                    <thead>
+                        <th>Subject</th>
+                        <th>Review Date</th>
+                        <th>Rating</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                        {{ range $entry := (.Paginator 30).Pages }}
+                        {{
+                            $review := dict
+                            "title" $entry.Params.title
+                            "rating" $entry.Params.rating
+                            "year" $entry.Params.year
+                            "date" $entry.Params.date
+                            "content" $entry.Content
+                            "has_spoilers" $entry.Params.has_spoilers
+                            "fanart_url" $entry.Params.fanart_url
+                            "poster_url" $entry.Params.poster_url
+                            "review_page" .Page.Permalink
+                            "external_review_url" $entry.Params.external_review_url
+                            "is_preview" true
+                        }}
 
-                <!--
-                {{ range $entry := .Params.entries }}
-                {{
-                    $review := dict
-                    "title" $entry.title
-                    "rating" $entry.rating
-                    "year" $entry.year
-                    "date" $entry.review_date
-                    "content" ($entry.review_text | markdownify)
-                    "has_spoilers" $entry.has_spoilers
-                    "fanart_url" $entry.fanart_url
-                    "poster_url" $entry.poster_url
-                    "review_page" $entry.review_page
-                    "external_review_url" $entry.external_review_url
-                    "is_preview" true
-                }}
-
-                {{ partial "review" $review }}
-                {{ end }}
-
-                <br />
-                <hr />
-                <br />-->
-
-                {{ range $entry := (.Paginator 15).Pages }}
-                {{
-                    $review := dict
-                    "title" $entry.Params.title
-                    "rating" $entry.Params.rating
-                    "year" $entry.Params.year
-                    "date" $entry.Params.date
-                    "content" $entry.Content
-                    "has_spoilers" $entry.Params.has_spoilers
-                    "fanart_url" $entry.Params.fanart_url
-                    "poster_url" $entry.Params.poster_url
-                    "review_page" .Page.Permalink
-                    "external_review_url" $entry.Params.external_review_url
-                    "is_preview" true
-                }}
-
-                {{ partial "review" $review }}
-                {{ end }}
+                        <tr>
+                            <td>
+                                {{ if $review.content }}
+                                <a href="{{ .Page.Permalink }}">{{ $review.title }}</a>
+                                {{ else }}
+                                {{ $review.title }}
+                                {{ end }}
+                            </td>
+                            <td>{{ $review.date | time.Format "January 2, 2006" }}</td>
+                            <td>{{ partial "review_rating" $review }}</td>
+                            <td class="review__warnings">
+                                {{ if $review.external_review_url }}
+                                <a href="{{ $review.external_review_url }}" class="review__context" aria-label="From external source" title="From external source"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+                                {{ end }}
+                                
+                                {{ if $review.content }}
+                                <div class="review__context" aria-label="Has written review" title="Has written review"><i class="fa fa-comment" aria-hidden="true"></i></div>
+                                {{ end }}
+                                
+                                {{ if $review.has_spoilers }}
+                                <div class="review__warning" aria-label="Has spoilers" title="Has spoilers"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+                                {{ end }}
+                            </td>
+                        </tr>
+                        {{ end }}
+                    </tbody>
+                </table>
 
                 {{ template "_internal/pagination.html" . }}
 

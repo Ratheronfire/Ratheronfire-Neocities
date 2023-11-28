@@ -12,6 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/the-matrix-revolutions_fanart.png
 poster_url: /thoughts/reviews/movies/img/the-matrix-revolutions_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-matrix-revolutions/
 page_name: the-matrix-revolutions
+tags:
+- the-matrix
 ---
 
 *(Note: I wrote this up as a rough summary of my thoughts after watching the series for the first time leading up to the new movie. Copying them over here for posterity.)*

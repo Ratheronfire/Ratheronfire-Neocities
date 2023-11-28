@@ -3,9 +3,43 @@
     <div class="section">
         <div class="content" id="flex">
             <main>
+                {{ if eq .Ancestors.Len 2}}
+                {{ $taxonomy_type := lower (index .Ancestors 0).Title }}
+                {{ $taxonomy := .Title }}
+
                 <h1 class="title">
+                    {{ if eq $taxonomy_type "tags" }}
+                    #{{ .Title }}
+                    {{ else }}
                     {{ .Title }}
+                    {{ end }}
                 </h1>
+
+                <div class="categories">
+                    {{ range $taxonomy_name, $taxonomy_pages := .Site.Taxonomies }}
+
+                    {{ if eq $taxonomy_name $taxonomy_type }}
+                    {{ range $name, $value := $taxonomy_pages }}
+
+                    {{ if eq $name $taxonomy }}
+                    <div class="categoryCard">
+                        <div class="category__detail">
+                            {{ range $value.Pages }}
+                            <p hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </p>
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    {{ end }}
+
+                    {{ end }}
+
+                    {{ end }}
+                </div>
+
+                {{ else }}
+
                 <div class="categories">
                     {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
 
@@ -23,6 +57,7 @@
                     {{ end }}
                     {{ end }}
                 </div>
+                {{ end }}
             </main>
         </div>
     </div>

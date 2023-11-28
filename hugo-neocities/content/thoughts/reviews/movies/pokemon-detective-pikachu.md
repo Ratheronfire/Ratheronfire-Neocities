@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/pokemon-detective-pikachu_fanart.png
 poster_url: /thoughts/reviews/movies/img/pokemon-detective-pikachu_poster.png
 external_review_url: https://boxd.it/fVA0
 page_name: pokemon-detective-pikachu
+tags:
+- pokemon
 ---
 

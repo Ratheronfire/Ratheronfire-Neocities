@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/pee-wees-big-adventure_fanart.png
 poster_url: /thoughts/reviews/movies/img/pee-wees-big-adventure_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/pee-wees-big-adventure/
 page_name: pee-wees-big-adventure
+tags:
+- pee-wee
 ---
 

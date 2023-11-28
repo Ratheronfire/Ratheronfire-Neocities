@@ -12,6 +12,9 @@ fanart_url: /thoughts/reviews/movies/img/jurassic-world_fanart.png
 poster_url: /thoughts/reviews/movies/img/jurassic-world_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/jurassic-world/
 page_name: jurassic-world
+tags:
+- jurassic-world
+- jurassic-park
 ---
 
 "No Way to Prevent This", Says Only Dinosaur Park Where This Regularly Happens

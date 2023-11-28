@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/live-free-or-die-hard_fanart.png
 poster_url: /thoughts/reviews/movies/img/live-free-or-die-hard_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/live-free-or-die-hard/
 page_name: live-free-or-die-hard
+tags:
+- die-hard
 ---
 

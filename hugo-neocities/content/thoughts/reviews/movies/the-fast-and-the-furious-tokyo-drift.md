@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/the-fast-and-the-furious-tokyo-drift_fa
 poster_url: /thoughts/reviews/movies/img/the-fast-and-the-furious-tokyo-drift_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-fast-and-the-furious-tokyo-drift/
 page_name: the-fast-and-the-furious-tokyo-drift
+tags:
+- fast-and-furious
 ---
 

@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/2-fast-2-furious_fanart.png
 poster_url: /thoughts/reviews/movies/img/2-fast-2-furious_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/2-fast-2-furious/
 page_name: 2-fast-2-furious
+tags:
+- fast-and-furious
 ---
 

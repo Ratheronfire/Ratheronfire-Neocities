@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/indiana-jones-and-the-last-crusade_fana
 poster_url: /thoughts/reviews/movies/img/indiana-jones-and-the-last-crusade_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/indiana-jones-and-the-last-crusade/
 page_name: indiana-jones-and-the-last-crusade
+tags:
+- indiana-jones
 ---
 

@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-trek-generations_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-trek-generations_poster.png
 external_review_url: https://boxd.it/2aUm
 page_name: star-trek-generations
+tags:
+- star-trek
 ---
 

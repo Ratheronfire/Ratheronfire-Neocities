@@ -5,3 +5,4 @@ theme = "ratheronfire-theme"
 
 [taxonomies]
   category = "categories"
+  tag = "tags"

@@ -11,6 +11,9 @@ poster_url: /thoughts/reviews/movies/img/the-lord-of-the-rings-the-fellowship-of
 has_spoilers: true
 date: 2023-10-08 00:00:00
 external_review_url: https://letterboxd.com/ratheronfire/film/the-lord-of-the-rings-the-fellowship-of-the-ring
+tags:
+- lord-of-the-rings
+- middle-earth
 ---
 
 Every so often I get the urge to rewatch these movies, and while I sometimes struggle to sit through TV episodes uninterrupted, I have no trouble setting aside entire chunks of my day for this. Every time I find myself appreciating something different about the experience, and this time it was watching Boromir's slow realization of who and what he was becoming under the influence of the Ring. There's so many little moments where you can see his facade nearly fall apart, and it hurts way harder on rewatches knowing where his story will lead.

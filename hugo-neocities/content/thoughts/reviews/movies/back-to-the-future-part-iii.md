@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/back-to-the-future-part-iii_fanart.png
 poster_url: /thoughts/reviews/movies/img/back-to-the-future-part-iii_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/back-to-the-future-part-iii/
 page_name: back-to-the-future-part-iii
+tags:
+- back-to-the-future
 ---
 

@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/dragon-ball-super-broly_fanart.png
 poster_url: /thoughts/reviews/movies/img/dragon-ball-super-broly_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/dragon-ball-super-broly/
 page_name: dragon-ball-super-broly
+tags:
+- dragon-ball
 ---
 

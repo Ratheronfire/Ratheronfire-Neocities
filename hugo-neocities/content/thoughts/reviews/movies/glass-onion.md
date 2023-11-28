@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/glass-onion_fanart.png
 poster_url: /thoughts/reviews/movies/img/glass-onion_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/glass-onion/
 page_name: glass-onion
+tags:
+- knives-out
 ---
 

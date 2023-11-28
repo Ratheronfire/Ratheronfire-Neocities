@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/oceans-eleven-2001_fanart.png
 poster_url: /thoughts/reviews/movies/img/oceans-eleven-2001_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/oceans-eleven-2001/
 page_name: oceans-eleven-2001
+tags:
+- oceans
 ---
 

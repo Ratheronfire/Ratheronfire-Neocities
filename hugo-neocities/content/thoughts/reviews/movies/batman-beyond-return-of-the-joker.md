@@ -12,5 +12,9 @@ fanart_url: /thoughts/reviews/movies/img/batman-beyond-return-of-the-joker_fanar
 poster_url: /thoughts/reviews/movies/img/batman-beyond-return-of-the-joker_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/batman-beyond-return-of-the-joker/
 page_name: batman-beyond-return-of-the-joker
+tags:
+- batman
+- batman-tas
+- dcau
 ---
 

@@ -3,6 +3,8 @@ title: "Ratheronfire's Unorganized 1 AM Picard Season 1 Thoughts"
 date: 2020-05-31T02:30:28-04:00
 draft: false
 categories: ["jnd"]
+tags:
+- star-trek
 ---
 
 *Originally posted to /r/JNDDeskscraps on May 31, 2020.*

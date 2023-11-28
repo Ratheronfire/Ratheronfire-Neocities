@@ -12,5 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/the-hobbit-the-battle-of-the-five-armie
 poster_url: /thoughts/reviews/movies/img/the-hobbit-the-battle-of-the-five-armies_poster.png
 external_review_url: https://boxd.it/43aU
 page_name: the-hobbit-the-battle-of-the-five-armies
+tags:
+- the-hobbit
+- middle-earth
 ---
 

@@ -12,5 +12,9 @@ fanart_url: /thoughts/reviews/movies/img/batman-mask-of-the-phantasm_fanart.png
 poster_url: /thoughts/reviews/movies/img/batman-mask-of-the-phantasm_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/batman-mask-of-the-phantasm/
 page_name: batman-mask-of-the-phantasm
+tags:
+- batman
+- batman-tas
+- dcau
 ---
 

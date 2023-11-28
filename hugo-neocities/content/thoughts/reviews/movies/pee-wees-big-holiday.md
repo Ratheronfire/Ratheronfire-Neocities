@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/pee-wees-big-holiday_fanart.png
 poster_url: /thoughts/reviews/movies/img/pee-wees-big-holiday_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/pee-wees-big-holiday/
 page_name: pee-wees-big-holiday
+tags:
+- pee-wee
 ---
 

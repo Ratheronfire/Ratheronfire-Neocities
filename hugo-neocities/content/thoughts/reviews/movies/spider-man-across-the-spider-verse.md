@@ -12,6 +12,9 @@ fanart_url: /thoughts/reviews/movies/img/spider-man-across-the-spider-verse_fana
 poster_url: /thoughts/reviews/movies/img/spider-man-across-the-spider-verse_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/spider-man-across-the-spider-verse/
 page_name: spider-man-across-the-spider-verse
+tags:
+- spider-man
+- spider-verse
 ---
 
 I'll be honest, I'm not really a superhero guy. There's stuff I like, but I tend to only check in on superhero stuff occasionally. Some of the DCAU shows, the Arkham games, that sort of thing. But when it comes to Marvel stuff, my experience is basically only the odd Spiderman thing here and there: I saw the Raimi movies which were outstanding for the most part, the first Amazing Spiderman which was fine I guess, and a bit of that Insomniac game (really need to get back to that, now that it's finally on PC). But I hadn't seen a single movie or show from the MCU era, with the ecxeption of the first Spiderverse.

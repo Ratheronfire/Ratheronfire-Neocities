@@ -12,6 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/furious-7_fanart.png
 poster_url: /thoughts/reviews/movies/img/furious-7_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/furious-7/
 page_name: furious-7
+tags:
+- fast-and-furious
 ---
 
 This is the most directed movie I've ever seen.

@@ -12,6 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/star-trek-ii-the-wrath-of-khan_fanart.p
 poster_url: /thoughts/reviews/movies/img/star-trek-ii-the-wrath-of-khan_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/star-trek-ii-the-wrath-of-khan
 page_name: star-trek-ii-the-wrath-of-khan
+tags:
+- star-trek
 ---
 
 Watched the 40th anniversary theater re-issue with a couple of friends. Still a fantastic movie and one of my all-time favorites, though every time I see it the dumber aspects are more apparent to me.

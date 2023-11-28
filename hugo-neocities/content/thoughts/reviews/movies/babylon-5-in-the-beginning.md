@@ -12,5 +12,7 @@ fanart_url: ''
 poster_url: /thoughts/reviews/movies/img/babylon-5-in-the-beginning_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/babylon-5-in-the-beginning/
 page_name: babylon-5-in-the-beginning
+tags:
+- babylon-5
 ---
 

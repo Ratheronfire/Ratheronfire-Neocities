@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-wars-episode-i-the-phantom-menace_
 poster_url: /thoughts/reviews/movies/img/star-wars-episode-i-the-phantom-menace_poster.png
 external_review_url: https://boxd.it/27Vc
 page_name: star-wars-episode-i-the-phantom-menace
+tags:
+- star-wars
 ---
 

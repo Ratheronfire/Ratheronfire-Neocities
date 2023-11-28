@@ -12,5 +12,7 @@ fanart_url: ''
 poster_url: /thoughts/reviews/movies/img/babylon-5-the-river-of-souls_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/babylon-5-the-river-of-souls/
 page_name: babylon-5-the-river-of-souls
+tags:
+- babylon-5
 ---
 

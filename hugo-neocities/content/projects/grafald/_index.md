@@ -19,4 +19,7 @@ manual_links:
     - projects/grafald/2019
     - projects/grafald/2020
     - projects/grafald/2023
+tags:
+- grafald
+- 3days
 ---

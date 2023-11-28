@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/dragon-ball-z-battle-of-gods_fanart.png
 poster_url: /thoughts/reviews/movies/img/dragon-ball-z-battle-of-gods_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/dragon-ball-z-battle-of-gods/
 page_name: dragon-ball-z-battle-of-gods
+tags:
+- dragon-ball
 ---
 

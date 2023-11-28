@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/the-matrix-resurrections_fanart.png
 poster_url: /thoughts/reviews/movies/img/the-matrix-resurrections_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-matrix-resurrections/
 page_name: the-matrix-resurrections
+tags:
+- the-matrix
 ---
 

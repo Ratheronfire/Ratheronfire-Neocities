@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-trek-insurrection_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-trek-insurrection_poster.png
 external_review_url: https://boxd.it/2aTe
 page_name: star-trek-insurrection
+tags:
+- star-trek
 ---
 

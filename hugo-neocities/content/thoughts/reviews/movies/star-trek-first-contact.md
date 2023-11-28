@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-trek-first-contact_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-trek-first-contact_poster.png
 external_review_url: https://boxd.it/2aTo
 page_name: star-trek-first-contact
+tags:
+- star-trek
 ---
 

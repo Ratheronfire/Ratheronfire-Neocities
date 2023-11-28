@@ -12,5 +12,7 @@ fanart_url: ''
 poster_url: /thoughts/reviews/movies/img/sonic-christmas-blast_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/sonic-christmas-blast/
 page_name: sonic-christmas-blast
+tags:
+- sonic-the-hedgehog
 ---
 

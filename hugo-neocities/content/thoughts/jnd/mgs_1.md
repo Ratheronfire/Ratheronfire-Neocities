@@ -3,6 +3,8 @@ title: "The 100% Accurate Chronological Storyline of Metal Gear (From Memory) [P
 date: 2019-09-01T22:06:49-04:00
 draft: false
 categories: ["jnd"]
+tags:
+- metal-gear-solid
 ---
 
 *Originally posted to /r/JNDDeskscraps on September 1, 2019.*

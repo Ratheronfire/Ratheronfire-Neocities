@@ -21,6 +21,10 @@ thumbnail: "stinkoman/img/title.png"
 thumbnail_alt: "The title screen for my Stinkoman remake."
 thumbnail_mainpage: "img/gameplay.png"
 categories: ["Projects"]
+tags:
+- stinkoman
+- homestar-runner
+- godot
 ---
 
 {{< rawhtml >}}

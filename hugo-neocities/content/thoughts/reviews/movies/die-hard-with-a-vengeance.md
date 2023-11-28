@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/die-hard-with-a-vengeance_fanart.png
 poster_url: /thoughts/reviews/movies/img/die-hard-with-a-vengeance_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/die-hard-with-a-vengeance/
 page_name: die-hard-with-a-vengeance
+tags:
+- die-hard
 ---
 

@@ -4,7 +4,7 @@
             class="review__header review__header-preview-backdrop" style="background: linear-gradient(to left,rgba(125,185,232,0) 0,hsl(220, 12%, 10%, 80%) 40%), url('{{ .fanart_url }}')"
         {{ end }}
         >
-        {{ if .poster_url }}
+        {{ if and .poster_url .content }}
         <div
             class="review__poster-container {{ if .is_preview }} review__poster-container-small {{ end }}">
             <div
@@ -19,14 +19,19 @@
                 <div class="review__title">
                     <a href="{{ .external_review_url }}">{{ .title }}</a>
                     <small class="review__title-year"><a href="https://letterboxd.com/films/year/{{ .year }}">{{ .year }}</a></small>
+
+                    {{ if not .content }}
+                    {{ partial "review_rating_inline" . }}
+                    {{ end }}
                 </div>
-                <span class="review__title-rating" style="width: {{ mul .rating 16 }}px">
-                    {{ if eq .rating 0.5 }}⯨{{ else if gt .rating 0 }}★{{ else }}✫{{ end }}{{ if eq .rating 1.5 }}⯨{{ else if gt .rating 1 }}★{{ else }}✫{{ end }}{{ if eq .rating 2.5 }}⯨{{ else if gt .rating 2 }}★{{ else }}✫{{ end }}{{ if eq .rating 3.5 }}⯨{{ else if gt .rating 3 }}★{{ else }}✫{{ end }}{{ if eq .rating 4.5 }}⯨{{ else if gt .rating 4 }}★{{ else }}✫{{ end }}
-                </span>
+
+                {{ if .content }}
+                {{ partial "review_rating" . }}
+                {{ end }}
             </h2>
 
             <div class="review__review-subheader">
-                {{ if .date }}
+                {{ if and .date .content }}
                     <div class="review__note review__watched-date">
                         Reviewed    
                         <a href="https://letterboxd.com/ratheronfire//films/diary/for/{{ .date | time.Format "2006" }}/{{ .date | time.Format "01" }}">
@@ -41,17 +46,13 @@
                     </div>
                 {{ end }}
 
-                {{ if and .is_preview .content }}
-                    <div class="review__note review__info">Has written review</div>
-                {{ end }}
-
                 {{ if .has_spoilers }}
                     <div class="review__note review__warning"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> This review contains spoilers.</div>
                 {{ end }}
             </div>
         </div>
 
-        {{ if .review_page }}
+        {{ if and .review_page .content }}
             <a href="{{ .review_page }}" class="review__to-full"></a>
         {{ end }}
     </div>
@@ -85,8 +86,9 @@
 </div>
 
 {{ if not .is_preview }}
-<div class="review__attribution"> Adapted from <a href="https://cohost.org/nex3?">@nex3's</a> <a
-        href="https://nex3.github.io/cohost-letterboxd">Letterboxd formatter</a></div>
+<div class="review__attribution"> Adapted from <a href="https://cohost.org/nex3">nex3's</a> <a
+        href="https://nex3.github.io/cohost-letterboxd">Cohost Letterboxd formatter</a></div>
+<br />
 {{ end }}
 
 <style>

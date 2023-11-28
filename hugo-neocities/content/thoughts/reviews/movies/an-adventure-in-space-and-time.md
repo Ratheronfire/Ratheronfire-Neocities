@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/an-adventure-in-space-and-time_fanart.p
 poster_url: /thoughts/reviews/movies/img/an-adventure-in-space-and-time_poster.png
 external_review_url: https://boxd.it/6hca
 page_name: an-adventure-in-space-and-time
+tags:
+- doctor-who
 ---
 

@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/rogue-one-a-star-wars-story_fanart.png
 poster_url: /thoughts/reviews/movies/img/rogue-one-a-star-wars-story_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/rogue-one-a-star-wars-story/
 page_name: rogue-one-a-star-wars-story
+tags:
+- star-wars
 ---
 

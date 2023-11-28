@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-wars-the-force-awakens_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-wars-the-force-awakens_poster.png
 external_review_url: https://boxd.it/4vru
 page_name: star-wars-the-force-awakens
+tags:
+- star-wars
 ---
 

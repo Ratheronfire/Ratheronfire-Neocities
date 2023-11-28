@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/raiders-of-the-lost-ark_fanart.png
 poster_url: /thoughts/reviews/movies/img/raiders-of-the-lost-ark_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/raiders-of-the-lost-ark/
 page_name: raiders-of-the-lost-ark
+tags:
+- indiana-jones
 ---
 

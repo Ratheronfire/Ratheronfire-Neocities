@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-trek-nemesis_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-trek-nemesis_poster.png
 external_review_url: https://boxd.it/2aT4
 page_name: star-trek-nemesis
+tags:
+- star-trek
 ---
 

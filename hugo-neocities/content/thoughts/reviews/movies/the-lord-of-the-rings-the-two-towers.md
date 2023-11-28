@@ -12,5 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/the-lord-of-the-rings-the-two-towers_fa
 poster_url: /thoughts/reviews/movies/img/the-lord-of-the-rings-the-two-towers_poster.png
 external_review_url: https://boxd.it/2b5E
 page_name: the-lord-of-the-rings-the-two-towers
+tags:
+- lord-of-the-rings
+- middle-earth
 ---
 

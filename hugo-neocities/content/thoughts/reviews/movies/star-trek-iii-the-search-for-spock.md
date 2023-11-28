@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/star-trek-iii-the-search-for-spock_fana
 poster_url: /thoughts/reviews/movies/img/star-trek-iii-the-search-for-spock_poster.png
 external_review_url: https://boxd.it/2b00
 page_name: star-trek-iii-the-search-for-spock
+tags:
+- star-trek
 ---
 

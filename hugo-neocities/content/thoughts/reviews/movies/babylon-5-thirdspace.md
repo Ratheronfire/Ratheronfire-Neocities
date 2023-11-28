@@ -12,5 +12,7 @@ fanart_url: ''
 poster_url: /thoughts/reviews/movies/img/babylon-5-thirdspace_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/babylon-5-thirdspace/
 page_name: babylon-5-thirdspace
+tags:
+- babylon-5
 ---
 
