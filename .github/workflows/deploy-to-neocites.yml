@@ -2,10 +2,9 @@ name: Deploy to neocities
 
 # only run on changes to master
 on:
-  workflow_run:
-    workflows: [Generate RSS feed]
-    types:
-      - completed
+  push:
+    branches:
+      - master
 
 concurrency: # prevent concurrent deploys doing strange things
   group: deploy-to-neocities
