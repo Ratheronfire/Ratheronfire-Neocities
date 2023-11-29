@@ -21,7 +21,7 @@ def generate_rss_feed():
         fe = fg.add_entry()
         fe.id(f'https://ratheronfire.com/{update["link"]}')
         fe.title(update['title'])
-        fe.link(href='https://ratheronfire.com/feed.xml')
+        fe.link(href=f'https://ratheronfire.com/{update["link"]}')
         fe.description(update['description'])
         fe.pubDate(update['date'])
     
