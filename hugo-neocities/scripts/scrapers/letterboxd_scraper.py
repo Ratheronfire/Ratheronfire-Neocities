@@ -11,10 +11,11 @@ class LetterboxdScraper(Scraper):
     def handle_url(self, url: str) -> list[ReviewData]:
         self.need_activity_page = False
         
-        review_data = self.scrape_from_media_page(url)
-        
-        if review_data is None:
-            return []
+        try:
+            review_data = self.scrape_from_media_page(url)
+        except AttributeError as exc:
+            print(f'Error encountered scraping {url}: {str(exc)}')
+            review_data = None
 
         if self.need_activity_page:
             review_data = self.scrape_from_letterboxd_activity_page(review_data, url + '/activity')

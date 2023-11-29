@@ -3,7 +3,6 @@ title: "Game Reviews"
 type: "review"
 date: 2023-07-08T00:00:00-04:00
 draft: false
-categories: ["reviews"]
 entries:
     - title: "The Legend of Zelda: Link's Awakening DX"
       year: 1998

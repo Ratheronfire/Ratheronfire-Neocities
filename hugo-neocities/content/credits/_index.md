@@ -1,9 +1,8 @@
-# Miscellaneous Stuff
-## Credits
+# Credits
 
 Made using the template at https://sadgrl.online/projects/layout-builder/. Generated using [Hugo](https://gohugo.io/), using some code lifted from [this article](https://draft.dev/learn/creating-hugo-themes).
 
-Letterboxd-style review cards adapted from [@nex3's](https://cohost.org/nex3) [Cohost Letterboxd formatter](https://nex3.github.io/cohost-letterboxd).
+Letterboxd-style review cards adapted from [nex3's](https://cohost.org/nex3) [Cohost Letterboxd formatter](https://nex3.github.io/cohost-letterboxd).
 
 Header image from [Peasant's Quest](https://homestarrunner.com/disk4of12), screenshot from [adventuregamers.com](https://adventuregamers.com/games/view/15663).
 

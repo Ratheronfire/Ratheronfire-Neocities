@@ -4,26 +4,38 @@
         <div class="content" id="flex">
             <main>
                 {{ .Content }}
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <div class="center"><img id="avatar" src="/avatar.png"></div>
             </main>
 
             <aside id="leftSidebar" style="margin-right: 0px;">
                 <h2>Updates</h2>
                 <div class="box">
-                    <p>July 9, 2023</p>
-                    <ul style="padding-left:10px;">
-                        <li>Rewrote site using <a href="https://gohugo.io/">Hugo</a>.</li>
-                    </ul>
-                    <p>July 13, 2023</p>
-                    <ul style="padding-left:10px;">
-                        <li>GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD</li>
-                    </ul>
-                    <p>November 28, 2023</p>
-                    <ul style="padding-left:10px;">
-                        <li>Added an <a href="feed.xml">RSS feed</a>, added new <a href="thoughts/reviews/">review section</a>, added post on <a href="thoughts/unorganized/osrs-leagues-4/">OSRS Leagues</a>.</li>
-                    </ul>
+                    <div class="scrollable">
+                        {{ range $update := first 5 (sort $.Site.Data.updates "date" "desc") }}
+                        <p>{{ $update.date | time.Format ":date_long" }}</p>
+                        <ul>
+                            <li>{{ $update.preview | markdownify }}</li>
+                        </ul>
+                        {{ end }}
+                    </div>
+
                     <hr />
-                    <a href="feed.xml"><i class="fa fa-rss-square" aria-hidden="true"></i> Updates RSS Feed</a>
+                    <div id="rss-link" class="center"><a href="feed.xml"><i class="fa fa-rss-square" aria-hidden="true"></i> Updates RSS Feed</a></div>
                 </div>
+
+                <hr />
+
                 <h3>Inferior Social Media</h3>
                 <ul>
                     <li><a rel="me" href="https://mastodon.social/@Ratheronfire" target="_blank">Mastodon</a></li>
@@ -35,9 +47,64 @@
                     <li><a href="https://www.serializd.com/user/Ratheronfire/profile" target="_blank">Serializd</a></li>
                     <li><a href="https://twitter.com/Ratheronfire" target="_blank"
                             title="If that site still exists when you see this page...">Twitter</a></li>
+                    <li><a href="https://discord.gg/M6rgZVkVuv">Discord</a></li>
                 </ul>
+
+                <hr />
+
+                <h3>New Pages</h3>
+
+                <div class="box scrollable">
+                    <ul>
+                        {{ range (sort .Site.Pages "Params.date").Reverse.Limit 15 }}
+                            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <hr />
+
+                <div id="github-link" class="center"><a href="https://github.com/Ratheronfire/Ratheronfire-Neocities"><i class="fa fa-github" aria-hidden="true"></i> View this site on GitHub</a></div>
+                
+                <div class="center"><a href="https://neocities.org"><img src="/neocities.png"></a></div>
             </aside>
         </div>
     </div>
 </div>
+<style>
+    .scrollable {
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+
+    .box ul {
+        padding-left:10px;
+    }
+    
+    #rss-link a {
+        width: 100%;
+        text-decoration: none;
+        color: orange;
+    }
+
+    #github-link a {
+        width: 100%;
+        text-decoration: none;
+        color: yellow;
+    }
+
+    #avatar {
+        width: 125px;
+        border: 3px solid brown;
+        border-radius: 8px;
+        border-block-color: gray;
+    }
+
+    .center {
+        width: 100%;
+        display: flex;
+        
+        text-align: center;
+        justify-content: center;
+    }
+</style>
 {{ end }}

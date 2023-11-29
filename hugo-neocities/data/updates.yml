@@ -1,0 +1,47 @@
+-
+  title: Created the site.
+  date: 2023-04-27T00:00:00-04:00
+  link: ?created-the-site
+  description: Migrated from a self-hosted server to Neocities, with the old server being used to house some projects ill-suited for Neocities.
+  preview: Created the site.
+-
+  title: Added guestbook and links.
+  date: 2023-07-03T00:00:00-04:00
+  link: ?guestbook
+  description: Added some more social media links and a guestbook because that's what you do in 2023.
+  preview: Added guestbook and links.
+-
+  title: Rewrote site using Hugo.
+  date: 2023-07-09T00:00:00-04:00
+  link: ?hugo
+  description: Rewrote the site using Hugo. After all, what's the point of hosting a website except to massively over-complcate the whole process?
+  preview: Rewrote site using [Hugo](https://gohugo.io/).
+-
+  title: GRAFALD
+  date: 2023-09-13T00:00:00-04:00
+  link: /projects/grafald/
+  description: GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD
+  preview: GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD
+-
+  title: New RSS Feed
+  date: 2023-11-28T02:00:00-04:00
+  link: ?new-rss-feed
+  description: I've decided to start running an RSS feed for the occasional updates I'll make to this site.
+  preview: Added an [RSS feed](feed.xml).
+-
+  title: Added Reviews
+  date: 2023-11-28T02:01:00-04:00
+  link: /thoughts/reviews/
+  description: Added a new section for reviews. At the moment they're just copied directly from my Letterboxd/Backloggd/whatnot profiles, but I'd like to do stuff tailored towards the site in the future as well.
+  preview: Added new [review section](thoughts/reviews).
+-
+  title: OldSchool RuneScape - My Time With Leagues IV
+  date: 2023-11-28T02:02:00-04:00
+  link: /thoughts/unorganized/osrs-leagues-4/
+  description: A progress log and some thoughts on my time with Leagues IV in OldSchool RuneScape.
+  preview: Added post on [OSRS Leagues](thoughts/unorganized/osrs-leagues-4/).
+- title: Reorganized some sections, redesigned table views.
+  date: 2023-11-29T16:10:00-04:00
+  link: ?reorganized
+  description: Added drop-down menus to the Thoughts and Misc. sections, improved category/tag navigation, and improved table displays on various pages.
+  preview: Reorganized some sections, redesigned table views.

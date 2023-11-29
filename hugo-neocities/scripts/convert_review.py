@@ -6,34 +6,12 @@ import time
 from bs4 import BeautifulSoup
 from sys import argv
 from dateutil import parser
+from hugo_page_helpers import read_hugo_page, write_hugo_page
 from scrapers.scraper import Scraper
 from scrapers.letterboxd_scraper import LetterboxdScraper
 from scrapers.backloggd_scraper import BackloggdScraper
-from yaml import dump, load
-try:
-    from yaml import CLoader as Loader, CDumper as Dumper
-except ImportError:
-    from yaml import Loader, Dumper
 
 import requests
-
-
-def load_hugo_page(review_path):
-    try:
-        with open(review_path, 'r') as review_file:
-            file_text = review_file.read()
-        
-        file_sections = re.split(r'\n*---\n+', file_text, maxsplit=2)
-        
-        yaml_str = file_sections[1]
-        contents = file_sections[2]
-        
-        yaml_obj = load(yaml_str, Loader=Loader)
-        
-        return yaml_obj, contents
-    except FileNotFoundError:
-        return None
-
 
 def download_file(url, path, force_redownload=False):
     if not force_redownload and os.path.exists(path):
@@ -161,15 +139,11 @@ class ReviewConverter:
                 continue
             
             if keep_content:
-                hugo_page = load_hugo_page(subpage)
+                hugo_page = read_hugo_page(subpage)
                 if hugo_page:
                     review_data.review_text = hugo_page[1]
 
-            with open(subpage, 'w') as yaml_file:
-                yaml_file.write('---\n')
-                yaml_file.write(dump(review_data.to_dict(), sort_keys=False))
-                yaml_file.write('---\n\n')
-                yaml_file.write(review_data.review_text)
+            write_hugo_page(subpage, review_data.to_dict(), review_data.review_text)
 
 
 if __name__ == "__main__":

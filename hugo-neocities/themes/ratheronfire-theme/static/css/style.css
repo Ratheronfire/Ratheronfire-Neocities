@@ -113,7 +113,7 @@ you can add them directly to the <div id="header"></div> element! */
     width: 100%;
 }
 
-#navbar ul {
+#navbar > ul {
     display: flex;
     padding: 0;
     margin: 0;
@@ -144,13 +144,45 @@ you can add them directly to the <div id="header"></div> element! */
     display: flex;
 }
 
+header ul {
+    list-style: none;
+}
+
+header a {
+    cursor: pointer;
+}
+
+header nav > ul > li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header nav > ul > li > ul {
+    visibility: hidden;
+    opacity: 0;
+}
+
+header nav > ul > li > a:hover + ul,
+header nav > ul > li > a:focus + ul,
+header nav > ul > li:focus-within > ul,
+header nav > ul > li > ul:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+header li > ul {
+    background-color: #241445;
+    position: absolute;
+    padding: 5px;
+}
+
 /* this colors BOTH sidebars
 if you want to style them separately,
 create styles for #leftSidebar and #rightSidebar */
 aside {
     background-color: #241445;
-    width: 200px;
-    padding: 20px;
+    width: 250px;
+    padding: 10px;
     font-size: smaller;
     /* this makes the sidebar text slightly smaller */
 }
@@ -383,6 +415,24 @@ a.tag {
     padding: 0 5px 0 5px;
 }
 
+/* Tables */
+
+table {
+    width: 100%;
+}
+
+thead tr {
+    background-color: #250d55;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #241445;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #13092D;
+}
+
 /* Letterboxd review cards */
 
 .hidden {
@@ -563,10 +613,6 @@ a.tag {
     height: 100%;
     left: 0;
     top: 0;
-}
-
-.review__table {
-    width: 100%;
 }
 
 /** Body **/

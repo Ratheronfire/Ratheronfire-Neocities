@@ -12,5 +12,8 @@ fanart_url: ''
 poster_url: /thoughts/reviews/movies/img/rifftrax-live-doctor-who-the-five-doctors_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/rifftrax-live-doctor-who-the-five-doctors/
 page_name: rifftrax-live-doctor-who-the-five-doctors
+tags:
+- rifftrax
+- doctor-who
 ---
 

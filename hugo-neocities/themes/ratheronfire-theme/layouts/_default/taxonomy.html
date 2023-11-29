@@ -3,60 +3,94 @@
     <div class="section">
         <div class="content" id="flex">
             <main>
-                {{ if eq .Ancestors.Len 2}}
                 {{ $taxonomy_type := lower (index .Ancestors 0).Title }}
-                {{ $taxonomy := .Title }}
+                {{ $taxonomy := lower .Title }}
 
-                <h1 class="title">
-                    {{ if eq $taxonomy_type "tags" }}
-                    #{{ .Title }}
-                    {{ else }}
-                    {{ .Title }}
-                    {{ end }}
-                </h1>
+                {{ if .Params.taxonomy_type }}
+                    {{ $taxonomy_type = .Params.taxonomy_type }}
+                {{ end }}
 
-                <div class="categories">
-                    {{ range $taxonomy_name, $taxonomy_pages := .Site.Taxonomies }}
+                {{ if .Params.taxonomy }}
+                    {{ $taxonomy = .Params.taxonomy }}
+                {{ end }}
 
-                    {{ if eq $taxonomy_name $taxonomy_type }}
-                    {{ range $name, $value := $taxonomy_pages }}
+                {{ if eq .Ancestors.Len 2}}
+                    <h1 class="title">
+                        {{ if eq $taxonomy_type "tags" }}
+                            #{{ .Title }}
+                        {{ else }}
+                            {{ .Title }}
+                        {{ end }}
+                    </h1>
 
-                    {{ if eq $name $taxonomy }}
-                    <div class="categoryCard">
-                        <div class="category__detail">
-                            {{ range $value.Pages }}
-                            <p hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </p>
+                    {{ .Params.caption }}
+                    {{ .Content }}
+
+                    <hr />
+
+                    <div class="categories">
+                        {{ range $taxonomy_name, $taxonomy_pages := .Site.Taxonomies }}
+
+                            {{ if eq $taxonomy_name $taxonomy_type }}
+                                {{ range $name, $value := $taxonomy_pages }}
+
+                                    {{ if eq $name $taxonomy }}
+                                        <table>
+                                            <thead>
+                                                <th>Page</th>
+                                                <th>Section</th>
+                                                <th>Posted</th>
+                                            </thead>
+                                            <tbody>
+                                                {{ range $value.Pages }}
+                                                <tr>
+                                                    <td hugo-nav="{{ .RelPermalink}}">
+                                                        <a href="{{ .Permalink}}"> {{ .LinkTitle }} </a>
+                                                    </td>
+                                                    <td>{{ (index .Ancestors 0).RelPermalink }}</td>
+                                                    <td>{{ .Params.date | time.Format ":date_long" }}</td>
+                                                </tr>
+                                                {{ end }}
+                                            </tbody>
+                                        </table>
+                                    {{ end }}
+
+                                {{ end }}
+
                             {{ end }}
-                        </div>
+
+                        {{ end }}
                     </div>
-                    {{ end }}
-
-                    {{ end }}
-
-                    {{ end }}
-
-                    {{ end }}
-                </div>
 
                 {{ else }}
 
-                <div class="categories">
-                    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+                    <div class="categories">
+                        {{ range $taxonomy_name, $taxonomy_pages := .Site.Taxonomies }}
 
-                    {{ range $name, $value := $taxonomy }}
-                    <div class="categoryCard">
-                        <div class="categoryHeading">
-                            <p style="font-size:large">{{ $name }} </p>
-                        </div>
-                        <div class="category__detail">
-                            {{ range $value.Pages }}
-                            <p hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </p>
+                            {{ if eq $taxonomy $taxonomy_name }}
+                                <table>
+                                    <thead>
+                                        <th>Section</th>
+                                        <th>Pages</th>
+                                        <th>Last Post Date</th>
+                                    </thead>
+                                    <tbody>
+                                        {{ range $name, $value := $taxonomy_pages }}
+                                            <tr>
+                                                {{ $newest := index $value.Pages 0 }}
+
+                                                <td><a href="{{ $name }}">{{if eq $taxonomy "tags" }}#{{ end }}{{ $name }}</a></td>
+                                                <td>{{ $value.Pages.Len }}</td>
+                                                <td>{{ $newest.Params.date | time.Format ":date_long" }}</td>
+                                            </tr>
+                                        {{ end }}
+                                    </tbody>
+                                </table>
+
                             {{ end }}
-                        </div>
+                        
+                        {{ end }}
                     </div>
-                    {{ end }}
-                    {{ end }}
-                </div>
                 {{ end }}
             </main>
         </div>
