@@ -1,5 +1,5 @@
 ---
-title: "Grafald bonus 62 - Grafald Comic #100 Teaser"
+title: "Grafald bonus 63 - Grafald Comic #100 Teaser"
 type: "image"
 date: 2023-11-29T03:00:00-04:00
 draft: false
