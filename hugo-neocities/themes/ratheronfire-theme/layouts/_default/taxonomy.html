@@ -3,24 +3,20 @@
     <div class="section">
         <div class="content" id="flex">
             <main>
-                {{ $taxonomy_type := lower (index .Ancestors 0).Title }}
-                {{ $taxonomy := lower .Title }}
-
-                {{ if .Params.taxonomy_type }}
-                    {{ $taxonomy_type = .Params.taxonomy_type }}
-                {{ end }}
-
-                {{ if .Params.taxonomy }}
-                    {{ $taxonomy = .Params.taxonomy }}
-                {{ end }}
-
-                {{ if eq .Ancestors.Len 2}}
+                {{ if eq .Ancestors.Len 2 }}
+                    {{ $term := lower .Title }}
+                    {{ $taxonomy := lower (index .Ancestors 0).Params.taxonomy }}
+                    
                     <h1 class="title">
-                        {{ if eq $taxonomy_type "tags" }}
+                        {{ if eq $taxonomy "tags" }}
                             #{{ .Title }}
                         {{ else }}
                             {{ .Title }}
                         {{ end }}
+                        
+                        <div class="rss-link">
+                            <a href="index.xml"><i class="fa fa-rss-square" aria-hidden="true" aria-label="RSS Feed"></i></a>
+                        </div>
                     </h1>
 
                     {{ .Params.caption }}
@@ -31,10 +27,10 @@
                     <div class="categories">
                         {{ range $taxonomy_name, $taxonomy_pages := .Site.Taxonomies }}
 
-                            {{ if eq $taxonomy_name $taxonomy_type }}
+                            {{ if eq $taxonomy_name $taxonomy }}
                                 {{ range $name, $value := $taxonomy_pages }}
 
-                                    {{ if eq $name $taxonomy }}
+                                    {{ if eq $name $term }}
                                         <table>
                                             <thead>
                                                 <th>Page</th>
@@ -63,25 +59,38 @@
                     </div>
 
                 {{ else }}
+                    {{ $taxonomy := .Params.taxonomy }}
+
+                    <h1 class="title">
+                        {{ .Title }}
+                        
+                        <div class="rss-link">
+                            <a href="index.xml"><i class="fa fa-rss-square" aria-hidden="true" aria-label="RSS Feed"></i></a>
+                        </div>
+                    </h1>
+
+                    <hr />
 
                     <div class="categories">
                         {{ range $taxonomy_name, $taxonomy_pages := .Site.Taxonomies }}
 
-                            {{ if eq $taxonomy $taxonomy_name }}
+                            {{ if eq $.Params.taxonomy $taxonomy_name }}
                                 <table>
                                     <thead>
                                         <th>Section</th>
                                         <th>Pages</th>
                                         <th>Last Post Date</th>
+                                        <th><i class="fa fa-rss-square" aria-hidden="true" aria-label="RSS Feed"></i></th>
                                     </thead>
                                     <tbody>
                                         {{ range $name, $value := $taxonomy_pages }}
                                             <tr>
                                                 {{ $newest := index $value.Pages 0 }}
 
-                                                <td><a href="{{ $name }}">{{if eq $taxonomy "tags" }}#{{ end }}{{ $name }}</a></td>
+                                                <td><a href="{{ $name }}">{{if eq $.Params.taxonomy "tags" }}#{{ end }}{{ $name }}</a></td>
                                                 <td>{{ $value.Pages.Len }}</td>
                                                 <td>{{ $newest.Params.date | time.Format ":date_long" }}</td>
+                                                <td class="table-rss rss-link"><a href="{{ $name }}/index.xml"><i class="fa fa-rss-square" aria-hidden="true" aria-label="RSS Feed"></i></a></td>
                                             </tr>
                                         {{ end }}
                                     </tbody>

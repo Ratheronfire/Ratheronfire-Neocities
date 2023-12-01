@@ -6,13 +6,22 @@
                 <h1 class="title">{{ .Title }}</h1>
                 {{ .Content }}
 
-                <ul>
-                    {{ range .Pages}}
-                    <li>
-                        <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
-                    </li>
-                    {{ end }}
-                </ul>
+                <table>
+                    <thead>
+                        <th>Page</th>
+                        <th>Posted</th>
+                    </thead>
+                    <tbody>
+                        {{ range .Pages }}
+                        <tr>
+                            <td hugo-nav="{{ .RelPermalink}}">
+                                <a href="{{ .Permalink}}"> {{ .LinkTitle }} </a>
+                            </td>
+                            <td>{{ .Params.date | time.Format ":date_long" }}</td>
+                        </tr>
+                        {{ end }}
+                    </tbody>
+                </table>
 
                 {{ partial "tags" . }}
             </main>

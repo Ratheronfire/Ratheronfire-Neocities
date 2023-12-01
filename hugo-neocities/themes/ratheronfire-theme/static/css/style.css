@@ -160,6 +160,7 @@ header nav > ul > li {
 header nav > ul > li > ul {
     visibility: hidden;
     opacity: 0;
+    z-index: 2;
 }
 
 header nav > ul > li > a:hover + ul,
@@ -431,6 +432,26 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(odd) {
     background-color: #13092D;
+}
+
+.table-rss {
+    display: flex;
+    justify-content: center;
+}
+
+.rss-link a {
+    text-decoration: none;
+    color: orange;
+}
+
+.title {
+    position: relative;
+}
+
+.title .rss-link {
+    position: absolute;
+    right: 9px;
+    top: 0;
 }
 
 /* Letterboxd review cards */

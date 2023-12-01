@@ -13,7 +13,7 @@
 					<p>{{ .Params.caption_mainpage | markdownify }}</p>
 				</div>
 
-                {{ .Date | time.Format ":date_long" }}
+                <i>{{ .Date | time.Format ":date_long" }}{{ if .Params.author }} - by {{ .Params.author | markdownify }}{{ end }}</i>
 
                 <hr>
                 

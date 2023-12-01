@@ -31,7 +31,7 @@
                     </div>
 
                     <hr />
-                    <div id="rss-link" class="center"><a href="feed.xml"><i class="fa fa-rss-square" aria-hidden="true"></i> Updates RSS Feed</a></div>
+                    <div class="rss-link center"><a href="updates.xml"><i class="fa fa-rss-square" aria-label="Updates RSS Feed" aria-hidden="true"></i> Updates RSS Feed</a></div>
                 </div>
 
                 <hr />
@@ -54,12 +54,17 @@
 
                 <h3>New Pages</h3>
 
-                <div class="box scrollable">
-                    <ul>
-                        {{ range (sort .Site.Pages "Params.date").Reverse.Limit 15 }}
-                            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-                        {{ end }}
-                    </ul>
+                <div class="box">
+                    <div class="scrollable">
+                        <ul>
+                            {{ range (sort .Site.Pages "Params.date").Reverse.Limit 15 }}
+                                <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+
+                    <hr />
+                    <div class="rss-link center"><a href="index.xml"><i class="fa fa-rss-square" aria-label="New Pages RSS Feed" aria-hidden="true"></i> New Pages RSS Feed</a></div>
                 </div>
                 <hr />
 
@@ -78,12 +83,6 @@
 
     .box ul {
         padding-left:10px;
-    }
-    
-    #rss-link a {
-        width: 100%;
-        text-decoration: none;
-        color: orange;
     }
 
     #github-link a {

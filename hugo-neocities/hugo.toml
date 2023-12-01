@@ -6,3 +6,8 @@ theme = "ratheronfire-theme"
 [taxonomies]
   category = "categories"
   tag = "tags"
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html', 'rss']
+  term = ['html', 'rss']

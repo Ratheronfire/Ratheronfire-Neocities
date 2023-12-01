@@ -5,7 +5,7 @@
             <main>
                 <h1>{{ .Title }}</h1>
 
-                <i>{{ .Date | time.Format ":date_long" }}</i>
+                <i>{{ .Date | time.Format ":date_long" }}{{ if .Params.author }} - by {{ .Params.author | markdownify }}{{ end }}</i>
 
                 <hr>
                 

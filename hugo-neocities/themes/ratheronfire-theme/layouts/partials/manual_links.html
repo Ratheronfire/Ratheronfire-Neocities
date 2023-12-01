@@ -1,9 +1,18 @@
-<ul>
-    {{ range .Params.manual_links }}
-    {{ with site.GetPage . }}
-    <li>
-        <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
-    </li>
-    {{ end }}
-    {{ end }}
-</ul>
+<table>
+    <thead>
+        <th>Page</th>
+        <th>Posted</th>
+    </thead>
+    <tbody>
+        {{ range .Params.manual_links }}
+        {{ with site.GetPage . }}
+        <tr>
+            <td hugo-nav="{{ .RelPermalink}}">
+                <a href="{{ .Permalink}}"> {{ .LinkTitle }} </a>
+            </td>
+            <td>{{ .Params.date | time.Format ":date_long" }}</td>
+        </tr>
+        {{ end }}
+        {{ end }}
+    </tbody>
+</table>

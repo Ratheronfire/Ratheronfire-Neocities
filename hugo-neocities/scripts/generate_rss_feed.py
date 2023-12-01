@@ -25,7 +25,7 @@ def generate_rss_feed():
         fe.description(update['description'])
         fe.pubDate(update['date'])
     
-    fg.rss_file('hugo-neocities/static/feed.xml')
+    fg.rss_file('hugo-neocities/static/updates.xml')
 
 
 if __name__ == "__main__":
