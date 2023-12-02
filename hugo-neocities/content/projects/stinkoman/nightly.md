@@ -1,6 +1,6 @@
 ---
 title: "Stinkoman 20X6 - Nightly Build"
-date: 2023-09-05T00:00:00-04:00
+date: 2023-09-22T02:00:00-04:00
 draft: false
 ---
 
