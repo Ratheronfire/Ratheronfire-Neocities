@@ -274,6 +274,10 @@ strong {
     height: 205px;
 }
 
+code, pre {
+    font-size: 15px;
+}
+
 /* Review formatting */
 
 .review-header {

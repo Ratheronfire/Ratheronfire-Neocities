@@ -45,3 +45,8 @@
   link: ?reorganized
   description: Added drop-down menus to the Thoughts and Misc. sections, improved category/tag navigation, and improved table displays on various pages.
   preview: Reorganized some sections, redesigned table views.
+- title: Advent of Code Writeups
+  date: 2023-12-01T22:00:00-04:00
+  link: /thoughts/adventofcode/
+  description: Added a new section for Advent of Code writeups.
+  preview: Added a [new section](/thoughts/adventofcode/) for Advent of Code writeups.
