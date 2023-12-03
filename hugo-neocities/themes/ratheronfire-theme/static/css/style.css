@@ -276,6 +276,8 @@ strong {
 
 code, pre {
     font-size: 15px;
+    overflow-x: auto;
+    max-width: 860px;
 }
 
 /* Review formatting */
