@@ -66,6 +66,19 @@ Instead of awarding points, winning scratchcards award more scratchcards. Cards 
 Reusing `get_win_count` from above, my strategy for this part was to maintain a dictionary of card id -> card totals, updating the numbers as I traveled down the list.
 
 ```python
+for card in self.cards:
+    card_score = self.get_win_count(card)
+
+    for i in range(card.id, card.id + card_score):
+        self.cards[i].card_count += card.card_count
+
+card_total = sum([card.card_count for card in self.cards])
+```
+
+***Edit: I decided to go back and re-factor my part 2 code to make the logic a bit neater, including moving the card_count value from a dictionary to a value stored on each card directly.***
+
+{{< details summary="My original solution, for posterity:" >}}
+```python
 cards_owned = {card.id: 1 for card in self.cards}
 
 current_card = self.cards[0]
@@ -85,6 +98,7 @@ while current_card is not None:
     else:
         current_card = None
 ```
+{{</ details >}}
 
 Stepping through the sample input with this algorithm looks something like this:
 
