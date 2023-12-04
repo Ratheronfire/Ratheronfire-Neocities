@@ -11,7 +11,7 @@ I hope you enjoy the sights and sounds, and please be sure to keep your arms and
 -----
           
 ## Other Delicious Flavors
-- [homestarrunner.com](https://homestarrunner.com/) - The primary source of my brainrot since 2003
+- [homestarrunner.com](https://homestarrunner.com/) - The primary source of my brainrot since 2003.
 - [obspogon.neocities.org](https://obspogon.neocities.org/) - A neat site that catalogs some fun fangame projects.
 - [distantskies.neocities.org](https://distantskies.neocities.org/) - An in-depth walkthrough/shrine for [Crystalis](https://en.wikipedia.org/wiki/Crystalis).
 - [takin-a-break.neocities.org](https://takin-a-break.neocities.org/) - Takin' a break...
