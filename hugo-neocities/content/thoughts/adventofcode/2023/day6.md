@@ -80,3 +80,43 @@ The input race now has a time of ``71530`` and a record distance of ``940200``, 
 Day 6 was a much needed reprieve after the nightmare yesterday was, though it does leave me feeling like this year's problems have been a bit too lopsided so far. The difficulty curve usually feels fairly linear, but as I've said before I have absolutely no sense of where each day will lie this time around.
 
 Of course, these easy days seem to be followed up by the real brain-breaking problems, so fingers crossed for tomorrow.
+
+## Addendum
+
+It didn't occur to me until reading everyone else's submissions that this was a quadratic formula problem. So, I decided to dust off my semi-remembered knowledge and make a less brute-forced solution to today's problem.
+
+
+```python
+def calculate_quadratic_roots(self, race):
+    # winning times: (race.time - seconds_held) * seconds_held > race.distance
+    # -(seconds_held ** 2) + race.time * seconds_held - race.distance = 0
+    # a == -1                b == race.time             c == -race.distance
+    a = -1
+    b = race.time
+    c = -race.distance
+
+    root_portion = math.sqrt(b ** 2 - 4*a*c)
+
+    return (math.ceil((-b - root_portion) / (2 * a)) - 1) - \
+        (math.floor((-b + root_portion) / (2 * a)) + 1) + 1
+```
+
+Now, all we have to do is  ~~[make the quadratic formula explode](https://youtu.be/Az49aNuYeJs?t=15)~~ calculate the roots using the quadratic formula for each race, and do our math on that.
+
+I can't take any credit for the logic here, I've seen more than a few people derive this formula, but for the sake of completeness, here's how I arrived at this answer{{< sup >}}1{{</ sup >}}:
+
+* We're looking for the times where ``(race.time - seconds_held) * seconds_held > race.distance``. By subtracting both sides by ``race.distance``, we get:
+* ``(race.time - seconds_held) * seconds_held - race.distance > 0``
+* Factoring out the parentheses gives us ``race.time * seconds_held - seconds_held * seconds_held - race.distance > 0``, which we can rewrite as:
+* ``-seconds_held^2 + race.time * seconds_held - race.distance > 0``
+* Wait, this is starting to look all too familiar...
+* If we treat this as the quadratic formula ``-x^2 + race.time*x - race.distance = 0``, then our parameters are:
+* ``a = -1, b = race.time, c = -race.distance``
+* So if we plug those into everyone's favorite formula (which I remembered more of than I thought I would), ``(-b +/- sqrt(b^2 - 4ac)) / 2a``, that will give us the roots of this equation.
+* Then, we just need to find the nearest integers which correspond to the seconds{{< sup >}}2{{</ sup >}} from the problem, and we're done!
+
+With this new method in place, my solution went from computing in ~2 seconds to computing so quickly that the framework I wrote to track the time spent just shows 0.0 ms. Can't argue with that, I suppose.
+
+{{< sup >}}1{{</ sup >}}Forgive me if any of this is wrong, my algebra is horrifically rusty.
+
+{{< sup >}}2{{</ sup >}}Okay, *technically* the problem uses milliseconds, but who's counting?
