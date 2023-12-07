@@ -103,7 +103,7 @@ def calculate_quadratic_roots(self, race):
 
 Now, all we have to do is  ~~[make the quadratic formula explode](https://youtu.be/Az49aNuYeJs?t=15)~~ calculate the roots using the quadratic formula for each race, and do our math on that.
 
-I can't take any credit for the logic here, I've seen more than a few people derive this formula, but for the sake of completeness, here's how I arrived at this answer{{< sup >}}1{{</ sup >}}:
+I can't take any credit for the logic here, I've seen more than a few people derive this formula, but for the sake of completeness, here's how I arrived at this answer{{< sup dir="down" >}}1{{</ sup >}}:
 
 * We're looking for the times where ``(race.time - seconds_held) * seconds_held > race.distance``. By subtracting both sides by ``race.distance``, we get:
 * ``(race.time - seconds_held) * seconds_held - race.distance > 0``
@@ -113,10 +113,12 @@ I can't take any credit for the logic here, I've seen more than a few people der
 * If we treat this as the quadratic formula ``-x^2 + race.time*x - race.distance = 0``, then our parameters are:
 * ``a = -1, b = race.time, c = -race.distance``
 * So if we plug those into everyone's favorite formula (which I remembered more of than I thought I would), ``(-b +/- sqrt(b^2 - 4ac)) / 2a``, that will give us the roots of this equation.
-* Then, we just need to find the nearest integers which correspond to the seconds{{< sup >}}2{{</ sup >}} from the problem, and we're done!
+* Then, we just need to find the nearest integers which correspond to the seconds{{< sup dir="down" >}}2{{</ sup >}} from the problem, and we're done!
 
 With this new method in place, my solution went from computing in ~2 seconds to computing so quickly that the framework I wrote to track the time spent just shows 0.0 ms. Can't argue with that, I suppose.
 
-{{< sup >}}1{{</ sup >}}Forgive me if any of this is wrong, my algebra is horrifically rusty.
+{{< sup dir="up" >}}1{{</ sup >}}
+Forgive me if any of this is wrong, my algebra is horrifically rusty.
 
-{{< sup >}}2{{</ sup >}}Okay, *technically* the problem uses milliseconds, but who's counting?
+{{< sup dir="up" >}}2{{</ sup >}}
+Okay, *technically* the problem uses milliseconds, but who's counting?

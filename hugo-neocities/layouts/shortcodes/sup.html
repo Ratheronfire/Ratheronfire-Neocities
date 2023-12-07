@@ -1,1 +1,5 @@
-<sup>{{ .Inner }}</sup>
+{{ with .Get "dir" }}
+    <a href="#{{ $.Inner }}-{{ . }}"><sup id="{{ $.Inner }}-{{ if eq . "down" }}up{{ else }}down{{ end }}">{{ $.Inner }}</sup></a>
+{{ else }}
+    <sup id="{{ $.Inner }}">{{ .Inner }}</sup>
+{{ end }}
