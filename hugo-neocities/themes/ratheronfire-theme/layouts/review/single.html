@@ -4,24 +4,44 @@
         <div class="content" id="flex">
             <main>
                 {{ if .Params.override_url }}
-                <h2><a href="{{ .Params.override_url }}">{{ .LinkTitle }}</a></h2>
+                    <h2><a href="{{ .Params.override_url }}">{{ .LinkTitle }}</a></h2>
                 {{ else }}
 
-                {{
-                    $review := dict
-                    "title" .Params.title
-                    "rating" .Params.rating
-                    "year" .Params.year
-                    "date" .Date
-                    "content" .Content
-                    "has_spoilers" .Params.has_spoilers
-                    "fanart_url" .Params.fanart_url
-                    "poster_url" .Params.poster_url
-                    "external_review_url" .Params.external_review_url
-                    "is_preview" false
-                }}
+                    {{
+                        $review := dict
+                        "title" .Params.title
+                        "rating" .Params.rating
+                        "year" .Params.year
+                        "date" .Date
+                        "content" .Content
+                        "has_spoilers" .Params.has_spoilers
+                        "fanart_url" .Params.fanart_url
+                        "poster_url" .Params.poster_url
+                        "external_review_url" .Params.external_review_url
+                        "is_preview" false
+                    }}
 
-                {{ partial "review" $review }}
+                    {{ partial "review" $review }}
+
+                    {{ range $extra_review_data := .Params.extra_reviews }}
+                        <hr />
+
+                        {{
+                            $extra_review := dict
+                            "title" $.Params.title
+                            "rating" .rating
+                            "year" $.Params.year
+                            "date" .date
+                            "content" (.text | markdownify)
+                            "has_spoilers" $.Params.has_spoilers
+                            "fanart_url" $.Params.fanart_url
+                            "poster_url" $.Params.poster_url
+                            "external_review_url" $.Params.external_review_url
+                            "is_preview" false
+                        }}
+
+                        {{ partial "review" $extra_review }}
+                    {{ end }}
 
                 {{ end }}
 

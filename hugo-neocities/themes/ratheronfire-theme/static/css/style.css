@@ -672,6 +672,11 @@ tbody tr:nth-child(odd) {
 }
 
 .review__body>p {
+    margin: 0;
+    width: 100%;
+}
+
+.review__body>P:last-child {
     margin: 0 0 0.625em 0;
 }
 

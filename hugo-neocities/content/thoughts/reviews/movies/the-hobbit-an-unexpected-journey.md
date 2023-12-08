@@ -15,6 +15,17 @@ page_name: the-hobbit-an-unexpected-journey
 tags:
 - the-hobbit
 - middle-earth
+extra_reviews:
+- date: 2023-12-06 00:00:00
+  rating: 4
+  text: |
+    Is this trilogy overly long? Yes.
+    
+    Are the story additions mostly padding? Sure.
+    
+    Is it as charming as the originals? Absolutely.
+    
+    Is this review format tiresome? A bit, yeah.
 ---
 
 The fact that this movie is as enjoyable as it is despite the numerous behind the scenes setbacks is a testament to how talented everyone working on it was. While the trilogy started accumulating more and more baggage as it went on, I still think the first movie is almost as strong as the LOTR trilogy with tons of memorable moments and great acting.
