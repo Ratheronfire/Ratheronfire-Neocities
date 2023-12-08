@@ -52,12 +52,12 @@
 
                 <hr />
 
-                <h3>New Pages</h3>
+                <h3>New/Modified Pages</h3>
 
                 <div class="box">
                     <div class="scrollable">
                         <ul>
-                            {{ range (sort .Site.Pages "Params.date").Reverse.Limit 15 }}
+                            {{ range (sort (where .Site.Pages ".Kind" "page") "Lastmod").Reverse.Limit 15 }}
                                 <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
                             {{ end }}
                         </ul>

@@ -1,3 +1,7 @@
+---
+title: Ratheronfire's Assorted Collection of Odd Projects
+---
+
 # Ratheronfire's Assorted Collection of Odd Projects
 
 Haldo! Welcome to one of the less bad sites on the internet! This site serves as a hosting ground for some of the projects I've developed over the years, as well as some of the random posts, reviews, and general thoughts I've decided to catalog here.
