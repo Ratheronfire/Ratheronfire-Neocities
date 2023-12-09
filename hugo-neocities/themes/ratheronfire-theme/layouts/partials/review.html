@@ -18,6 +18,9 @@
             <h2>
                 <div class="review__title">
                     <a href="{{ .external_review_url }}">{{ .title }}</a>
+                    {{ if .season }}
+                        <small class="review__title-season"><a href="{{ .season_url }}">Season {{ .season }}, Episode {{ .episode }}</a> - </small>
+                    {{ end }}
                     <small class="review__title-year"><a href="https://letterboxd.com/films/year/{{ .year }}">{{ .year }}</a></small>
                 </div>
 
@@ -65,7 +68,7 @@
 {{ end }}
 
 <div class="hidden">{{ .title }} Review</div>
-<div class="review__review">
+<div class="review__review review__{{ .review_type }}">
     {{ if and .is_preview .content }}
     <details>
         <summary>{{ template "header" . }}</summary>
@@ -78,7 +81,6 @@
         {{ end }}
     {{ end }}
 </div>
-
 {{ if not .is_preview }}
 <div class="review__attribution"> Adapted from <a href="https://cohost.org/nex3">nex3's</a> <a
         href="https://nex3.github.io/cohost-letterboxd">Cohost Letterboxd formatter</a></div>

@@ -6,12 +6,14 @@
                 {{ if .Params.override_url }}
                     <h2><a href="{{ .Params.override_url }}">{{ .LinkTitle }}</a></h2>
                 {{ else }}
-
                     {{
                         $review := dict
                         "title" .Params.title
                         "rating" .Params.rating
                         "year" .Params.year
+                        "season" .Params.season
+                        "episode" .Params.episode
+                        "season_url" .Params.season_url
                         "date" .Date
                         "content" .Content
                         "has_spoilers" .Params.has_spoilers
@@ -19,6 +21,7 @@
                         "poster_url" .Params.poster_url
                         "external_review_url" .Params.external_review_url
                         "is_preview" false
+                        "review_type" (index .Ancestors 0).Params.review_type
                     }}
 
                     {{ partial "review" $review }}

@@ -569,6 +569,17 @@ tbody tr:nth-child(odd) {
     text-decoration: none;
 }
 
+.review__title-season {
+    font-size: 16.6154px;
+    color: #89a;
+    font-weight: 400;
+}
+
+.review__title-season>a {
+    color: #abc;
+    text-decoration: none;
+}
+
 .review__title-year {
     font-size: 16.6154px;
     color: #89a;
@@ -640,6 +651,56 @@ tbody tr:nth-child(odd) {
     height: 100%;
     left: 0;
     top: 0;
+}
+
+/** Style Variants **/
+
+.review__games .review__title-container > h2 {
+    font-family: Roboto,sans-serif !important;
+}
+
+.review__games .review__note {
+    color: #ebb2c0;
+}
+
+.review__games .review__watched-date > a {
+    color: #ebb2c0;
+}
+
+.review__games.review__review {
+    background: #16181c;
+}
+
+.review__games .review__header {
+    background: #30394c;
+}
+
+.review__games .review__title-rating {
+    filter: brightness(0) saturate(100%) invert(98%) sepia(22%) saturate(7459%) hue-rotate(285deg) brightness(122%) contrast(110%);
+}
+
+.review__tv .review__title-container > h2 {
+    font-family: Roboto,sans-serif !important;
+}
+
+.review__tv .review__note {
+    color: #b3b6b2;
+}
+
+.review__tv .review__watched-date > a {
+    color: #b3b6b2;
+}
+
+.review__tv.review__review {
+    background: #0d0f12;
+}
+
+.review__tv .review__header {
+    background: #1b2126;
+}
+
+.review__tv .review__title-rating {
+    filter: brightness(0) saturate(100%) invert(93%) sepia(76%) saturate(4741%) hue-rotate(356deg) brightness(104%) contrast(102%);
 }
 
 /** Body **/
