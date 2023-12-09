@@ -109,5 +109,20 @@ Now, we get `5 + -3 + 0 =` **`2`**.
 
 It's derivatives.
 
+## Addendum
+
+So it turns out you didn't have to change very much at all for part 2. As a few people on the subreddit realized, literally all you have to do is just reverse the arrays before deriving them, and use the same method as part 1.
+
+
+```python
+def get_part_1_answer(self, use_sample=False) -> str:
+    return str(sum([self.get_next_value(v) for v in self.value_sets]))
+
+def get_part_2_answer(self, use_sample=False) -> str:
+    return str(sum([self.get_next_value(v[::-1]) for v in self.value_sets]))
+```
+
+Laziness pays off sometimes.
+
 {{< sup dir="up" >}} 1{{</ sup >}}
 This bit was lifted directly from today's AoC page because I'm lazy.
