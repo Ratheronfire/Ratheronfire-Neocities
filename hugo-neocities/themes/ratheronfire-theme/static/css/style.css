@@ -732,13 +732,13 @@ tbody tr:nth-child(odd) {
     padding-top: 160px;
 }
 
-.review__body>p {
-    margin: 0;
+.review__body>hr {
     width: 100%;
 }
 
-.review__body>P:last-child {
+.review__body>p {
     margin: 0 0 0.625em 0;
+    width: 100%;
 }
 
 .review__body figure {

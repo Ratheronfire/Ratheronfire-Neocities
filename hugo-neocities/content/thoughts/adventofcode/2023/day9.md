@@ -29,7 +29,7 @@ Our sample data looks like this:
 10 13 16 21 30 45
 ```
 
-And, in case you don't know what the method we're using to reduce these lists is (it's derivatives), it looks something like this{{< sup dir="down" >}} 1{{</ sup >}}:
+And, in case you don't know what the method we're using to reduce these lists is (it's derivatives), it looks something like this{{< sup "down" 1 >}}
 
 ```
 0   3   6   9  12  15
@@ -124,5 +124,5 @@ def get_part_2_answer(self, use_sample=False) -> str:
 
 Laziness pays off sometimes.
 
-{{< sup dir="up" >}} 1{{</ sup >}}
+{{< sup "up" 1 >}}
 This bit was lifted directly from today's AoC page because I'm lazy.

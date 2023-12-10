@@ -73,9 +73,9 @@ zoneight234
 7pqrstsixteen
 ```
 
-Within the sample input we're given, you can also see evidence of a couple edge cases designed to throw you off.{{< sup dir="down" >}}1{{</ sup >}} In the second line, ``eight`` and ``two`` share a letter, and the last line ends with ``sixteen``. We're intended to treat these lines as ``823`` and ``7pqrst6teen`` respectively, the first because both ``eight`` and ``two`` are valid numbers present in the string, and the second because, per the exact phrasing of the challenge, only digits matter -- the ``teen`` part of ``sixteen`` is just a red herring.
+Within the sample input we're given, you can also see evidence of a couple edge cases designed to throw you off.{{< sup "down" 1 >}} In the second line, ``eight`` and ``two`` share a letter, and the last line ends with ``sixteen``. We're intended to treat these lines as ``823`` and ``7pqrst6teen`` respectively, the first because both ``eight`` and ``two`` are valid numbers present in the string, and the second because, per the exact phrasing of the challenge, only digits matter -- the ``teen`` part of ``sixteen`` is just a red herring.
 
-The first part gave me a bit of trouble: I first tried to take the simple approach of replacing each string with its corresponding digit: ``one => 1``, ``two => 2``, and so on. This didn't work, however, because by replacing entire number strings I was removing parts of overlapping numbers.  `eightwo` became `eigh2`, when it should have become `eight2` and then `82`.{{< sup dir="down" >}}2{{</ sup >}}
+The first part gave me a bit of trouble: I first tried to take the simple approach of replacing each string with its corresponding digit: ``one => 1``, ``two => 2``, and so on. This didn't work, however, because by replacing entire number strings I was removing parts of overlapping numbers.  `eightwo` became `eigh2`, when it should have become `eight2` and then `82`.{{< sup "down" 2 >}}
 
 My solution was to perform the same logic as part 1, but to add an additional step before processing each line to replace only the first and last string-based numbers with digits. This meant scanning from both the front and the back of each line, finding the first character which is part of a number, and replacing it with the digit. Naturally, if an existing digit came first, I would stop seeking there, and leave the line as-is.
 
@@ -136,8 +136,8 @@ Looking forward, I'm expecting to see some grid-based puzzles fairly soon, those
 
 ---
 
-{{< sup dir="up" >}}1{{</ sup >}}
+{{< sup "up" 1 >}}
 *(Of course, if I had looked into the unique puzzle input I was given, I might have noticed this pattern before reaching part 2... Ah, well.)*
 
-{{< sup dir="up" >}}2{{</ sup >}}
+{{< sup "up" 2 >}}
 I saw other people work around this by simply leaving in the edges of each number and inserting the digit in the center (``one => o1ne``, ``seven => se7en``) so that the edge matches still work. I don't think it's possible for digits to overlap by any more than one letter, so I have to imagine that trick works on all possible inputs, but I can't say for sure.

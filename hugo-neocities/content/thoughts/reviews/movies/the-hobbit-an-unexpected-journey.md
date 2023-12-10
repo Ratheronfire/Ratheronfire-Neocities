@@ -19,12 +19,9 @@ extra_reviews:
 - date: 2023-12-06 00:00:00
   rating: 4
   text: |
-    Is this trilogy overly long? Yes.
-    
-    Are the story additions mostly padding? Sure.
-    
-    Is it as charming as the originals? Absolutely.
-    
+    Is this trilogy overly long? Yes.    
+    Are the story additions mostly padding? Sure.  
+    Is it as charming as the originals? Absolutely.    
     Is this review format tiresome? A bit, yeah.
 ---
 
