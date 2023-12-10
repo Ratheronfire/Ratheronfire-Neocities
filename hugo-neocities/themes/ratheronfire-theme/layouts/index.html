@@ -57,7 +57,11 @@
                 <div class="box">
                     <div class="scrollable">
                         <ul>
-                            {{ range (sort (where .Site.Pages ".Kind" "page") "Lastmod").Reverse.Limit 15 }}
+                            {{ $new_pages := where .Site.Pages ".Kind" "page"  }}
+                            {{ $new_pages = $new_pages | intersect (where .Site.Pages ".Content" "ne" "") }}
+                            {{ $new_pages = $new_pages | union (where .Site.Pages ".Params.image_path" "ne" nil) }}
+
+                            {{ range (sort $new_pages "Lastmod").Reverse.Limit 15 }}
                                 <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
                             {{ end }}
                         </ul>

@@ -3,7 +3,9 @@ from dateutil import parser
 from bs4 import BeautifulSoup
 
 import requests
-from scrapers.scraper import ReviewData, Scraper
+
+from classes.review_data import ReviewData
+from scrapers.scraper import Scraper
 
 
 class BackloggdScraper(Scraper):

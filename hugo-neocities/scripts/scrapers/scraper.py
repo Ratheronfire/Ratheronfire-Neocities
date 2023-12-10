@@ -1,7 +1,5 @@
 from abc import ABC
-from datetime import datetime
 import re
-from typing import Union
 
 from bs4 import BeautifulSoup
 
@@ -16,53 +14,6 @@ def reformat_html_text(text: str):
 
 def get_rating_from_str(text):
     return len([star for star in text if star == '★']) + (0.5 if '½' in text else 0)
-
-
-class ReviewData:
-        title: str
-        release_year: int
-        
-        review_date: datetime
-        rating: int
-        review_text: str
-        has_spoilers: bool
-        
-        fanart_url: str
-        poster_url: str
-        external_review_url: str
-        
-        page_name: str
-        
-        def __init__(self) -> None:
-            self.title = ''
-            self.release_year = -1
-            
-            self.review_date = datetime.now()
-            self.rating = 0
-            self.review_text = ''
-            self.has_spoilers = False
-            
-            self.fanart_url = ''
-            self.poster_url = ''
-            self.external_review_url = ''
-            
-            self.page_name = ''
-        
-        def to_dict(self):
-            return {
-                'type': 'review',
-                'title': self.title,
-                'year': self.release_year,
-                'date': self.review_date,
-                'categories': ['reviews'],
-                'draft': False,
-                'rating': self.rating,
-                'has_spoilers': self.has_spoilers,
-                'fanart_url': self.fanart_url,
-                'poster_url': self.poster_url,
-                'external_review_url': self.external_review_url,
-                'page_name': self.page_name
-            }
 
 
 class Scraper(ABC):

@@ -1,7 +1,8 @@
 import re
 from dateutil import parser
 from bs4 import BeautifulSoup
-from scrapers.scraper import ReviewData, get_rating_from_str, reformat_html_text, Scraper
+from classes.review_data import ReviewData
+from scrapers.scraper import get_rating_from_str, reformat_html_text, Scraper
 import requests
 
 

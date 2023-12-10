@@ -6,22 +6,13 @@ import time
 from bs4 import BeautifulSoup
 from sys import argv
 from dateutil import parser
-from hugo_page_helpers import read_hugo_page, write_hugo_page
+from hugo_page_helpers import read_hugo_page, write_hugo_page, download_file
 from scrapers.scraper import Scraper
 from scrapers.letterboxd_scraper import LetterboxdScraper
 from scrapers.backloggd_scraper import BackloggdScraper
 
 import requests
 
-def download_file(url, path, force_redownload=False):
-    if not force_redownload and os.path.exists(path):
-        print(f'File already exists at {path}.')
-    
-    print(f'Downloading {url} to {path}.')
-    
-    file = requests.get(url)
-    with open(path, 'wb') as out_file:
-        out_file.write(file.content)
 
 def get_review_pages(root_folder):
     return [entry for entry in os.listdir(os.path.join(os.getcwd(), root_folder)) \
@@ -34,14 +25,12 @@ class ReviewConverter:
     scraper: Scraper
     
     def __init__(self) -> None:
-        # create the top-level parser
         self.parser = ArgumentParser(prog='ReviewConverter')
         subparsers = self.parser.add_subparsers(title='subcommands', description='valid subcommands', help='additional help')
         self.parser.add_argument('-s', '--simulate', action='store_true', help='Scrape review data without writing to file')
         self.parser.add_argument('-f', '--force-overwrite', action='store_true', help='Forcibly overwrite existing files')
         self.parser.add_argument('-c', '--keep-content', action='store_true', help='Don\'t overwrite existing review content')
 
-        # create the parser for the "a" command
         parser_url = subparsers.add_parser('from_url', help='Scrape a review from its url (Letterboxd, more later).')
         parser_url.add_argument('review_url', type=str, help='The review URL')
         parser_url.add_argument('list_path', type=str, help='The path to the list file this review will be placed under.')
@@ -50,7 +39,6 @@ class ReviewConverter:
         parser_url.add_argument('-c', '--keep-content', action='store_true', help='Don\'t overwrite existing review content')
         parser_url.set_defaults(func=self.convert_from_url)
 
-        # create the parser for the "b" command
         parser_csv = subparsers.add_parser('from_csv', help='Scrape multiple reviews from a CSV file.')
         parser_csv.add_argument('csv_path', type=str, help='The path to the CSV file.')
         parser_csv.add_argument('column', type=str, help='The column name/number to grab URLs from.')

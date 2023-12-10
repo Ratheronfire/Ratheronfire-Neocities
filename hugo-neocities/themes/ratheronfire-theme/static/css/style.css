@@ -741,6 +741,14 @@ tbody tr:nth-child(odd) {
     margin: 0 0 0.625em 0;
 }
 
+.review__body figure {
+    max-width: 740px;
+}
+
+.review__body figure img {
+    width: 100%;
+}
+
 /** List view **/
 
 .review__review details>summary {

@@ -1,9 +1,24 @@
+import os
 import re
+
+import requests
 from yaml import dump, load
 try:
     from yaml import CLoader as Loader, CDumper as Dumper
 except ImportError:
     from yaml import Loader, Dumper
+
+
+def download_file(url, path, force_redownload=False):
+    if not force_redownload and os.path.exists(path):
+        print(f'File already exists at {path}.')
+
+    print(f'Downloading {url} to {path}.')
+
+    file = requests.get(url)
+    with open(path, 'wb') as out_file:
+        out_file.write(file.content)
+
 
 def read_hugo_page(review_path):
     try:
@@ -26,7 +41,7 @@ def read_hugo_page(review_path):
         return None
 
 
-def write_hugo_page(page_path: str, page_data, page_text):
+def write_hugo_page(page_path: str, page_data, page_text=''):
     with open(page_path, 'w') as yaml_file:
         yaml_file.write('---\n')
         yaml_file.write(dump(page_data, sort_keys=False))

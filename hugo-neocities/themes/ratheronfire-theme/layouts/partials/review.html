@@ -21,7 +21,14 @@
                     {{ if .season }}
                         <small class="review__title-season"><a href="{{ .season_url }}">Season {{ .season }}, Episode {{ .episode }}</a> - </small>
                     {{ end }}
-                    <small class="review__title-year"><a href="https://letterboxd.com/films/year/{{ .year }}">{{ .year }}</a></small>
+
+                    {{ with .year }}
+                        <small class="review__title-year"><a href="https://letterboxd.com/films/year/{{ . }}">{{ . }}</a></small>
+                    {{ end }}
+                    
+                    {{ with .airdate }}
+                        <small class="review__title-year">{{ . | time.Format "January 2, 2006" }}</small>
+                    {{ end }}
                 </div>
 
                 {{ partial "review_rating" . }}
