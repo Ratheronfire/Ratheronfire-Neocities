@@ -9,7 +9,7 @@ date: 2023-12-10 03:35:11.259566
 categories:
 - reviews
 draft: false
-rating: 0
+rating: 4
 has_spoilers: true
 fanart_url: /thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_1.png
 poster_url: /thoughts/reviews/tv/star-trek-deep-space-nine/series_poster.jpg
