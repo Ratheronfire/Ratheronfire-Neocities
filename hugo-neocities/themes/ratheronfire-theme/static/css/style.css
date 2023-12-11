@@ -280,6 +280,10 @@ code, pre {
     max-width: 860px;
 }
 
+code:not([data-lang]) {
+    color: rgb(17, 243, 36);
+}
+
 /* Review formatting */
 
 .review-header {

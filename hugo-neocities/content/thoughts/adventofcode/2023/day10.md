@@ -429,3 +429,276 @@ And with that, we finally get the real total of **4** inside tiles.
 I feel dirty about my solution to this problem. I really should go back and solve this one the quote-unquote proper way but I'm also really proud of the hacky solution I wrote.
 
 Judging by the talk I've seen from other people who've solved it, I'm not the only one to take this route.
+
+## Addendum
+
+Alright, I had to go back and solve this for real.
+
+First, as a maybe overzealous bit of optimizations, I replaced all instances of the Point helper class with plan old tuples.
+
+Then, I added a big ol' dictionary for various pipe directions.
+
+```python
+LOOP_SIDES = {
+    # Right
+    ('-', (1, 0)): [
+        [(0, -1)],
+        [(0, 1)]
+
+    ],
+    # Left
+    ('-', (-1, 0)): [
+        [(0, 1)],
+        [(0, -1)]
+    ],
+    # Down
+    ('|', (0, 1)): [
+        [(1, 0)],
+        [(-1, 0)]
+    ],
+    # Up
+    ('|', (0, -1)): [
+        [(-1, 0)],
+        [(1, 0)]
+    ],
+    # Right Up
+    ('J', (0, -1)): [
+        [(-1, -1)],
+        [(1, 0), (1, -1), (0, -1)]
+    ],
+    # Down Left
+    ('J', (-1, 0)): [
+        [(1, 0), (1, -1), (0, -1)],
+        [(-1, -1)]
+    ],
+    # Right Down
+    ('7', (0, 1)): [
+        [(1, 0), (1, 1), (0, 1)],
+        [(-1, 1)]
+    ],
+    # Up Left
+    ('7', (-1, 0)): [
+        [(-1, 1)],
+        [(1, 0), (1, 1), (0, 1)]
+    ],
+    # Left Up
+    ('L', (0, -1)): [
+        [(-1, 0), (-1, 1), (0, 1)],
+        [(1, -1)]
+    ],
+    # Down Right
+    ('L', (1, 0)): [
+        [(1, -1)],
+        [(-1, 0), (-1, 1), (0, 1)]
+    ],
+    # Up Right
+    ('F', (1, 0)): [
+        [(0, -1), (-1, -1), (-1, 0)],
+        [(1, 1)]
+    ],
+    # Left Down
+    ('F', (0, 1)): [
+        [(1, 1)],
+        [(0, -1), (-1, -1), (-1, 0)]
+
+    ]
+}
+```
+
+Let me explain.
+
+For each entry, the key is a tuple containing (1) the pipe character, and (2) the outgoing direction.
+
+Then, the values for each consist of two arrays. The first array contains all of the neighboring points on the lefthand side of the pipe, and the second is all the righthand points.
+
+---
+
+Now, after finding the loop and removing the extra pipe bits, I call my new function, `scan_loop_edges`.
+
+```python
+def scan_loop_edges(self):
+    x, y = [pos for pos in self.grid.grid if self.grid[pos] == 'S'][0]
+
+    loop_segments = set()
+    loop_segments.add((x, y))
+
+    loop_finished = False
+
+    found_out_side = False
+    a_is_outside = False
+
+    while not loop_finished:
+        pipe_neighbors = self.get_pipe_neighbors(Point(x, y))
+
+        new_neighbors = [n for n in pipe_neighbors if n not in loop_segments]
+        if len(new_neighbors):
+            direction = (new_neighbors[0][0] - x, new_neighbors[0][1] - y)
+
+            if self.grid[(x, y)] == 'S':
+                pipe = self.get_start_replacement()
+            else:
+                pipe = self.grid[(x, y)]
+
+            side_checks = LOOP_SIDES[(pipe, direction)]
+
+            left_is_out = self.check_side(x, y, side_checks[0], found_out_side, True)
+            right_is_out = self.check_side(x, y, side_checks[1], found_out_side, False)
+
+            if not found_out_side and left_is_out:
+                a_is_outside = True
+                found_out_side = True
+            if not found_out_side and right_is_out:
+                a_is_outside = False
+                found_out_side = True
+
+            x, y = new_neighbors[0]
+        else:
+            loop_finished = True
+
+        for neighbor in pipe_neighbors:
+            loop_segments.add(neighbor)
+
+    return a_is_outside
+```
+
+This function is a heavily modified version of `locate_loop` that takes my existing loop and steps through it, marking down any adjacent edges it finds along the way.
+
+Note that in order to search from the start of my loop, I also wrote a function `get_start_replacement` that simply returns whatever pipe tile the start tile functions as.
+
+```python
+def get_start_replacement(self):
+    x, y = start = [pos for pos in self.grid.grid if self.grid[pos] == 'S'][0]
+
+    pipe_neighbors = self.get_pipe_neighbors(start)
+
+    if pipe_neighbors[0][0] == x and pipe_neighbors[1][0] == x:
+        return '-'
+    if pipe_neighbors[0][1] == y and pipe_neighbors[1][1] == y:
+        return '|'
+    if any([p[0] - x == 1 for p in pipe_neighbors]) and any([p[1] - y == 1 for p in pipe_neighbors]):
+        return '7'
+    if any([p[0] - x == 1 for p in pipe_neighbors]) and any([p[1] - y == -1 for p in pipe_neighbors]):
+        return 'J'
+    if any([p[0] - x == -1 for p in pipe_neighbors]) and any([p[1] - y == 1 for p in pipe_neighbors]):
+        return 'F'
+    if any([p[0] - x == -1 for p in pipe_neighbors]) and any([p[1] - y == -1 for p in pipe_neighbors]):
+        return 'L'
+
+    return 'S'
+```
+
+Revisiting `scan_loop_edges` again, here is the relevant portion:
+
+```python
+side_checks = LOOP_SIDES[(pipe, direction)]
+
+left_is_out = self.check_side(x, y, side_checks[0], found_out_side, True)
+right_is_out = self.check_side(x, y, side_checks[1], found_out_side, False)
+
+if not found_out_side and left_is_out:
+    a_is_outside = True
+    found_out_side = True
+if not found_out_side and right_is_out:
+    a_is_outside = False
+    found_out_side = True
+```
+
+After we determine which pipe we're on and which direction we're going towards the next pipe, we look them up in `LOOP_SIDES` to get the lefthand and righthand points.
+
+Then, we send both into another function, `check_side`.
+
+```python
+def check_side(self, x, y, side_checks, found_out_side, is_lefthand):
+    is_out_side = False
+
+    for check in side_checks:
+        cx, cy = check
+        edge = (x + cx, y + cy)
+
+        if self.grid[edge] == '.':
+            if not found_out_side:
+                is_out_side = self.is_point_outside(edge)
+            self.grid[edge] = 'A' if is_lefthand else 'B'
+
+    return is_out_side
+```
+
+This function does two things:
+
+1. It checks to see if each edge on the left/right side of a pipe is an empty space, and if so marks it off as `A` for left or `B` for right.{{< sup down 1 >}}
+2. It looks in the four cardinal directions to see if any of them has an unobstructed path to the extents of the grid (i.e. not touching the loop). If so, then we know that this is the outer side, which is important for later.
+
+After marking all the relevant points, it returns `True` if we determined that this is the outside of the loop. If so, we'll record that fact up in `scan_loop_edges` and stop running that test, since we've determined the answer.
+
+```python
+return a_is_outside
+```
+
+After we've finished cycling the loop, we return to the main function with `True` if the lefthand side (`A`) is the outside half, otherwise `False` for righthand (`B`).
+
+Now, one more step: We need to run `flood_fill` to find all of the interior points (remember that we've only scanned the edges adjacent to the loop at the moment).
+
+I run flood fill for both `A` and `B` in my code, not because I need to but simply to make the visual output a bit prettier.
+
+I've also modified and simplified my flood fill algorithm a bit:
+
+```python
+def flood_fill(self, char_to_target):
+    univisited_points = [p for p in self.grid.grid if self.grid[p] == char_to_target]
+    point_queue = []
+
+    while len(univisited_points):
+        point_queue.append(univisited_points[0])
+
+        while len(point_queue):
+            x, y = point = point_queue.pop()
+
+            if point in univisited_points:
+                univisited_points.remove(point)
+
+            for neighbor in self.grid.neighbors((x, y)):
+                nx, ny = neighbor[0]
+                neighbor_val = self.grid[neighbor[0]]
+
+                if neighbor_val != char_to_target and neighbor_val != self.grid.default_value:
+                    continue
+
+                if (nx, ny) in univisited_points or neighbor_val == self.grid.default_value:
+                    self.grid[neighbor[0]] = char_to_target
+                    point_queue.append((nx, ny))
+```
+
+Since we don't care about determining the total number of points filled anymore (we'll just calculate that later), I've removed those parts of the function. I've also modified it to allow me to target specific characters. So now it'll take an input character, `A` or `B`, scan for any empty tiles around it, and fill them all with the same character.
+
+That gives us something like this:
+
+```
+BBBBBBBBBB
+BS══════╗B
+B║╔════╗║B
+B║║BBBB║║B
+B║║BBBB║║B
+B║╚═╗╔═╝║B
+B║AA║║AA║B
+B╚══╝╚══╝B
+BBBBBBBBBB
+```
+
+Then, we just need to determine which character we're looking for, and return the number of tiles equal to that character.
+
+```python
+matching_char = 'B' if a_is_outside else 'A'
+
+return len([p for p in self.grid.grid if self.grid[p] == matching_char])
+```
+
+---
+
+As opposed to my first iteration taking over a minute, this version takes roughly two seconds.
+
+All in all, I can't argue with that.
+
+---
+
+{{< sup up 1 >}}
+I wanted to use `L` and `R` for clarity, but of course `L` is already used as one of the pipe tiles. Oh, well.
