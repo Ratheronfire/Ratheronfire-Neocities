@@ -27,7 +27,7 @@ tags:
 - godot
 ---
 
-{{< youtube >}}MitDNlfcgeM{{</ youtube >}}
+{{< youtube MitDNlfcgeM >}}
 
 ## Credits & Thanks
 

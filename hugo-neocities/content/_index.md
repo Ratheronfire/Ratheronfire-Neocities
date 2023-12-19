@@ -19,3 +19,4 @@ I hope you enjoy the sights and sounds, and please be sure to keep your arms and
 - [obspogon.neocities.org](https://obspogon.neocities.org/) - A neat site that catalogs some fun fangame projects.
 - [distantskies.neocities.org](https://distantskies.neocities.org/) - An in-depth walkthrough/shrine for [Crystalis](https://en.wikipedia.org/wiki/Crystalis).
 - [takin-a-break.neocities.org](https://takin-a-break.neocities.org/) - Takin' a break...
+- [MMHP.net](http://mmhp.net/) - one of the oldest Mega Man fansites still around, from all the way back in 1994.
