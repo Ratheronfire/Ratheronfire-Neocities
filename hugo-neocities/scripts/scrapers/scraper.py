@@ -2,6 +2,7 @@ from abc import ABC
 import re
 
 from bs4 import BeautifulSoup
+from classes.review_data import ReviewData
 
 
 def reformat_html_text(text: str):

@@ -728,12 +728,16 @@ tbody tr:nth-child(odd) {
     line-height: 1.6875;
     font-size: 14.7692px;
     padding: 0 16px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(0.5rem - 160px);
     z-index: 0;
     background: linear-gradient(180deg, rgba(125, 185, 232, 0) 0, #16181c calc(160px + 3rem));
+}
+
+.review__body.review__body_underimg {
     padding-top: 160px;
+    margin-top: calc(0.5rem - 160px);
 }
 
 .review__body>hr {

@@ -67,7 +67,7 @@
     <div class="review__fanart"><img src="{{ .fanart_url }}"></div>
     {{end}}
 
-    <div class="review__body">
+    <div class="review__body {{if .fanart_url }}review__body_underimg{{ end }}">
         <p>
             {{ or .content "No written review yet for this page." }}
         </p>
