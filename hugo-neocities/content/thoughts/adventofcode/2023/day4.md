@@ -9,7 +9,7 @@ tags:
 
 Sometimes it's hard to predict just how hard an AoC puzzle will be. Some that look like a breeze will end up taking days, meanwhile the ones that seem like impossible tasks are done after half an hour, and luckily today was one of the latter puzzles.
 
-[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/2023/day-4.py) to see my source code for this day's problem.
+[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2023/day-4.py) to see my source code for this day's problem.
 
 ***{{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}} If you haven't solved today or any day's puzzle yet yourself, there's bound to be spoilers in these writeups. {{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}}***
 

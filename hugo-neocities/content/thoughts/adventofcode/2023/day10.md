@@ -11,7 +11,7 @@ I did evil things today. Evil, unspeakable things. My solution for part 2 today 
 
 ***But it works.***
 
-[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/2023/day-10.py) to see my source code for this day's problem.
+[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2023/day-10.py) to see my source code for this day's problem.
 
 ***{{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}} If you haven't solved today or any day's puzzle yet yourself, there's bound to be spoilers in these writeups. {{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}}***
 

@@ -11,7 +11,7 @@ Yeah, this is about what I expected from Advent of Code.
 
 Last year it took until about day 12 before I found myself having to put off the second part until the day after, but this year it happened on day 5. 2023's challenges are a whole different beast.
 
-[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/2023/day-5.py) to see my source code for this day's problem.
+[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2023/day-5.py) to see my source code for this day's problem.
 
 ***{{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}} If you haven't solved today or any day's puzzle yet yourself, there's bound to be spoilers in these writeups. {{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}}***
 

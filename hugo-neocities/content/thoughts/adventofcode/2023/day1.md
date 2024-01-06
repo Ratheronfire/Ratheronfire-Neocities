@@ -11,7 +11,7 @@ Last year I was introduced to [Advent of Code](https://adventofcode.com/), a yea
 
 My submissions are available on a public git repository [here](https://github.com/Ratheronfire/advent-of-code), where I've been writing up my solutions in Python, along with some helper functions I've been building gradually as needed. Naturally day 1's code wasn't too complicated, but I'm already starting to dread some of the later days, knowing [where things can go](https://github.com/Ratheronfire/advent-of-code/blob/master/2022/day-22.py).
 
-[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/2023/day-1.py) to see my source code for this day's problem.
+[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2023/day-1.py) to see my source code for this day's problem.
 
 ***{{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}} If you haven't solved today or any day's puzzle yet yourself, there's bound to be spoilers in these writeups. {{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}}***
 

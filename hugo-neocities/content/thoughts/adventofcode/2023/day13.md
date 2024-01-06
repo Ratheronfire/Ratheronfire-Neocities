@@ -9,7 +9,7 @@ tags:
 
 Day 12 tanked my momentum pretty hard. I'm going to try and get back to it eventually, but for now I'm going to just make writeups for the remainder at my own pace.
 
-[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/2023/day-13.py) to see my source code for this day's problem.
+[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2023/day-13.py) to see my source code for this day's problem.
 
 ***{{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}} If you haven't solved today or any day's puzzle yet yourself, there's bound to be spoilers in these writeups. {{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}}***
 

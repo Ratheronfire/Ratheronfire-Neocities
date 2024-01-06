@@ -9,7 +9,7 @@ tags:
 
 Interesting one today. The kind of problem where your options are either spending an unimaginable amount of time brute-forcing a bunch of calculation, or dig deep enough to figure out what's actually going on.
 
-[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/2023/day-8.py) to see my source code for this day's problem.
+[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2023/day-8.py) to see my source code for this day's problem.
 
 ***{{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}} If you haven't solved today or any day's puzzle yet yourself, there's bound to be spoilers in these writeups. {{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}}***
 

@@ -9,7 +9,7 @@ tags:
 
 Well, here we are, the first grid-based puzzle of 2023. Luckily I've been working on a nice set of helper functions for these sorts of puzzles, so that took care of a lot of the work I'd otherwise have to repeat today (although I may have forgotten how it worked a bit and wasted a good 10 or 20 minutes debugging for nothing, oh well).
 
-[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/2023/day-3.py) to see my source code for this day's problem.
+[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2023/day-3.py) to see my source code for this day's problem.
 
 ***{{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}} If you haven't solved today or any day's puzzle yet yourself, there's bound to be spoilers in these writeups. {{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}}***
 
