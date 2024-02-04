@@ -2,11 +2,11 @@
 type: review
 title: "Star Wars: Episode II \u2013\_Attack of the Clones"
 year: '2002'
-date: 2022-07-31 23:13:50.754000+00:00
+date: 2024-01-10 23:13:50.754000+00:00
 categories:
 - reviews
 draft: false
-rating: 1
+rating: 2
 has_spoilers: false
 fanart_url: /thoughts/reviews/movies/img/star-wars-episode-ii-attack-of-the-clones_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-wars-episode-ii-attack-of-the-clones_poster.png
