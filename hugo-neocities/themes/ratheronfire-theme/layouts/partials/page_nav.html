@@ -1,47 +1,51 @@
-{{ $using_category := ne .Params.nav_category nil }}
+{{ if not .Params.hide_nav }}
 
-{{ $category_pages := where .Site.RegularPages ".Params.nav_category" page.Params.nav_category }}
-{{ $pages := where (where .Site.RegularPages "File.Dir" .File.Dir) ".Params.exclude_from_nav" "!=" "true" }}
+    {{ $using_category := ne .Params.nav_category nil }}
 
-{{ $episode_pages := sort $pages ".Params.episode" "desc" }}
+    {{ $category_pages := where .Site.RegularPages ".Params.nav_category" page.Params.nav_category }}
+    {{ $pages := where (where .Site.RegularPages "File.Dir" .File.Dir) ".Params.exclude_from_nav" "!=" "true" }}
 
-<div class="blog__navigate">
-    <div class="blog__navigateButtons">
-        <div class="blog__navigateButtons__previous">
-            {{ if $episode_pages }}
+    {{ $episode_pages := sort $pages ".Params.episode" "desc" }}
 
-            {{ with $episode_pages.Prev . }}
-            <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a> </button>
-            {{ end }}
-        </div>
-        <div class="blog__navigateButtons__next">
-            {{ with $episode_pages.Next . }}
-            <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
-            {{ end }}
-            
-            {{ else if $using_category }}
+    <div class="blog__navigate">
+        <div class="blog__navigateButtons">
+            <div class="blog__navigateButtons__previous">
+                {{ if $episode_pages }}
 
-            {{ with $category_pages.Prev . }}
-            <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a> </button>
-            {{ end }}
-        </div>
-        <div class="blog__navigateButtons__next">
-            {{ with $category_pages.Next . }}
-            <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
-            
-            {{ end }}
-            {{ else }}
+                {{ with $episode_pages.Prev . }}
+                <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a> </button>
+                {{ end }}
+            </div>
+            <div class="blog__navigateButtons__next">
+                {{ with $episode_pages.Next . }}
+                <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
+                {{ end }}
+                
+                {{ else if $using_category }}
 
-            {{ with $pages.Prev . }}
-            <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a> </button>
-            {{ end }}
-        </div>
-        <div class="blog__navigateButtons__next">
-            {{ with $pages.Next . }}
-            <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
-            {{ end }}
+                {{ with $category_pages.Prev . }}
+                <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a> </button>
+                {{ end }}
+            </div>
+            <div class="blog__navigateButtons__next">
+                {{ with $category_pages.Next . }}
+                <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
+                
+                {{ end }}
+                {{ else }}
 
-            {{ end }}
+                {{ with $pages.Prev . }}
+                <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a> </button>
+                {{ end }}
+            </div>
+            <div class="blog__navigateButtons__next">
+                {{ with $pages.Next . }}
+                <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
+                {{ end }}
+
+                {{ end }}
+            </div>
         </div>
     </div>
-</div>
+
+{{ end }}

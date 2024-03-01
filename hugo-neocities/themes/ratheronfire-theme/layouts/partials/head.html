@@ -18,3 +18,7 @@ integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="ano
 <meta property="og:image" content="https://ratheronfire.com/avatar.png" />
 <meta property="og:description" content="One of the less bad sites on the internet." />
 <meta name="theme-color" content="#0088FF" />
+
+{{ range .Params.include_css }}
+        <link rel="stylesheet" href="/css/{{ . }}.css" type="text/css" media="all" />
+{{ end }}

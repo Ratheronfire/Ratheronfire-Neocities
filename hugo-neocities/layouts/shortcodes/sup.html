@@ -1,4 +1,4 @@
-<a href="#{{ .Get 1 }}-{{ .Get 0 }}">
+<a class="superscript" href="#{{ .Get 1 }}-{{ .Get 0 }}">
     <sup id="{{ .Get 1 }}-{{ if eq (.Get 0) "down" }}up{{ else }}down{{ end }}">
         {{ .Get 1 }}
     </sup>

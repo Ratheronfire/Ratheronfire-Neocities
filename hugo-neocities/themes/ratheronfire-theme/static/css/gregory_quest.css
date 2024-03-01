@@ -1,0 +1,79 @@
+@font-face {
+    font-family: RuneScape-Barbarian-Assault;
+    src: url('/fonts/RuneScape-Barbarian-Assault.ttf');
+}
+
+@font-face {
+    font-family: RuneScape-Bold-12;
+    src: url('/fonts/RuneScape-Bold-12.ttf');
+}
+
+@font-face {
+    font-family: RuneScape-Fairy-Large;
+    src: url('/fonts/RuneScape-Fairy-Large.ttf');
+}
+
+@font-face {
+    font-family: RuneScape-Fairy;
+    src: url('/fonts/RuneScape-Fairy.ttf');
+}
+
+@font-face {
+    font-family: RuneScape-Plain-11;
+    src: url('/fonts/RuneScape-Plain-11.ttf');
+}
+
+@font-face {
+    font-family: RuneScape-Plain-12;
+    src: url('/fonts/RuneScape-Plain-12.ttf');
+}
+
+@font-face {
+    font-family: RuneScape-Quill-8;
+    src: url('/fonts/RuneScape-Quill-8.ttf');
+}
+
+@font-face {
+    font-family: RuneScape-Quill-Caps;
+    src: url('/fonts/RuneScape-Quill-Caps.ttf');
+}
+
+@font-face {
+    font-family: RuneScape-Quill;
+    src: url('/fonts/RuneScape-Quill.ttf');
+}
+
+@font-face {
+    font-family: RuneScape-Surok;
+    src: url('/fonts/RuneScape-Surok.ttf');
+}
+
+p {
+    font-family: RuneScape-Quill;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: RuneScape-Barbarian-Assault;
+    font-size: 48px;
+
+    color: white;
+}
+
+p:has(code) {
+    width: 100%;
+
+    background-color: black;
+}
+
+code {    
+    font-family: RuneScape-Plain-12;
+    font-size: 24px;
+}
+
+.superscript,
+.subscript,
+.plaintext {
+    font-family: unset;
+    font-size: unset;
+}
