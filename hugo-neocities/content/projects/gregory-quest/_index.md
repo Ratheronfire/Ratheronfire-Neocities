@@ -12,6 +12,10 @@ tags:
 - gregory-quest
 ---
 
+{{< rawhtml >}}
+<img class="image_scaled" alt="Gregory Quest: The Legend of Wrestlemania" src="img/Wrestlemania_Logo.png" />
+{{</ rawhtml >}}
+
 ## ON SUNDAY, JANUARY 17, 2016, A GRAND QUEST BEGAN...
 
 Welcome to Gregory Quest, AKA The Legend of Wrestlemania, AKA Wrestylvania, a maddening tale written by three{{< sup "down" 1 >}} people who know nothing about wrestling. This story, once safely contained within our private Reddit community, can now be "enjoyed" by the world in all its probably-never-gonna-be-finished glory!
