@@ -48,7 +48,8 @@
     src: url('/fonts/RuneScape-Surok.ttf');
 }
 
-p {
+p,
+li {
     font-family: RuneScape-Quill;
     font-size: 36px;
 }
