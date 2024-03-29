@@ -48,8 +48,7 @@
     src: url('/fonts/RuneScape-Surok.ttf');
 }
 
-p,
-li {
+p {
     font-family: RuneScape-Quill;
     font-size: 36px;
 }
@@ -67,7 +66,10 @@ p:has(code) {
     background-color: black;
 }
 
-code {    
+code,
+blockquote,
+blockquote p {
+    color: rgb(17, 243, 36);
     font-family: RuneScape-Plain-12;
     font-size: 24px;
 }
