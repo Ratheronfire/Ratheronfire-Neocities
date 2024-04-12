@@ -750,11 +750,14 @@ tbody tr:nth-child(odd) {
     width: 100%;
 }
 
-.review__body figure {
-    max-width: 740px;
+figure {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.review__body figure img {
+figure img {
     width: 100%;
 }
 
