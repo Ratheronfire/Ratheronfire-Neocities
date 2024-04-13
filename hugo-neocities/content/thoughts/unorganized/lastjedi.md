@@ -1,5 +1,5 @@
 ---
-title: "I have thoughts about The Last Jedi and you have to read them now"
+title: "I have thoughts about The Last Jedi and you have to read them now."
 date: 2024-04-11T18:36:00-04:00
 draft: true
 section: "Thoughts"
