@@ -7,7 +7,7 @@ these tended to confuse some people, so I only kept
 the images as variables */
 
 :root {
-    --header-image: url('../img/peasants_quest_header.png');
+    --header-image: url('../img/peasants_quest_headerA.png');
     --body-bg-image: url('../img/space_backdrop.jpg');
 
     /* colors */
@@ -101,8 +101,11 @@ text-decoration:none; */
     /* this is only for a background image! */
     /* if you want to put images IN the header, 
 you can add them directly to the <div id="header"></div> element! */
-    background-image: var(--header-image);
     background-size: 100%;
+    background-position: right 0 top -20px;
+    background-image: var(--header-image);
+
+    image-rendering: pixelated;
 }
 
 /* navigation section!! */
@@ -196,6 +199,10 @@ main {
     flex: 1;
     padding: 20px;
     order: 2;
+}
+
+.content {
+    min-height: calc(100vh - 245px);
 }
 
 /* what's this "order" stuff about??

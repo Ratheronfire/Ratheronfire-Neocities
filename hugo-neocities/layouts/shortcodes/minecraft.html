@@ -1,0 +1,191 @@
+<!-- Based on code nabbed from https://codepen.io/gagneow/pen/BoWroQ -->
+
+<div class="slides">
+    {{ range $index, $slide := .Page.Params.minecraft_slides }}
+    <input type="radio" name="radio-btn" id="img-{{ $index }}" {{ if eq $index 0 }}checked{{ end }} />
+    <div class="slide-container">
+        <div class="slide">
+            <h3>{{ $slide.title }}</h2>
+            <img src="{{ $slide.src }}" />
+            <p class="slide-text">
+                {{ $slide.text | markdownify }}
+            </p>
+
+            <a class="expand-icon" href="{{ $slide.src }}">
+                <i class="fa fa-expand" aria-hidden="true"></i>
+            </a>
+
+            <div class="nav">
+                {{ range $slide.links }}
+                
+                {{ $left := 0 }}
+                {{ $top := 0 }}
+
+                {{ if eq .position "left" }}
+                {{ $left = 10 }}
+                {{ $top = 318.125 }}
+                {{ else if eq .position "right" }}
+                {{ $left = 1010 }}
+                {{ $top = 318.125 }}
+                {{ else if eq .position "up" }}
+                {{ $left = 550 }}
+                {{ $top = 60 }}
+                {{ else if eq .position "down" }}
+                {{ $left = 550 }}
+                {{ $top = 586.25 }}
+                {{ else if eq .position "upleft" }}
+                {{ $left = 10 }}
+                {{ $top = 60 }}
+                {{ else if eq .position "upright" }}
+                {{ $left = 1010 }}
+                {{ $top = 60 }}
+                {{ else if eq .position "downleft" }}
+                {{ $left = 10 }}
+                {{ $top = 586.25 }}
+                {{ else if eq .position "downright" }}
+                {{ $left = 1010 }}
+                {{ $top = 586.25 }}
+                {{ else if eq .position "center" }}
+                {{ $left = 550 }}
+                {{ $top = 318.125 }}
+                {{ end }}
+
+                <label for="img-{{ .to }}" style="left: {{ $left }}px; top: {{ $top }}px">
+                    {{ if eq .direction "left" }}
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    {{ else if eq .direction "right" }}
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    {{ else if eq .direction "up" }}
+                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                    {{ else if eq .direction "down" }}
+                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    {{ else if eq .direction "upleft" }}
+                    <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: -45deg;"></i>
+                    {{ else if eq .direction "upright" }}
+                    <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: 45deg;"></i>
+                    {{ else if eq .direction "downleft" }}
+                    <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: 45deg;"></i>
+                    {{ else if eq .direction "downright" }}
+                    <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: -45deg;"></i>
+                    {{ end }}
+                </label>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+<style>
+    .slides {
+        padding: 0;
+        width: 100%;
+        height: min-content;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .slides * {
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+    }
+
+    .slides input {
+        display: none;
+    }
+
+    .slide-container {
+        display: none;
+    }
+
+    .slide {
+        top: 0;
+        opacity: 0;
+        height: min-content;
+
+        /*transform: scale(0);*/
+        transform: translate(1, 0);
+
+
+        transition: all .7s ease-in-out;
+    }
+
+    .slide img {
+        width: 100%;
+    }
+
+    .expand-icon {
+        position: absolute;
+        top: 15px;
+        right: 0;
+        font-size: 25px;
+
+        z-index: 9;
+    }
+
+    .nav {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav label {
+        width: 40px;
+        height: 40px;
+        display: none;
+        position: absolute;
+        /*margin: auto;*/
+
+        opacity: 0;
+        z-index: 9;
+        cursor: pointer;
+
+        transition: opacity .2s;
+
+        color: #0F0;
+        font-size: 40pt;
+        text-align: center;
+        font-family: "Arial", sans-serif;
+        background-color: rgba(255, 255, 255, 0);
+        text-shadow: 0px 0px 15px rgb(119, 119, 119);
+    }
+
+    .slide:hover .nav label {
+        opacity: 0.5;
+    }
+
+    .nav label:hover {
+        opacity: 1;
+    }
+
+    label i {
+        position: relative;
+        left: -2px;
+        top: -13px;
+    }
+
+    input:checked+.slide-container {
+        display: block;
+        height: min-content;
+    }
+
+    input:checked+.slide-container .slide {
+        opacity: 1;
+
+        /*transform: scale(1);*/
+        /*transform: translate();*/
+        /*transform: scale(2,3);*/
+
+        transition: opacity 1s ease-in-out;
+    }
+
+    input:checked+.slide-container .nav label {
+        display: block;
+    }
+</style>

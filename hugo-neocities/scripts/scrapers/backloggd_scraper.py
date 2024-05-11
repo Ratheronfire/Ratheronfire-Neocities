@@ -46,7 +46,11 @@ class BackloggdScraper(Scraper):
         review_data.title = self.select_element('#title h1').get_text()
         review_data.release_year = int(self.select_element('.sub-title a').get_text().split(' ')[-1])
         
-        review_data.fanart_url = f'https:{self.select_element("#artwork-high-res")["src"]}'
+        try:
+            review_data.fanart_url = f'https:{self.select_element("#artwork-high-res")["src"]}'
+        except TypeError:
+            pass
+        
         review_data.poster_url = self.select_element('.card-img ')['src']
         
         print(f'Found game from Backloggd: {review_data.title}, posted {str(review_data.review_date)}.')
@@ -106,7 +110,7 @@ class BackloggdScraper(Scraper):
             else:
                 review_data = [r for r in review_datas if r.page_name == game_name][0]
             
-            review_link = reviews_container[i+3].css.select_one('.small-link')['href']
+            review_link = reviews_container[i+3].css.select_one('.open-review-link')['href']
             review_page = requests.get(f'https://backloggd.com{review_link}')
             review_document = BeautifulSoup(review_page.content, features="html.parser")
             
