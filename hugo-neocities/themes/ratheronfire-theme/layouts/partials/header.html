@@ -1,5 +1,50 @@
 <header class="container">
+    <div style="position: absolute;">
+        <a style="color: yellow; font-size: 30px" onclick="nextHeader()">
+            <i class="fa fa-sun" aria-hidden="true"></i>
+        </a>
+        <a style="color: white; font-size: 30px" onclick="setHeaderByHour()">
+            <i class="fa fa-refresh" aria-hidden="true"></i>
+        </a>
+    </div>
     <div id="header" style="height: 165px;"></div>
+        <script>
+        var headers = [
+            "url('/img/peasants_quest_headerB.png')",
+            "url('/img/peasants_quest_headerA.png')",
+            "url('/img/peasants_quest_headerC.png')"
+        ];
+
+        var currentHeader = 0;
+
+        function setHeader() {
+            header.style["background-image"] = headers[currentHeader];
+        }
+
+        function nextHeader() {
+            currentHeader = (currentHeader + 1) % headers.length;
+            setHeader();
+        }
+
+        function setHeaderByHour() {
+            var hours = new Date().getHours();
+    
+            var header = document.querySelector('#header');
+    
+            if (hours < 6 || hours > 22)
+                currentHeader = 0;
+            else if (hours < 10 || hours > 18)
+                currentHeader = 1;
+            else
+                currentHeader = 2;
+            
+            setHeader();
+        }
+
+        setHeaderByHour();
+    </script>
+    <noscript>
+    </noscript>
     <div id="headerArea">
         <nav id="navbar" style="margin-bottom: 0px;">
             <ul>

@@ -14,6 +14,10 @@ external_review_url: https://letterboxd.com/ratheronfire/film/the-matrix/
 page_name: the-matrix
 tags:
 - the-matrix
+extra_reviews:
+ - date: 2024-03-20 00:00:00
+   rating: 5
+   text: You can tell the Wachowskis are real nerds because the first combination key Neo tries is Ctrl+X, not Ctrl+Alt+Delete.
 ---
 
 *(Note: I wrote this up as a rough summary of my thoughts after watching the series for the first time leading up to the new movie. Copying them over here for posterity.)*
