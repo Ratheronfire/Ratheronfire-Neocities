@@ -79,8 +79,8 @@ minecraft_slides:
   - to: 7
     direction: up
     position: center
-    left_offset: -10
-    top_offset: 60
+    left_offset: -1.3
+    top_offset: 15
 - src: "/projects/minecraft-worlds/castle/img/7.png"
   title: Base Lobby
   text: "Our main lobby has all the important amenities: A carpet, some vases, a couple furnaces, an anvil, a record player, a cauldron for making evil potions, a chest to store your miscellaneous junk in and forget about it immediately, and a couple of armor stands which I think were actually fully stocked at one point but they lost their gear when I copied this file over I guess."
@@ -88,7 +88,77 @@ minecraft_slides:
   - to: 6
     direction: upleft
     position: center
-    left_offset: -90
+    left_offset: -9
+  - to: 8
+    direction: downright
+    position: downright
+  - to: 9
+    direction: downleft
+    position: downleft
+  - to: 10
+    direction: left
+    position: left
+- src: "/projects/minecraft-worlds/castle/img/8.png"
+  title: Bedroom
+  text: |
+    At the other end of the lobby was our bedroom, with a roof made entirely of glass.  
+
+    ...I'm just now realizing that I should've made the empty space above the room into a pool. Can I get a do-over?
+  links:
+  - to: 7
+    direction: upright
+    position: center
+    left_offset: 7
+    top_offset: 15
+- src: "/projects/minecraft-worlds/castle/img/9.png"
+  title: Map
+  text: What base is complete without a map?
+  links:
+  - to: 7
+    direction: right
+    position: right
+- src: "/projects/minecraft-worlds/castle/img/10.png"
+  title: Hallway 1
+  links:
+  - to: 7
+    direction: down
+    position: down
+  - to: 11
+    direction: secret
+    position: center
+- src: "/projects/minecraft-worlds/castle/img/11.png"
+  title: Secret Exit 1
+  text: Hiding a tunnel behind a painting. Oldest trick in the book.
+  links:
+  - to: 10
+    direction: downleft
+    position: downleft
+  - to: 12
+    direction: open
+    position: center
+    left_offset: -13.5
+    top_offset: 2
+  - to: 13
+    direction: upright
+    position: right
+    left_offset: -18
+    top_offset: -10
+- src: "/projects/minecraft-worlds/castle/img/12.png"
+  title: The Minecraft Symphony Doorchestra Memorial Site
+  text: In loving memory of the annoying noisemaker that used to be hidden in this room.
+  links:
+  - to: 11
+    direction: down
+    position: down
+- src: "/projects/minecraft-worlds/castle/img/13.png"
+  title: Secret Exit 1 Continued
+  text: At some point we added a button to get back in, and so naturally we had to add a sign to maintain the illusion that this was, in fact, only an exit.
+  links:
+  - to: 11
+    direction: up
+    position: center
+    left_offset: 2
+    top_offset: 15
 ---
 
 {{< minecraft >}}
