@@ -5,82 +5,86 @@
     <input type="radio" name="radio-btn" id="img-{{ $index }}" {{ if eq $index 0 }}checked{{ end }} />
     <div class="slide-container">
         <div class="slide">
-            <h3>{{ $slide.title }}</h2>
-            <img src="{{ $slide.src }}" />
-            <p class="slide-text">
-                {{ $slide.text | markdownify }}
-            </p>
+            <strong>{{ $slide.title }}</strong>
 
-            <a class="expand-icon" href="{{ $slide.src }}">
-                <i class="fa fa-expand" aria-hidden="true"></i>
-            </a>
+                <div style="position: relative;">
+                    <img src="{{ $slide.src }}" />
 
-            <div class="nav">
-                {{ range $slide.links }}
-                
-                {{ $left := 0 }}
-                {{ $top := 0 }}
 
-                {{ $left_offset := 0 }}
-                {{ if .left_offset }}
-                {{ $left_offset = .left_offset }}
-                {{ end }}
+                    <div class="nav">
+                        {{ range $slide.links }}
 
-                {{ $top_offset := 0 }}
-                {{ if .top_offset }}
-                {{ $top_offset = .top_offset }}
-                {{ end }}
+                        {{ $left_offset := 0 }}
+                        {{ if .left_offset }}
+                        {{ $left_offset = .left_offset }}
+                        {{ end }}
 
-                {{ if eq .position "left" }}
-                {{ $left = 10 }}
-                {{ $top = 318.125 }}
-                {{ else if eq .position "right" }}
-                {{ $left = 1010 }}
-                {{ $top = 318.125 }}
-                {{ else if eq .position "up" }}
-                {{ $left = 520 }}
-                {{ $top = 60 }}
-                {{ else if eq .position "down" }}
-                {{ $left = 520 }}
-                {{ $top = 586.25 }}
-                {{ else if eq .position "upleft" }}
-                {{ $left = 10 }}
-                {{ $top = 60 }}
-                {{ else if eq .position "upright" }}
-                {{ $left = 1010 }}
-                {{ $top = 60 }}
-                {{ else if eq .position "downleft" }}
-                {{ $left = 10 }}
-                {{ $top = 586.25 }}
-                {{ else if eq .position "downright" }}
-                {{ $left = 1010 }}
-                {{ $top = 586.25 }}
-                {{ else if eq .position "center" }}
-                {{ $left = 520 }}
-                {{ $top = 318.125 }}
-                {{ end }}
+                        {{ $top_offset := 0 }}
+                        {{ if .top_offset }}
+                        {{ $top_offset = .top_offset }}
+                        {{ end }}
 
-                <label for="img-{{ .to }}" style="left: calc({{ $left }}px + {{ $left_offset }}px); top: calc({{ $top }}px + {{ $top_offset }}px)">
-                    {{ if eq .direction "left" }}
-                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                    {{ else if eq .direction "right" }}
-                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                    {{ else if eq .direction "up" }}
-                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                    {{ else if eq .direction "down" }}
-                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
-                    {{ else if eq .direction "upleft" }}
-                    <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: -45deg;"></i>
-                    {{ else if eq .direction "upright" }}
-                    <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: 45deg;"></i>
-                    {{ else if eq .direction "downleft" }}
-                    <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: 45deg;"></i>
-                    {{ else if eq .direction "downright" }}
-                    <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: -45deg;"></i>
-                    {{ end }}
-                </label>
-                {{ end }}
-            </div>
+                        {{ $left := 0 }}
+                        {{ $top := 0 }}
+
+                        {{ if or (eq .position "left") (eq .position "upleft") (eq .position "downleft") }}
+                        {{ $left = "10px" }}
+                        {{ end }}
+
+                        {{ if or (eq .position "right") (eq .position "upright") (eq .position "downright") }}
+                        {{ $left = "100% - 50px" }}
+                        {{ end }}
+
+                        {{ if or (eq .position "center") (eq .position "up") (eq .position "down") }}
+                        {{ $left = "50% - 20px" }}
+                        {{ end }}
+
+                        {{ if or (eq .position "up") (eq .position "upleft") (eq .position "upright") }}
+                        {{ $top = "10px" }}
+                        {{ end }}
+
+                        {{ if or (eq .position "down") (eq .position "downleft") (eq .position "downright") }}
+                        {{ $top = "100% - 50px" }}
+                        {{ end }}
+
+                        {{ if or (eq .position "center") (eq .position "left") (eq .position "right") }}
+                        {{ $top = "50% - 20px" }}
+                        {{ end }}
+
+                        <label for="img-{{ .to }}"
+                            style="left: calc({{ $left }} + {{ $left_offset }}%); top: calc({{ $top }} + {{ $top_offset }}%)">
+                            {{ if eq .direction "left" }}
+                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                            {{ else if eq .direction "right" }}
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            {{ else if eq .direction "up" }}
+                            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                            {{ else if eq .direction "down" }}
+                            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                            {{ else if eq .direction "upleft" }}
+                            <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: -45deg;"></i>
+                            {{ else if eq .direction "upright" }}
+                            <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: 45deg;"></i>
+                            {{ else if eq .direction "downleft" }}
+                            <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: 45deg;"></i>
+                            {{ else if eq .direction "downright" }}
+                            <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: -45deg;"></i>
+                            {{ else if eq .direction "secret" }}
+                            <i class="fa fa-question" aria-hidden="true"></i>
+                            {{ else if eq .direction "open" }}
+                            <i class="fa fa-plus-square" aria-hidden="true"></i>
+                            {{ end }}
+                        </label>
+                        {{ end }}
+                    </div>
+                </div>
+                <p class="slide-text">
+                    {{ $slide.text | markdownify }}
+                </p>
+
+                <a class="expand-icon" href="{{ $slide.src }}">
+                    <i class="fa fa-expand" aria-hidden="true"></i>
+                </a>
         </div>
     </div>
     {{ end }}
