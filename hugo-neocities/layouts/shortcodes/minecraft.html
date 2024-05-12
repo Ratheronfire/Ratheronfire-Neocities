@@ -21,6 +21,16 @@
                 {{ $left := 0 }}
                 {{ $top := 0 }}
 
+                {{ $left_offset := 0 }}
+                {{ if .left_offset }}
+                {{ $left_offset = .left_offset }}
+                {{ end }}
+
+                {{ $top_offset := 0 }}
+                {{ if .top_offset }}
+                {{ $top_offset = .top_offset }}
+                {{ end }}
+
                 {{ if eq .position "left" }}
                 {{ $left = 10 }}
                 {{ $top = 318.125 }}
@@ -28,10 +38,10 @@
                 {{ $left = 1010 }}
                 {{ $top = 318.125 }}
                 {{ else if eq .position "up" }}
-                {{ $left = 550 }}
+                {{ $left = 520 }}
                 {{ $top = 60 }}
                 {{ else if eq .position "down" }}
-                {{ $left = 550 }}
+                {{ $left = 520 }}
                 {{ $top = 586.25 }}
                 {{ else if eq .position "upleft" }}
                 {{ $left = 10 }}
@@ -46,11 +56,11 @@
                 {{ $left = 1010 }}
                 {{ $top = 586.25 }}
                 {{ else if eq .position "center" }}
-                {{ $left = 550 }}
+                {{ $left = 520 }}
                 {{ $top = 318.125 }}
                 {{ end }}
 
-                <label for="img-{{ .to }}" style="left: {{ $left }}px; top: {{ $top }}px">
+                <label for="img-{{ .to }}" style="left: calc({{ $left }}px + {{ $left_offset }}px); top: calc({{ $top }}px + {{ $top_offset }}px)">
                     {{ if eq .direction "left" }}
                     <i class="fa fa-arrow-left" aria-hidden="true"></i>
                     {{ else if eq .direction "right" }}

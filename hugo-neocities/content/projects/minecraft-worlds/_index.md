@@ -16,7 +16,7 @@ Over the years me and a few friends of mine have made quite a lot of Minecraft w
 This was maybe our first properly fleshed out world, though it pales in comparison to some of our later ones. It established the trend of building castles for our main base, which we would repeat a few times later on.
 
 {{< figure
-    src="/projects/minecraft-worlds/castle/img/2024-05-10_00.31.24.png"
+    src="/projects/minecraft-worlds/castle/img/5.png"
     link="castle"
     title=""
     caption=""
