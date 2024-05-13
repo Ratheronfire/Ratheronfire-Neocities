@@ -2,89 +2,90 @@
 
 <div class="slides">
     {{ range $index, $slide := .Page.Params.minecraft_slides }}
-    <input type="radio" name="radio-btn" id="img-{{ $index }}" {{ if eq $index 0 }}checked{{ end }} />
+    <input type="radio" name="radio-btn" id="img-{{ $index }}" {{ if eq $index 0 }}checked{{ end }} 
+        onchange="updateSelectedSlide({{ $index }})"/>
     <div class="slide-container">
         <div class="slide">
-            <strong>{{ $slide.title }}</strong>
+            <strong class="slide-title">{{ $slide.title }} | Slide {{ add $index 1 }}/{{ len
+                $.Page.Params.minecraft_slides }}</strong>
 
-                <div style="position: relative;">
-                    <img src="{{ $slide.src }}" />
+            <div style="position: relative;">
+                <img src="{{ $slide.src }}" />
 
+                <div class="nav">
+                    {{ range $link := $slide.links }}
 
-                    <div class="nav">
-                        {{ range $slide.links }}
+                    {{ $left_offset := 0 }}
+                    {{ if $link.left_offset }}
+                    {{ $left_offset = $link.left_offset }}
+                    {{ end }}
 
-                        {{ $left_offset := 0 }}
-                        {{ if .left_offset }}
-                        {{ $left_offset = .left_offset }}
+                    {{ $top_offset := 0 }}
+                    {{ if $link.top_offset }}
+                    {{ $top_offset = $link.top_offset }}
+                    {{ end }}
+
+                    {{ $left := 0 }}
+                    {{ $top := 0 }}
+
+                    {{ if or (eq $link.position "left") (eq $link.position "upleft") (eq .position "downleft") }}
+                    {{ $left = "10px" }}
+                    {{ end }}
+
+                    {{ if or (eq $link.position "right") (eq $link.position "upright") (eq .position "downright") }}
+                    {{ $left = "100% - 50px" }}
+                    {{ end }}
+
+                    {{ if or (eq $link.position "center") (eq $link.position "up") (eq .position "down") }}
+                    {{ $left = "50% - 20px" }}
+                    {{ end }}
+
+                    {{ if or (eq $link.position "up") (eq $link.position "upleft") (eq .position "upright") }}
+                    {{ $top = "10px" }}
+                    {{ end }}
+
+                    {{ if or (eq $link.position "down") (eq $link.position "downleft") (eq .position "downright") }}
+                    {{ $top = "100% - 50px" }}
+                    {{ end }}
+
+                    {{ if or (eq $link.position "center") (eq $link.position "left") (eq .position "right") }}
+                    {{ $top = "50% - 20px" }}
+                    {{ end }}
+
+                    <label for="img-{{ $link.to }}"
+                        style="left: calc({{ $left }} + {{ $left_offset }}%); top: calc({{ $top }} + {{ $top_offset }}%)">
+                        {{ if eq $link.direction "left" }}
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        {{ else if eq $link.direction "right" }}
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        {{ else if eq $link.direction "up" }}
+                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                        {{ else if eq $link.direction "down" }}
+                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                        {{ else if eq $link.direction "upleft" }}
+                        <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: -45deg;"></i>
+                        {{ else if eq $link.direction "upright" }}
+                        <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: 45deg;"></i>
+                        {{ else if eq $link.direction "downleft" }}
+                        <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: 45deg;"></i>
+                        {{ else if eq $link.direction "downright" }}
+                        <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: -45deg;"></i>
+                        {{ else if eq $link.direction "secret" }}
+                        <i class="fa fa-question" aria-hidden="true"></i>
+                        {{ else if eq $link.direction "open" }}
+                        <i class="fa fa-plus-square" aria-hidden="true"></i>
                         {{ end }}
-
-                        {{ $top_offset := 0 }}
-                        {{ if .top_offset }}
-                        {{ $top_offset = .top_offset }}
-                        {{ end }}
-
-                        {{ $left := 0 }}
-                        {{ $top := 0 }}
-
-                        {{ if or (eq .position "left") (eq .position "upleft") (eq .position "downleft") }}
-                        {{ $left = "10px" }}
-                        {{ end }}
-
-                        {{ if or (eq .position "right") (eq .position "upright") (eq .position "downright") }}
-                        {{ $left = "100% - 50px" }}
-                        {{ end }}
-
-                        {{ if or (eq .position "center") (eq .position "up") (eq .position "down") }}
-                        {{ $left = "50% - 20px" }}
-                        {{ end }}
-
-                        {{ if or (eq .position "up") (eq .position "upleft") (eq .position "upright") }}
-                        {{ $top = "10px" }}
-                        {{ end }}
-
-                        {{ if or (eq .position "down") (eq .position "downleft") (eq .position "downright") }}
-                        {{ $top = "100% - 50px" }}
-                        {{ end }}
-
-                        {{ if or (eq .position "center") (eq .position "left") (eq .position "right") }}
-                        {{ $top = "50% - 20px" }}
-                        {{ end }}
-
-                        <label for="img-{{ .to }}"
-                            style="left: calc({{ $left }} + {{ $left_offset }}%); top: calc({{ $top }} + {{ $top_offset }}%)">
-                            {{ if eq .direction "left" }}
-                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                            {{ else if eq .direction "right" }}
-                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                            {{ else if eq .direction "up" }}
-                            <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                            {{ else if eq .direction "down" }}
-                            <i class="fa fa-arrow-down" aria-hidden="true"></i>
-                            {{ else if eq .direction "upleft" }}
-                            <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: -45deg;"></i>
-                            {{ else if eq .direction "upright" }}
-                            <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: 45deg;"></i>
-                            {{ else if eq .direction "downleft" }}
-                            <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: 45deg;"></i>
-                            {{ else if eq .direction "downright" }}
-                            <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: -45deg;"></i>
-                            {{ else if eq .direction "secret" }}
-                            <i class="fa fa-question" aria-hidden="true"></i>
-                            {{ else if eq .direction "open" }}
-                            <i class="fa fa-plus-square" aria-hidden="true"></i>
-                            {{ end }}
-                        </label>
-                        {{ end }}
-                    </div>
+                    </label>
+                    {{ end }}
                 </div>
-                <p class="slide-text">
-                    {{ $slide.text | markdownify }}
-                </p>
+            </div>
+            <p class="slide-text">
+                {{ $slide.text | markdownify }}
+            </p>
 
-                <a class="expand-icon" href="{{ $slide.src }}">
-                    <i class="fa fa-expand" aria-hidden="true"></i>
-                </a>
+            <a class="expand-icon" href="{{ $slide.src }}">
+                <i class="fa fa-expand" aria-hidden="true"></i>
+            </a>
         </div>
     </div>
     {{ end }}
@@ -129,13 +130,24 @@
         transition: all .7s ease-in-out;
     }
 
+    .slide .slide-title {
+        position: absolute;
+        z-index: 9;
+        background: wheat;
+        padding: 0 5px 1px 0;
+        border-width: 0 6px 6px 0;
+        border-color: purple;
+        border-style: solid;
+        border-radius: 0 0 15px 0;
+    }
+
     .slide img {
         width: 100%;
     }
 
     .expand-icon {
         position: absolute;
-        top: 15px;
+        top: -30px;
         right: 0;
         font-size: 25px;
 
@@ -192,10 +204,6 @@
     input:checked+.slide-container .slide {
         opacity: 1;
 
-        /*transform: scale(1);*/
-        /*transform: translate();*/
-        /*transform: scale(2,3);*/
-
         transition: opacity 1s ease-in-out;
     }
 
@@ -203,3 +211,17 @@
         display: block;
     }
 </style>
+<script>
+    function updateSelectedSlide(slideIndex) {
+        window.location.hash = 'img-' + slideIndex;
+    }
+
+    function refreshSlide() {
+        console.log(window.location.hash);
+        if (window.location.hash) {
+            document.getElementById(window.location.hash.replace('#', '')).checked = true;
+        }
+    }
+
+    window.onhashchange = refreshSlide;
+</script>
