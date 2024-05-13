@@ -1,5 +1,4 @@
 <!-- Based on code nabbed from https://codepen.io/gagneow/pen/BoWroQ -->
-
 <div class="slides">
     {{ range $index, $slide := .Page.Params.minecraft_slides }}
     <input type="radio" name="radio-btn" id="img-{{ $index }}" {{ if eq $index 0 }}checked{{ end }} 
@@ -10,7 +9,18 @@
                 $.Page.Params.minecraft_slides }}</strong>
 
             <div style="position: relative;">
-                <img src="{{ $slide.src }}" />
+                {{ $img_sections := split $slide.src "/" }}
+                {{ $scaled_img_sections := slice }}
+
+                {{ range $img_sections }}
+                    {{ if strings.Contains . "." }}
+                        {{ $scaled_img_sections = $scaled_img_sections | append (printf "%s%s" "scaled_" . ) }}
+                    {{ else }}
+                        {{ $scaled_img_sections = $scaled_img_sections | append . }}
+                    {{ end }}
+                {{ end }}
+
+                <img src="{{ delimit $scaled_img_sections "/" }}" />
 
                 <div class="nav">
                     {{ range $link := $slide.links }}
