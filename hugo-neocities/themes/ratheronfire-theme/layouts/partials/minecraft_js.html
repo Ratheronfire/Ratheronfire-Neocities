@@ -1,0 +1,114 @@
+<select class="slide-title title-upleft" id="slide-select" onchange="updateSlideFromSelect()">
+    {{ range .Page.Params.minecraft_slides }}
+    <option id="slide-select-{{ .id }}" value="{{ .id }}"
+            {{ if eq .id 0 }}selected{{ end }}>
+        {{ if hugo.IsDevelopment }}
+        [{{ .id }}] {{ .title }}
+        {{ else }}
+        {{ .title }}
+        {{ end }}
+    </option>
+    {{ end }}
+  </select>
+
+<!-- Based on code nabbed from https://codepen.io/gagneow/pen/BoWroQ -->
+{{ range sort .Page.Params.minecraft_slides "id" }}
+<input type="radio" name="radio-btn" id="radio-{{ .id }}" {{ if eq .id 0 }}checked{{ end }}
+    onchange="updateSelectedSlide({{ .id }})" />
+<div class="slide-container">
+    <div class="slide">
+        <div style="position: relative;">
+            <img id="img-{{ .id }}" />
+
+            <div class="nav">
+                {{ range $link := .links }}
+
+                {{ $left_offset := 0 }}
+                {{ if $link.left_offset }}
+                {{ $left_offset = $link.left_offset }}
+                {{ end }}
+
+                {{ $top_offset := 0 }}
+                {{ if $link.top_offset }}
+                {{ $top_offset = $link.top_offset }}
+                {{ end }}
+
+                {{ $left := 0 }}
+                {{ $top := 0 }}
+
+                {{ if or (eq $link.position "left") (eq $link.position "upleft") (eq .position "downleft") }}
+                {{ $left = "10px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "right") (eq $link.position "upright") (eq .position "downright") }}
+                {{ $left = "100% - 50px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "center") (eq $link.position "up") (eq .position "down") }}
+                {{ $left = "50% - 20px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "up") (eq $link.position "upleft") (eq .position "upright") }}
+                {{ $top = "10px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "down") (eq $link.position "downleft") (eq .position "downright") }}
+                {{ $top = "100% - 50px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "center") (eq $link.position "left") (eq .position "right") }}
+                {{ $top = "50% - 20px" }}
+                {{ end }}
+
+                <label for="radio-{{ $link.to }}"
+                    style="left: calc({{ $left }} + {{ $left_offset }}%); top: calc({{ $top }} + {{ $top_offset }}%)">
+                    {{ if eq $link.direction "left" }}
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "right" }}
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "up" }}
+                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "down" }}
+                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "upleft" }}
+                    <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: -45deg;"></i>
+                    {{ else if eq $link.direction "upright" }}
+                    <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: 45deg;"></i>
+                    {{ else if eq $link.direction "downleft" }}
+                    <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: 45deg;"></i>
+                    {{ else if eq $link.direction "downright" }}
+                    <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: -45deg;"></i>
+                    {{ else if eq $link.direction "secret" }}
+                    <i class="fa fa-question" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "open" }}
+                    <i class="fa fa-plus-square" aria-hidden="true"></i>
+                    {{ end }}
+                </label>
+                {{ end }}
+            </div>
+        </div>
+        
+        <label class="text-checkbox" for="text-checkbox-{{ .id }}">
+            <i class="fa fa-comment" aria-hidden="true"></i>
+        </label>
+        <input class="text-checkbox" type="checkbox" name="checkbox" id="text-checkbox-{{ .id }}" value="value">
+        <p class="slide-text">
+            {{ .text | markdownify }}
+        </p>
+    </div>
+</div>
+{{ end }}
+
+<div class="top-controls">
+    <div>
+        <input type="checkbox" id="small-image-checkbox" name="small-image-checkbox" onclick="updateUsingSmallImages(this)" />
+        <label for="small-image-checkbox">Use Small Images</label>
+    </div>
+    <a class="expand-icon" onclick="toggleFullscreen()">
+        <i id="to-fullscreen-icon" class="fa fa-expand" aria-hidden="true"></i>
+        <i id="from-fullscreen-icon" class="fa fa-compress" aria-hidden="true" style="display: none;"></i>
+    </a>
+    <a class="expand-icon" onclick="expandImage()">
+        <i class="fa fa-image" aria-hidden="true"></i>
+    </a>
+</div>

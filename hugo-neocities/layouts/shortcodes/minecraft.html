@@ -1,104 +1,11 @@
-<!-- Based on code nabbed from https://codepen.io/gagneow/pen/BoWroQ -->
 <div class="slides">
-    {{ range $index, $slide := .Page.Params.minecraft_slides }}
-    <input type="radio" name="radio-btn" id="img-{{ $index }}" {{ if eq $index 0 }}checked{{ end }} 
-        onchange="updateSelectedSlide({{ $index }})"/>
-    <div class="slide-container">
-        <div class="slide">
-            <strong class="slide-title">{{ $slide.title }} | Slide {{ add $index 1 }}/{{ len
-                $.Page.Params.minecraft_slides }}</strong>
-
-            <div style="position: relative;">
-                {{ $img_sections := split $slide.src "/" }}
-                {{ $scaled_img_sections := slice }}
-
-                {{ range $img_sections }}
-                    {{ if strings.Contains . "." }}
-                        {{ $scaled_img_sections = $scaled_img_sections | append (printf "%s%s" "scaled_" . ) }}
-                    {{ else }}
-                        {{ $scaled_img_sections = $scaled_img_sections | append . }}
-                    {{ end }}
-                {{ end }}
-
-                <img src="{{ delimit $scaled_img_sections "/" }}" />
-
-                <div class="nav">
-                    {{ range $link := $slide.links }}
-
-                    {{ $left_offset := 0 }}
-                    {{ if $link.left_offset }}
-                    {{ $left_offset = $link.left_offset }}
-                    {{ end }}
-
-                    {{ $top_offset := 0 }}
-                    {{ if $link.top_offset }}
-                    {{ $top_offset = $link.top_offset }}
-                    {{ end }}
-
-                    {{ $left := 0 }}
-                    {{ $top := 0 }}
-
-                    {{ if or (eq $link.position "left") (eq $link.position "upleft") (eq .position "downleft") }}
-                    {{ $left = "10px" }}
-                    {{ end }}
-
-                    {{ if or (eq $link.position "right") (eq $link.position "upright") (eq .position "downright") }}
-                    {{ $left = "100% - 50px" }}
-                    {{ end }}
-
-                    {{ if or (eq $link.position "center") (eq $link.position "up") (eq .position "down") }}
-                    {{ $left = "50% - 20px" }}
-                    {{ end }}
-
-                    {{ if or (eq $link.position "up") (eq $link.position "upleft") (eq .position "upright") }}
-                    {{ $top = "10px" }}
-                    {{ end }}
-
-                    {{ if or (eq $link.position "down") (eq $link.position "downleft") (eq .position "downright") }}
-                    {{ $top = "100% - 50px" }}
-                    {{ end }}
-
-                    {{ if or (eq $link.position "center") (eq $link.position "left") (eq .position "right") }}
-                    {{ $top = "50% - 20px" }}
-                    {{ end }}
-
-                    <label for="img-{{ $link.to }}"
-                        style="left: calc({{ $left }} + {{ $left_offset }}%); top: calc({{ $top }} + {{ $top_offset }}%)">
-                        {{ if eq $link.direction "left" }}
-                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                        {{ else if eq $link.direction "right" }}
-                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        {{ else if eq $link.direction "up" }}
-                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                        {{ else if eq $link.direction "down" }}
-                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
-                        {{ else if eq $link.direction "upleft" }}
-                        <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: -45deg;"></i>
-                        {{ else if eq $link.direction "upright" }}
-                        <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: 45deg;"></i>
-                        {{ else if eq $link.direction "downleft" }}
-                        <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: 45deg;"></i>
-                        {{ else if eq $link.direction "downright" }}
-                        <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: -45deg;"></i>
-                        {{ else if eq $link.direction "secret" }}
-                        <i class="fa fa-question" aria-hidden="true"></i>
-                        {{ else if eq $link.direction "open" }}
-                        <i class="fa fa-plus-square" aria-hidden="true"></i>
-                        {{ end }}
-                    </label>
-                    {{ end }}
-                </div>
-            </div>
-            <p class="slide-text">
-                {{ $slide.text | markdownify }}
-            </p>
-
-            <a class="expand-icon" href="{{ $slide.src }}">
-                <i class="fa fa-expand" aria-hidden="true"></i>
-            </a>
-        </div>
+    <div id="js-hider" style="display: none;">
+        {{- partial "minecraft_js.html" . -}}
     </div>
-    {{ end }}
+
+    <noscript>
+        {{- partial "minecraft_nojs.html" . -}}
+    </noscript>
 </div>
 
 <style>
@@ -118,9 +25,11 @@
         -khtml-user-select: none;
         -webkit-user-select: none;
         -webkit-touch-callout: none;
+        position: relative;
     }
 
-    .slides input {
+    .slides>span>input,
+    .slides>#js-hider>input {
         display: none;
     }
 
@@ -140,28 +49,122 @@
         transition: all .7s ease-in-out;
     }
 
-    .slide .slide-title {
-        position: absolute;
-        z-index: 9;
-        background: wheat;
-        padding: 0 5px 1px 0;
-        border-width: 0 6px 6px 0;
-        border-color: purple;
-        border-style: solid;
-        border-radius: 0 0 15px 0;
-    }
-
     .slide img {
         width: 100%;
     }
 
-    .expand-icon {
+    .slide-title {
         position: absolute;
-        top: -30px;
-        right: 0;
-        font-size: 25px;
+        top: -21px;
 
         z-index: 9;
+
+        background: wheat;
+        border-color: purple;
+        border-style: solid;
+    }
+
+    strong.slide-title {
+        top: -27px;
+    }
+
+    .slides:fullscreen .slide-title {
+        top: 0;
+    }
+
+    .title-upleft {
+        padding: 2px 2px 0 5px;
+        border-width: 3px 3px 0 3px;
+        border-radius: 0 15px 0 0;
+    }
+
+    .slides:fullscreen .title-upleft {
+        padding: 0 2px 2px 5px;
+        border-width: 0 3px 3px 3px;
+        border-radius: 0 0 15px 0;
+    }
+
+    .slides:fullscreen .slide-text {
+        position: absolute;
+        bottom: -10px;
+        right: 0;
+
+        max-width: calc(100% - 24px);
+
+        z-index: 9;
+
+        background: wheat;
+        color: black;
+        border-color: purple;
+        border-style: solid;
+
+        padding: 2px 5px 0 2px;
+        border-width: 3px 3px 0 3px;
+        border-radius: 15px 0 0 0;
+    }
+
+    .slides:fullscreen .slide-text:hover {
+        opacity: 0.5;
+    }
+
+    .text-checkbox,
+    .slides:fullscreen input.text-checkbox:checked+p {
+        display: none;
+    }
+
+    .slides:fullscreen label.text-checkbox,
+    input.text-checkbox:checked+p {
+        display: inherit;
+    }
+
+    .slides:fullscreen label.text-checkbox {
+        top: -30px
+    }
+
+    .text-checkbox i {
+        position: absolute;
+        left: 4px;
+        top: 4px;
+    }
+
+    .title-upright {
+        right: 0;
+
+        padding: 0 5px 2px 2px;
+        border-width: 3px 3px 3px 0;
+        border-radius: 15px 0 0 0;
+    }
+
+    .top-controls {
+        position: absolute;
+        display: flex;
+
+        top: -30px;
+        right: 0;
+
+        z-index: 9;
+    }
+
+    .slides:fullscreen .top-controls {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        z-index: 9;
+
+        background: wheat;
+        color: black;
+        border-color: purple;
+        border-style: solid;
+
+        padding: 0 5px 2px 2px;
+        border-width: 0 3px 3px 3px;
+        border-radius: 0 0 0 15px;
+    }
+
+    .top-controls div,
+    .top-controls a {
+        padding: 0 10px;
     }
 
     .nav {
@@ -193,10 +196,10 @@
     }
 
     .slide:hover .nav label {
-        opacity: 0.5;
+        opacity: 0.6;
     }
 
-    .nav label:hover {
+    .slide:hover .nav label:hover {
         opacity: 1;
     }
 
@@ -221,17 +224,97 @@
         display: block;
     }
 </style>
+
 <script>
-    function updateSelectedSlide(slideIndex) {
-        window.location.hash = 'img-' + slideIndex;
+    function getCurrentImageId() {
+        var hashId = window.location.hash.replace('#', '');
+
+        if (window.location.hash && !isNaN(hashId)) {
+            return hashId;
+        }
+
+        return 0;
+    }
+    
+    function loadImageURL(slideIndex) {
+        var imageId = 'img-' + slideIndex;
+
+        var scaledStr = usingSmallImages ? 'scaled_' : '';
+
+        var imageUrl = `${window.location.origin}${window.location.pathname}img/${scaledStr}${slideIndex}.png`;
+
+        return imageUrl;
     }
 
-    function refreshSlide() {
-        console.log(window.location.hash);
-        if (window.location.hash) {
-            document.getElementById(window.location.hash.replace('#', '')).checked = true;
+    function updateUsingSmallImages(checkbox) {
+        usingSmallImages = checkbox.checked;
+    }
+
+    function updateSelectedSlide(slideIndex) {
+        var imageId = 'img-' + slideIndex;
+        var imgElement = document.getElementById(imageId);
+
+        window.location.hash = slideIndex;
+
+        if (!imgElement.src || usingSmallImages != imgElement.src.includes('scaled_')) {
+            imgElement.src = loadImageURL(slideIndex);
+            console.log(`Set image ${slideIndex} to ${imgElement.src}.`)
         }
     }
 
+    function refreshSlide() {
+        var imageId = getCurrentImageId();
+
+        updateSelectedSlide(imageId);
+
+        document.getElementById('radio-' + imageId).checked = true;
+        document.getElementById(`slide-select-${imageId}`).selected = true;
+    }
+
+    function updateSlideFromSelect() {
+        var selectedSlide = document.getElementById('slide-select').selectedOptions[0].value;
+        updateSelectedSlide(selectedSlide);
+    }
+
+    function expandImage() {
+        var currentImage = getCurrentImageId();
+
+        var imageSrc = document.getElementById(`img-${currentImage}`).src;
+        imageSrc = imageSrc.replace('scaled_', '');
+
+        window.document.location = imageSrc;
+    }
+
+    function toggleFullscreen() {
+        var elem = document.querySelector('.slides');
+
+        if (document.fullscreenElement) {
+            document.getElementById('to-fullscreen-icon').style.display = "";
+            document.getElementById('from-fullscreen-icon').style.display = "none";
+
+            document.exitFullscreen();
+            return;
+        }
+
+        document.getElementById('to-fullscreen-icon').style.display = "none";
+        document.getElementById('from-fullscreen-icon').style.display = "";
+
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { /* Safari */
+            elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE11 */
+            elem.msRequestFullscreen();
+        }
+    }
+
+    var usingSmallImages = false;
+
     window.onhashchange = refreshSlide;
+
+    updateUsingSmallImages(document.getElementById('small-image-checkbox'));
+    updateSelectedSlide(getCurrentImageId())
+    refreshSlide();
+
+    document.getElementById("js-hider").removeAttribute("style");
 </script>

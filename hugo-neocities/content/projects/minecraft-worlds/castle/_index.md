@@ -5,8 +5,9 @@ date: 2020-01-01T00:00:00-04:00
 draft: false
 caption_mainpage: ""
 categories: ["Projects"]
+image_folder: "/projects/minecraft-worlds/castle/img/"
 minecraft_slides:
-- src: "/projects/minecraft-worlds/castle/img/0.png"
+- id: 0
   title: Main Castle Gate
   text: The main gate into our base. I tried to create a redstone mechanism to lock it, but all I was able to figure out was just pushing that row of specially marked blocks up as an obstacle.
   links:
@@ -24,7 +25,21 @@ minecraft_slides:
     position: center
     left_offset: 7.5
     top_offset: 7.5
-- src: "/projects/minecraft-worlds/castle/img/1.png"
+- id: 77
+  title: Gate Drawbridge
+  text: Eh, it works.
+  links:
+  - to: 0
+    direction: open
+    position: center
+- id: 5
+  title: Castle Aerial View
+  text: Our castle base, as viewed from above. Pretty humble beginnings in comparison to how big some of our later bases would become.
+  links:
+  - to: 0
+    direction: down
+    position: down
+- id: 1
   title: Tree Farm
   text: |
     Immediately in front of our castle, we made a tree farm.
@@ -36,8 +51,8 @@ minecraft_slides:
     position: left
   - to: 2
     direction: up
-    position: up
-- src: "/projects/minecraft-worlds/castle/img/2.png"
+    position: center
+- id: 2
   title: That Weird Bridge
   text: This bridge leads basically nowhere but I figured I'd include it anyway.
   links:
@@ -47,7 +62,7 @@ minecraft_slides:
   - to: 3
     direction: up
     position: center
-- src: "/projects/minecraft-worlds/castle/img/3.png"
+- id: 3
   title: stone thing
   text: |
     On the other side of the bridge we have our castle's neglected little brother, stone thing.
@@ -60,21 +75,14 @@ minecraft_slides:
   - to: 4
     direction: right
     position: right
-- src: "/projects/minecraft-worlds/castle/img/4.png"
+- id: 4
   title: Absolutely Nothing
   text: ...Absolutely nothing.
   links:
   - to: 3
     direction: downright
     position: downright
-- src: "/projects/minecraft-worlds/castle/img/5.png"
-  title: Castle Aerial View
-  text: Our castle base, as viewed from above. Pretty humble beginnings in comparison to how big some of our later bases would become.
-  links:
-  - to: 0
-    direction: down
-    position: down
-- src: "/projects/minecraft-worlds/castle/img/6.png"
+- id: 6
   title: Base Entrance
   text: After passing through the front gate, you arrive at the entrance to our base proper. I think this update must have been when stained-glass windows were newly added because I used them quite a bit on this build.
   links:
@@ -99,7 +107,7 @@ minecraft_slides:
     position: downright
     left_offset: -15
     top_offset: -20
-- src: "/projects/minecraft-worlds/castle/img/7.png"
+- id: 7
   title: Base Lobby
   text: "Our main lobby has all the important amenities: A carpet, some vases, a couple furnaces, an anvil, a record player, a cauldron for making evil potions, a chest to store your miscellaneous junk in and forget about it immediately, and a couple of armor stands which I think were actually fully stocked at one point but they lost their gear when I copied this file over I guess."
   links:
@@ -121,7 +129,7 @@ minecraft_slides:
     position: upright
     left_offset: -10
     top_offset: 45
-- src: "/projects/minecraft-worlds/castle/img/8.png"
+- id: 8
   title: Bedroom
   text: |
     At the other end of the lobby was our bedroom, with a roof made entirely of glass.  
@@ -133,14 +141,14 @@ minecraft_slides:
     position: center
     left_offset: 7
     top_offset: 15
-- src: "/projects/minecraft-worlds/castle/img/9.png"
+- id: 9
   title: Map
   text: What base is complete without a map?
   links:
   - to: 7
     direction: right
     position: right
-- src: "/projects/minecraft-worlds/castle/img/10.png"
+- id: 10
   title: Hallway 1
   links:
   - to: 7
@@ -152,7 +160,7 @@ minecraft_slides:
   - to: 14
     direction: downleft
     position: downleft
-- src: "/projects/minecraft-worlds/castle/img/11.png"
+- id: 11
   title: Secret Exit 1
   text: Hiding a tunnel behind a painting. Oldest trick in the book.
   links:
@@ -169,14 +177,14 @@ minecraft_slides:
     position: right
     left_offset: -18
     top_offset: -10
-- src: "/projects/minecraft-worlds/castle/img/12.png"
+- id: 12
   title: The Minecraft Symphony Doorchestra Memorial Site
   text: In loving memory of the annoying noisemaker that used to be hidden in this room.
   links:
   - to: 11
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/13.png"
+- id: 13
   title: Secret Exit 1 Continued
   text: At some point we added a button to get back in, and so naturally we had to add a sign to maintain the illusion that this was, in fact, only an exit.
   links:
@@ -185,7 +193,10 @@ minecraft_slides:
     position: center
     left_offset: 2
     top_offset: 15
-- src: "/projects/minecraft-worlds/castle/img/14.png"
+  - to: 91
+    direction: downright
+    position: downright
+- id: 14
   title: Hallway 2
   links:
   - to: 10
@@ -197,7 +208,7 @@ minecraft_slides:
   - to: 28
     direction: right
     position: right
-- src: "/projects/minecraft-worlds/castle/img/15.png"
+- id: 15
   title: Hallway 3
   links:
   - to: 14
@@ -216,7 +227,33 @@ minecraft_slides:
     position: center
     left_offset: -12
     top_offset: 25
-- src: "/projects/minecraft-worlds/castle/img/16.png"
+- id: 25
+  title: Hallway 4
+  links:
+  - to: 15
+    direction: down
+    position: down
+  - to: 26
+    direction: right
+    position: center
+    left_offset: -10
+    top_offset: -15
+- id: 27
+  title: Hallway 5
+  links:
+  - to: 15
+    direction: down
+    position: down
+  - to: 42
+    direction: left
+    position: left
+  - to: 43
+    direction: right
+    position: right
+  - to: 45
+    direction: up
+    position: center
+- id: 16
   title: Minecart Station Entrance
   text: This stairway leads down into our minecart station, which on this world really only served as a means of reaching two other halfway finished builds further out in the map.
   links:
@@ -233,7 +270,7 @@ minecraft_slides:
     position: center
     left_offset: -5
     top_offset: 10
-- src: "/projects/minecraft-worlds/castle/img/17.png"
+- id: 17
   title: Minecart Station - To Stone Mountain
   links:
   - to: 16
@@ -247,7 +284,57 @@ minecraft_slides:
     position: center
     left_offset: -30
     top_offset: 25
-- src: "/projects/minecraft-worlds/castle/img/18.png"
+- id: 19
+  title: Stone Mountain Building
+  text: At the other end of the Stone Mountain track, you're spat out into this unfinished shell of a building. Not really sure what we were going for here, but I think originally we were planning to move here after one of the newer updates that changed worldgen.
+  links:
+  - to: 17
+    direction: left
+    position: left
+  - to: 20
+    direction: up
+    position: up
+  - to: 21
+    direction: upright
+    position: upright
+- id: 20
+  title: Stone Mountain Building - Aerial View
+  links:
+  - to: 19
+    direction: down
+    position: center
+- id: 21
+  title: Stone Mountain Building - Bridge
+  text: Around the opposite side of the mountain, we started building a bridge leading back to our base.
+  links:
+  - to: 19
+    direction: left
+    position: left
+  - to: 22
+    direction: upright
+    position: center
+    left_offset: 10
+    top_offset: -20
+- id: 22
+  title: Stone Mountain Building - Bridge Part 2
+  text: ...We didn't get that far.
+  links:
+  - to: 21
+    direction: upright
+    position: center
+    left_offset: 20
+    top_offset: -25
+- id: 23
+  title: Cobble Ruins
+  text: At the end of this track is another small build, meant to look like the ruins of some old village.
+  links:
+  - to: 18
+    direction: down
+    position: down
+  - to: 24
+    direction: up
+    position: up
+- id: 18
   title: Minecart Station - To Cobble Ruins
   links:
   - to: 16
@@ -261,74 +348,13 @@ minecraft_slides:
     position: downright
     left_offset: -30
     top_offset: -5
-- src: "/projects/minecraft-worlds/castle/img/19.png"
-  title: Stone Mountain Building
-  text: At the other end of the Stone Mountain track, you're spat out into this unfinished shell of a building. Not really sure what we were going for here, but I think originally we were planning to move here after one of the newer updates that changed worldgen.
-  links:
-  - to: 17
-    direction: left
-    position: left
-  - to: 20
-    direction: up
-    position: up
-  - to: 21
-    direction: upright
-    position: upright
-- src: "/projects/minecraft-worlds/castle/img/20.png"
-  title: Stone Mountain Building - Aerial View
-  links:
-  - to: 19
-    direction: down
-    position: center
-- src: "/projects/minecraft-worlds/castle/img/21.png"
-  title: Stone Mountain Building - Bridge
-  text: Around the opposite side of the mountain, we started building a bridge leading back to our base.
-  links:
-  - to: 19
-    direction: left
-    position: left
-  - to: 22
-    direction: upright
-    position: center
-    left_offset: 10
-    top_offset: -20
-- src: "/projects/minecraft-worlds/castle/img/22.png"
-  title: Stone Mountain Building - Bridge Part 2
-  text: ...We didn't get that far.
-  links:
-  - to: 21
-    direction: upright
-    position: center
-    left_offset: 20
-    top_offset: -25
-- src: "/projects/minecraft-worlds/castle/img/23.png"
-  title: Cobble Ruins
-  text: At the end of this track is another small build, meant to look like the ruins of some old village.
-  links:
-  - to: 18
-    direction: down
-    position: down
-  - to: 24
-    direction: up
-    position: up
-- src: "/projects/minecraft-worlds/castle/img/24.png"
+- id: 24
   title: Cobble Ruins - Aerial View
   links:
   - to: 23
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/25.png"
-  title: Hallway 4
-  links:
-  - to: 15
-    direction: down
-    position: down
-  - to: 26
-    direction: right
-    position: center
-    left_offset: -10
-    top_offset: -15
-- src: "/projects/minecraft-worlds/castle/img/26.png"
+- id: 26
   title: Krusty's Fishing Platform
   text: I think fishing was newly reworked with this update, so naturally we had to make a space to capitalize on it in the most awkward way imaginable.
   links:
@@ -340,29 +366,25 @@ minecraft_slides:
     position: downleft
     left_offset: 10
     top_offset: -20
-- src: "/projects/minecraft-worlds/castle/img/27.png"
-  title: Hallway 5
+  - to: 87
+    direction: upright
+    position: center
+    left_offset: 20
+    top_offset: -5
+- id: 87
+  title: Krusty
   links:
-  - to: 15
+  - to: 26
     direction: down
     position: down
-  - to: 42
-    direction: left
-    position: left
-  - to: 43
-    direction: right
-    position: right
-  - to: 45
-    direction: up
-    position: center
-- src: "/projects/minecraft-worlds/castle/img/28.png"
+- id: 28
   title: Farm 1
   text: You may have guessed already but this base was built when the fancy stone variants were added, so of course I used them as much as possible.
   links:
   - to: 14
     direction: down
     position: down
-  - to: 29
+  - to: 90
     direction: upright
     position: center
     left_offset: 5
@@ -370,14 +392,42 @@ minecraft_slides:
   - to: 30
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/29.png"
+- id: 90
   title: Farm 2
-  text: Making massive farms is fun because it takes forever to set up and it takes forever to harvest, and you never really end up using much of it.
+  text: The water source for this farm was a lake conveniently located directly above the farm, with a nice glass window for added scenery! (If you're determined enough, you can actually swim up the water channels into the lake.)
   links:
   - to: 28
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/30.png"
+  - to: 29
+    direction: up
+    position: center
+    top_offset: 20
+  - to: 91
+    direction: secret
+    position: center
+    left_offset: -14
+    top_offset: 5
+- id: 29
+  title: Farm 3
+  text: Making massive farms is fun because it takes forever to set up and it takes forever to harvest, and you never really end up using much of it.
+  links:
+  - to: 90
+    direction: down
+    position: down
+- id: 91
+  title: Farm From Above
+  links:
+  - to: 90
+    direction: down
+    position: center
+    left_offset: -19
+    top_offset: 13
+  - to: 13
+    direction: up
+    position: up
+    top_offset: 10
+- id: 30
   title: Hallway 6
   links:
   - to: 28
@@ -396,7 +446,7 @@ minecraft_slides:
   - to: 39
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/31.png"
+- id: 31
   title: Farm 3
   text: "Some would say keeping all your animals underground in a stone prison 24/7 is \"cruel\" or \"evil\" or something crazy like that. I say it makes life slightly less inconvenient for me."
   links:
@@ -433,51 +483,51 @@ minecraft_slides:
     position: center
     left_offset: 3
     top_offset: -8
-- src: "/projects/minecraft-worlds/castle/img/32.png"
+- id: 32
   title: Sheep
   links:
   - to: 31
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/33.png"
+- id: 33
   title: Chickens
   links:
   - to: 31
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/34.png"
+- id: 34
   title: Cows
   links:
   - to: 31
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/35.png"
+- id: 35
   title: Wabbits
   links:
   - to: 31
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/36.png"
+- id: 36
   title: Subject JR-023
   text: You let him escape containment, didn't you?
   links:
   - to: 31
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/37.png"
+- id: 37
   title: Pigs
   links:
   - to: 31
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/38.png"
+- id: 38
   title: Potion Room
   text: Still processing the fact that the Potion Seller guy is a major Hollywood writer now.
   links:
   - to: 30
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/39.png"
+- id: 39
   title: Inconspicuous Paintings
   text: Say, something looks awfully suspect about those paintings...
   links:
@@ -492,7 +542,7 @@ minecraft_slides:
   - to: 28
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/40.png"
+- id: 40
   title: Secret Exit 2
   text: Aha!
   links:
@@ -504,7 +554,7 @@ minecraft_slides:
     position: center
     left_offset: 4
     top_offset: -10
-- src: "/projects/minecraft-worlds/castle/img/41.png"
+- id: 41
   title: Secret Exit 2 Continued
   text: ...maybe we should go back inside actually
   links:
@@ -512,14 +562,40 @@ minecraft_slides:
     direction: up
     position: center
     left_offset: -13
-- src: "/projects/minecraft-worlds/castle/img/42.png"
-  title: Slime Farm
+- id: 42
+  title: Slime Farm Entrance
   text: Down here is my slime farm, which *kinda* worked? I built a hopper system to bring the slime balls all the way up to the surface automatically, but it was way too loud so I just moved it all underground and called it a day.
   links:
   - to: 27
     direction: right
     position: right
-- src: "/projects/minecraft-worlds/castle/img/43.png"
+  - to: 88
+    direction: up
+    position: center
+    left_offset: -3
+    top_offset: 20
+- id: 88
+  title: Slime Farm
+  text: Pretty sure the logic for determining possible spawning chunks for slimes changed since I built this, so it doesn't seem to work at all now.
+  links:
+  - to: 42
+    direction: upleft
+    position: up
+    top_offset: 30
+    left_offset: -10
+  - to: 89
+    direction: down
+    position: left
+    left_offset: 30
+- id: 89
+  title: Slime Farm Continued
+  text: We decided to put up a glass wall where my slime farm intersected with some of the natural cave systems. Not very meaningful but it looks nice.
+  links:
+  - to: 88
+    direction: upleft
+    position: up
+    left_offset: -20
+- id: 43
   title: Fancy Mine Entrance
   text: Down here was our primary strip mine.
   links:
@@ -530,24 +606,33 @@ minecraft_slides:
     direction: up
     position: center
     top_offset: 20
-- src: "/projects/minecraft-worlds/castle/img/44.png"
+- id: 44
   title: Less Fancy Mine Entrance
   text: ...And here was the extent of the entrance I bothered cleaning up. Beyond here it gets pretty messy and windy because we were just carving into existing cave systems.
   links:
   - to: 43
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/45.png"
+- id: 45
   title: Nether Entrance
   text: I like placing my Nether portals at the end of hallways like this. Reminds me of the bit in Mario 64.
   links:
-  - to: 54
+  - to: 27
     direction: down
     position: down
   - to: 46
     direction: up
     position: center
-- src: "/projects/minecraft-worlds/castle/img/46.png"
+  - to: 54
+    direction: left
+    position: left
+- id: 54
+  title: Nether Exit
+  links:
+  - to: 45
+    direction: right
+    position: right
+- id: 46
   title: Nether Base
   text: On the Nether side, we've got a basic cobblestone base set up.
   links:
@@ -557,7 +642,7 @@ minecraft_slides:
   - to: 47
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/47.png"
+- id: 47
   title: Nether Base Back
   text: Also, through the back door, we built a path leading a good distance away.
   links:
@@ -567,7 +652,7 @@ minecraft_slides:
   - to: 48
     direction: up
     position: center
-- src: "/projects/minecraft-worlds/castle/img/48.png"
+- id: 48
   title: Nether Pathway
   links:
   - to: 47
@@ -577,7 +662,7 @@ minecraft_slides:
     direction: up
     position: center
     top_offset: -8
-- src: "/projects/minecraft-worlds/castle/img/49.png"
+- id: 49
   title: Alternate Portal
   links:
   - to: 48
@@ -589,14 +674,14 @@ minecraft_slides:
   - to: 51
     direction: up
     position: center
-- src: "/projects/minecraft-worlds/castle/img/50.png"
+- id: 50
   title: Nether Fortress Access
   text: And over here, the bridge continues for quick access to the nearby Nether Fortress.
   links:
   - to: 49
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/51.png"
+- id: 51
   title: Island
   text: The alternate portal leads to a tiny island, where we set up a little base.
   links:
@@ -611,29 +696,20 @@ minecraft_slides:
   - to: 53
     direction: up
     position: up
-- src: "/projects/minecraft-worlds/castle/img/52.png"
+- id: 52
   title: Island Home
   text: Not a whole lot in here.
   links:
   - to: 51
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/53.png"
+- id: 53
   title: Island - Aerial View
   links:
   - to: 51
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/54.png"
-  title: Nether Exit
-  links:
-  - to: 27
-    direction: up
-    position: center
-  - to: 45
-    direction: down
-    position: down
-- src: "/projects/minecraft-worlds/castle/img/55.png"
+- id: 55
   title: Castle River
   links:
   - to: 26
@@ -649,7 +725,7 @@ minecraft_slides:
     direction: up
     position: center
     left_offset: 10
-- src: "/projects/minecraft-worlds/castle/img/56.png"
+- id: 56
   title: Anchorage Entrance
   links:
   - to: 55
@@ -658,7 +734,7 @@ minecraft_slides:
   - to: 57
     direction: up
     position: center
-- src: "/projects/minecraft-worlds/castle/img/57.png"
+- id: 57
   title: Anchorage
   text: The anchorage, for traveling in and out by boat.
   links:
@@ -674,7 +750,7 @@ minecraft_slides:
   - to: 7
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/58.png"
+- id: 58
   title: Anchorage Boat Storage
   text: But what could be in this storage chest...?
   links:
@@ -684,14 +760,14 @@ minecraft_slides:
   - to: 59
     direction: open
     position: center
-- src: "/projects/minecraft-worlds/castle/img/59.png"
+- id: 59
   title: Anchorage Boat Storage
   text: ah.
   links:
   - to: 58
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/60.png"
+- id: 60
   title: Anchorage Side Stairwell
   links:
   - to: 57
@@ -700,7 +776,7 @@ minecraft_slides:
   - to: 61
     direction: up
     position: center
-- src: "/projects/minecraft-worlds/castle/img/61.png"
+- id: 61
   title: Anchorage Side Stairwell Exit
   links:
   - to: 60
@@ -709,7 +785,7 @@ minecraft_slides:
   - to: 63
     direction: right
     position: right
-- src: "/projects/minecraft-worlds/castle/img/62.png"
+- id: 62
   title: Castle Grounds Upper 1
   links:
   - to: 65
@@ -725,7 +801,7 @@ minecraft_slides:
     position: center
     left_offset: -5
     top_offset: -8
-- src: "/projects/minecraft-worlds/castle/img/63.png"
+- id: 63
   title: Castle Grounds Upper 2
   links:
   - to: 61
@@ -735,7 +811,11 @@ minecraft_slides:
     direction: upright
     position: right
     left_offset: -20
-- src: "/projects/minecraft-worlds/castle/img/64.png"
+  - to: 80
+    direction: up
+    position: left
+    left_offset: 20
+- id: 64
   title: Castle Grounds Upper 3
   links:
   - to: 65
@@ -748,7 +828,68 @@ minecraft_slides:
     position: center
     left_offset: -10
     top_offset: 20
-- src: "/projects/minecraft-worlds/castle/img/65.png"
+- id: 80
+  title: Castle Walls
+  links:
+  - to: 63
+    direction: downright
+    position: down
+    left_offset: 20
+  - to: 81
+    direction: right
+    position: right
+  - to: 82
+    direction: left
+    position: left
+  - to: 83
+    direction: up
+    position: center
+- id: 81
+  title: Castle Walls - Castle View
+  links:
+  - to: 80
+    direction: left
+    position: left
+- id: 82
+  title: Castle Walls - Forest View
+  links:
+  - to: 80
+    direction: right
+    position: right
+- id: 83
+  title: Castle Tower
+  links:
+  - to: 80
+    direction: down
+    position: down
+  - to: 84
+    direction: up
+    position: center
+- id: 84
+  title: Castle Tower Interior
+  links:
+  - to: 83
+    direction: down
+    position: down
+  - to: 85
+    direction: up
+    position: up
+- id: 85
+  title: Castle Tower Roof
+  links:
+  - to: 84
+    direction: down
+    position: down
+  - to: 86
+    direction: left
+    position: left
+- id: 86
+  title: Castle Tower Roof - Forest View
+  links:
+  - to: 85
+    direction: right
+    position: right
+- id: 65
   title: Horse Pen
   links:
   - to: 6
@@ -767,19 +908,19 @@ minecraft_slides:
   - to: 67
     direction: up
     position: center
-- src: "/projects/minecraft-worlds/castle/img/66.png"
+- id: 66
   title: Storage Room
   links:
   - to: 62
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/67.png"
+- id: 67
   title: herses
   links:
   - to: 65
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/68.png"
+- id: 68
   title: Tower of Bubble
   text: I named it like this because it sounded funny.
   links:
@@ -791,7 +932,7 @@ minecraft_slides:
     position: center
     left_offset: -3
     top_offset: 15
-- src: "/projects/minecraft-worlds/castle/img/69.png"
+- id: 69
   title: Tower Stairwell
   text: I named it like this because it sounded funny.
   links:
@@ -802,7 +943,7 @@ minecraft_slides:
     direction: up
     position: center
     top_offset: -20
-- src: "/projects/minecraft-worlds/castle/img/70.png"
+- id: 70
   title: Tower Roof Access
   text: Along the roof of the tower are a handful of redstone lamps that are lit up using a daylight sensor.
   links:
@@ -818,7 +959,7 @@ minecraft_slides:
     direction: left
     position: left
     left_offset: 25
-- src: "/projects/minecraft-worlds/castle/img/71.png"
+- id: 71
   title: Redstone is dumb
   text: 9/10 dentists agree.
   links:
@@ -828,14 +969,14 @@ minecraft_slides:
   - to: 72
     direction: right
     position: right
-- src: "/projects/minecraft-worlds/castle/img/72.png"
+- id: 72
   title: Redstone Wiring
   text: And over here you can see the highly complex circuitry that took hours of work to perfect.
   links:
   - to: 71
     direction: left
     position: left
-- src: "/projects/minecraft-worlds/castle/img/73.png"
+- id: 73
   title: Tower Outdoor Platform
   links:
   - to: 70
@@ -845,14 +986,28 @@ minecraft_slides:
   - to: 74
     direction: up
     position: up
-- src: "/projects/minecraft-worlds/castle/img/74.png"
+- id: 74
   title: Tower Roof
   text: That tree over there is *really* tall.
   links:
   - to: 73
     direction: down
     position: down
-- src: "/projects/minecraft-worlds/castle/img/75.png"
+  - to: 92
+    direction: secret
+    position: center
+    left_offset: -13.5
+    top_offset: -15
+- id: 92
+  title: Treetop View
+  text: As a fun little bonus, here's a nighttime view from the top of that obscenely tall tree.
+  links:
+  - to: 74
+    direction: up
+    position: center
+    left_offset: -16
+    top_offset: -24
+- id: 75
   title: Water Exit
   text: The primary exit for travel by boat.
   links:
@@ -862,21 +1017,14 @@ minecraft_slides:
   - to: 76
     direction: up
     position: center
-- src: "/projects/minecraft-worlds/castle/img/76.png"
+- id: 76
   title: Canal
   text: The water around the base actually doesn't extend very far, so we built this canal through a nearby hill to get further out.
   links:
   - to: 75
     direction: downright
     position: downright
-- src: "/projects/minecraft-worlds/castle/img/77.png"
-  title: Gate Drawbridge
-  text: Eh, it works.
-  links:
-  - to: 0
-    direction: open
-    position: center
-- src: "/projects/minecraft-worlds/castle/img/78.png"
+- id: 78
   title: Fishing Pier
   links:
   - to: 6
@@ -887,7 +1035,7 @@ minecraft_slides:
   - to: 79
     direction: right
     position: right
-- src: "/projects/minecraft-worlds/castle/img/79.png"
+- id: 79
   title: A Sneaky Secret
   links:
   - to: 78

@@ -1,0 +1,93 @@
+<br />
+
+<!-- Based on code nabbed from https://codepen.io/gagneow/pen/BoWroQ -->
+{{ range sort .Page.Params.minecraft_slides "id" }}
+<input type="radio" name="nojs-radio-btn" id="nojs-radio-{{ .id }}" {{ if eq .id 0 }}checked{{ end }} />
+<div class="slide-container">
+    <div class="slide">
+        <strong class="slide-title title-upleft">{{ .title }}</strong>
+        <strong class="slide-title title-upright">Slide {{ add .id 1 }}/{{ len
+            $.Page.Params.minecraft_slides }}</strong>
+
+        <div style="position: relative;">            
+            <img src="{{ $.Page.Params.image_folder }}scaled_{{ .id }}.png" />
+
+            <div class="nav">
+                {{ range $link := .links }}
+
+                {{ $left_offset := 0 }}
+                {{ if $link.left_offset }}
+                {{ $left_offset = $link.left_offset }}
+                {{ end }}
+
+                {{ $top_offset := 0 }}
+                {{ if $link.top_offset }}
+                {{ $top_offset = $link.top_offset }}
+                {{ end }}
+
+                {{ $left := 0 }}
+                {{ $top := 0 }}
+
+                {{ if or (eq $link.position "left") (eq $link.position "upleft") (eq .position "downleft") }}
+                {{ $left = "10px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "right") (eq $link.position "upright") (eq .position "downright") }}
+                {{ $left = "100% - 50px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "center") (eq $link.position "up") (eq .position "down") }}
+                {{ $left = "50% - 20px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "up") (eq $link.position "upleft") (eq .position "upright") }}
+                {{ $top = "10px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "down") (eq $link.position "downleft") (eq .position "downright") }}
+                {{ $top = "100% - 50px" }}
+                {{ end }}
+
+                {{ if or (eq $link.position "center") (eq $link.position "left") (eq .position "right") }}
+                {{ $top = "50% - 20px" }}
+                {{ end }}
+
+                <label for="nojs-radio-{{ $link.to }}"
+                    style="left: calc({{ $left }} + {{ $left_offset }}%); top: calc({{ $top }} + {{ $top_offset }}%)">
+                    {{ if eq $link.direction "left" }}
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "right" }}
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "up" }}
+                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "down" }}
+                    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "upleft" }}
+                    <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: -45deg;"></i>
+                    {{ else if eq $link.direction "upright" }}
+                    <i class="fa fa-arrow-up" aria-hidden="true" style="rotate: 45deg;"></i>
+                    {{ else if eq $link.direction "downleft" }}
+                    <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: 45deg;"></i>
+                    {{ else if eq $link.direction "downright" }}
+                    <i class="fa fa-arrow-down" aria-hidden="true" style="rotate: -45deg;"></i>
+                    {{ else if eq $link.direction "secret" }}
+                    <i class="fa fa-question" aria-hidden="true"></i>
+                    {{ else if eq $link.direction "open" }}
+                    <i class="fa fa-plus-square" aria-hidden="true"></i>
+                    {{ end }}
+                </label>
+                {{ end }}
+            </div>
+        </div>
+        <p class="slide-text">
+            {{ .text | markdownify }}
+        </p>
+
+        <div class="top-controls" style="top: -50px;">
+            <a class="expand-icon" href="{{ $.Page.Params.image_folder }}{{ .id }}.png">
+                <i class="fa fa-expand" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</div>
+{{ end }}
