@@ -349,7 +349,7 @@ a.image_scaled {
 
 .image_scaled img,
 img.image_scaled {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
