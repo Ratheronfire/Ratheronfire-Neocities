@@ -66,10 +66,10 @@ p:has(code) {
     background-color: black;
 }
 
-code,
-blockquote,
-blockquote p,
-li {
+main code,
+main blockquote,
+main blockquote p,
+main li {
     color: rgb(17, 243, 36);
     font-family: RuneScape-Plain-12;
     font-size: 24px;
