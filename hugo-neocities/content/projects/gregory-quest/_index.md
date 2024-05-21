@@ -1,5 +1,7 @@
 ---
 title: "Gregory Quest"
+table_header: "Update History"
+table_collapsible: true
 type: "list"
 date: 2016-01-17T00:00:00-04:00
 draft: false
@@ -30,5 +32,3 @@ Okay, really it's the work of two people. I'm just the one who reads each new up
 {{</ rawhtml >}}
 
 ---
-
-## Update History  

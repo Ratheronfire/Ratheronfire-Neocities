@@ -5,10 +5,24 @@
             <main>
                 <h1 class="title">{{ .Title }}</h1>
                 {{ .Content }}
+                {{ if .Params.table_collapsible }}
+                <input type="checkbox" id="expand-checkbox" name="expand-checkbox" checked />
+                <label id="expand-label" for="expand-checkbox">
+                    <i class="fa fa-caret-up" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </label>
+                {{ end }}
 
                 {{ if .Pages }}
                 <table>
-                    <thead>
+                    {{ if .Params.table_header }}
+                    <thead id="title-head">
+                        <th colspan="2" id="title-cell">
+                            {{ .Params.table_header }}
+                        </th>
+                    </thead>
+                    {{ end }}
+                    <thead id="cols-head">
                         <th>Page</th>
                         <th>Posted</th>
                     </thead>
@@ -30,4 +44,24 @@
         </div>
     </div>
 </div>
+<style>
+    main {
+        position: relative;
+    }
+
+    #expand-label {
+        position: absolute;
+        right: 24px;
+
+        padding-right: 5px;
+    }
+
+    #expand-checkbox,
+    #expand-checkbox:checked+label .fa-caret-up,
+    #expand-checkbox:not(:checked)+label .fa-caret-down,
+    #expand-checkbox:not(:checked)~table #cols-head,
+    #expand-checkbox:not(:checked)~table tbody {
+        display: none;
+    }
+</style>
 {{ end }}
