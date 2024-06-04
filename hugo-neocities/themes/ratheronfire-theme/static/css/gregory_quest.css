@@ -81,3 +81,44 @@ main li {
     font-family: unset;
     font-size: unset;
 }
+
+.ethereal-text i>span {
+    display: inline-block;
+
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+
+    animation-duration: 3s;
+    animation-name: bounce;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    from {
+        -moz-transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+        transform: translateY(0%);
+
+        color: black;
+
+        scale: 1;
+    }
+
+    to {
+        -moz-transform: translateY(12%);
+        -webkit-transform: translateY(12%);
+        -o-transform: translateY(12%);
+        -ms-transform: translateY(12%);
+        transform: translateY(12%);
+        transform: translateY(12%);
+
+        color: purple;
+
+        scale: 1.2;
+    }
+}

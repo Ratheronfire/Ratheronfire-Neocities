@@ -1,0 +1,3 @@
+<span class="ethereal-text" title="{{ .Inner }}">
+    <i>{{ range seq (add (len .Inner) 1) }}{{ if eq (substr $.Inner (sub . 1) 1) " " }} {{ else }}<span style="animation-delay: calc({{ $.Get 0 }}s + ({{ . }}ms * 200));">{{ substr $.Inner (sub . 1) 1 }}</span>{{ end }}{{ end }}</i>
+</span>
