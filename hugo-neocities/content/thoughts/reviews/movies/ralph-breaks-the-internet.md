@@ -12,6 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/ralph-breaks-the-internet_fanart.png
 poster_url: /thoughts/reviews/movies/img/ralph-breaks-the-internet_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/ralph-breaks-the-internet/
 page_name: ralph-breaks-the-internet
+tags:
+- wreck-it-ralph
 ---
 
 The brand stuff wasn't nearly as bad as I was led to believe, but I could've done without the meta Disney princess stuff being so closely tied to the plot.

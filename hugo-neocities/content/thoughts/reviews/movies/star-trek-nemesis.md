@@ -14,5 +14,6 @@ external_review_url: https://boxd.it/2aT4
 page_name: star-trek-nemesis
 tags:
 - star-trek
+- star-trek-tng
 ---
 

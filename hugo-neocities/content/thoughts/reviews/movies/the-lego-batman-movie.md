@@ -14,5 +14,6 @@ external_review_url: https://letterboxd.com/ratheronfire/film/the-lego-batman-mo
 page_name: the-lego-batman-movie
 tags:
 - lego
+- batman
 ---
 

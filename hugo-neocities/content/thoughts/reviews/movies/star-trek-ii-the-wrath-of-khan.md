@@ -14,6 +14,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/star-trek-ii-the-w
 page_name: star-trek-ii-the-wrath-of-khan
 tags:
 - star-trek
+- star-trek-tos
 ---
 
 Watched the 40th anniversary theater re-issue with a couple of friends. Still a fantastic movie and one of my all-time favorites, though every time I see it the dumber aspects are more apparent to me.

@@ -12,6 +12,9 @@ fanart_url: /thoughts/reviews/movies/img/star-wars-the-last-jedi_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-wars-the-last-jedi_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/star-wars-the-last-jedi/
 page_name: star-wars-the-last-jedi
+tags:
+- star-wars
+ - star-wars-sequels
 ---
 
 I still have trouble believing this movie, out of all the sequels, is the most hated, especially considering how vapid so many of the criticisms are.

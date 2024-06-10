@@ -621,6 +621,15 @@ tbody tr:nth-child(odd) {
     align-items: center;
 }
 
+.review__extra-review-subheader .review__note,
+.review__extra-review-subheader .review__title-rating {
+    margin: 0;
+}
+
+.review__extra-review-subheader span {
+    margin: 0 10px;
+}
+
 .review__warnings {
     display: flex;
 }

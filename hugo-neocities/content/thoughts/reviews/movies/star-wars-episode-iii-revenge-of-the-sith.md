@@ -14,6 +14,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/star-wars-episode-
 page_name: star-wars-episode-iii-revenge-of-the-sith
 tags:
 - star-wars
+ - star-wars-prequels
 ---
 
 I feel like I don't see it mentioned nearly often enough that, judging by the development of Padme's pregnancy, the fight on Mustafar had to have been at least six months long.

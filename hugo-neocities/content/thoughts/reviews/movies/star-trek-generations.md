@@ -14,5 +14,6 @@ external_review_url: https://boxd.it/2aUm
 page_name: star-trek-generations
 tags:
 - star-trek
+- star-trek-tng
 ---
 

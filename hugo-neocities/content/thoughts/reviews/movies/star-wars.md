@@ -14,5 +14,6 @@ external_review_url: https://letterboxd.com/ratheronfire/film/star-wars/
 page_name: star-wars
 tags:
 - star-wars
+- star-wars-originals
 ---
 

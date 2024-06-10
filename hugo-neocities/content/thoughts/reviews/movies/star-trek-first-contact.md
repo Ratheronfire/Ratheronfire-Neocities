@@ -14,5 +14,6 @@ external_review_url: https://boxd.it/2aTo
 page_name: star-trek-first-contact
 tags:
 - star-trek
+- star-trek-tng
 ---
 

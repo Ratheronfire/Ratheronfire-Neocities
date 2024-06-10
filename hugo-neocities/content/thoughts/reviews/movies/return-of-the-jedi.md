@@ -14,6 +14,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/return-of-the-jedi
 page_name: return-of-the-jedi
 tags:
 - star-wars
+- star-wars-originals
 ---
 
 I remembered the negative parts of this movie being a lot worse than they really are, though they still bring the experience down for me a bit: the opening on Tattooine feels mostly disconnected from the main plot, and, like people always mention when this movie comes up, the Ewoks feel like an obvious marketing ploy clumsily slotted into a role that would've fit better with Wookies. Despite those two issues (and they're pretty minor issues, really) the main story with Luke still feels like a natural conclusion to his plot, and it carries most of the weight of the story.

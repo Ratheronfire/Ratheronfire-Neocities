@@ -14,6 +14,14 @@ external_review_url: https://letterboxd.com/ratheronfire/film/the-lord-of-the-ri
 tags:
 - lord-of-the-rings
 - middle-earth
+extra_reviews:
+- date: 2024-06-08 00:00:00
+  rating: 5
+  has_spoilers: true
+  text: |
+    The person next to me kept texting on their phone until they eventually dropped it into their seat. It was just like Boromir succumbing to temptation and meeting his doom shortly after. 
+
+    ...In a sense
 ---
 
 Every so often I get the urge to rewatch these movies, and while I sometimes struggle to sit through TV episodes uninterrupted, I have no trouble setting aside entire chunks of my day for this. Every time I find myself appreciating something different about the experience, and this time it was watching Boromir's slow realization of who and what he was becoming under the influence of the Ring. There's so many little moments where you can see his facade nearly fall apart, and it hurts way harder on rewatches knowing where his story will lead.

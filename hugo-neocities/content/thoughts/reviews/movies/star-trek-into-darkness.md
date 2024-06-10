@@ -14,5 +14,6 @@ external_review_url: https://letterboxd.com/ratheronfire/film/star-trek-into-dar
 page_name: star-trek-into-darkness
 tags:
 - star-trek
+- star-trek-kelvinverse
 ---
 

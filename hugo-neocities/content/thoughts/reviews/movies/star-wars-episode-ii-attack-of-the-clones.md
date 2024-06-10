@@ -14,5 +14,6 @@ external_review_url: https://boxd.it/27V2
 page_name: star-wars-episode-ii-attack-of-the-clones
 tags:
 - star-wars
+ - star-wars-prequels
 ---
 

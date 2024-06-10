@@ -23,29 +23,10 @@
                         "external_review_url" .Params.external_review_url
                         "is_preview" false
                         "review_type" (index .Ancestors 0).Params.review_type
+                        "extra_reviews" $.Params.extra_reviews
                     }}
 
                     {{ partial "review" $review }}
-
-                    {{ range $extra_review_data := .Params.extra_reviews }}
-                        <hr />
-
-                        {{
-                            $extra_review := dict
-                            "title" $.Params.title
-                            "rating" .rating
-                            "year" $.Params.year
-                            "date" .date
-                            "content" (.text | markdownify)
-                            "has_spoilers" $.Params.has_spoilers
-                            "fanart_url" $.Params.fanart_url
-                            "poster_url" $.Params.poster_url
-                            "external_review_url" $.Params.external_review_url
-                            "is_preview" false
-                        }}
-
-                        {{ partial "review" $extra_review }}
-                    {{ end }}
 
                 {{ end }}
 
