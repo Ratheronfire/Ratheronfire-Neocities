@@ -14,6 +14,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/star-wars-episode-
 page_name: star-wars-episode-i-the-phantom-menace
 tags:
  - star-wars
+ - star-wars-prequels
 ---
 
 Look, I'm not the biggest fan of this movie but I'm not gonna pretend like I didn't get a little bit pumped when Duel of the Fates kicked in.

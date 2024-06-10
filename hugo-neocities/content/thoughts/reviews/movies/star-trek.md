@@ -14,5 +14,6 @@ external_review_url: https://letterboxd.com/ratheronfire/film/star-trek/
 page_name: star-trek
 tags:
 - star-trek
+- star-trek-kelvinverse
 ---
 

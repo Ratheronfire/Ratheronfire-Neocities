@@ -12,5 +12,7 @@ fanart_url: /thoughts/reviews/movies/img/wreck-it-ralph_fanart.png
 poster_url: /thoughts/reviews/movies/img/wreck-it-ralph_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/wreck-it-ralph/
 page_name: wreck-it-ralph
+tags:
+- wreck-it-ralph
 ---
 

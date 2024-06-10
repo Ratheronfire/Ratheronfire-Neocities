@@ -71,6 +71,39 @@
         <p>
             {{ or .content "No written review yet for this page." }}
         </p>
+
+        {{ if not .is_preview }}
+        {{ range .extra_reviews }}
+            <hr />
+
+            <div class="review__review-subheader review__extra-review-subheader">
+                {{ if .date }}
+                    <div class="review__note review__watched-date">
+                        Also Reviewed    
+                        <a href="https://letterboxd.com/ratheronfire//films/diary/for/{{ .date | time.Format "2006" }}/{{ .date | time.Format "01" }}">
+                            {{ .date | time.Format "January" }}
+                        </a>
+                        <a href="https://letterboxd.com/ratheronfire//films/diary/for/{{ .date | time.Format "2006" }}/{{ .date | time.Format "01" }}/{{ .date | time.Format "2" }}">
+                            {{ .date | time.Format "2," }}
+                        </a>
+                        <a href="https://letterboxd.com/ratheronfire//films/diary/for/{{ .date | time.Format "2006" }}/">
+                            {{ .date | time.Format "2006" }}
+                        </a>
+                    </div>
+                {{ end }}
+                <span>·</span>
+                {{ partial "review_rating" . }}
+                {{ if .has_spoilers }}
+                    <span>·</span>
+                    <div class="review__note review__warning"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> This review contains spoilers.</div>
+                {{ end }}
+            </div>
+            
+            <p>
+                {{ .text | markdownify }}
+            </p>
+        {{ end }}
+        {{ end }}
     </div>
 {{ end }}
 

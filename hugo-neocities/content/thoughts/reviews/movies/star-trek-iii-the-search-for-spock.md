@@ -14,5 +14,6 @@ external_review_url: https://boxd.it/2b00
 page_name: star-trek-iii-the-search-for-spock
 tags:
 - star-trek
+- star-trek-tos
 ---
 

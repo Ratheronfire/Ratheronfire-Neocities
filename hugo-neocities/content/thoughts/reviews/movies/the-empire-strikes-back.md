@@ -14,5 +14,6 @@ external_review_url: https://letterboxd.com/ratheronfire/film/the-empire-strikes
 page_name: the-empire-strikes-back
 tags:
 - star-wars
+- star-wars-originals
 ---
 

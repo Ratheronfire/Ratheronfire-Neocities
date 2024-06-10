@@ -6,7 +6,7 @@ date: 2023-07-04 00:00:00
 categories:
 - reviews
 draft: false
-rating: 4
+rating: 3.5
 has_spoilers: false
 fanart_url: /thoughts/reviews/movies/img/indiana-jones-and-the-dial-of-destiny_fanart.png
 poster_url: /thoughts/reviews/movies/img/indiana-jones-and-the-dial-of-destiny_poster.png

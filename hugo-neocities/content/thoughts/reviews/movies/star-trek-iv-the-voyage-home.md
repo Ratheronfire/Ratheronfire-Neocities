@@ -14,5 +14,6 @@ external_review_url: https://boxd.it/2aYe
 page_name: star-trek-iv-the-voyage-home
 tags:
 - star-trek
+- star-trek-tos
 ---
 

@@ -14,5 +14,6 @@ external_review_url: https://boxd.it/2aXA
 page_name: star-trek-v-the-final-frontier
 tags:
 - star-trek
+- star-trek-tos
 ---
 

@@ -14,5 +14,6 @@ external_review_url: https://boxd.it/2aTe
 page_name: star-trek-insurrection
 tags:
 - star-trek
+- star-trek-tng
 ---
 

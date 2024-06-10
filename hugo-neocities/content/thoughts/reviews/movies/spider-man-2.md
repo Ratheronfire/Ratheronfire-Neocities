@@ -12,6 +12,8 @@ fanart_url: /thoughts/reviews/movies/img/spider-man-2_fanart.png
 poster_url: /thoughts/reviews/movies/img/spider-man-2_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/spider-man-2/
 page_name: spider-man-2
+tags:
+- spider-man
 extra_reviews:
  - date: 2024-04-22 00:00:00
    rating: 5

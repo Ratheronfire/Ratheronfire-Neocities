@@ -14,5 +14,6 @@ external_review_url: https://letterboxd.com/ratheronfire/film/star-wars-the-rise
 page_name: star-wars-the-rise-of-skywalker
 tags:
 - star-wars
+ - star-wars-sequels
 ---
 

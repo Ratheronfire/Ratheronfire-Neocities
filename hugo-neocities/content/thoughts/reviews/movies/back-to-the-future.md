@@ -2,7 +2,7 @@
 type: review
 title: Back to the Future
 year: '1985'
-date: 2022-03-30 00:00:00
+date: 2024-05-26 00:00:00
 categories:
 - reviews
 draft: false
@@ -16,3 +16,6 @@ tags:
 - back-to-the-future
 ---
 
+It's amazing the kinds of details you notice in theaters that you'd never catch watching at home amidst all the distractions.
+
+For example, did you know Doc Brown had a green arm? I could hardly believe it myself.
