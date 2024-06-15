@@ -80,7 +80,7 @@
                                         <th>Section</th>
                                         <th>Pages</th>
                                         <th>Last Post Date</th>
-                                        <th><i class="fa fa-rss-square" aria-hidden="true" aria-label="RSS Feed"></i></th>
+                                        <th data-dt-order="disable"><i class="fa fa-rss-square" aria-hidden="true" aria-label="RSS Feed"></i></th>
                                     </thead>
                                     <tbody>
                                         {{ range $name, $value := $taxonomy_pages }}
@@ -105,4 +105,19 @@
         </div>
     </div>
 </div>
+
+<script>
+    $('table').DataTable({
+        order: [[2, "desc"]],
+        columnDefs: [
+            {
+                targets: 2,
+                render: DataTable.render.date(),
+            }
+        ],
+        scrollCollapse: true,
+        scrollY: '600px',
+        stateSave: true,
+    });
+</script>
 {{ end }}

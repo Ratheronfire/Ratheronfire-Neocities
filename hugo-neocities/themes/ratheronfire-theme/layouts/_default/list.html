@@ -14,14 +14,18 @@
                 {{ end }}
 
                 {{ if .Pages }}
+                <noscript>
+                    <table>
+                        {{ if .Params.table_header }}
+                        <thead id="title-head">
+                            <th colspan="2" id="title-cell">
+                                {{ .Params.table_header }}
+                            </th>
+                        </thead>
+                        {{ end }}
+                    </table>
+                </noscript>
                 <table>
-                    {{ if .Params.table_header }}
-                    <thead id="title-head">
-                        <th colspan="2" id="title-cell">
-                            {{ .Params.table_header }}
-                        </th>
-                    </thead>
-                    {{ end }}
                     <thead id="cols-head">
                         <th>Page</th>
                         <th>Posted</th>
@@ -44,6 +48,7 @@
         </div>
     </div>
 </div>
+
 <style>
     main {
         position: relative;
@@ -63,5 +68,37 @@
     #expand-checkbox:not(:checked)~table tbody {
         display: none;
     }
+
+    #expand-label {
+        display: none;
+    }
 </style>
+
+<noscript>
+    <style>
+        #expand-label {
+            display: initial;
+        }
+    </style>
+</noscript>
+
+<script>
+    $('table').DataTable({
+        {{ if .Params.sort }}
+        order: [[{{ .Params.sort.column }}, {{ .Params.sort.dir }}]],
+        {{ else if not (eq .Params.sort false) }}
+        order: [[1, "desc"]],
+        {{ end }}
+        columnDefs: [
+            {
+                targets: 1,
+                render: DataTable.render.date(),
+            }
+        ],
+        scrollCollapse: true,
+        scrollY: '600px',
+        stateSave: true,
+        caption: {{ .Params.table_header }}
+    });
+</script>
 {{ end }}
