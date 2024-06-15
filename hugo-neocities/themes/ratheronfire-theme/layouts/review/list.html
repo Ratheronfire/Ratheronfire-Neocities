@@ -24,7 +24,7 @@
             {{ end }}
         </td>
         <td>{{ $review.date | time.Format "January 2, 2006" }}</td>
-        <td>{{ partial "review_rating" $review }}</td>
+        <td data-sort="{{ $review.rating }} Star(s)">{{ partial "review_rating" $review }}</td>
         <td class="review__warnings">
             {{ if $review.external_review_url }}
             <a href="{{ $review.external_review_url }}" class="review__context" aria-label="From external source" title="From external source"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
@@ -60,12 +60,12 @@
 
                 {{ .Content }}
 
-                <table>
+                <table id="js-table" class="stripe compact cell-border">
                     <thead>
                         <th>Subject</th>
                         <th>Review Date</th>
-                        <th>Rating</th>
-                        <th></th>
+                        <th style="width: 5%;">Rating</th>
+                        <th data-dt-order="disable" style="width: 70px;"></th>
                     </thead>
                     <tbody>
                         {{ if eq .Params.review_type "tv" }}
@@ -73,18 +73,67 @@
                                 {{ template "review_entry" $entry }}
                             {{ end }}
                         {{ else }}
-                            {{ range $entry := (.Paginator 30).Pages }}
+                            {{ range $entry := .Pages }}
                                 {{ template "review_entry" $entry }}
                             {{ end }}
                         {{ end }}
                     </tbody>
                 </table>
 
-                {{ if not (eq .Params.review_type "tv") }}
-                    {{ template "_internal/pagination.html" . }}
-                {{ end }}
+                <noscript>
+                    <table>
+                        <thead>
+                            <th>Subject</th>
+                            <th>Review Date</th>
+                            <th>Rating</th>
+                            <th></th>
+                        </thead>
+                        <tbody>
+                            {{ if eq .Params.review_type "tv" }}
+                                {{ range $entry := sort .Pages ".Params.episode" "asc" }}
+                                    {{ template "review_entry" $entry }}
+                                {{ end }}
+                            {{ else }}
+                                {{ range $entry := (.Paginator 30).Pages }}
+                                    {{ template "review_entry" $entry }}
+                                {{ end }}
+                            {{ end }}
+                        </tbody>
+                    </table>
+
+                    {{ if not (eq .Params.review_type "tv") }}
+                        {{ template "_internal/pagination.html" . }}
+                    {{ end }}
+                </noscript>
             </main>
         </div>
     </div>
 </div>
+
+<noscript>
+    <style>
+        #js-table {
+            display: none;
+        }
+    </style>
+</noscript>
+
+<script>
+    $('#js-table').DataTable({
+        {{ if .Params.sort }}
+        order: [[{{ .Params.sort.column }}, {{ .Params.sort.dir }}]],
+        {{ else if not (eq .Params.sort false) }}
+        order: [[1, "desc"]],
+        {{ end }}
+        columnDefs: [
+            {
+                targets: 1,
+                render: DataTable.render.date(),
+            }
+        ],
+        scrollCollapse: true,
+        scrollY: '600px',
+        stateSave: true
+    });
+</script>
 {{ end }}

@@ -291,6 +291,10 @@ code:not([data-lang]) {
     color: rgb(17, 243, 36);
 }
 
+select option {
+    color: black;
+}
+
 /* Review formatting */
 
 .review-header {
@@ -445,11 +449,11 @@ thead tr {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #241445;
+    background-color: #241445 !important;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #13092D;
+    background-color: #13092D !important;
 }
 
 .table-rss {
