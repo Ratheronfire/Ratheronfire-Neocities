@@ -381,24 +381,24 @@ img.image_scaled {
 }
 
 .blog__navigate button:hover,
-.pagination>.page-item:hover {
+.hugo-pagination>.page-item:hover {
     transform: translateY(1.5);
     background: rgb(43, 92, 226);
 }
 
 .blog__navigate a,
-.pagination>.page-item a {
+.hugo-pagination>.page-item a {
     color: #fff;
 }
 
-.pagination {
+.hugo-pagination {
     list-style: none;
     display: flex;
     align-items: center;
     padding: 0;
 }
 
-.pagination>.page-item {
+.hugo-pagination>.page-item {
     flex-grow: 1;
     text-align: center;
     border: none;
@@ -411,19 +411,19 @@ img.image_scaled {
 }
 
 .blog__navigate button,
-.pagination>.page-item.disabled {
+.hugo-pagination>.page-item.disabled {
     background: gray;
     cursor: default;
 }
 
 .blog__navigate button,
-.pagination>.page-item.active {
+.hugo-pagination>.page-item.active {
     background: blueviolet;
     cursor: default;
 }
 
 .blog__navigate button,
-.pagination>.page-item a {
+.hugo-pagination>.page-item a {
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -440,8 +440,9 @@ a.tag {
 
 /* Tables */
 
-table {
-    width: 100%;
+table,
+.dt-scroll-headInner {
+    width: 100% !important;
 }
 
 thead tr {
