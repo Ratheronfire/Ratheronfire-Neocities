@@ -195,6 +195,12 @@
         text-shadow: 0px 0px 15px rgb(119, 119, 119);
     }
 
+    {{ if hugo.IsDevelopment }}
+    .nav label {
+        opacity: 1;
+    }
+    {{ end }}
+
     .slide:hover .nav label {
         opacity: 0.6;
     }
@@ -227,9 +233,9 @@
 
 <script>
     function getCurrentImageId() {
-        var hashId = window.location.hash.replace('#', '');
+        var hashId = top.location.hash.replace('#', '');
 
-        if (window.location.hash && !isNaN(hashId)) {
+        if (top.location.hash && !isNaN(hashId)) {
             return hashId;
         }
 
@@ -241,7 +247,7 @@
 
         var scaledStr = usingSmallImages ? 'scaled_' : '';
 
-        var imageUrl = `${window.location.origin}${window.location.pathname}img/${scaledStr}${slideIndex}.png`;
+        var imageUrl = `${top.location.origin}${top.location.pathname}img/${scaledStr}${slideIndex}.png`;
 
         return imageUrl;
     }
@@ -254,7 +260,7 @@
         var imageId = 'img-' + slideIndex;
         var imgElement = document.getElementById(imageId);
 
-        window.location.hash = slideIndex;
+        top.location.hash = '#' + slideIndex;
 
         if (!imgElement.src || usingSmallImages != imgElement.src.includes('scaled_')) {
             imgElement.src = loadImageURL(slideIndex);
@@ -264,8 +270,6 @@
 
     function refreshSlide() {
         var imageId = getCurrentImageId();
-
-        updateSelectedSlide(imageId);
 
         document.getElementById('radio-' + imageId).checked = true;
         document.getElementById(`slide-select-${imageId}`).selected = true;
@@ -282,7 +286,7 @@
         var imageSrc = document.getElementById(`img-${currentImage}`).src;
         imageSrc = imageSrc.replace('scaled_', '');
 
-        window.document.location = imageSrc;
+        top.document.location = imageSrc;
     }
 
     function toggleFullscreen() {
@@ -310,7 +314,7 @@
 
     var usingSmallImages = false;
 
-    window.onhashchange = refreshSlide;
+    top.onhashchange = refreshSlide;
 
     updateUsingSmallImages(document.getElementById('small-image-checkbox'));
     updateSelectedSlide(getCurrentImageId())

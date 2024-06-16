@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body>        
+    <body>
+        <!-- SCM Music Player https://www.scmplayer.net -->
+        <script type="text/javascript" src="https://scmplayer.net/script.js" 
+        data-config="{'skin':'skins/scmOrange/skin.css','volume':50,'autoplay':false,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':{{ $.Site.Data.playlist | jsonify }} }" ></script>
+        <!-- SCM Music Player script end -->
+
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
-        
-<!-- SCM Music Player https://www.scmplayer.net -->
-<script type="text/javascript" src="https://scmplayer.net/script.js" 
-data-config="{'skin':'skins/scmOrange/skin.css','volume':50,'autoplay':false,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':{{ $.Site.Data.playlist | jsonify }} }" ></script>
-<!-- SCM Music Player script end -->
-
     </body>
 </html>

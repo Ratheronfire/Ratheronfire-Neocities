@@ -23,8 +23,8 @@ minecraft_slides:
   - to: 77
     direction: open
     position: center
-    left_offset: 7.5
-    top_offset: 7.5
+    left_offset: 8
+    top_offset: 18
 - id: 77
   title: Gate Drawbridge
   text: Eh, it works.
@@ -32,6 +32,7 @@ minecraft_slides:
   - to: 0
     direction: open
     position: center
+    left_offset: -3
 - id: 5
   title: Castle Aerial View
   text: Our castle base, as viewed from above. Pretty humble beginnings in comparison to how big some of our later bases would become.
@@ -50,8 +51,9 @@ minecraft_slides:
     direction: left
     position: left
   - to: 2
-    direction: up
+    direction: upleft
     position: center
+    left_offset: -10
 - id: 2
   title: That Weird Bridge
   text: This bridge leads basically nowhere but I figured I'd include it anyway.
@@ -93,42 +95,45 @@ minecraft_slides:
     direction: up
     position: center
     left_offset: -1.3
-    top_offset: 15
+    top_offset: 5
   - to: 55
     direction: downleft
     position: downleft
-    top_offset: -20
+    top_offset: -35
+    left_offset: 20
   - to: 65
     direction: up
     position: center
-    top_offset: -10
+    top_offset: -20
   - to: 78
     direction: downright
     position: downright
-    left_offset: -15
-    top_offset: -20
+    left_offset: -25
+    top_offset: -35
 - id: 7
   title: Base Lobby
   text: "Our main lobby has all the important amenities: A carpet, some vases, a couple furnaces, an anvil, a record player, a cauldron for making evil potions, a chest to store your miscellaneous junk in and forget about it immediately, and a couple of armor stands which I think were actually fully stocked at one point but they lost their gear when I copied this file over I guess."
   links:
   - to: 6
-    direction: upleft
-    position: center
-    left_offset: -9
+    direction: down
+    position: down
   - to: 8
-    direction: downright
-    position: downright
+    direction: up
+    position: center
+    top_offset: -15
   - to: 9
-    direction: downleft
-    position: downleft
-  - to: 10
-    direction: left
-    position: left
-  - to: 57
     direction: upright
-    position: upright
-    left_offset: -10
-    top_offset: 45
+    position: center
+    left_offset: 18
+    top_offset: -15
+  - to: 10
+    direction: right
+    position: right
+  - to: 57
+    direction: upleft
+    position: upleft
+    left_offset: 30
+    top_offset: 35
 - id: 8
   title: Bedroom
   text: |
@@ -137,29 +142,31 @@ minecraft_slides:
     ...I'm just now realizing that I should've made the empty space above the room into a pool. Can I get a do-over?
   links:
   - to: 7
-    direction: upright
+    direction: up
     position: center
-    left_offset: 7
-    top_offset: 15
+    top_offset: -20
 - id: 9
   title: Map
   text: What base is complete without a map?
   links:
   - to: 7
-    direction: right
-    position: right
+    direction: downright
+    position: downright
 - id: 10
   title: Hallway 1
   links:
   - to: 7
-    direction: down
-    position: down
+    direction: downleft
+    position: downleft
   - to: 11
     direction: secret
     position: center
+    left_offset: 15
   - to: 14
-    direction: downleft
-    position: downleft
+    direction: up
+    position: center
+    left_offset: -20
+    top_offset: 20
 - id: 11
   title: Secret Exit 1
   text: Hiding a tunnel behind a painting. Oldest trick in the book.
@@ -170,12 +177,12 @@ minecraft_slides:
   - to: 12
     direction: open
     position: center
-    left_offset: -13.5
+    left_offset: -15
     top_offset: 2
   - to: 13
     direction: upright
     position: right
-    left_offset: -18
+    left_offset: -22
     top_offset: -10
 - id: 12
   title: The Minecraft Symphony Doorchestra Memorial Site
@@ -191,8 +198,8 @@ minecraft_slides:
   - to: 11
     direction: up
     position: center
-    left_offset: 2
-    top_offset: 15
+    left_offset: -7
+    top_offset: 5
   - to: 91
     direction: downright
     position: downright
@@ -212,21 +219,23 @@ minecraft_slides:
   title: Hallway 3
   links:
   - to: 14
-    direction: upright
-    position: upright
-    left_offset: -40
-    top_offset: 30
+    direction: down
+    position: down
   - to: 16
-    direction: left
-    position: left
+    direction: up
+    position: center
+    left_offset: 9
+    top_offset: -13
   - to: 25
-    direction: right
-    position: right
-  - to: 27
     direction: upleft
     position: center
-    left_offset: -12
-    top_offset: 25
+    left_offset: -17
+    top_offset: -10
+  - to: 27
+    direction: down
+    position: center
+    left_offset: -8
+    top_offset: -8
 - id: 25
   title: Hallway 4
   links:
@@ -236,8 +245,8 @@ minecraft_slides:
   - to: 26
     direction: right
     position: center
-    left_offset: -10
-    top_offset: -15
+    left_offset: 5
+    top_offset: -12
 - id: 27
   title: Hallway 5
   links:
@@ -247,12 +256,15 @@ minecraft_slides:
   - to: 42
     direction: left
     position: left
+    left_offset: 20
   - to: 43
     direction: right
     position: right
+    left_offset: -25
   - to: 45
     direction: up
     position: center
+    left_offset: -1
 - id: 16
   title: Minecart Station Entrance
   text: This stairway leads down into our minecart station, which on this world really only served as a means of reaching two other halfway finished builds further out in the map.
@@ -260,30 +272,33 @@ minecraft_slides:
   - to: 15
     direction: down
     position: down
+  - to: 93
+    direction: up
+    position: center
+    top_offset: 30
+- id: 93
+  title: Minecart Station
+  links:
+  - to: 16
+    direction: down
+    position: down
   - to: 17
-    direction: upright
-    position: center
-    left_offset: 5
-    top_offset: 10
+    direction: right
+    position: right
   - to: 18
-    direction: upleft
-    position: center
-    left_offset: -5
-    top_offset: 10
+    direction: left
+    position: left
 - id: 17
   title: Minecart Station - To Stone Mountain
   links:
-  - to: 16
-    direction: upright
-    position: upright
-  - to: 18
-    direction: right
-    position: right
+  - to: 93
+    direction: down
+    position: down
   - to: 19
     direction: upright
     position: center
-    left_offset: -30
-    top_offset: 25
+    left_offset: -25
+    top_offset: 18
 - id: 19
   title: Stone Mountain Building
   text: At the other end of the Stone Mountain track, you're spat out into this unfinished shell of a building. Not really sure what we were going for here, but I think originally we were planning to move here after one of the newer updates that changed worldgen.
@@ -320,10 +335,20 @@ minecraft_slides:
   text: ...We didn't get that far.
   links:
   - to: 21
-    direction: upright
-    position: center
-    left_offset: 20
-    top_offset: -25
+    direction: downleft
+    position: down
+    left_offset: -25
+- id: 18
+  title: Minecart Station - To Cobble Ruins
+  links:
+  - to: 93
+    direction: down
+    position: down
+  - to: 23
+    direction: left
+    position: downright
+    left_offset: -33
+    top_offset: -30
 - id: 23
   title: Cobble Ruins
   text: At the end of this track is another small build, meant to look like the ruins of some old village.
@@ -334,20 +359,6 @@ minecraft_slides:
   - to: 24
     direction: up
     position: up
-- id: 18
-  title: Minecart Station - To Cobble Ruins
-  links:
-  - to: 16
-    direction: upleft
-    position: upleft
-  - to: 17
-    direction: left
-    position: left
-  - to: 23
-    direction: upleft
-    position: downright
-    left_offset: -30
-    top_offset: -5
 - id: 24
   title: Cobble Ruins - Aerial View
   links:
@@ -364,15 +375,16 @@ minecraft_slides:
   - to: 55
     direction: downleft
     position: downleft
-    left_offset: 10
-    top_offset: -20
+    left_offset: 25
+    top_offset: -40
   - to: 87
     direction: upright
     position: center
-    left_offset: 20
-    top_offset: -5
+    left_offset: 15
+    top_offset: -15
 - id: 87
   title: Krusty
+  text: Every good server needs a mascot.
   links:
   - to: 26
     direction: down
@@ -421,12 +433,13 @@ minecraft_slides:
   - to: 90
     direction: down
     position: center
-    left_offset: -19
-    top_offset: 13
+    left_offset: -24
+    top_offset: 17
   - to: 13
     direction: up
     position: up
-    top_offset: 10
+    top_offset: 30
+    left_offset: -5
 - id: 30
   title: Hallway 6
   links:
@@ -436,13 +449,11 @@ minecraft_slides:
   - to: 31
     direction: upright
     position: center
-    left_offset: 20
-    top_offset: -10
+    left_offset: 15
   - to: 38
     direction: up
     position: center
     left_offset: -10
-    top_offset: -15
   - to: 39
     direction: left
     position: left
@@ -461,13 +472,13 @@ minecraft_slides:
   - to: 34
     direction: open
     position: center
-    left_offset: -6
-    top_offset: -7
+    left_offset: -5
+    top_offset: -15
   - to: 36
     direction: open
     position: center
-    left_offset: -3
-    top_offset: -8
+    left_offset: -2
+    top_offset: -17
   - to: 33
     direction: open
     position: center
@@ -476,13 +487,13 @@ minecraft_slides:
   - to: 35
     direction: open
     position: center
-    left_offset: 6
-    top_offset: -7
+    left_offset: 5
+    top_offset: -15
   - to: 37
     direction: open
     position: center
-    left_offset: 3
-    top_offset: -8
+    left_offset: 2
+    top_offset: -17
 - id: 32
   title: Sheep
   links:
@@ -509,7 +520,7 @@ minecraft_slides:
     position: left
 - id: 36
   title: Subject JR-023
-  text: You let him escape containment, didn't you?
+  text: You let him escape, didn't you?
   links:
   - to: 31
     direction: left
@@ -537,7 +548,7 @@ minecraft_slides:
   - to: 40
     direction: secret
     position: center
-    left_offset: 9
+    left_offset: 12
     top_offset: -12
   - to: 28
     direction: left
@@ -552,8 +563,8 @@ minecraft_slides:
   - to: 41
     direction: up
     position: center
-    left_offset: 4
-    top_offset: -10
+    left_offset: 2
+    top_offset: -20
 - id: 41
   title: Secret Exit 2 Continued
   text: ...maybe we should go back inside actually
@@ -572,8 +583,7 @@ minecraft_slides:
   - to: 88
     direction: up
     position: center
-    left_offset: -3
-    top_offset: 20
+    top_offset: 10
 - id: 88
   title: Slime Farm
   text: Pretty sure the logic for determining possible spawning chunks for slimes changed since I built this, so it doesn't seem to work at all now.
@@ -605,7 +615,6 @@ minecraft_slides:
   - to: 44
     direction: up
     position: center
-    top_offset: 20
 - id: 44
   title: Less Fancy Mine Entrance
   text: ...And here was the extent of the entrance I bothered cleaning up. Beyond here it gets pretty messy and windy because we were just carving into existing cave systems.
@@ -691,8 +700,8 @@ minecraft_slides:
   - to: 52
     direction: upleft
     position: center
-    left_offset: -13
-    top_offset: -20
+    left_offset: -25
+    top_offset: -23
   - to: 53
     direction: up
     position: up
@@ -713,10 +722,11 @@ minecraft_slides:
   title: Castle River
   links:
   - to: 26
-    direction: downright
-    position: downright
+    direction: down
+    position: down
+    left_offset: 20
   - to: 6
-    direction: upleft
+    direction: left
     position: left
   - to: 56
     direction: right
@@ -739,17 +749,21 @@ minecraft_slides:
   text: The anchorage, for traveling in and out by boat.
   links:
   - to: 56
-    direction: left
-    position: left
+    direction: downleft
+    position: downleft
   - to: 58
-    direction: up
+    direction: upleft
     position: center
+    left_offset: -25
   - to: 60
+    direction: up
+    position: up
+    left_offset: 14
+    top_offset: 30
+  - to: 7
     direction: right
     position: right
-  - to: 7
-    direction: down
-    position: down
+    left_offset: -10
 - id: 58
   title: Anchorage Boat Storage
   text: But what could be in this storage chest...?
@@ -771,8 +785,8 @@ minecraft_slides:
   title: Anchorage Side Stairwell
   links:
   - to: 57
-    direction: left
-    position: left
+    direction: down
+    position: down
   - to: 61
     direction: up
     position: center
@@ -795,12 +809,14 @@ minecraft_slides:
   - to: 63
     direction: upright
     position: right
-    left_offset: -15
+    left_offset: -10
   - to: 66
     direction: up
     position: center
-    left_offset: -5
-    top_offset: -8
+    left_offset: -3
+  - to: 64
+    direction: down
+    position: down
 - id: 63
   title: Castle Grounds Upper 2
   links:
@@ -810,11 +826,11 @@ minecraft_slides:
   - to: 62
     direction: upright
     position: right
-    left_offset: -20
+    left_offset: -35
   - to: 80
     direction: up
     position: left
-    left_offset: 20
+    left_offset: 30
 - id: 64
   title: Castle Grounds Upper 3
   links:
@@ -826,8 +842,11 @@ minecraft_slides:
   - to: 68
     direction: up
     position: center
-    left_offset: -10
-    top_offset: 20
+    left_offset: -5
+    top_offset: 25
+  - to: 62
+    direction: down
+    position: down
 - id: 80
   title: Castle Walls
   links:
@@ -922,11 +941,12 @@ minecraft_slides:
     position: down
 - id: 68
   title: Tower of Bubble
-  text: I named it like this because it sounded funny.
+  text: I named it this because it sounded funny.
   links:
   - to: 64
-    direction: downright
-    position: downright
+    direction: right
+    position: right
+    top_offset: 25
   - to: 69
     direction: up
     position: center
@@ -934,7 +954,6 @@ minecraft_slides:
     top_offset: 15
 - id: 69
   title: Tower Stairwell
-  text: I named it like this because it sounded funny.
   links:
   - to: 68
     direction: down
@@ -953,12 +972,11 @@ minecraft_slides:
   - to: 71
     direction: up
     position: center
-    left_offset: 5
     top_offset: -10
   - to: 73
     direction: left
     position: left
-    left_offset: 25
+    left_offset: 10
 - id: 71
   title: Redstone is dumb
   text: 9/10 dentists agree.
@@ -982,7 +1000,7 @@ minecraft_slides:
   - to: 70
     direction: up
     position: center
-    top_offset: 15
+    top_offset: 25
   - to: 74
     direction: up
     position: up
@@ -996,8 +1014,8 @@ minecraft_slides:
   - to: 92
     direction: secret
     position: center
-    left_offset: -13.5
-    top_offset: -15
+    left_offset: -29
+    top_offset: -25
 - id: 92
   title: Treetop View
   text: As a fun little bonus, here's a nighttime view from the top of that obscenely tall tree.
@@ -1005,7 +1023,7 @@ minecraft_slides:
   - to: 74
     direction: up
     position: center
-    left_offset: -16
+    left_offset: -14
     top_offset: -24
 - id: 75
   title: Water Exit
@@ -1029,9 +1047,7 @@ minecraft_slides:
   links:
   - to: 6
     direction: upright
-    position: right
-    left_offset: -10
-    top_offset: -20
+    position: upright
   - to: 79
     direction: right
     position: right
