@@ -83,6 +83,10 @@
                     {{ else if eq $link.direction "open" }}
                     <i class="fa fa-plus-square" aria-hidden="true"></i>
                     {{ end }}
+
+                    {{ if hugo.IsDevelopment }}
+                    <span style="font-size: 30px; position: absolute; bottom: -20px; right: -20px; color: black">{{ $link.to }}</span>
+                    {{ end }}
                 </label>
                 {{ end }}
             </div>
