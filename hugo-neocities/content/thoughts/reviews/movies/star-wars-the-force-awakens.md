@@ -14,6 +14,6 @@ external_review_url: https://boxd.it/4vru
 page_name: star-wars-the-force-awakens
 tags:
 - star-wars
- - star-wars-sequels
+- star-wars-sequels
 ---
 

@@ -14,7 +14,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/star-wars-the-last
 page_name: star-wars-the-last-jedi
 tags:
 - star-wars
- - star-wars-sequels
+- star-wars-sequels
 ---
 
 I still have trouble believing this movie, out of all the sequels, is the most hated, especially considering how vapid so many of the criticisms are.
