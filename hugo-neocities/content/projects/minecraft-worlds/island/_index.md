@@ -131,6 +131,8 @@ minecraft_slides:
   links: [
     {to: 13, position: down, direction: down},
     {to: 17, position: left, direction: left, top_offset: 24},
+    {to: 222, position: center, direction: up, left_offset: -4, top_offset: -10},
+    {to: 28, position: right, direction: right},
   ]
 - id: 17
   title: 'Village Walkway 5'
@@ -153,84 +155,152 @@ minecraft_slides:
     {to: 17, position: down, direction: down},
     {to: 20, position: downright, direction: down, left_offset: -26, top_offset: -7},
   ]
+- id: 222
+  title: 'Village Walkway 6'
+  text: ''
+  links: [
+    {to: 16, position: down, direction: down},
+    {to: 223, position: center, direction: up},
+  ]
+- id: 223
+  title: 'Village Home 6'
+  text: ''
+  links: [
+    {to: 222, position: down, direction: down},
+  ]
+- id: 28
+  title: 'Village Walkway 7'
+  text: ''
+  links: [
+    {to: 16, position: down, direction: down},
+    {to: 29, position: center, direction: left, left_offset: -22, top_offset: -5},
+    {to: 32, position: center, direction: up},
+  ]
+- id: 29
+  title: 'Village Home 7'
+  text: ''
+  links: [
+    {to: 28, position: down, direction: down},
+    {to: 30, position: right, direction: up, left_offset: -20, top_offset: -15},
+  ]
+- id: 30
+  title: 'Village Home 7 Pool'
+  text: ''
+  links: [
+    {to: 29, position: down, direction: down},
+    {to: 31, position: right, direction: right},
+  ]
+- id: 31
+  title: 'Village Home 7 Back Exit'
+  text: 'stupid person housing (tm)'
+  links: [
+    {to: 30, position: left, direction: left},
+  ]
+- id: 32
+  title: 'Walkway 3'
+  text: ''
+  links: [
+    {to: 28, position: down, direction: downleft, left_offset: -20},
+    {to: 33, position: downright, direction: downright},
+  ]
+- id: 33
+  title: 'Village Pier'
+  text: 'Here was where we brought villagers up to our custom-made island village. Ultimately it was a bit of a wasted effort because the villagers all immediately either got lost or died, and we never got much use out of them anyway.'
+  links: [
+    {to: 32, position: down, direction: downleft, left_offset: -20},
+    {to: 35, position: center, direction: up},
+    {to: 38, position: left, direction: left},
+  ]
+- id: 35
+  title: 'Village Pier 2'
+  text: |
+    Unload Slaves Here
+
+    ...y'know sometimes you're messing around with friends playing the funny bruon brick game and accidentally start roleplaying as absolute mosters
+  links: [
+    {to: 33, position: right, direction: right},
+    {to: 36, position: down, direction: secret},
+  ]
+- id: 36
+  title: 'Under Village Pier'
+  text: 'Hmm, that patch of dirt looks a bit suspect...'
+  links: [
+    {to: 35, position: up, direction: up},
+    {to: 37, position: center, direction: up, top_offset: -15},
+  ]
+- id: 37
+  title: 'Under Village Secret'
+  text: |
+    > GET OUT
+
+    > BEFORE IT's TOO LATE
+
+    okay maybe it's time to stop exploring
+  links: [
+    {to: 36, position: downleft, direction: downleft},
+  ]
+- id: 38
+  title: 'Canal 2 Exit'
+  text: ''
+  links: [
+    {to: 33, position: left, direction: left},
+  ]
 - id: 20
   title: 'Abandoned Redstone Tunnel 1'
   text: 'I had a whole lot of ideas for hidden redstone contraptions on this server. I think originally this trapdoor was going to be a block with a sticky piston that would retract, and a button far away from here that would set off a timed delay to trigger the piston, but I could never figure out how to make it work, or what to actually do with it.'
   links: [
     {to: 19, position: up, direction: up},
+    {to: 21, position: down, direction: down},
   ]
 - id: 21
-  title: ''
+  title: 'Abandoned Redstone Tunnel 2'
   text: ''
-  links: []
+  links: [
+    {to: 20, position: upleft, direction: upleft},
+    {to: 22, position: center, direction: up, left_offset: -28, top_offset: -15},
+  ]
 - id: 22
-  title: ''
-  text: ''
-  links: []
+  title: 'Abandoned Redstone Tunnel 3'
+  text: 'This poor guy got stuck down here somehow.'
+  links: [
+    {to: 21, position: left, direction: left, top_offset: 30},
+    {to: 23, position: right, direction: right, top_offset: 30},
+  ]
 - id: 23
-  title: ''
+  title: 'Abandoned Redstone Tunnel 4'
   text: ''
-  links: []
+  links: [
+    {to: 22, position: down, direction: down},
+    {to: 24, position: center, direction: upright, left_offset: 25, top_offset: -10},
+    {to: 25, position: left, direction: left},
+  ]
 - id: 24
-  title: ''
-  text: ''
-  links: []
+  title: 'Abandoned Redstone Tunnel 5'
+  text: 'This path originally had redstone leading to a specific furnace, which, if supplied with exactly the right amount of stuff, would trigger a timed delay which would open up a pathway elsewhere on the island for just a few seconds.'
+  links: [
+    {to: 23, position: center, direction: down, left_offset: 15, top_offset: 10},
+    {to: 27, position: right, direction: right},
+  ]
 - id: 25
-  title: ''
+  title: 'Abandoned Redstone Tunnel 6'
   text: ''
-  links: []
-- id: 26
-  title: ''
-  text: ''
-  links: []
+  links: [
+    {to: 23, position: right, direction: right},
+    {to: 114, position: down, direction: down},
+  ]
 - id: 27
-  title: ''
-  text: ''
-  links: []
-- id: 28
-  title: ''
-  text: ''
-  links: []
-- id: 29
-  title: ''
-  text: ''
-  links: []
-- id: 30
-  title: ''
-  text: ''
-  links: []
-- id: 31
-  title: ''
-  text: ''
-  links: []
-- id: 32
-  title: ''
-  text: ''
-  links: []
-- id: 33
-  title: ''
-  text: ''
-  links: []
-- id: 34
-  title: ''
-  text: ''
-  links: []
-- id: 35
-  title: ''
-  text: ''
-  links: []
-- id: 36
-  title: ''
-  text: ''
-  links: []
-- id: 37
-  title: ''
-  text: ''
-  links: []
-- id: 38
-  title: ''
-  text: ''
-  links: []
+  title: 'Totally Normal Back Room'
+  text: "Move along. Nothin' to see here."
+  links: [
+    {to: 24, position: center, direction: left},
+    {to: 26, position: down, direction: down},
+  ]
+- id: 26
+  title: 'Abandoned Redstone Tunnel Entrance'
+  text: '"Former Home of Awful Redstone Spaghetti"'
+  links: [
+    {to: 27, position: center, direction: up},
+  ]
 - id: 39
   title: ''
   text: ''
@@ -534,7 +604,9 @@ minecraft_slides:
 - id: 114
   title: ''
   text: ''
-  links: []
+  links: [
+    {to: 25, position: center, direction: secret, left_offset: -23, top_offset: -8},
+  ]
 - id: 115
   title: ''
   text: ''
