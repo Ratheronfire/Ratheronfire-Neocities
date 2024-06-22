@@ -47,6 +47,7 @@ minecraft_slides:
   links: [
     {to: 3, position: down, direction: down},
     {to: 5, position: center, direction: up, left_offset: 3, top_offset: -5},
+    {to: 65, position: left, direction: left, top_offset: 15},
   ]
 - id: 5
   title: 'Walkway 2'
@@ -202,6 +203,7 @@ minecraft_slides:
   links: [
     {to: 28, position: down, direction: downleft, left_offset: -20},
     {to: 33, position: downright, direction: downright},
+    {to: 39, position: left, direction: upleft},
   ]
 - id: 33
   title: 'Village Pier'
@@ -240,7 +242,7 @@ minecraft_slides:
     {to: 36, position: downleft, direction: downleft},
   ]
 - id: 38
-  title: 'Canal 2 Exit'
+  title: 'Canal East'
   text: ''
   links: [
     {to: 33, position: left, direction: left},
@@ -302,161 +304,290 @@ minecraft_slides:
     {to: 27, position: center, direction: up},
   ]
 - id: 39
-  title: ''
+  title: 'Walkway 4'
   text: ''
-  links: []
+  links: [
+    {to: 32, position: down, direction: down},
+    {to: 40, position: left, direction: up, left_offset: 8, top_offset: 10},
+    {to: 42, position: left, direction: left, top_offset: 30},
+  ]
 - id: 40
-  title: ''
-  text: ''
-  links: []
+  title: 'Incinerator'
+  text: '> FEED ME VILLAGER'
+  links: [
+    {to: 39, position: down, direction: down},
+    {to: 41, position: down, direction: up, top_offset: -10},
+  ]
 - id: 41
-  title: ''
+  title: 'Incinerator Closeup'
   text: ''
-  links: []
+  links: [
+    {to: 40, position: down, direction: down},
+  ]
 - id: 42
-  title: ''
+  title: 'Walkway 5'
   text: ''
-  links: []
+  links: [
+    {to: 39, position: down, direction: downright},
+    {to: 43, position: center, direction: upright, left_offset: 11, top_offset: 3},
+    {to: 58, position: center, direction: downleft, left_offset: -10, top_offset: 10},
+  ]
 - id: 43
-  title: ''
+  title: 'Subterranean Garden Southen Entrance'
   text: ''
-  links: []
+  links: [
+    {to: 42, position: right, direction: right},
+    {to: 44, position: center, direction: up, left_offset: -2, top_offset: 30},
+  ]
 - id: 44
-  title: ''
-  text: ''
-  links: []
+  title: 'Subterranean Garden 1'
+  text: 'Cave gardens were kind of a running theme on our servers, at least until they became a naturally occurring biome.'
+  links: [
+    {to: 43, position: down, direction: downleft},
+    {to: 45, position: left, direction: left},
+    {to: 46, position: upleft, direction: upleft, left_offset: 10, top_offset: 20},
+    {to: 47, position: center, direction: upright, left_offset: 10},
+  ]
 - id: 45
-  title: ''
+  title: 'Subterranean Garden 2'
   text: ''
-  links: []
+  links: [
+    {to: 44, position: down, direction: down},
+  ]
 - id: 46
-  title: ''
-  text: ''
-  links: []
+  title: 'Subterranean Garden 3'
+  text: Nice view of the wizard's tower from here.
+  links: [
+    {to: 44, position: down, direction: down},
+  ]
 - id: 47
-  title: ''
+  title: 'Subterranean Garden 4'
   text: ''
-  links: []
+  links: [
+    {to: 44, position: down, direction: down},
+    {to: 48, position: left, direction: upleft, left_offset: 10, top_offset: -10},
+    {to: 49, position: center, direction: up, left_offset: 5, top_offset: 5},
+    {to: 51, position: upright, direction: upright, left_offset: -30, top_offset: 35},
+  ]
 - id: 48
-  title: ''
-  text: ''
-  links: []
+  title: 'Subterranean Garden 5'
+  text: And on this side there's a great view of the northern half of the island.
+  links: [
+    {to: 47, position: down, direction: downright},
+  ]
 - id: 49
-  title: ''
+  title: 'Subterranean Garden 6'
   text: ''
-  links: []
+  links: [
+    {to: 47, position: down, direction: down},
+    {to: 50, position: center, direction: up},
+  ]
 - id: 50
-  title: ''
+  title: 'Canal West (Above)'
   text: ''
-  links: []
+  links: [
+    {to: 49, position: up, direction: up, top_offset: 20},
+  ]
 - id: 51
-  title: ''
+  title: 'Subterranean Garden 6'
   text: ''
-  links: []
+  links: [
+    {to: 47, position: down, direction: down},
+    {to: 52, position: down, direction: secret, left_offset: -22},
+    {to: 95, position: center, direction: up},
+  ]
 - id: 52
-  title: ''
-  text: ''
-  links: []
+  title: 'Water Current Secret'
+  text: 'A bunch of the free-flowing water currents lead to a hidden area below.'
+  links: [
+    {to: 51, position: left, direction: left},
+    {to: 53, position: center, direction: up},
+  ]
 - id: 53
-  title: ''
-  text: ''
-  links: []
+  title: 'That Weird Undergound Room'
+  text: There's not a whole lot down here but there's a bunch of rooms leading to it.
+  links: [
+    {to: 52, position: upright, direction: up, left_offset: -10},
+    {to: 54, position: center, direction: open, left_offset: -6, top_offset: -20},
+    {to: 55, position: center, direction: up, left_offset: 10, top_offset: -23},
+  ]
 - id: 54
-  title: ''
-  text: ''
-  links: []
+  title: 'Chicken Farm Chest'
+  text: 'This chest is supplied by a chicken grinder in a small cave just above this room.'
+  links: [
+    {to: 53, position: down, direction: down},
+  ]
 - id: 55
-  title: ''
+  title: 'Underground Room 2'
   text: ''
-  links: []
+  links: [
+    {to: 53, position: downleft, direction: downleft},
+    {to: 56, position: center, direction: up},
+  ]
 - id: 56
-  title: ''
+  title: 'Northeastern Cliffside'
   text: ''
-  links: []
+  links: [
+    {to: 55, position: down, direction: down},
+    {to: 57, position: right, direction: right},
+  ]
 - id: 57
-  title: ''
-  text: ''
-  links: []
+  title: 'Underground Room Entrance'
+  text: '> dungeon'
+  links: [
+    {to: 56, position: left, direction: left},
+    {to: 55, position: center, direction: up, left_offset: 5, top_offset: 20},
+  ]
 - id: 58
-  title: ''
+  title: 'Walkway 6'
   text: ''
-  links: []
+  links: [
+    {to: 42, position: down, direction: down},
+    {to: 59, position: center, direction: up, top_offset: 10},
+  ]
 - id: 59
-  title: ''
-  text: ''
-  links: []
+  title: 'Walkway 7'
+  text: |
+    > I'm the lorax  
+    > I speak for the trees  
+
+    > the trees say  
+    > yvan eht nioj
+  links: [
+    {to: 58, position: down, direction: down},
+    {to: 60, position: center, direction: up, left_offset: -15},
+  ]
 - id: 60
-  title: ''
+  title: 'Walkway 8'
   text: ''
-  links: []
+  links: [
+    {to: 59, position: down, direction: down},
+    {to: 61, position: left, direction: left},
+    {to: 75, position: center, direction: up, left_offset: 7, top_offset: -15},
+  ]
 - id: 61
-  title: ''
-  text: ''
-  links: []
+  title: 'Slime Farm Entrance'
+  text: My slime farm on this sever was a significant step up from the last server, at least in terms of complexity. It still wasn't super efficient, but it got the job done.
+  links: [
+    {to: 60, position: down, direction: downright},
+    {to: 62, position: center, direction: upleft, left_offset: -30},
+    {to: 66, position: center, direction: upright},
+  ]
 - id: 62
-  title: ''
+  title: 'Subway Station B - Slime Farm'
   text: ''
-  links: []
+  links: [
+    {to: 61, position: downright, direction: right, top_offset: -15},
+    {to: 63, position: center, direction: secret, left_offset: 20, top_offset: 10},
+    {to: 65, position: downleft, direction: left, top_offset: -15},
+  ]
 - id: 63
-  title: ''
+  title: 'Secret Door'
   text: ''
-  links: []
+  links: [
+    {to: 62, position: downleft, direction: left, top_offset: -15},
+    {to: 64, position: center, direction: up, left_offset: -3},
+  ]
 - id: 64
-  title: ''
-  text: ''
-  links: []
+  title: 'Secret Room'
+  text: |
+    > welcome to under road place
+
+    This was the first room I carved out for my slime farm, before I realized it was way too high.
+  links: [
+    {to: 63, position: up, direction: up},
+  ]
 - id: 65
-  title: ''
+  title: 'Walkway 9'
   text: ''
-  links: []
+  links: [
+    {to: 62, position: center, direction: up, left_offset: -13, top_offset: 15},
+    {to: 4, position: right, direction: right, top_offset: 15},
+  ]
 - id: 66
-  title: ''
+  title: 'Slime Farm Lobby'
   text: ''
-  links: []
+  links: [
+    {to: 61, position: down, direction: down},
+    {to: 67, position: center, direction: right, left_offset: 30, top_offset: 5},
+    {to: 69, position: left, direction: down, left_offset: 25, top_offset: 30},
+  ]
 - id: 67
-  title: ''
-  text: ''
-  links: []
+  title: 'Slime Farm Controls'
+  text: 'This button sends a minecart up from its starting position below, at the end of a chain of hoppers that collects the slime balls.'
+  links: [
+    {to: 66, position: left, direction: left},
+    {to: 68, position: center, direction: open, left_offset: 1, top_offset: 8},
+  ]
 - id: 68
-  title: ''
-  text: ''
-  links: []
+  title: 'Slime Farm Controls - Part 2'
+  text: 'The minecart takes a little while to get up here.'
+  links: [
+    {to: 66, position: left, direction: left},
+    {to: 67, position: center, direction: open, left_offset: 1},
+  ]
 - id: 69
-  title: ''
+  title: 'Slime Farm Access Corridor 1'
   text: ''
-  links: []
+  links: [
+    {to: 66, position: up, direction: up},
+    {to: 70, position: center, direction: up, left_offset: -10, top_offset: -20},
+    {to: 71, position: center, direction: down, left_offset: -1, top_offset: -2},
+    {to: 71, position: down, direction: down},
+  ]
 - id: 70
-  title: ''
-  text: ''
-  links: []
+  title: 'Slime Farm Redstone'
+  text: 'A close-up look at a bit of the redstone powering the minecart mechanism.'
+  links: [
+    {to: 69, position: left, direction: left},
+  ]
 - id: 71
-  title: ''
+  title: 'Slime Farm Access Corridor 1'
   text: ''
-  links: []
+  links: [
+    {to: 69, position: upleft, direction: up, left_offset: 5},
+    {to: 72, position: left, direction: left},
+  ]
 - id: 72
-  title: ''
+  title: 'Slime Farm Access Corridor 3'
   text: ''
-  links: []
+  links: [
+    {to: 71, position: center, direction: up, left_offset: 23, top_offset: 15},
+    {to: 73, position: up, direction: up},
+  ]
 - id: 73
-  title: ''
+  title: 'Slime Farm Main Room 1'
   text: ''
-  links: []
+  links: [
+    {to: 72, position: down, direction: down, left_offset: 12},
+    {to: 74, position: up, direction: up, left_offset: -17},
+  ]
 - id: 74
-  title: ''
-  text: ''
-  links: []
+  title: 'Slime Farm Main Room 2'
+  text: 'The slimes spawn on the tiny upper platform above, then get pushed down into the pit below, where flowing water pushes them into magma blocks, and collects their drops into a hopper.'
+  links: [
+    {to: 73, position: downright, direction: downright},
+  ]
 - id: 75
-  title: ''
+  title: 'Walkway 10'
   text: ''
-  links: []
+  links: [
+    {to: 60, position: down, direction: downright},
+    {to: 76, position: center, direction: up, top_offset: -6},
+  ]
 - id: 76
-  title: ''
-  text: ''
-  links: []
+  title: 'Walkway 11'
+  text: 'Decided to plant some chorus plants along the road here. I dunno, looks neat.'
+  links: [
+    {to: 75, position: downright, direction: right},
+    {to: 77, position: center, direction: up, left_offset: -9, top_offset: 20},
+  ]
 - id: 77
-  title: ''
+  title: 'Walkway 12'
   text: ''
-  links: []
+  links: [
+    {to: 76, position: down, direction: down},
+  ]
 - id: 78
   title: ''
   text: ''
