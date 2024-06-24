@@ -310,6 +310,7 @@ minecraft_slides:
     {to: 32, position: down, direction: down},
     {to: 40, position: left, direction: up, left_offset: 8, top_offset: 10},
     {to: 42, position: left, direction: left, top_offset: 30},
+    {to: 90, position: right, direction: right, top_offset: 30},
   ]
 - id: 40
   title: 'Incinerator'
@@ -410,6 +411,7 @@ minecraft_slides:
     {to: 52, position: upright, direction: up, left_offset: -10},
     {to: 54, position: center, direction: open, left_offset: -6, top_offset: -20},
     {to: 55, position: center, direction: up, left_offset: 10, top_offset: -23},
+    {to: 101, position: center, direction: up, top_offset: -23},
   ]
 - id: 54
   title: 'Chicken Farm Chest'
@@ -587,127 +589,229 @@ minecraft_slides:
   text: ''
   links: [
     {to: 76, position: down, direction: down},
+    {to: 78, position: center, direction: up, left_offset: -25, top_offset: 25},
+    {to: 79, position: center, direction: up, top_offset: 10},
+    {to: 81, position: center, direction: up, left_offset: 12, top_offset: -20},
   ]
 - id: 78
-  title: ''
+  title: Subway Station F - Wizard's Tower
   text: ''
-  links: []
+  links: [
+    {to: 77, position: down, direction: down},
+  ]
 - id: 79
-  title: ''
+  title: 'Walkway 13'
   text: ''
-  links: []
+  links: [
+    {to: 77, position: down, direction: down},
+    {to: 80, position: center, direction: up, top_offset: 10},
+  ]
 - id: 80
-  title: ''
-  text: ''
-  links: []
+  title: 'Green Area'
+  text: One of the few areas we didn't do anything to, beyond planting some extra greenery.
+  links: [
+    {to: 79, position: down, direction: downleft},
+    {to: 87, position: center, direction: secret, left_offset: 15, top_offset: -20},
+  ]
 - id: 81
-  title: ''
+  title: 'Walkway 14'
   text: ''
-  links: []
+  links: [
+    {to: 77, position: down, direction: down},
+    {to: 82, position: center, direction: up, left_offset: -2, top_offset: 10},
+  ]
 - id: 82
-  title: ''
+  title: 'Tower Observation Point'
   text: ''
-  links: []
+  links: [
+    {to: 81, position: down, direction: down},
+    {to: 83, position: center, direction: up, left_offset: -14, top_offset: 30},
+  ]
 - id: 83
-  title: ''
-  text: ''
-  links: []
+  title: Bridge to Wizard's Tower
+  text: |
+    > Wizard's Tower  
+
+    > CAUTION:  
+    > GRAVITY MAY FAIL AT ANY TIME
+  links: [
+    {to: 82, position: down, direction: down},
+    {to: 84, position: center, direction: up, left_offset: -1},
+  ]
 - id: 84
-  title: ''
-  text: ''
-  links: []
+  title: Wizard's Tower Ground Floor
+  text: So this was a bit of an experiment with command blocks that never really worked out. The idea was that standing within the tower would cause you to begin floating up and out through the roof, where you'd have to either fly to safety with an Elytra, or try to land in the water (or land back down on the slime blocks in the tower). Could never figure out the commands to make it work, though.
+  links: [
+    {to: 83, position: down, direction: down},
+    {to: 85, position: up, direction: up},
+  ]
 - id: 85
-  title: ''
-  text: ''
-  links: []
+  title: Wizard's Tower Upper Exit
+  text: '> I hope you brought an Elytra.'
+  links: [
+    {to: 84, position: down, direction: down},
+    {to: 86, position: center, direction: up},
+  ]
 - id: 86
-  title: ''
+  title: Wizard's Tower From Above
   text: ''
-  links: []
+  links: [    
+    {to: 85, position: center, direction: down},
+  ]
 - id: 87
-  title: ''
-  text: ''
-  links: []
+  title: Wizard's Tower From Below
+  text: Hmm, what's that up there?
+  links: [
+    {to: 80, position: down, direction: down},
+    {to: 88, position: center, direction: up},
+  ]
 - id: 88
-  title: ''
-  text: ''
-  links: []
+  title: Wizard's Tower Control Access
+  text: 'Aha!'
+  links: [
+    {to: 87, position: down, direction: down},
+    {to: 89, position: center, direction: up, left_offset: -8, top_offset: -27},
+  ]
 - id: 89
-  title: ''
-  text: ''
-  links: []
+  title: Wizard's Tower Control Room
+  text: These command blocks were meant to control the anti-gravity effect in the Wizard's tower, but I could never get it to work quite right.
+  links: [
+    {to: 88, position: down, direction: down},
+  ]
 - id: 90
-  title: ''
+  title: 'Walkway 15'
   text: ''
-  links: []
+  links: [
+    {to: 39, position: down, direction: down},
+    {to: 91, position: center, direction: open, left_offset: -12, top_offset: 5},
+    {to: 92, position: center, direction: open, left_offset: 12, top_offset: 5},
+    {to: 93, position: center, direction: up},
+  ]
 - id: 91
-  title: ''
+  title: 'pyg'
   text: ''
-  links: []
+  links: [
+    {to: 90, position: left, direction: left},
+  ]
 - id: 92
-  title: ''
+  title: 'BAAAAAAAAAAAAAA'
   text: ''
-  links: []
+  links: [
+    {to: 90, position: right, direction: right},
+  ]
 - id: 93
-  title: ''
+  title: 'Walkway 16'
   text: ''
-  links: []
+  links: [
+    {to: 90, position: down, direction: downleft},
+    {to: 94, position: center, direction: open, left_offset: -25, top_offset: 5},
+    {to: 95, position: left, direction: left},
+    {to: 102, position: center, direction: up, left_offset: -23, top_offset: -5},
+  ]
 - id: 94
-  title: ''
-  text: ''
-  links: []
+  title: 'KFC Pit'
+  text: I don't know why that pig's there
+  links: [
+    {to: 93, position: left, direction: left},
+  ]
 - id: 95
-  title: ''
-  text: ''
-  links: []
+  title: 'Subterranean Garden Northen Entrance'
+  text: '(Also known as the Cavern of Flowers I guess)'
+  links: [
+    {to: 51, position: center, direction: up, top_offset: 15},
+    {to: 96, position: left, direction: left},
+    {to: 102, position: right, direction: right},
+  ]
 - id: 96
-  title: ''
-  text: ''
-  links: []
+  title: 'Chicken Grinder Cave 1'
+  text: '> Chicken Wading Pool and Fried Chicken Stand'
+  links: [
+    {to: 95, position: down, direction: right},
+    {to: 97, position: center, direction: downright},
+  ]
 - id: 97
-  title: ''
-  text: ''
-  links: []
+  title: 'Chicken Grinder Cave 2'
+  text: 'The person who made this chicken grinder was playing on a pretty slow laptop at the time.'
+  links: [
+    {to: 96, position: down, direction: down},
+    {to: 98, position: center, direction: up, top_offset: -30},
+    {to: 101, position: downright, direction: downright},
+  ]
 - id: 98
-  title: ''
-  text: ''
-  links: []
+  title: 'Chicken Grinder'
+  text: Don't worry, they love it in here.
+  links: [
+    {to: 97, position: down, direction: down},
+    {to: 99, position: center, direction: down, top_offset: 5},
+  ]
 - id: 99
-  title: ''
-  text: ''
-  links: []
+  title: 'Inside the Chicken Grinder 1'
+  text: |
+    > yup no water  
+
+    > this blocks water
+  links: [
+    {to: 98, position: up, direction: up},
+    {to: 100, position: down, direction: down},
+  ]
 - id: 100
-  title: ''
-  text: ''
-  links: []
+  title: 'Inside the Chicken Grinder 2'
+  text: |
+    > Eggs drop here
+
+    In retrospect this wasn't really that interesting but I made you look at it
+  links: [
+    {to: 99, position: up, direction: up},
+  ]
 - id: 101
-  title: ''
+  title: 'Chicken Grinder Staircase'
   text: ''
-  links: []
+  links: [
+    {to: 97, position: upleft, direction: upleft},
+    {to: 53, position: center, direction: right, left_offset: 10, top_offset: -5},
+  ]
 - id: 102
-  title: ''
+  title: 'Walkway 16'
   text: ''
-  links: []
+  links: [
+    {to: 93, position: downright, direction: downright},
+    {to: 95, position: down, direction: down},
+    {to: 103, position: center, direction: open, left_offset: 10, top_offset: 5},
+    {to: 104, position: center, direction: upleft, left_offset: -10, top_offset: 5},
+  ]
 - id: 103
-  title: ''
+  title: 'Beef Pit'
   text: ''
-  links: []
+  links: [
+    {to: 102, position: right, direction: upright},
+  ]
 - id: 104
-  title: ''
+  title: 'Walkway 17'
   text: ''
-  links: []
+  links: [
+    {to: 102, position: down, direction: downleft},
+    {to: 105, position: center, direction: open, left_offset: 16, top_offset: 4},
+    {to: 106, position: center, direction: up, left_offset: 2, top_offset: -7},
+  ]
 - id: 105
-  title: ''
-  text: ''
-  links: []
+  title: 'Muppets'
+  text: 'We learned the hard way that rabbits need 2-block high fences.'
+  links: [
+    {to: 104, position: right, direction: right},
+  ]
 - id: 106
-  title: ''
+  title: 'Walkway 18'
   text: ''
-  links: []
+  links: [
+    {to: 104, position: down, direction: downright},
+    {to: 107, position: center, direction: upright, left_offset: 10, top_offset: 22},
+  ]
 - id: 107
-  title: ''
-  text: ''
-  links: []
+  title: 'Fort Loser'
+  text: 'The entrance to our primary base.'
+  links: [
+    {to: 106, position: down, direction: down},
+  ]
 - id: 108
   title: ''
   text: ''
