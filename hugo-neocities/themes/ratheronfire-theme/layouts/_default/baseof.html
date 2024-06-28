@@ -3,8 +3,8 @@
     {{- partial "head.html" . -}}
     <body>
         <!-- SCM Music Player https://www.scmplayer.net -->
-        {{/*  <script type="text/javascript" src="https://scmplayer.net/script.js" 
-        data-config="{'skin':'skins/scmOrange/skin.css','volume':50,'autoplay':false,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':{{ $.Site.Data.playlist | jsonify }} }" ></script>  */}}
+        <script type="text/javascript" src="https://scmplayer.net/script.js" 
+        data-config="{'skin':'skins/scmOrange/skin.css','volume':50,'autoplay':false,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':{{ $.Site.Data.playlist | jsonify }} }" ></script>
         <!-- SCM Music Player script end -->
 
         {{- partial "header.html" . -}}
