@@ -8,6 +8,8 @@ draft: false
 caption: "ON SUNDAY, JANUARY 17, 2016, A GRAND QUEST BEGAN…"
 caption_mainpage: ""
 categories: ["Projects"]
+thumbnail: gregory-quest/img/machoman.jpg
+thumbnail_alt: Macho Man Randy Savage; image from https://bsky.app/profile/crtpixel.bsky.social/post/3kpsuwk3iei2c
 include_css:
 - gregory_quest
 tags:
