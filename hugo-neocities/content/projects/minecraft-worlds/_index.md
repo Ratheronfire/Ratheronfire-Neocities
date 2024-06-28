@@ -3,8 +3,11 @@ title: "Minecraft Worlds"
 type: "detailed-manual"
 date: 2020-01-01T00:00:00-04:00
 draft: false
+caption: Interactive slideshows of some Minecraft worlds my friends and I made.
 caption_mainpage: ""
 categories: ["Projects"]
+thumbnail: minecraft-worlds/img/thumbnail.png
+thumbnail_alt: A bit of a Minecraft build from above.
 tags:
 - minecraft
 ---
