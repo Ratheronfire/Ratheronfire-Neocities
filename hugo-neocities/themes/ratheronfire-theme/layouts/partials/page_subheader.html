@@ -1,1 +1,1 @@
-<i>{{ .Date | time.Format ":date_long" }}{{ if .Params.author }} - by {{ .Params.author | markdownify }}{{ end }}{{ if .Lastmod }} (Last modified {{ .Lastmod | time.Format "Mon Jan 2 15:04 MST" }}){{ end }}</i>
+{{ .Date | time.Format ":date_long" }}{{ if .Params.author }} - by {{ .Params.author | markdownify }}{{ end }}{{ if .Lastmod }} <i style="float: right;">(Last modified {{ .Lastmod | time.Format "Mon Jan 2 3:04 PM MST" }})</i>{{ end }}
