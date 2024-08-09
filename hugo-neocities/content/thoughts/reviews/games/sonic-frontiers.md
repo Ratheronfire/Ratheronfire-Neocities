@@ -6,7 +6,7 @@ date: 2022-11-26 00:00:00
 categories:
 - reviews
 draft: false
-rating: 4.0
+rating: 4
 has_spoilers: false
 fanart_url: /thoughts/reviews/games/img/sonic-frontiers_fanart.png
 poster_url: /thoughts/reviews/games/img/sonic-frontiers_poster.png
@@ -15,8 +15,6 @@ page_name: sonic-frontiers
 tags:
 - sonic-the-hedgehog
 ---
-
-
 
 Really didn't expect to enjoy this as much as I did going in, but this game is just so much fun in a way that's kinda hard to describe. Maybe it's because I'm used to modern Sonic (or maybe it's because of the mods that I was playing around with) but I didn't have nearly as much trouble with the controls as a lot of other people did. Things like the pop-in and the occasional bug didn't bother me too much, after the first few hours I didn't really pay much attention to them anymore.
 

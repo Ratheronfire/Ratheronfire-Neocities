@@ -6,7 +6,7 @@ date: 2024-04-08 00:00:00
 categories:
 - reviews
 draft: false
-rating: 5
+rating: 4
 has_spoilers: false
 fanart_url: /thoughts/reviews/games/img/arzette-the-jewel-of-faramore_fanart.png
 poster_url: /thoughts/reviews/games/img/arzette-the-jewel-of-faramore_poster.png

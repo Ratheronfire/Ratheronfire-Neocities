@@ -6,7 +6,7 @@ date: 2024-04-08 00:00:00
 categories:
 - reviews
 draft: false
-rating: 4
+rating: 5
 has_spoilers: false
 fanart_url: ''
 poster_url: /thoughts/reviews/games/img/doug-huggem_poster.png

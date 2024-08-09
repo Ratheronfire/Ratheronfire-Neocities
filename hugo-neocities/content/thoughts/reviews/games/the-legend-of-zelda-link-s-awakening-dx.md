@@ -6,17 +6,13 @@ date: 2022-09-13 00:00:00
 categories:
 - reviews
 draft: false
-rating: 5.0
+rating: 5
 has_spoilers: false
 fanart_url: /thoughts/reviews/games/img/the-legend-of-zelda-link-s-awakening-dx_fanart.png
 poster_url: /thoughts/reviews/games/img/the-legend-of-zelda-link-s-awakening-dx_poster.png
 external_review_url: https://backloggd.com/games/the-legend-of-zelda-link-s-awakening-dx/
 page_name: the-legend-of-zelda-link-s-awakening-dx
-tags:
-- legend-of-zelda
 ---
-
-
 
 Completed the RetroAchievements set for this playthrough. Overall a really solid set, good balance of difficulty without relying on too many easily missable achievements or obnoxious requirements, as well as being a nice excuse to see some of the little touches you might miss otherwise. I did have to start up a second playthrough for the secret seashells achievement though, but that was mainly due to the game locking you out of two of them unless you obtain them at a really specific point.
 
