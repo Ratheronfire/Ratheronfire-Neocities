@@ -16,8 +16,6 @@ tags:
 - sonic-the-hedgehog
 ---
 
-
-
 I liked this game quite a bit, but I see the issues with it. The boss fights are pretty rough, especially the endgame bosses, though I think people are really exaggerating their issues. Compared to the original games all ending on long, drawn out fights with zero rings and limited lives, I think this game's fights are way more forgiving, even with the occasional insta-kill attack that's clearly telegraphed and not too hard to avoid.
 
 The music is a bit hit or miss as well, though at worst the soundtrack is just okay (except for the Sonic 1 style special stage, that track puts me to sleep). The only real problem I have is how inconsistent the sound is, especially when you're enjoying some of the Mania-ish Tee Lopes music only to get smacked in the face with boss music straight out of Sonic 4. The main theme is pretty alright I think, Crush 40 did a cover of it for the Sonic Symphony and it sounded great there.
