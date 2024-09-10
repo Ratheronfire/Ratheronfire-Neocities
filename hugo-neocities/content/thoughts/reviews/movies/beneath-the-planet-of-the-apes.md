@@ -14,6 +14,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/beneath-the-planet
 page_name: beneath-the-planet-of-the-apes
 tags:
 - planet-of-the-apes
+- planet-of-the-apes-originals
 ---
 
 I'm very, very curious to see how exactly there were three more movies following the end of this.

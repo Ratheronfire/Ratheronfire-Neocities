@@ -14,5 +14,6 @@ external_review_url: https://letterboxd.com/ratheronfire/film/escape-from-the-pl
 page_name: escape-from-the-planet-of-the-apes
 tags:
 - planet-of-the-apes
+- planet-of-the-apes-originals
 ---
 
