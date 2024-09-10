@@ -116,7 +116,7 @@ you can add them directly to the <div id="header"></div> element! */
     width: 100%;
 }
 
-#navbar > ul {
+#navbar>ul {
     display: flex;
     padding: 0;
     margin: 0;
@@ -155,26 +155,26 @@ header a {
     cursor: pointer;
 }
 
-header nav > ul > li {
+header nav>ul>li {
     display: inline-block;
     vertical-align: top;
 }
 
-header nav > ul > li > ul {
+header nav>ul>li>ul {
     visibility: hidden;
     opacity: 0;
     z-index: 2;
 }
 
-header nav > ul > li > a:hover + ul,
-header nav > ul > li > a:focus + ul,
-header nav > ul > li:focus-within > ul,
-header nav > ul > li > ul:hover {
+header nav>ul>li>a:hover+ul,
+header nav>ul>li>a:focus+ul,
+header nav>ul>li:focus-within>ul,
+header nav>ul>li>ul:hover {
     visibility: visible;
     opacity: 1;
 }
 
-header li > ul {
+header li>ul {
     background-color: #241445;
     position: absolute;
     padding: 5px;
@@ -281,7 +281,8 @@ strong {
     height: 205px;
 }
 
-code, pre {
+code,
+pre {
     font-size: 15px;
     overflow-x: auto;
     max-width: 860px;
@@ -681,15 +682,15 @@ tbody tr:nth-child(odd) {
 
 /** Style Variants **/
 
-.review__games .review__title-container > h2 {
-    font-family: Roboto,sans-serif !important;
+.review__games .review__title-container>h2 {
+    font-family: Roboto, sans-serif !important;
 }
 
 .review__games .review__note {
     color: #ebb2c0;
 }
 
-.review__games .review__watched-date > a {
+.review__games .review__watched-date>a {
     color: #ebb2c0;
 }
 
@@ -705,15 +706,15 @@ tbody tr:nth-child(odd) {
     filter: brightness(0) saturate(100%) invert(98%) sepia(22%) saturate(7459%) hue-rotate(285deg) brightness(122%) contrast(110%);
 }
 
-.review__tv .review__title-container > h2 {
-    font-family: Roboto,sans-serif !important;
+.review__tv .review__title-container>h2 {
+    font-family: Roboto, sans-serif !important;
 }
 
 .review__tv .review__note {
     color: #b3b6b2;
 }
 
-.review__tv .review__watched-date > a {
+.review__tv .review__watched-date>a {
     color: #b3b6b2;
 }
 
@@ -797,4 +798,71 @@ figure img {
     text-align: right;
     font-size: min(1.87vw, 70%);
     opacity: 0.7;
+}
+
+/** HTML Comment Box **/
+
+#HCB_comment_box {
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.5);
+    height: initial !important;
+}
+
+.hcb-mod b {
+    color: #0088AF;
+}
+
+#HCB_comment_box textarea,
+#HCB_comment_box input.text {
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+}
+
+#HCB_comment_box .hcb-wrapper-half {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+#HCB_comment_box .hcb-wrapper {
+    clear: both;
+}
+
+#HCB_comment_box input.text {
+    display: block;
+    width: 95%;
+}
+
+#HCB_comment_box input.submit {
+    border-top: 1px solid #FCB1A2;
+    border-left: 1px solid #FCB1A2;
+    border-bottom: 1px solid #BB2B0F;
+    border-right: 1px solid #BB2B0F;
+    background-color: #F26646;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#HCB_comment_box div.comment {
+    color: #FDB3A5;
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px double #F26646;
+    margin: 5px;
+    padding: 2px;
+}
+
+#HCB_comment_box .comment .likes {
+    color: #00FF00;
+}
+
+#HCB_comment_box .hcb-link {
+    color: #0088AF;
+    text-decoration: none;
 }
