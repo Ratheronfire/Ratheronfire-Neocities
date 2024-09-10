@@ -50,3 +50,8 @@
   link: /thoughts/adventofcode/
   description: Added a new section for Advent of Code writeups.
   preview: Added a [new section](/thoughts/adventofcode/) for Advent of Code writeups.
+- title: Added comments sections to individual pages.
+  date: 2024-09-10T17:00:00-04:00
+  link: ?comments
+  description: Added comments sections using www.htmlcommentbox.com.
+  preview: Added comments sections using [htmlcommentbox.com](https://www.htmlcommentbox.com).
