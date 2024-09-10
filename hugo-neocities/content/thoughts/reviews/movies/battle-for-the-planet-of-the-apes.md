@@ -14,5 +14,6 @@ external_review_url: https://letterboxd.com/ratheronfire/film/battle-for-the-pla
 page_name: battle-for-the-planet-of-the-apes
 tags:
 - planet-of-the-apes
+- planet-of-the-apes-originals
 ---
 

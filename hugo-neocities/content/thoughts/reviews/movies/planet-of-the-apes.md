@@ -14,5 +14,6 @@ external_review_url: https://letterboxd.com/ratheronfire/film/planet-of-the-apes
 page_name: planet-of-the-apes
 tags:
 - planet-of-the-apes
+- planet-of-the-apes-originals
 ---
 
