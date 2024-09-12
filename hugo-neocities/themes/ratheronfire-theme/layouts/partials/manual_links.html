@@ -9,7 +9,7 @@
         {{ with site.GetPage . }}
         <tr>
             <td hugo-nav="{{ .RelPermalink}}">
-                <a href="{{ .Permalink}}"> {{ .LinkTitle }} </a>
+                <a href="{{ .RelPermalink}}"> {{ .LinkTitle }} </a>
             </td>
             <td>{{ .Params.date | time.Format ":date_long" }}</td>
         </tr>

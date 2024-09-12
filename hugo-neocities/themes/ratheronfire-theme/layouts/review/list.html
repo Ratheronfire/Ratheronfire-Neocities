@@ -18,7 +18,7 @@
     <tr>
         <td>
             {{ if $review.content }}
-            <a href="{{ .Page.Permalink }}">{{ $review.title }}</a>
+            <a href="{{ .Page.RelPermalink }}">{{ $review.title }}</a>
             {{ else }}
             {{ $review.title }}
             {{ end }}

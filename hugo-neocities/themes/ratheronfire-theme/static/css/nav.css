@@ -1,0 +1,86 @@
+/* Page navigation buttons */
+
+.blog__navigateButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1520px) {
+    .blog__navigateButtons a {
+        font-size: 24px;
+    }
+}
+
+.blog__navigate {
+    margin-bottom: 20px;
+}
+
+.blog__navigate button {
+    border: none;
+    outline: none;
+    background: rgb(88, 123, 240);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.blog__navigate button:hover,
+.hugo-pagination>.page-item:hover {
+    transform: translateY(1.5);
+    background: rgb(43, 92, 226);
+}
+
+.blog__navigate a,
+.hugo-pagination>.page-item a {
+    color: #fff;
+}
+
+.hugo-pagination {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.hugo-pagination>.page-item {
+    flex-grow: 1;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: rgb(88, 123, 240);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.blog__navigate button,
+.hugo-pagination>.page-item.disabled {
+    background: gray;
+    cursor: default;
+}
+
+.blog__navigate button,
+.hugo-pagination>.page-item.active {
+    background: blueviolet;
+    cursor: default;
+}
+
+.blog__navigate button,
+.hugo-pagination>.page-item a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+/* Tag buttons */
+
+a.tag {
+    background: aqua;
+    border-radius: 7px;
+    padding: 0 5px 0 5px;
+}

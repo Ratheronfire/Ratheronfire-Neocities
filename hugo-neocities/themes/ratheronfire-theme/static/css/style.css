@@ -110,7 +110,7 @@ you can add them directly to the <div id="header"></div> element! */
 
 /* navigation section!! */
 #navbar {
-    height: 40px;
+    height: auto;
     background-color: #13092D;
     /* navbar color */
     width: 100%;
@@ -223,7 +223,7 @@ footer {
     background-color: #13092D;
     /* background color for footer */
     width: 100%;
-    height: 40px;
+    height: auto;
     padding: 10px;
     text-align: center;
     /* this centers the footer text */
@@ -237,6 +237,12 @@ h3 {
 
 h1 {
     font-size: 25px;
+}
+
+@media only screen and (max-width: 1520px) {
+    h1 {
+        font-size: 32px;
+    }
 }
 
 strong {
@@ -288,6 +294,13 @@ pre {
     max-width: 860px;
 }
 
+@media only screen and (max-width: 1520px) {
+    code,
+    pre {
+        font-size: 24px;
+    }
+}
+
 code:not([data-lang]) {
     color: rgb(17, 243, 36);
 }
@@ -296,15 +309,16 @@ select option {
     color: black;
 }
 
-/* Review formatting */
+/* Image gallery display */
 
-.review-header {
+a.image_scaled {
     display: flex;
-    align-items: center;
 }
 
-.review-title {
-    flex-grow: 1;
+.image_scaled img,
+img.image_scaled {
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* BELOW THIS POINT IS MEDIA QUERY */
@@ -344,525 +358,8 @@ feel free to play around with the order!
     #navbar ul {
         flex-wrap: wrap;
     }
-}
 
-/* Image gallery display */
-
-a.image_scaled {
-    display: flex;
-}
-
-.image_scaled img,
-img.image_scaled {
-    width: 100%;
-    margin: 0 auto;
-}
-
-/* Page navigation buttons */
-
-.blog__navigateButtons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.blog__navigate {
-    margin-bottom: 20px;
-}
-
-.blog__navigate button {
-    border: none;
-    outline: none;
-    background: rgb(88, 123, 240);
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 200ms;
-}
-
-.blog__navigate button:hover,
-.hugo-pagination>.page-item:hover {
-    transform: translateY(1.5);
-    background: rgb(43, 92, 226);
-}
-
-.blog__navigate a,
-.hugo-pagination>.page-item a {
-    color: #fff;
-}
-
-.hugo-pagination {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding: 0;
-}
-
-.hugo-pagination>.page-item {
-    flex-grow: 1;
-    text-align: center;
-    border: none;
-    outline: none;
-    background: rgb(88, 123, 240);
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 200ms;
-}
-
-.blog__navigate button,
-.hugo-pagination>.page-item.disabled {
-    background: gray;
-    cursor: default;
-}
-
-.blog__navigate button,
-.hugo-pagination>.page-item.active {
-    background: blueviolet;
-    cursor: default;
-}
-
-.blog__navigate button,
-.hugo-pagination>.page-item a {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    padding: 10px 20px;
-}
-
-/* Tag buttons */
-
-a.tag {
-    background: aqua;
-    border-radius: 7px;
-    padding: 0 5px 0 5px;
-}
-
-/* Tables */
-
-table,
-.dt-scroll-headInner {
-    width: 100% !important;
-}
-
-thead tr {
-    background-color: #250d55;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #241445 !important;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: #13092D !important;
-}
-
-.table-rss {
-    display: flex;
-    justify-content: center;
-}
-
-.rss-link a {
-    text-decoration: none;
-    color: orange;
-}
-
-.title {
-    position: relative;
-}
-
-.title .rss-link {
-    position: absolute;
-    right: 9px;
-    top: 0;
-}
-
-/* Letterboxd review cards */
-
-.hidden {
-    display: none;
-}
-
-.review__review {
-    background: #2c3440;
-    border-radius: 5px;
-    border: 1px solid #2c3440;
-    overflow: hidden;
-    box-shadow: rgb(0 0 0 / 70%) 2px 2px 5px;
-    color: #9ab;
-    display: flex;
-    flex-direction: column;
-}
-
-/** Header **/
-
-.review__header {
-    display: flex;
-    padding: 13.846px 16px 0;
-    background: #456;
-    z-index: 1;
-    position: relative;
-}
-
-.review__poster-container {
-    align-self: flex-start;
-    flex-shrink: 0;
-    order: 2;
-    width: 30%;
-    max-width: 110px;
-    position: relative;
-    z-index: 0;
-    height: 0px;
-}
-
-.review__poster-container-small {
-    max-width: 60px;
-    top: -10px;
-    right: -10px;
-}
-
-.review__poster-border {
-    height: auto;
-    width: 100%;
-    background: #161718;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 35%);
-    border-radius: 4px;
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-}
-
-.review__poster {
-    height: auto;
-    width: 100%;
-    border-radius: 4px;
-    margin: 0;
-    display: block;
-}
-
-.review__poster-border a {
-    box-shadow: inset 0 0 1px #ddeeff;
-    background-clip: padding-box;
-    background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, hsla(0, 0%, 100%, .5) 50%, hsla(0, 0%, 100%, 0));
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
-    border-radius: 4px;
-    box-sizing: border-box;
-    display: block;
-    height: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    overflow: hidden;
-    position: absolute;
-    text-indent: 110%;
-}
-
-.review__title-container {
-    align-self: center;
-    flex-grow: 1;
-    order: 1;
-    padding-right: 13.846px;
-}
-
-.review__title-container>h2 {
-    margin-bottom: 9.231px;
-    font-size: 20.3077px;
-    font-weight: 400;
-    margin: 0 0 10px;
-    font-family: TiemposTextWeb-Semibold, Georgia, serif;
-    font-weight: 700;
-    margin: 0 0 10px;
-    line-height: 1.2;
-}
-
-.review__title {
-    margin-right: 3px;
-}
-
-.review__title>a:nth-child(1) {
-    color: #fff;
-    margin-right: 5px;
-    text-decoration: none;
-}
-
-.review__title-season {
-    font-size: 16.6154px;
-    color: #89a;
-    font-weight: 400;
-}
-
-.review__title-season>a {
-    color: #abc;
-    text-decoration: none;
-}
-
-.review__title-year {
-    font-size: 16.6154px;
-    color: #89a;
-    font-weight: 400;
-}
-
-.review__title-year>a {
-    color: #abc;
-    text-decoration: none;
-}
-
-.review__title-rating {
-    background: url("https://s.ltrbxd.com/static/img/sprite.bb4a4c3d.svg") -390px -130px no-repeat;
-    display: inline-block;
-    height: 14px;
-    overflow: hidden;
-    text-indent: 110%;
-    white-space: nowrap;
-}
-
-.review__title-rating-inline {
-    margin-left: 10px;
-}
-
-.review__review-subheader {
-    display: flex;
-    align-items: center;
-}
-
-.review__extra-review-subheader .review__note,
-.review__extra-review-subheader .review__title-rating {
-    margin: 0;
-}
-
-.review__extra-review-subheader span {
-    margin: 0 10px;
-}
-
-.review__warnings {
-    display: flex;
-}
-
-.review__note {
-    font-size: 14px;
-    line-height: 1.5;
-
-    margin-bottom: 9.231px;
-    margin-right: 20px;
-}
-
-.review__info {
-    color: cyan;
-    flex: min-content;
-}
-
-.review__warning {
-    color: yellowgreen;
-    flex: max-content;
-}
-
-.review__context {
-    color: #9999FF;
-    flex: max-content;
-}
-
-.review__watched-date {
-    color: wheat;
-}
-
-.review__watched-date>a {
-    color: wheat;
-    text-decoration: none;
-}
-
-.review__to-full {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-}
-
-/** Style Variants **/
-
-.review__games .review__title-container>h2 {
-    font-family: Roboto, sans-serif !important;
-}
-
-.review__games .review__note {
-    color: #ebb2c0;
-}
-
-.review__games .review__watched-date>a {
-    color: #ebb2c0;
-}
-
-.review__games.review__review {
-    background: #16181c;
-}
-
-.review__games .review__header {
-    background: #30394c;
-}
-
-.review__games .review__title-rating {
-    filter: brightness(0) saturate(100%) invert(98%) sepia(22%) saturate(7459%) hue-rotate(285deg) brightness(122%) contrast(110%);
-}
-
-.review__tv .review__title-container>h2 {
-    font-family: Roboto, sans-serif !important;
-}
-
-.review__tv .review__note {
-    color: #b3b6b2;
-}
-
-.review__tv .review__watched-date>a {
-    color: #b3b6b2;
-}
-
-.review__tv.review__review {
-    background: #0d0f12;
-}
-
-.review__tv .review__header {
-    background: #1b2126;
-}
-
-.review__tv .review__title-rating {
-    filter: brightness(0) saturate(100%) invert(93%) sepia(76%) saturate(4741%) hue-rotate(356deg) brightness(104%) contrast(102%);
-}
-
-/** Body **/
-
-.review__fanart {
-    width: 100%;
-    height: 0;
-    margin-bottom: 160px;
-}
-
-.review__fanart>img {
-    min-width: 100%;
-    width: 100%;
-    min-height: 267px;
-    object-fit: cover;
-    margin: 0;
-    transform: translateY(-20%);
-}
-
-.review__body {
-    line-height: 1.6875;
-    font-size: 14.7692px;
-    padding: 0 16px;
-    margin-top: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 0;
-    background: linear-gradient(180deg, rgba(125, 185, 232, 0) 0, #16181c calc(160px + 3rem));
-}
-
-.review__body.review__body_underimg {
-    padding-top: 160px;
-    margin-top: calc(0.5rem - 160px);
-}
-
-.review__body>hr {
-    width: 100%;
-}
-
-.review__body>p {
-    margin: 0 0 0.625em 0;
-    width: 100%;
-}
-
-figure {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-figure img {
-    width: 100%;
-}
-
-/** List view **/
-
-.review__review details>summary {
-    cursor: pointer;
-    list-style: none;
-}
-
-.review__review details>summary>div {
-    margin-bottom: 0 !important;
-}
-
-.review__attribution {
-    text-align: right;
-    font-size: min(1.87vw, 70%);
-    opacity: 0.7;
-}
-
-/** HTML Comment Box **/
-
-#HCB_comment_box {
-    border: 2px solid #FFFFFF;
-    border-radius: 5px;
-    padding: 10px;
-    color: #FFFFFF;
-    background: rgba(0, 0, 0, 0.5);
-    height: initial !important;
-}
-
-.hcb-mod b {
-    color: #0088AF;
-}
-
-#HCB_comment_box textarea,
-#HCB_comment_box input.text {
-    border-top: 1px solid #e4e4e4;
-    border-left: 1px solid #e4e4e4;
-    border-bottom: 1px solid #eaeaea;
-    border-right: 1px solid #eaeaea;
-    background-color: #f8f8f8;
-}
-
-#HCB_comment_box .hcb-wrapper-half {
-    display: block;
-    width: 50%;
-    float: left;
-}
-
-#HCB_comment_box .hcb-wrapper {
-    clear: both;
-}
-
-#HCB_comment_box input.text {
-    display: block;
-    width: 95%;
-}
-
-#HCB_comment_box input.submit {
-    border-top: 1px solid #FCB1A2;
-    border-left: 1px solid #FCB1A2;
-    border-bottom: 1px solid #BB2B0F;
-    border-right: 1px solid #BB2B0F;
-    background-color: #F26646;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-#HCB_comment_box div.comment {
-    color: #FDB3A5;
-    background: rgba(0, 0, 0, 0.5);
-    border: 3px double #F26646;
-    margin: 5px;
-    padding: 2px;
-}
-
-#HCB_comment_box .comment .likes {
-    color: #00FF00;
-}
-
-#HCB_comment_box .hcb-link {
-    color: #0088AF;
-    text-decoration: none;
+    body {
+        font-size: 32px;
+    }
 }

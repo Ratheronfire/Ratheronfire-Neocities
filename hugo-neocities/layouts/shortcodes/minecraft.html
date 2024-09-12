@@ -84,6 +84,37 @@
         border-radius: 0 0 15px 0;
     }
 
+    @media only screen and (max-width: 1520px) {
+        .slide-container {
+            padding-top: 13px;
+        }
+
+        .slides:fullscreen .slide-container {
+            padding-top: unset;
+        }
+
+        #slide-select {
+            max-width: 530px;
+        }
+
+        .slides:fullscreen #slide-select,
+        .slides:fullscreen .top-controls {
+            height: 48px;
+            font-size: 24px;
+
+            align-items: center;
+        }
+
+        .slides:fullscreen label.text-checkbox {
+            top: -48px !important;
+        }
+
+        .slides:fullscreen .slide-text {
+            bottom: -21px !important;
+            max-width: calc(100% - 40px) !important;
+        }
+    }
+
     .slides:fullscreen .slide-text {
         position: absolute;
         bottom: -10px;
@@ -195,11 +226,21 @@
         text-shadow: 0px 0px 15px rgb(119, 119, 119);
     }
 
-    {{ if hugo.IsDevelopment }}
+        {
+            {
+            if hugo.IsDevelopment
+        }
+    }
+
     .nav label {
         opacity: 1;
     }
-    {{ end }}
+
+        {
+            {
+            end
+        }
+    }
 
     .slide:hover .nav label {
         opacity: 0.6;
@@ -241,7 +282,7 @@
 
         return 0;
     }
-    
+
     function loadImageURL(slideIndex) {
         var imageId = 'img-' + slideIndex;
 
@@ -291,25 +332,64 @@
 
     function toggleFullscreen() {
         var elem = document.querySelector('.slides');
+        if (document.fullscreenElement) {
+            document.exitFullscreen();
+        }
+        else {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { /* Safari */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE11 */
+                elem.msRequestFullscreen();
+            }
+        }
+
+        updateScreenDisplay();
+    }
+
+    function updateScreenDisplay() {
+        var slideContainer = $(".slide-container");
+        
+        const topOffset = 48
 
         if (document.fullscreenElement) {
-            document.getElementById('to-fullscreen-icon').style.display = "";
-            document.getElementById('from-fullscreen-icon').style.display = "none";
+            document.getElementById('to-fullscreen-icon').style.display = "none";
+            document.getElementById('from-fullscreen-icon').style.display = "";
 
-            document.exitFullscreen();
-            return;
+            var width = window.screen.availWidth;
+            var height = window.screen.availHeight - topOffset;
+
+            if (width > height) {
+                var adjustedWidth = height * 16 / 9
+
+                slideContainer.css({
+                    width: adjustedWidth + "px",
+                    left: ((width - adjustedWidth) / 2) + "px",
+                    height: "unset",
+                    top: topOffset + "px"
+                });
+            } else {
+                var adjustedHeight = width * 9 / 16
+
+                slideContainer.css({
+                    height: adjustedHeight + "px",
+                    top: ((height - adjustedHeight) / 2) + "px",
+                    width: "unset",
+                    left: "unset"
+                });
+            }
+        } else {
+            slideContainer.css({
+                height: "unset",
+                top: "unset",
+                width: "unset",
+                left: "unset"
+            });
         }
 
-        document.getElementById('to-fullscreen-icon').style.display = "none";
-        document.getElementById('from-fullscreen-icon').style.display = "";
-
-        if (elem.requestFullscreen) {
-            elem.requestFullscreen();
-        } else if (elem.webkitRequestFullscreen) { /* Safari */
-            elem.webkitRequestFullscreen();
-        } else if (elem.msRequestFullscreen) { /* IE11 */
-            elem.msRequestFullscreen();
-        }
+        document.getElementById('to-fullscreen-icon').style.display = "";
+        document.getElementById('from-fullscreen-icon').style.display = "none";
     }
 
     var usingSmallImages = false;
@@ -321,4 +401,14 @@
     refreshSlide();
 
     document.getElementById("js-hider").removeAttribute("style");
+
+    if (document.addEventListener)
+    {
+        document.addEventListener('fullscreenchange', updateScreenDisplay, false);
+        document.addEventListener('mozfullscreenchange', updateScreenDisplay, false);
+        document.addEventListener('MSFullscreenChange', updateScreenDisplay, false);
+        document.addEventListener('webkitfullscreenchange', updateScreenDisplay, false);
+    }
+
+    $(window).on("resize", updateScreenDisplay);
 </script>
