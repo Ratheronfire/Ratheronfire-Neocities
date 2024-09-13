@@ -10,10 +10,6 @@ I've taken to treating this site as an experiment in discovering how large and c
 
 I hope you enjoy the sights and sounds, and please be sure to keep your arms and legs inside the vehicle at all times. The gift shop will be on your right at the end of the ride.
 
-{{< rawhtml >}}
-<iframe src="https://www3.cbox.ws/box/?boxid=3535293&boxtag=Vs829q" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-{{</ rawhtml >}}
-
 ~~Hey, I have a guestbook, just like all the cool kids!~~  
 [In loving memory of my old guestbook, 2023-2024.](/guestbook_archive.htm)
 

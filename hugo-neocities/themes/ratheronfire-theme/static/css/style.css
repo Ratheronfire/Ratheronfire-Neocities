@@ -185,7 +185,7 @@ if you want to style them separately,
 create styles for #leftSidebar and #rightSidebar */
 aside {
     background-color: #241445;
-    width: 250px;
+    width: 325px;
     padding: 10px;
     font-size: smaller;
     /* this makes the sidebar text slightly smaller */
