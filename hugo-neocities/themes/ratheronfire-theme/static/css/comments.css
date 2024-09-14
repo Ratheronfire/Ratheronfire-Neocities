@@ -62,3 +62,12 @@
     color: #0088AF;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 1520px) {
+    #HCB_comment_box input,
+    #HCB_comment_box textarea,
+    #HCB_comment_box button,
+    #HCB_comment_box a {
+        font-size: 24px !important;
+    }
+}

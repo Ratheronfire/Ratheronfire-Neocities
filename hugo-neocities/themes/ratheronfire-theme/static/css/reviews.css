@@ -106,12 +106,6 @@
     line-height: 1.2;
 }
 
-@media only screen and (max-width: 1520px) {
-    .review__title-container>h2 {
-        font-size: 32px;
-    }
-}
-
 .review__title {
     margin-right: 3px;
 }
@@ -128,12 +122,6 @@
     font-weight: 400;
 }
 
-@media only screen and (max-width: 1520px) {
-    .review__title-season {
-        font-size: 24px;
-    }
-}
-
 .review__title-season>a {
     color: #abc;
     text-decoration: none;
@@ -143,12 +131,6 @@
     font-size: 16.6154px;
     color: #89a;
     font-weight: 400;
-}
-
-@media only screen and (max-width: 1520px) {
-    .review__title-year {
-        font-size: 24px;
-    }
 }
 
 .review__title-year>a {
@@ -209,58 +191,6 @@
     width: 80px;
 }
 
-@media only screen and (max-width: 1520px) {
-    .review__title-rating {
-        background-size: 1600px 2000px;
-        background-position: -780px -260px;
-        height: 28px;
-    }
-
-    .review__title-rating__0 {
-        width: 0;
-    }
-    
-    .review__title-rating__0_5 {
-        width: 16px;
-    }
-    
-    .review__title-rating__1 {
-        width: 32px;
-    }
-    
-    .review__title-rating__1_5 {
-        width: 48px;
-    }
-    
-    .review__title-rating__2 {
-        width: 64px;
-    }
-    
-    .review__title-rating__2_5 {
-        width: 80px;
-    }
-    
-    .review__title-rating__3 {
-        width: 96px;
-    }
-    
-    .review__title-rating__3_5 {
-        width: 112px;
-    }
-    
-    .review__title-rating__4 {
-        width: 128px;
-    }
-    
-    .review__title-rating__4_5 {
-        width: 144px;
-    }
-    
-    .review__title-rating__5 {
-        width: 160px;
-    }
-}
-
 .review__title-rating-inline {
     margin-left: 10px;
 }
@@ -289,12 +219,6 @@
 
     margin-bottom: 9.231px;
     margin-right: 20px;
-}
-
-@media only screen and (max-width: 1520px) {
-    .review__note {
-        font-size: 18px;
-    }
 }
 
 .review__info {
@@ -407,12 +331,6 @@
     background: linear-gradient(180deg, rgba(125, 185, 232, 0) 0, #16181c calc(160px + 3rem));
 }
 
-@media only screen and (max-width: 1520px) {
-    .review__body {
-        font-size: 24px;
-    }
-}
-
 .review__body.review__body_underimg {
     padding-top: 160px;
     margin-top: calc(0.5rem - 160px);
@@ -456,6 +374,76 @@ figure img {
 }
 
 @media only screen and (max-width: 1520px) {
+    .review__title-container>h2 {
+        font-size: 32px;
+    }
+    
+    .review__title-season {
+        font-size: 24px;
+    }
+    
+    .review__title-year {
+        font-size: 24px;
+    }
+    
+    .review__title-rating {
+        background-size: 1600px 2000px;
+        background-position: -780px -260px;
+        height: 28px;
+    }
+
+    .review__title-rating__0 {
+        width: 0;
+    }
+    
+    .review__title-rating__0_5 {
+        width: 16px;
+    }
+    
+    .review__title-rating__1 {
+        width: 32px;
+    }
+    
+    .review__title-rating__1_5 {
+        width: 48px;
+    }
+    
+    .review__title-rating__2 {
+        width: 64px;
+    }
+    
+    .review__title-rating__2_5 {
+        width: 80px;
+    }
+    
+    .review__title-rating__3 {
+        width: 96px;
+    }
+    
+    .review__title-rating__3_5 {
+        width: 112px;
+    }
+    
+    .review__title-rating__4 {
+        width: 128px;
+    }
+    
+    .review__title-rating__4_5 {
+        width: 144px;
+    }
+    
+    .review__title-rating__5 {
+        width: 160px;
+    }
+    
+    .review__note {
+        font-size: 24px;
+    }
+    
+    .review__body {
+        font-size: 32px;
+    }
+    
     .review__title-season {
         font-size: 18px;
     }
