@@ -1,4 +1,4 @@
-<header class="container">
+<header class="container" style="position: relative">
     <div style="position: absolute;">
         <a style="color: yellow; font-size: 30px" onclick="nextHeader()">
             <i class="fa fa-sun" aria-hidden="true"></i>
@@ -7,42 +7,15 @@
             <i class="fa fa-refresh" aria-hidden="true"></i>
         </a>
     </div>
+    <div style="position: absolute; bottom: 32px; right: 0">
+        <label for="theme-select">Theme</label>
+        <select id="theme-select" onchange="setTheme()">
+            <option value="default" selected>Default</option>
+            <option value="red" selected>Red Iculous</option>
+            <option disabled>More to come probably!</option>
+        </select>
+    </div>
     <div id="header" style="height: 165px;"></div>
-        <script>
-        var headers = [
-            "url('/img/peasants_quest_headerB.png')",
-            "url('/img/peasants_quest_headerA.png')",
-            "url('/img/peasants_quest_headerC.png')"
-        ];
-
-        var currentHeader = 0;
-
-        function setHeader() {
-            header.style["background-image"] = headers[currentHeader];
-        }
-
-        function nextHeader() {
-            currentHeader = (currentHeader + 1) % headers.length;
-            setHeader();
-        }
-
-        function setHeaderByHour() {
-            var hours = new Date().getHours();
-    
-            var header = document.querySelector('#header');
-    
-            if (hours < 6 || hours > 22)
-                currentHeader = 0;
-            else if (hours < 10 || hours > 18)
-                currentHeader = 1;
-            else
-                currentHeader = 2;
-            
-            setHeader();
-        }
-
-        setHeaderByHour();
-    </script>
     <noscript>
     </noscript>
     <div id="headerArea">
@@ -86,3 +59,123 @@
     </div>
     <style class="darkreader darkreader--sync" media="screen"></style>
 </header>
+<script>
+    var headers = [
+        "url('/img/peasants_quest_headerB.png')",
+        "url('/img/peasants_quest_headerA.png')",
+        "url('/img/peasants_quest_headerC.png')"
+    ];
+
+    var currentHeader = 0;
+
+    function setHeader() {
+        document.querySelector('#header').style["background-image"] = headers[currentHeader];
+    }
+
+    function nextHeader() {
+        currentHeader = (currentHeader + 1) % headers.length;
+        setHeader();
+    }
+
+    function setHeaderByHour() {
+        var hours = new Date().getHours();
+
+        if (hours < 6 || hours > 22)
+            currentHeader = 0;
+        else if (hours < 10 || hours > 18)
+            currentHeader = 1;
+        else
+            currentHeader = 2;
+
+        setHeader();
+    }
+
+    setHeaderByHour();
+    
+    const themes = {
+        "default": {
+            "header-image": "url('../img/peasants_quest_headerA.png')",
+            "body-bg-image": "url('../img/space_backdrop.jpg')",
+            "content": "#43256E",
+
+            "background-color": "#08031A",
+            "main-background-color": "#43256E",
+            "navbar-background-color": "#13092D",
+
+            "box-background-color": "#13092D",
+            "box-border-color": "#ED64F5",
+            "aside-background-color": "#241445",
+
+            "header-background-color": "#5e4e8c",
+            "header-dropdown-background-color": "#241445",
+            "footer-background-color": "#13092D",
+
+            "top-bar-background-color": "#13092D",
+
+            "primary-text-color": "#fceaff",
+            "bold-text-color": "#ED64F5",
+
+            "link-color": "#ED64F5",
+            "rss-link-color": "orange",
+            "navbar-link-color": "#ED64F5",
+            "navbar-link-color-hover": "#a49cba",
+
+            "title-color": "#ED64F5",
+
+            "code-no-lang-color": "rgb(17, 243, 36)",
+
+            "option-color": "black",
+                
+            "minecraft-nav-color": "#0F0",
+            "minecraft-nav-background-color": "rgba(255, 255, 255, 0)",
+            "minecraft-nav-text-shadow-color": "rgb(119, 119, 119)",
+
+            "gregory-quest-blockquote-color": "rgb(17, 243, 36)",
+
+            "table-background-color": "#250d55",
+            "table-even-row-background-color": "#241445",
+            "table-odd-row-background-color": "#13092D",
+        },
+        "red": {
+            "main-background-color": "#83252E",
+            "navbar-background-color": "#63091D",
+
+            "box-background-color": "#63091D",
+            "box-border-color": "#FD6445",
+            "aside-background-color": "#941415",
+
+            "header-background-color": "#8e4e5c",
+            "header-dropdown-background-color": "#741425",
+            "footer-background-color": "#63091D",
+
+            "primary-text-color": "#fceaff",
+            "bold-text-color": "#FF9425",
+
+            "link-color": "#FD6465",
+            "navbar-link-color": "#FD6465",
+
+            "title-color": "#FD6445",
+
+            "table-background-color": "#550d25",
+            "table-even-row-background-color": "#441425",
+            "table-odd-row-background-color": "#23091D",
+        }
+    };
+
+    function setTheme(themeId) {
+        var newTheme = document.querySelector("#theme-select").value;
+        var themeValues = themes[newTheme];
+
+        for (let key in themes["default"]) {
+            var newValue = themes["default"][key];
+
+            if (key in themeValues) {
+                newValue = themeValues[key]
+            }
+
+            document.documentElement.style.setProperty('--' + key, newValue);
+        }
+    }
+    
+    setTheme();
+</script>

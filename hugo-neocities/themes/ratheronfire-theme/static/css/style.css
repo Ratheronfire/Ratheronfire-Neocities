@@ -11,7 +11,45 @@ the images as variables */
     --body-bg-image: url('../img/space_backdrop.jpg');
 
     /* colors */
-    --content: #43256E;
+    --content: #43256E; /* Unused? */
+
+    --background-color: #08031A;
+    --main-background-color: #43256E;
+    --navbar-background-color: #13092D;
+
+    --aside-background-color: #241445;
+    --box-background-color: #13092D;
+    --box-border-color: #ED64F5;
+
+    --header-background-color: #5e4e8c;
+    --header-dropdown-background-color: #241445;
+    --footer-background-color: #13092D;
+
+    --top-bar-background-color: #13092D; /* Unused? */
+
+    --primary-text-color: #fceaff;
+    --bold-text-color: #ED64F5;
+
+    --link-color: #ED64F5;
+    --rss-link-color: orange;
+    --navbar-link-color: #ED64F5;
+    --navbar-link-color-hover: #a49cba;
+
+    --title-color: #ED64F5;
+
+    --code-no-lang-color: rgb(17, 243, 36);
+
+    --option-color: black;
+    
+    --minecraft-nav-color: #0F0;
+    --minecraft-nav-background-color: rgba(255, 255, 255, 0);
+    --minecraft-nav-text-shadow-color: rgb(119, 119, 119);
+
+    --gregory-quest-blockquote-color: rgb(17, 243, 36);
+
+    --table-background-color: #250d55;
+    --table-even-row-background-color: #241445;
+    --table-odd-row-background-color: #13092D;
 }
 
 /* if you have the URL of a font, you can set it below */
@@ -52,9 +90,9 @@ and then link it! Many fonts have separate files for each style
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    background-color: #08031A;
+    background-color: var(--background-color);
     /* you can delete the line below if you'd prefer to not use an image */
-    color: #fceaff;
+    color: var(--primary-text-color);
     background-image: var(--body-bg-image);
     background-size: 125%;
 }
@@ -86,7 +124,7 @@ and change the media query according to the comment! */
 /* the area below is for all links on your page
 EXCEPT for the navigation */
 .container a {
-    color: #ED64F5;
+    color: var(--link-color);
     font-weight: bold;
     /* if you want to remove the underline
 you can add a line below here that says:
@@ -95,7 +133,7 @@ text-decoration:none; */
 
 #header {
     width: 100%;
-    background-color: #5e4e8c;
+    background-color: var(--header-background-color);
     /* header color here! */
     height: 150px;
     /* this is only for a background image! */
@@ -111,7 +149,7 @@ you can add them directly to the <div id="header"></div> element! */
 /* navigation section!! */
 #navbar {
     height: auto;
-    background-color: #13092D;
+    background-color: var(--navbar-background-color);
     /* navbar color */
     width: 100%;
 }
@@ -130,7 +168,7 @@ you can add them directly to the <div id="header"></div> element! */
 
 /* navigation links*/
 #navbar li a {
-    color: #ED64F5;
+    color: var(--navbar-link-color);
     /* navbar text color */
     font-weight: 800;
     text-decoration: none;
@@ -139,7 +177,7 @@ you can add them directly to the <div id="header"></div> element! */
 
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
-    color: #a49cba;
+    color: var(--navbar-link-color-hover);
     text-decoration: underline;
 }
 
@@ -175,7 +213,7 @@ header nav>ul>li>ul:hover {
 }
 
 header li>ul {
-    background-color: #241445;
+    background-color: var(--header-dropdown-background-color);
     position: absolute;
     padding: 5px;
 }
@@ -184,7 +222,7 @@ header li>ul {
 if you want to style them separately,
 create styles for #leftSidebar and #rightSidebar */
 aside {
-    background-color: #241445;
+    background-color: var(--aside-background-color);
     width: 325px;
     padding: 10px;
     font-size: smaller;
@@ -195,7 +233,7 @@ aside {
 /* this is the color of the main content area,
 between the sidebars! */
 main {
-    background-color: #43256E;
+    background-color: var(--main-background-color);
     flex: 1;
     padding: 20px;
     order: 2;
@@ -220,7 +258,7 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
 }
 
 footer {
-    background-color: #13092D;
+    background-color: var(--footer-background-color);
     /* background color for footer */
     width: 100%;
     height: auto;
@@ -232,7 +270,7 @@ footer {
 h1,
 h2,
 h3 {
-    color: #ED64F5;
+    color: var(--title-color);
 }
 
 h1 {
@@ -247,13 +285,13 @@ h1 {
 
 strong {
     /* this styles bold text */
-    color: #ED64F5;
+    color: var(--bold-text-color);
 }
 
 /* this is just a cool box, it's the darker colored one */
 .box {
-    background-color: #13092D;
-    border: 1px solid #ED64F5;
+    background-color: var(--box-background-color);
+    border: 1px solid var(--box-border-color);
     padding: 10px;
 }
 
@@ -264,7 +302,7 @@ strong {
     height: 30px;
     padding: 10px;
     font-size: smaller;
-    background-color: #13092D;
+    background-color: var(--top-bar-background-color);
 }
 
 .card {
@@ -302,11 +340,11 @@ pre {
 }
 
 code:not([data-lang]) {
-    color: rgb(17, 243, 36);
+    color: var(--code-no-lang-color);
 }
 
 select option {
-    color: black;
+    color: var(--option-color);
 }
 
 /* Image gallery display */

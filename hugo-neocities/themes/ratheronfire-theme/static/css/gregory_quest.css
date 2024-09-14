@@ -69,7 +69,7 @@ main>p:has(code) {
 main>p>a>code,
 main table code,
 main>blockquote {
-    color: rgb(17, 243, 36);
+    color: var(--gregory-quest-blockquote-color);
     font-family: RuneScape-Plain-12;
     font-size: 24px;
 }
