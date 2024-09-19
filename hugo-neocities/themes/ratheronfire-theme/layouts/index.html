@@ -19,28 +19,13 @@
                 <br />
                 <br />
 
-                <div class="center">
-                    {{ partial "buttons" . | markdownify }}
-                </div>
-
-                <hr style="max-width: 200px;" />
-
-                <div class="center">
-                </div>
-
-                <div class="center" style="display: flex; align-items: center">
-                    <a href="https://ratheronfire.com/"><img style="align-self: flex-c" src="/img/buttons/website_button.png"></a>
-                    <div style="max-width: 200px;">
-                        If you want to add a link to my site, you can use this:
-                    </div>
-                    <textarea disabled><a href="https://ratheronfire.com/"><img style="align-self: flex-c" src="/img/buttons/website_button.png"></a></textarea>
-                </div>
-
                 <hr style="max-width: 200px;" />
 
                 <br />
 
-                <div class="center"><img id="avatar" src="/avatar.png"></div>
+                <div class="center">
+                    <a href="https://ratheronfire.com/"><img style="align-self: flex-c" src="/img/buttons/website_button.png"></a>
+                </div>
             </main>
 
             <aside id="leftSidebar" style="margin-right: 0px;">
@@ -128,6 +113,18 @@
                 <br />
 
                 <div class="center"><a href="https://neocities.org"><img src="/neocities.png"></a></div>
+
+                <hr />
+
+                <p>
+                    <b>Here's Some Buttons</b>
+                    <br />
+                    <i>Credit given where possible</i>
+                </p>
+
+                <div class="scrollable" style="max-height: 150px;">
+                    {{ partial "buttons" . }}
+                </div>
             </aside>
         </div>
     </div>
