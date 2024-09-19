@@ -23,8 +23,8 @@ integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="ano
 <meta property="og:title" content="{{ .Title }}" />
 <meta content="Ratheronfire&#39;s Assorted Collection of Odd Projects" property="og:site_name" />
 <meta property="og:url" content="https://ratheronfire.com/" />
-<meta property="og:image" content="https://ratheronfire.com/avatar.png" />
-<meta property="og:description" content="One of the less bad sites on the internet." />
+<meta property="og:image" content="{{ or .Params.thumbnail .Params.thumbnail "https://ratheronfire.com/avatar.png" }}" />
+<meta property="og:description" content="{{ or .Params.description .Params.description "One of the less bad sites on the internet." }}" />
 <meta name="theme-color" content="#0088FF" />
 
 {{ range .Params.include_css }}
