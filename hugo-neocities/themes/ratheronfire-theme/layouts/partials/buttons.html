@@ -1,8 +1,19 @@
-[![Cohost Button](/img/buttons/cohost.png)](https://mykocalico.neocities.org/buttons)
-[![SUPER DOWNLOADS FREE](/img/buttons/88_31freedownloads.gif)](https://ratheronfire.itch.io/)
-[![Get Macromedia Flash Player](/img/buttons/adobe_flash_get.gif)](https://homestarrunner.com/)
-![Half-Life](/img/buttons/hl.gif)
-![New Lambda Research Facility](/img/buttons/newlambda.gif)
-![Get RealPlayer](/img/buttons/realp.gif)
-[![SMBHQ.com](/img/buttons/smbhq.gif)](https://web.archive.org/web/20200512035802/http://www.smbhq.com/)
-![Windows 95](/img/buttons/win95.gif)
+{{ range $button := $.Site.Data.buttons }}
+    {{ if .url }}
+    <a href="{{ .url }}">
+    {{ end }}
+        <picture>
+            {{ $split_str := split (.image) "." }}
+            {{ $static_str := printf "%s.static.%s" (index $split_str 0) (index $split_str 1) }}
+
+            {{ if not (fileExists (printf "static%s" $static_str)) }}
+                {{ $static_str = .image }}
+            {{ end }}
+
+            <source srcset="{{ .image }}" media="(prefers-reduced-motion: no-preference)" />
+            <img src="{{ $static_str }}" alt="{{ .alt }}" title="{{ .alt }}" />
+        </picture>
+    {{ if .url }}
+    </a>
+    {{ end }}
+{{ end }}

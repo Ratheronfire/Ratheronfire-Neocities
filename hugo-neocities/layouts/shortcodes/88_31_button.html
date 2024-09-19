@@ -1,0 +1,7 @@
+<picture>
+    {{ $split_str := split (.Get 1) "." }}
+    {{ $static_str := printf "%s.static.%s" (index $split_str 0) (index $split_str 1) }}
+
+    <source srcset="{{ $static_str }}" media="(prefers-reduced-motion: no-preference)" />
+    <img src="{{ .Get 1 }}" alt="{{ .Get 2 }}" />
+</picture>
