@@ -7,11 +7,13 @@
             <i class="fa fa-refresh" aria-hidden="true"></i>
         </a>
     </div>
-    <div style="position: absolute; bottom: 32px; right: 0">
+    <div id="theme-select-container">
         <label for="theme-select">Theme</label>
         <select id="theme-select" onchange="setTheme()">
             <option value="default" selected>Default</option>
             <option value="red">Red Iculous</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
             <option disabled>More to come probably!</option>
         </select>
     </div>
@@ -74,10 +76,14 @@
 
     function nextHeader() {
         currentHeader = (currentHeader + 1) % headers.length;
+        localStorage.setItem("headerId", currentHeader);
+
         setHeader();
     }
 
     function setHeaderByHour() {
+        localStorage.removeItem("headerId");
+
         var hours = new Date().getHours();
 
         if (hours < 6 || hours > 22)
@@ -90,7 +96,12 @@
         setHeader();
     }
 
-    setHeaderByHour();
+    if (localStorage.getItem("headerId") != null) {
+        currentHeader = localStorage.getItem("headerId");
+        setHeader();
+    } else {
+        setHeaderByHour();
+    }
     
     const themes = {
         "default": {
@@ -100,6 +111,7 @@
 
             "background-color": "#08031A",
             "main-background-color": "#43256E",
+            "mid-gradient-color": "rgb(9, 9, 121)",
             "navbar-background-color": "#13092D",
 
             "box-background-color": "#13092D",
@@ -108,6 +120,7 @@
 
             "header-background-color": "#5e4e8c",
             "header-dropdown-background-color": "#241445",
+            "header-border-color": "violet",
             "footer-background-color": "#13092D",
 
             "top-bar-background-color": "#13092D",
@@ -138,6 +151,7 @@
         },
         "red": {
             "main-background-color": "#83252E",
+            "mid-gradient-color": "rgb(180, 9, 9)",
             "navbar-background-color": "#63091D",
 
             "box-background-color": "#63091D",
@@ -146,6 +160,7 @@
 
             "header-background-color": "#8e4e5c",
             "header-dropdown-background-color": "#741425",
+            "header-border-color": "#ff1515",
             "footer-background-color": "#63091D",
 
             "primary-text-color": "#fceaff",
@@ -159,12 +174,67 @@
             "table-background-color": "#550d25",
             "table-even-row-background-color": "#441425",
             "table-odd-row-background-color": "#23091D",
+        },
+        "dark": {
+            "main-background-color": "#0E0E0E",
+            "mid-gradient-color": "rgb(25, 25, 25)",
+            "navbar-background-color": "#252525",
+
+            "box-background-color": "#050505",
+            "box-border-color": "#666666",
+            "aside-background-color": "#1A1A1A",
+
+            "header-background-color": "#303030",
+            "header-dropdown-background-color": "#303030",
+            "header-border-color": "#000000",
+            "footer-background-color": "#252525",
+
+            "primary-text-color": "#ffffff",
+            "bold-text-color": "#4F85F4",
+
+            "link-color": "#6DC475",
+            "navbar-link-color": "#6DF455",
+
+            "title-color": "#DDF485",
+
+            "table-background-color": "#250d25",
+            "table-even-row-background-color": "#141425",
+            "table-odd-row-background-color": "#03091D",
+        },
+        "light": {
+            "main-background-color": "#EEEEF4",
+            "mid-gradient-color": "rgb(205, 205, 225)",
+            "navbar-background-color": "#DDDDFF",
+
+            "box-background-color": "#9595C5",
+            "box-border-color": "#0C0C4C",
+            "aside-background-color": "#BBBBDF",
+
+            "header-background-color": "#888888",
+            "header-dropdown-background-color": "#888888",
+            "header-border-color": "#000000",
+            "footer-background-color": "#DDDDFF",
+
+            "primary-text-color": "#000000",
+            "bold-text-color": "#FF9554",
+
+            "link-color": "#0D2475",
+            "navbar-link-color": "#0D2455",
+            "rss-link-color": "FF0000",
+
+            "title-color": "#2D1495",
+
+            "table-background-color": "#BBBBFF",
+            "table-even-row-background-color": "#DDDDEE",
+            "table-odd-row-background-color": "#9999FF",
         }
     };
 
-    function setTheme(themeId) {
+    function setTheme() {
         var newTheme = document.querySelector("#theme-select").value;
         var themeValues = themes[newTheme];
+
+        localStorage.setItem("theme", newTheme);
 
         for (let key in themes["default"]) {
             var newValue = themes["default"][key];
@@ -177,5 +247,9 @@
         }
     }
     
+    if (localStorage.getItem("theme") != null) {
+        document.querySelector("#theme-select").value = localStorage.getItem("theme");
+    }
+
     setTheme();
 </script>

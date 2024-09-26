@@ -1,3 +1,100 @@
+#header {
+    width: 100%;
+    background-color: var(--header-background-color);
+    /* header color here! */
+    height: 150px;
+    /* this is only for a background image! */
+    /* if you want to put images IN the header, 
+you can add them directly to the <div id="header"></div> element! */
+    background-size: 100%;
+    background-position: right 0 top -87px;
+    background-image: var(--header-image);
+
+    image-rendering: pixelated;
+}
+
+#theme-select-container {
+    position: absolute;
+    bottom: 42px;
+    right: 0;
+}
+
+@media only screen and (max-width: 1520px) {
+    #theme-select-container {
+        bottom: 60px;
+    }
+}
+
+/* navigation section!! */
+#navbar {
+    height: auto;
+    background-color: var(--navbar-background-color);
+    /* navbar color */
+    width: 100%;
+
+    border-bottom: 2px double var(--header-border-color);
+}
+
+#navbar>ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    padding: 10px 0;
+}
+
+/* navigation links*/
+#navbar li a {
+    color: var(--navbar-link-color);
+    /* navbar text color */
+    font-weight: 800;
+    text-decoration: none;
+    /* this removes the underline */
+}
+
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
+    color: var(--navbar-link-color-hover);
+    text-decoration: underline;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    cursor: pointer;
+}
+
+header nav>ul>li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header nav>ul>li>ul {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+}
+
+header nav>ul>li>a:hover+ul,
+header nav>ul>li>a:focus+ul,
+header nav>ul>li:focus-within>ul,
+header nav>ul>li>ul:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+header li>ul {
+    background-color: var(--header-dropdown-background-color);
+    position: absolute;
+    padding: 5px;
+}
+
 /* Page navigation buttons */
 
 .blog__navigateButtons {
@@ -83,4 +180,15 @@ a.tag {
     background: aqua;
     border-radius: 7px;
     padding: 0 5px 0 5px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 0px;
+    padding-bottom: 0;
+}
+
+footer:empty {
+    padding: unset;
 }
