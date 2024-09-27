@@ -3,6 +3,7 @@ title: "Stinkoman 20X6: Godot Remake"
 type: "detailed-manual"
 date: 2023-01-02T00:00:00-04:00
 draft: false
+description: "Are you asking for a challenge!? In Godot!?"
 caption: |
     My newest project, a clone of the Homestar Runner game [Stinkoman 20X6](https://homestarrunner.com/stinkogame/).
     Written in Godot.  
@@ -17,7 +18,7 @@ caption_mainpage: |
     - [Mac](https://storage.ratheronfire.com/stinkoman/stinkoman-mac.zip)
     - [Linux](https://storage.ratheronfire.com/stinkoman/stinkoman-linux.zip)
     - [Android](https://storage.ratheronfire.com/stinkoman/stinkoman-android.apk)
-thumbnail: "stinkoman/img/title.png"
+thumbnail: "/projects/stinkoman/img/embed_image.png"
 thumbnail_alt: "The title screen for my Stinkoman remake."
 thumbnail_mainpage: "img/gameplay.png"
 categories: ["Projects"]
