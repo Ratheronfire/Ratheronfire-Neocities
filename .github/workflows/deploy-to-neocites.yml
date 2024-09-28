@@ -39,11 +39,6 @@ jobs:
         && sudo dpkg -i ${{ runner.temp }}/hugo.deb
     - name: Install Dart Sass
       run: sudo snap install dart-sass
-    - name: Checkout
-      uses: actions/checkout@v3
-      with:
-        submodules: recursive
-        fetch-depth: 0
     - name: Install Node.js dependencies
       run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
     - name: Build with Hugo
@@ -56,11 +51,7 @@ jobs:
           -s hugo-neocities \
           --gc \
           --minify \
-          --baseURL "${{ steps.pages.outputs.base_url }}/"   
-    - name: Checking the RSS feed
-      run: |
-        cat hugo-neocities/static/updates.xml
-        cat hugo-neocities/public/updates.xml
+          --baseURL "${{ steps.pages.outputs.base_url }}/"
     - name: Rename 404 page
       # Hugo expects the 404 page to be 404.html, but Neocities uses not_found.html.
       run: mv "hugo-neocities/public/404.html" "hugo-neocities/public/not_found.html"
