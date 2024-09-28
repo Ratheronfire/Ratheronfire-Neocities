@@ -23,9 +23,7 @@ def download_file(url, path, force_redownload=False):
 def read_hugo_page(review_path):    
     try:
         with open(review_path, 'r') as review_file:
-            print("Reading file")
             file_text = review_file.read()
-            print("Read file")
         
         file_sections = re.split(r'\n*---\n+', file_text, maxsplit=2)
         
