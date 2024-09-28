@@ -49,7 +49,7 @@ jobs:
           --baseURL "${{ steps.pages.outputs.base_url }}/"   
     - name: Rename 404 page
       # Hugo expects the 404 page to be 404.html, but Neocities uses not_found.html.
-      run: mv "${{ steps.pages.outputs.base_url }}/public/404.html" "${{ steps.pages.outputs.base_url }}/public/not_found.html"
+      run: mv "hugo-neocities/public/404.html" "hugo-neocities/public/not_found.html"
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@master
       with:
