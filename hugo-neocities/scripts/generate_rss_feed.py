@@ -1,7 +1,7 @@
 from feedgen.feed import FeedGenerator
 from hugo_page_helpers import read_hugo_page
 
-update_path = 'hugo-neocities\\data\\updates.yml'
+update_path = 'hugo-neocities/data/updates.yml'
 
 
 def generate_rss_feed():
