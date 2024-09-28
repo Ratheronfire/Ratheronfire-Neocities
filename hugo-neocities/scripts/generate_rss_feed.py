@@ -1,4 +1,3 @@
-import os
 from feedgen.feed import FeedGenerator
 from hugo_page_helpers import read_hugo_page
 
@@ -15,8 +14,6 @@ def generate_rss_feed():
     fg.subtitle('Welcome to one of the less bad sites on the internet!')
     fg.link( href='https://ratheronfire.com/feed.xml', rel='self' )
     fg.language('en')
-    
-    print(os.listdir())
 
     updates = read_hugo_page(update_path)
     
