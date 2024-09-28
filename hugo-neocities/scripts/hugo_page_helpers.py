@@ -20,14 +20,12 @@ def download_file(url, path, force_redownload=False):
         out_file.write(file.content)
 
 
-def read_hugo_page(review_path):
-    print(os.listdir())
-    print(os.listdir("hugo-neocities"))
-    print(os.listdir("hugo-neocities/data"))
-    
+def read_hugo_page(review_path):    
     try:
         with open(review_path, 'r') as review_file:
+            print("Reading file")
             file_text = review_file.read()
+            print("Read file")
         
         file_sections = re.split(r'\n*---\n+', file_text, maxsplit=2)
         
@@ -42,6 +40,7 @@ def read_hugo_page(review_path):
         
         return yaml_obj, contents
     except FileNotFoundError:
+        print("Review file not found at path " + review_path)
         return None
 
 
