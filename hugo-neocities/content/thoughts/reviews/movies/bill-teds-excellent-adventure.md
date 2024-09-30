@@ -16,5 +16,6 @@ tags:
 - bill-and-ted
 ---
 
-In record time, Bill &amp; Ted advanced from being introduced to time travel to learning how to systematically abuse the bootstrap paradox in their favor. It's no wonder they became the most important figures in the history of mankind.
+In record time, Bill & Ted advanced from being introduced to time travel to learning how to systematically abuse the bootstrap paradox in their favor. It's no wonder they became the most important figures in the history of mankind.
 
+EDIT: The fact that Ted is the ultimate life form helps too, I guess
