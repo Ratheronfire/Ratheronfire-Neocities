@@ -3,6 +3,11 @@ table,
     width: 100% !important;
 }
 
+#eggbug-eggring table,
+#cohostorg table {
+    width: unset !important;
+}
+
 thead tr {
     background-color: var(--table-background-color);
 }
