@@ -31,6 +31,9 @@
 - image: /img/buttons/8.png
   url: https://88by31.neocities.org/
   alt: 88by31
+- image: /img/buttons/snake.png
+  url: secrets/snake
+  alt: Snake
 - image: /img/buttons/adobe_flash_get.gif
   url: https://homestarrunner.com
   alt: Get Macromedia Flash Player
