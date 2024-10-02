@@ -156,6 +156,14 @@ aside {
     display: flex;
 }
 
+.center {
+    width: 100%;
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+}
+
 /* this is the color of the main content area,
 between the sidebars! */
 main {
@@ -170,6 +178,8 @@ main {
     flex: 1;
     padding: 20px;
     order: 2;
+
+    position: relative;
 }
 
 .content {
