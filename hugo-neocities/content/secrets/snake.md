@@ -5,29 +5,31 @@ draft: false
 ---
 
 {{< rawhtml >}}
-<div>Score: <span class="score-display">0</span></div>
-<div id="game-over">
-    <h1>
-        Game over!
+<span id="game-display">
+    <div id="game-over">
+        <h1>
+            Game over!
+            <br />
+            <br />
+            Final Score: <span class="score-display">0</span>
+        </h1>
+
         <br />
         <br />
-        Final Score: <span class="score-display">0</span>
-    </h1>
 
-    <br />
-    <br />
+        <button onclick="initGrid()">Play Again?</button>
+    </div>
 
-    <button onclick="initGrid()">Play Again?</button>
-</div>
-
-<table id="game-field"></table>
+    <table id="game-field"></table>
+</span>
+<h2 id="score-container">Score: <span class="score-display">0</span></h2>
 
 <div class="center" style="width: 100%">
     <table id="controls">
         <tr>
             <td></td>
             <td>
-                <button class="control-button" id="button-up" onclick="movingDirection = Directions.UP">
+                <button class="control-button" id="button-up" onclick="processInput(Directions.UP)">
                     <i class="fa fa-arrow-up" aria-hidden="true"></i>
                 </button>
             </td>
@@ -35,13 +37,13 @@ draft: false
         </tr>
         <tr>
             <td>
-                <button class="control-button" id="button-left" onclick="movingDirection = Directions.LEFT">
+                <button class="control-button" id="button-left" onclick="processInput(Directions.LEFT)">
                     <i class="fa fa-arrow-left" aria-hidden="true"></i>
                 </button>
             </td>
             <td></td>
             <td>
-                <button class="control-button" id="button-right" onclick="movingDirection = Directions.RIGHT">
+                <button class="control-button" id="button-right" onclick="processInput(Directions.RIGHT)">
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </button>
             </td>
@@ -49,7 +51,7 @@ draft: false
         <tr>
             <td></td>
             <td>
-                <button class="control-button" id="button-down" onclick="movingDirection = Directions.DOWN">
+                <button class="control-button" id="button-down" onclick="processInput(Directions.DOWN)">
                     <i class="fa fa-arrow-down" aria-hidden="true"></i>
                 </button>
             </td>
@@ -125,7 +127,9 @@ draft: false
         }
     }
 
-    var movingDirection = Directions.STILL;
+    var inputQueue = [];
+    var inputQueueWindow = 3;
+
     var headPosition;
     var snakePath = [];
 
@@ -152,22 +156,21 @@ draft: false
         return buttons[vector.toString];
     }
 
-    function setCell(vector, newImg) {
-        var cell = getCell(vector);
-        img = cell.children[0];
-
-        img.src = newImg;
-    }
-
-    function randomCell() {
-        return new Vector2(Math.floor(Math.random() * gridXSize), Math.floor(Math.random() * gridYSize));
-    }
-
     function placeCellRandomly(cellType) {
-        position = randomCell();
-        getCell(position).setImage(cellType);
+        var freeCells = []
+        
+        for (let buttonIndex in buttons) {
+            var button = buttons[buttonIndex];
 
-        return position;
+            if (button.imageType == CellTypes.EMPTY) {
+                freeCells.push(button);
+            }
+        }
+
+        var cell = freeCells[Math.floor(Math.random() * freeCells.length)];
+        cell.setImage(cellType);
+
+        return cell.vector;
     }
 
     function gameOver() {
@@ -176,6 +179,8 @@ draft: false
     }
 
     function drawFrame() {
+        var movingDirection = inputQueue.length > 0 ? inputQueue[0] : Directions.STILL;
+
         $("#button-up").attr("active", movingDirection == Directions.UP);
         $("#button-down").attr("active", movingDirection == Directions.DOWN);
         $("#button-left").attr("active", movingDirection == Directions.LEFT);
@@ -203,7 +208,6 @@ draft: false
 
             if (occupiedTiles.includes(currentSegmentPosition.toString)) {
                 gameOver();
-                return;
             }
             occupiedTiles.push(currentSegmentPosition.toString);
 
@@ -233,6 +237,11 @@ draft: false
             $(".score-display").text(score);
             
             var nextPos = headPosition.copy();
+
+            var movingDirection = inputQueue.length > 0 ? inputQueue[0] : Directions.STILL;
+            if (inputQueue.length > 1) {
+                inputQueue.shift();
+            }
 
             if (movingDirection == Directions.LEFT) {
                 nextPos.x -= 1;
@@ -282,7 +291,9 @@ draft: false
     function initGrid() {
         score = 0;
         gameIsOver = false;
+
         snakePath = [];
+        inputQueue = [];
 
         secondsPerTick = 0.25;
 
@@ -313,12 +324,24 @@ draft: false
         tickInterval = setInterval(tick, 0);
     }
 
+    function processInput(movingDirection) {
+        if (movingDirection != Directions.STILL && (inputQueue.length == 0 || inputQueue[inputQueue.length - 1] != movingDirection)) {
+            inputQueue.push(movingDirection);
+        }
+
+        if (inputQueue.length > inputQueueWindow) {
+            inputQueue.shift();
+        }
+    }
+
     onkeydown = (event) => {
         //console.log(event);
 
         if (gameIsOver) {
             return;
         }
+
+        var movingDirection = Directions.STILL;
 
         if ([38, 87].includes(event.keyCode)) {
             movingDirection = Directions.UP;
@@ -329,6 +352,8 @@ draft: false
         } else if ([39, 68].includes(event.keyCode)) {
             movingDirection = Directions.RIGHT;
         }
+
+        processInput(movingDirection);
     };
 
     initGrid();
@@ -339,11 +364,26 @@ draft: false
         position: absolute;
         background-color: rgba(0, 0, 0, 0.8);
         
-        width: 97%;
-        height: 74%;
+        width: 100%;
+        height: 100%;
 
         text-align: center;
         align-content: center;
+    }
+
+    #game-display {
+        position: relative;
+       display: block;
+    }
+
+    #score-container {
+        position: absolute;
+        right: 32px;
+        top: 768px;
+    }
+
+    #game-over button {
+        font-size: 32px;
     }
 
     #controls {
