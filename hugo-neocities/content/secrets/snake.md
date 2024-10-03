@@ -1,6 +1,8 @@
 ---
 title: "Snake"
 date: 2024-10-01T21:43:27-04:00
+hide_nav: true
+hide_from_new: true
 draft: false
 ---
 
@@ -29,7 +31,7 @@ draft: false
         <tr>
             <td></td>
             <td>
-                <button class="control-button" id="button-up" onclick="processInput(Directions.UP)">
+                <button class="control-button" id="button-up" onclick="inputQueue = [Directions.UP]">
                     <i class="fa fa-arrow-up" aria-hidden="true"></i>
                 </button>
             </td>
@@ -37,13 +39,13 @@ draft: false
         </tr>
         <tr>
             <td>
-                <button class="control-button" id="button-left" onclick="processInput(Directions.LEFT)">
+                <button class="control-button" id="button-left" onclick="inputQueue = [Directions.LEFT]">
                     <i class="fa fa-arrow-left" aria-hidden="true"></i>
                 </button>
             </td>
             <td></td>
             <td>
-                <button class="control-button" id="button-right" onclick="processInput(Directions.RIGHT)">
+                <button class="control-button" id="button-right" onclick="inputQueue = [Directions.RIGHT]">
                     <i class="fa fa-arrow-right" aria-hidden="true"></i>
                 </button>
             </td>
@@ -51,7 +53,7 @@ draft: false
         <tr>
             <td></td>
             <td>
-                <button class="control-button" id="button-down" onclick="processInput(Directions.DOWN)">
+                <button class="control-button" id="button-down" onclick="inputQueue = [Directions.DOWN]">
                     <i class="fa fa-arrow-down" aria-hidden="true"></i>
                 </button>
             </td>
