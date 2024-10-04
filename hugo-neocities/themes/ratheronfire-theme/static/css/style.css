@@ -178,8 +178,6 @@ main {
     flex: 1;
     padding: 20px;
     order: 2;
-
-    position: relative;
 }
 
 .content {
@@ -229,6 +227,26 @@ h1 {
 strong {
     /* this styles bold text */
     color: var(--bold-text-color);
+}
+
+.title {
+    position: relative;
+}
+
+.title .rss-link {
+    position: absolute;
+    right: 9px;
+    top: 0;
+}
+
+.spacer {
+    margin: 0 5px;
+}
+
+a.rss-link,
+.rss-link a {
+    text-decoration: none;
+    color: var(--rss-link-color);
 }
 
 /* this is just a cool box, it's the darker colored one */

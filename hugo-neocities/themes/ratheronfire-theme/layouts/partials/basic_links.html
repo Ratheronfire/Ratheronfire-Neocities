@@ -1,0 +1,7 @@
+<ul>
+    {{ range .Pages }}
+        <li hugo-nav="{{ .RelPermalink}}">
+            <a href="{{ .RelPermalink}}"> {{ .LinkTitle }} </a> {{ if $.Params.show_dates }}<i>(Posted {{ $.Params.date | time.Format ":date_long" }})</i>{{ end }}
+        </li>
+    {{ end }}
+</ul>

@@ -8,6 +8,7 @@ caption_mainpage: ""
 thumbnail: "grafald/img/grafald.png"
 thumbnail_alt: "READING IS REQUIRED BY HOLY GRAFALD LAW"
 categories: ["Projects"]
+show_dates: false
 manual_links:
     - projects/grafald/2012
     - projects/grafald/2013

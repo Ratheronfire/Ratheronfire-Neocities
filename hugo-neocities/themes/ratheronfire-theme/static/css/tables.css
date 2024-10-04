@@ -25,21 +25,6 @@ tbody tr:nth-child(odd) {
     justify-content: center;
 }
 
-.rss-link a {
-    text-decoration: none;
-    color: var(--rss-link-color);
-}
-
-.title {
-    position: relative;
-}
-
-.title .rss-link {
-    position: absolute;
-    right: 9px;
-    top: 0;
-}
-
 @media only screen and (max-width: 1520px) {
     select,
     option,

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content" id="flex">
+            <main>
+                <h1 class="title">{{ .Title }}</h1>
+                
+                {{ range $update := sort $.Site.Data.updates "date" "desc" }}
+                <p>{{ $update.date | time.Format ":date_long" }}</p>
+                <ul>
+                    <li>{{ $update.preview | markdownify }}</li>
+                </ul>
+                {{ end }}
+            </main>
+        </div>
+    </div>
+</div>
+{{ end }}
