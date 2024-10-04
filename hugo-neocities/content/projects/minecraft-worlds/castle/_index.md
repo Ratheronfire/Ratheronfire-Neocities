@@ -4,7 +4,9 @@ type: "detailed-manual"
 date: 2020-01-01T00:00:00-04:00
 draft: false
 caption_mainpage: ""
-categories: ["Projects"]
+categories:
+- blog
+- projects
 image_folder: "/projects/minecraft-worlds/castle/img/"
 minecraft_slides:
 - id: 0

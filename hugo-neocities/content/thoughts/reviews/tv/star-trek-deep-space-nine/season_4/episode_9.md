@@ -7,8 +7,9 @@ episode: 9
 season_url: ''
 date: 2023-12-10 03:35:11.310537
 categories:
+- blog
 - reviews
-draft: false
+draft: true
 rating: 0
 has_spoilers: false
 fanart_url: ''

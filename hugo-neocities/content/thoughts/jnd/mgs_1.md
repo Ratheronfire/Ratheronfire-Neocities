@@ -2,6 +2,8 @@
 title: "The 100% Accurate Chronological Storyline of Metal Gear (From Memory) [PART 1]"
 date: 2019-09-01T22:06:49-04:00
 draft: false
+categories:
+- blog
 categories: ["jnd"]
 tags:
 - metal-gear-solid

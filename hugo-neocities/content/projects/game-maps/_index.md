@@ -9,6 +9,8 @@ thumbnail: "game-maps/img/preview.png"
 thumbnail_alt: "A bit of the Metroid map with some real repetitive level design."
 thumbnail_mainpage: ""
 override_url: "https://storage.ratheronfire.com/game-maps/"
-categories: ["Projects"]
+categories:
+- blog
+- projects
 ---
 

@@ -7,7 +7,10 @@ caption: "GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFALD GRAFAL
 caption_mainpage: ""
 thumbnail: "grafald/img/grafald.png"
 thumbnail_alt: "READING IS REQUIRED BY HOLY GRAFALD LAW"
-categories: ["Projects"]
+categories:
+- blog
+- projects
+- grafald
 show_dates: false
 manual_links:
     - projects/grafald/2012

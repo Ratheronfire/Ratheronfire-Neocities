@@ -5,7 +5,8 @@ date: 2020-01-01 00:00:00-04:00
 draft: false
 caption_mainpage: ''
 categories:
-- Projects
+- blog
+- projects
 image_folder: /projects/minecraft-worlds/island/img/
 minecraft_slides:
 - id: 0

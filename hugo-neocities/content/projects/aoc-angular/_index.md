@@ -13,6 +13,8 @@ thumbnail: "aoc-angular/img/aoc_1.png"
 thumbnail_alt: ""
 thumbnail_mainpage: ""
 override_url: "https://storage.ratheronfire.com/old-stuff/clicker-game/"
-categories: ["Projects"]
+categories:
+- blog
+- projects
 ---
 
