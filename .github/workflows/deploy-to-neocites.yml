@@ -34,9 +34,9 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
-    - name: Exiftool Scrub
-      uses: TheGroundZero/exiftool-scrub@v1.2.0
-      continue-on-error: true
+    # - name: Exiftool Scrub
+    #   uses: TheGroundZero/exiftool-scrub@v1.2.0
+    #   continue-on-error: true
 
     - name: Generate RSS feed
       run: python hugo-neocities/scripts/generate_rss_feed.py
