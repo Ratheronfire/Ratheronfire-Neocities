@@ -4,11 +4,15 @@
         <div class="content" id="flex">
             <main>
                 {{ if eq .Ancestors.Len 2 }}
-                    {{ $term := lower .Title }}
-                    {{ $taxonomy := lower (index .Ancestors 0).Params.taxonomy }}
-                    
+                    {{ $taxonomy_type := lower (index .Ancestors 0).Params.taxonomy }}
+                    {{ $type := .Params.taxonomy }}
+
+                    {{ if eq $type nil }}
+                    {{ $type = lower .Title }}
+                    {{ end }}
+
                     <h1 class="title">
-                        {{ if eq $taxonomy "tags" }}
+                        {{ if eq $taxonomy_type "tags" }}
                             #{{ .Title }}
                         {{ else }}
                             {{ .Title }}
@@ -27,10 +31,10 @@
                     <div class="categories">
                         {{ range $taxonomy_name, $taxonomy_pages := .Site.Taxonomies }}
 
-                            {{ if eq $taxonomy_name $taxonomy }}
+                            {{ if eq $taxonomy_name $taxonomy_type }}
                                 {{ range $name, $value := $taxonomy_pages }}
 
-                                    {{ if eq $name $term }}
+                                    {{ if eq $name $type }}
                                         <table>
                                             <thead>
                                                 <th>Page</th>
@@ -59,8 +63,6 @@
                     </div>
 
                 {{ else }}
-                    {{ $taxonomy := .Params.taxonomy }}
-
                     <h1 class="title">
                         {{ .Title }}
                         

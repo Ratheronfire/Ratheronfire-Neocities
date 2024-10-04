@@ -1,20 +1,11 @@
 {{ if .Params.manual_links }}
-<table>
-    <thead>
-        <th>Page</th>
-        <th>Posted</th>
-    </thead>
-    <tbody>
-        {{ range .Params.manual_links }}
+<ul>
+    {{ range .Params.manual_links }}
         {{ with site.GetPage . }}
-        <tr>
-            <td hugo-nav="{{ .RelPermalink}}">
-                <a href="{{ .RelPermalink}}"> {{ .LinkTitle }} </a>
-            </td>
-            <td>{{ .Params.date | time.Format ":date_long" }}</td>
-        </tr>
+        <li hugo-nav="{{ .RelPermalink}}">
+            <a href="{{ .RelPermalink}}"> {{ .LinkTitle }} </a> {{ if $.Params.show_dates }}<i>(Posted {{ $.Params.date | time.Format ":date_long" }})</i>{{ end }}
+        </li>
         {{ end }}
-        {{ end }}
-    </tbody>
-</table>
+    {{ end }}
+</ul>
 {{ end }}

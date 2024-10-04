@@ -36,7 +36,7 @@ I've also begun writing a series of devlogs outlining my hack and how it works:
 
 ## Version History
 
-- [1.2 (October 15, 2021)](/zip/megaman2_qol_1_2.zip)
+- [1.2 (October 15, 2021)](zip/megaman2_qol_1_2.zip)
   - Updated password generator to cap E-Tanks at 4, due to issues with >4 E-Tanks.
   - Sped up more UI elements (Mega Man flashing when receiving upgrades, screen flashing before Dr. Light's messages).
   - Added separate patches per feature, more documentation.
