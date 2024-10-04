@@ -2,6 +2,8 @@
 title: "Advent of Code 2023 - Day 6"
 date: 2023-12-06T01:00:00-04:00
 draft: false
+categories:
+- blog
 tags:
     - advent-of-code
     - aoc2023

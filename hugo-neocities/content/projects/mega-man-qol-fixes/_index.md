@@ -8,7 +8,9 @@ caption_mainpage: ""
 thumbnail: "mega-man-qol-fixes/img/5477screenshot1.png"
 thumbnail_alt: "Mega Man 2. Notice how many more E-Tanks I have (the original was limited to 4 and displayed them differently)."
 thumbnail_mainpage: "img/5477screenshot1.png"
-categories: ["Projects"]
+categories:
+- blog
+- projects
 tags:
 - mega-man
 - romhack

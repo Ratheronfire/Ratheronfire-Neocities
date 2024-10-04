@@ -7,6 +7,7 @@ episode: 15
 season_url: ''
 date: 2023-12-10 03:35:11.268384
 categories:
+- blog
 - reviews
 draft: true
 rating: 0

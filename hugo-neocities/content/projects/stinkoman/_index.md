@@ -21,7 +21,9 @@ caption_mainpage: |
 thumbnail: "/projects/stinkoman/img/embed_image.png"
 thumbnail_alt: "The title screen for my Stinkoman remake."
 thumbnail_mainpage: "img/gameplay.png"
-categories: ["Projects"]
+categories:
+- blog
+- projects
 tags:
 - stinkoman
 - homestar-runner

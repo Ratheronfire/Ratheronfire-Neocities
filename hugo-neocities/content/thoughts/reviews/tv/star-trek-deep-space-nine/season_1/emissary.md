@@ -8,6 +8,7 @@ season_url: ''
 date: 2023-12-10 03:35:11.259566
 categories:
 - reviews
+- blog
 draft: false
 rating: 4
 has_spoilers: true

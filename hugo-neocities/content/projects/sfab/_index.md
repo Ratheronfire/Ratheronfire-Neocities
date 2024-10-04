@@ -12,6 +12,8 @@ thumbnail: "sfab/img/peanut_butter_sandwiches.png"
 thumbnail_alt: "My all-time favorite prompt: Peanut butter and jelly sandwiches with names that sound like they'd make your grandma want to crawl out from under the couch"
 thumbnail_mainpage: ""
 override_url: "https://botsin.space/@scenesfromabot"
-categories: ["Projects"]
+categories:
+- blog
+- projects
 ---
 

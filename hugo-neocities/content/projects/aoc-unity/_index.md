@@ -10,6 +10,8 @@ thumbnail: "aoc-unity/img/aoc_2.png"
 thumbnail_alt: ""
 thumbnail_mainpage: ""
 override_url: "https://ratheronfire.itch.io/age-of-clicking"
-categories: ["Projects"]
+categories:
+- blog
+- projects
 ---
 

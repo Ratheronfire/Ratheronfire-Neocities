@@ -7,6 +7,7 @@ episode: 8
 season_url: ''
 date: 2023-12-10 03:35:11.264228
 categories:
+- blog
 - reviews
 draft: true
 rating: 0
