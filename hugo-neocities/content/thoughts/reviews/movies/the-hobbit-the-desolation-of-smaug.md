@@ -3,7 +3,8 @@ type: review
 title: 'The Hobbit: The Desolation of Smaug'
 year: '2013'
 date: 2023-12-13 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-hobbit-the-desolation-of-smaug_post
 external_review_url: https://letterboxd.com/ratheronfire/film/the-hobbit-the-desolation-of-smaug/
 page_name: the-hobbit-the-desolation-of-smaug
 tags:
+- movies
 - the-hobbit
 - middle-earth
 ---

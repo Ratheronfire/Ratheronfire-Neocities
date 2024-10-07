@@ -3,7 +3,8 @@ type: review
 title: 'Lupin the Third: The Castle of Cagliostro'
 year: '1979'
 date: 2022-06-08 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: false

@@ -3,7 +3,8 @@ type: review
 title: 'Star Wars: The Rise of Skywalker'
 year: '2019'
 date: 2019-12-27 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 2
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/star-wars-the-rise-of-skywalker_poster.
 external_review_url: https://letterboxd.com/ratheronfire/film/star-wars-the-rise-of-skywalker/
 page_name: star-wars-the-rise-of-skywalker
 tags:
+- movies
 - star-wars
 - star-wars-sequels
 ---

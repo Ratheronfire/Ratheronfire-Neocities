@@ -23,6 +23,10 @@
                         </div>
                     </h1>
 
+                    <p style="text-align: right">
+                        <i>Some pages (i.e. reviews without text content) are hidden.</i>
+                    </p>
+
                     {{ .Params.caption }}
                     {{ .Content }}
 
@@ -43,7 +47,7 @@
                                             </thead>
                                             <tbody>
                                                 {{ range $value.Pages }}
-                                                    {{ if .Content }}
+                                                    {{ if or .Content .Params.image_path }}
                                                         <tr>
                                                             <td hugo-nav="{{ .RelPermalink}}">
                                                                 <a href="{{ .RelPermalink}}"> {{ .LinkTitle }} </a>
@@ -73,8 +77,8 @@
                         </div>
                     </h1>
 
-                    <p>
-                        Some pages (i.e. reviews without text content) are hidden.
+                    <p style="text-align: right">
+                        <i>Some pages (i.e. reviews without text content) are hidden.</i>
                     </p>
 
                     <hr />
@@ -94,6 +98,8 @@
                                         {{ range $name, $value := $taxonomy_pages }}
                                             <tr>
                                                 {{ $pages := where $value.Pages ".Content" "ne" "" }}
+                                                {{ $pages = $pages | union (where $value.Pages ".Params.image_path" "ne" nil) }}
+                                                
                                                 {{ $newest := index $value.Pages 0 }}
 
                                                 <td><a href="{{ $name }}">{{if eq $.Params.taxonomy "tags" }}#{{ end }}{{ $name }}</a></td>

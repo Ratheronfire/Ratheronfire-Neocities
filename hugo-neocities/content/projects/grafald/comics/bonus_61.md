@@ -4,8 +4,9 @@ type: "image"
 date: 2023-11-29T01:00:00-04:00
 draft: false
 categories:
-- blog
-- projects
+- comics
+- collaborations
+tags:
 - grafald
 image_path: "../img/2023/bonus_61.png"
 alt_text: ""

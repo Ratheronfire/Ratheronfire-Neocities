@@ -3,7 +3,8 @@ type: review
 title: Planet of the Apes
 year: '1968'
 date: 2024-05-15 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/planet-of-the-apes_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/planet-of-the-apes/
 page_name: planet-of-the-apes
 tags:
+- movies
 - planet-of-the-apes
 - planet-of-the-apes-originals
 ---

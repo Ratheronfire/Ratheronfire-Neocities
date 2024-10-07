@@ -3,7 +3,8 @@ type: review
 title: Godzilla Minus One
 year: '2023'
 date: 2023-12-02 22:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4.5
 has_spoilers: true
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/godzilla-minus-one_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/godzilla-minus-one/
 page_name: godzilla-minus-one
 tags:
+- movies
 - godzilla
 ---
 

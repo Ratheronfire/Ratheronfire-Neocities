@@ -3,7 +3,8 @@ type: review
 title: Escape from the Planet of the Apes
 year: '1971'
 date: 2024-05-29 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/escape-from-the-planet-of-the-apes_post
 external_review_url: https://letterboxd.com/ratheronfire/film/escape-from-the-planet-of-the-apes/
 page_name: escape-from-the-planet-of-the-apes
 tags:
+- movies
 - planet-of-the-apes
 - planet-of-the-apes-originals
 ---

@@ -3,7 +3,8 @@ type: review
 title: Spider-Man 2
 year: '2004'
 date: 2024-02-07 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/spider-man-2_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/spider-man-2/
 page_name: spider-man-2
 tags:
+- movies
 - spider-man
 extra_reviews:
  - date: 2024-04-22 00:00:00

@@ -3,7 +3,8 @@ type: review
 title: 'The Hobbit: The Battle of the Five Armies'
 year: '2014'
 date: 2023-12-20 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-hobbit-the-battle-of-the-five-armie
 external_review_url: https://letterboxd.com/ratheronfire/film/the-hobbit-the-battle-of-the-five-armies/
 page_name: the-hobbit-the-battle-of-the-five-armies
 tags:
+- movies
 - the-hobbit
 - middle-earth
 ---

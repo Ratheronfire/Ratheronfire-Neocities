@@ -3,7 +3,8 @@ type: review
 title: The Matrix Reloaded
 year: '2003'
 date: 2021-12-08 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: true
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-matrix-reloaded_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-matrix-reloaded/
 page_name: the-matrix-reloaded
 tags:
+- movies
 - the-matrix
 ---
 

@@ -3,7 +3,8 @@ type: review
 title: Life of Brian
 year: '1979'
 date: 2022-08-02 00:36:32.112000+00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: false

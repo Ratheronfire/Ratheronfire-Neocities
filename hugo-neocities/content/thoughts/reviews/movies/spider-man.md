@@ -3,7 +3,8 @@ type: review
 title: Spider-Man
 year: '2002'
 date: 2024-01-31 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/spider-man_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/spider-man/
 page_name: spider-man
 tags:
+- movies
 - spider-man
 ---
 

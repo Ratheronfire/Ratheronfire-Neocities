@@ -3,7 +3,8 @@ type: review
 title: The Wind Rises
 year: '2013'
 date: 2022-09-11 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false

@@ -6,7 +6,9 @@ categories:
 - blog
 categories: ["jnd"]
 tags:
+- tv
 - star-trek
+- star-trek-picard
 ---
 
 *Originally posted to /r/JNDDeskscraps on May 31, 2020.*

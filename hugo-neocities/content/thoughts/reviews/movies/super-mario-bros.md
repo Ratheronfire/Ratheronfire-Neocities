@@ -3,7 +3,8 @@ type: review
 title: Super Mario Bros.
 year: '1993'
 date: 2023-05-31 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/super-mario-bros_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/super-mario-bros/
 page_name: super-mario-bros
 tags:
+- movies
 - mario
 ---
 

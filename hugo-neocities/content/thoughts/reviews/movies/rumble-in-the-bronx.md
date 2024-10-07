@@ -3,7 +3,8 @@ type: review
 title: Rumble in the Bronx
 year: '1995'
 date: 2023-06-28 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false

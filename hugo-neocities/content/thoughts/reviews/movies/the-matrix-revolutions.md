@@ -3,7 +3,8 @@ type: review
 title: The Matrix Revolutions
 year: '2003'
 date: 2021-12-15 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: true
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-matrix-revolutions_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-matrix-revolutions/
 page_name: the-matrix-revolutions
 tags:
+- movies
 - the-matrix
 ---
 

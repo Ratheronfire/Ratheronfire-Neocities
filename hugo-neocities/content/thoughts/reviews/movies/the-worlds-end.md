@@ -3,7 +3,8 @@ type: review
 title: The World's End
 year: '2013'
 date: 2022-02-23 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false

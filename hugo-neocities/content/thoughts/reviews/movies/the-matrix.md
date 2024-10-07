@@ -3,7 +3,9 @@ type: review
 title: The Matrix
 year: '1999'
 date: 2021-11-24 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
+- blog
 draft: false
 rating: 5
 has_spoilers: true
@@ -12,6 +14,7 @@ poster_url: /thoughts/reviews/movies/img/the-matrix_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-matrix/
 page_name: the-matrix
 tags:
+- movies
 - the-matrix
 extra_reviews:
  - date: 2024-03-20 00:00:00

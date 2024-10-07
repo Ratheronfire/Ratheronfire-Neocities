@@ -3,7 +3,8 @@ type: review
 title: 'Star Wars: The Last Jedi'
 year: '2017'
 date: 2024-04-10 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/star-wars-the-last-jedi_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/star-wars-the-last-jedi/
 page_name: star-wars-the-last-jedi
 tags:
+- movies
 - star-wars
 - star-wars-sequels
 ---

@@ -3,7 +3,8 @@ type: review
 title: Primer
 year: '2004'
 date: 2024-01-24 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false

@@ -6,8 +6,8 @@ section: "Thoughts"
 categories:
 - reviews
 - blog
-- movies
 tags:
+- movies
 - star-wars
 ---
 

@@ -3,7 +3,8 @@ type: review
 title: Spirited Away
 year: '2001'
 date: 2022-08-10 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: false

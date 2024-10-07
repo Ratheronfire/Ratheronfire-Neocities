@@ -3,7 +3,8 @@ type: review
 title: 'Dune: Part Two'
 year: '2024'
 date: 2024-03-02 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: false

@@ -3,7 +3,8 @@ type: review
 title: "Star Wars: Episode III \u2013\_Revenge of the Sith"
 year: '2005'
 date: 2024-01-17 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/star-wars-episode-iii-revenge-of-the-si
 external_review_url: https://letterboxd.com/ratheronfire/film/star-wars-episode-iii-revenge-of-the-sith/
 page_name: star-wars-episode-iii-revenge-of-the-sith
 tags:
+- movies
 - star-wars
  - star-wars-prequels
 ---

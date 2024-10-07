@@ -3,7 +3,8 @@ type: review
 title: Sunshine
 year: '2007'
 date: 2022-08-18 02:32:44.840000+00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false

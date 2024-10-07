@@ -10,7 +10,7 @@ thumbnail_alt: "READING IS REQUIRED BY HOLY GRAFALD LAW"
 categories:
 - blog
 - projects
-- grafald
+- collaborations
 show_dates: false
 manual_links:
     - projects/grafald/2012
@@ -23,6 +23,7 @@ manual_links:
     - projects/grafald/2019
     - projects/grafald/2020
     - projects/grafald/2023
+    - projects/grafald/2024
 tags:
 - grafald
 - 3days

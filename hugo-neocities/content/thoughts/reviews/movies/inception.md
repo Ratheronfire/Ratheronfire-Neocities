@@ -3,7 +3,8 @@ type: review
 title: Inception
 year: '2010'
 date: 2022-04-27 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4.5
 has_spoilers: false

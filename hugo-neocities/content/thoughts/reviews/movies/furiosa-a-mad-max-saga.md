@@ -3,7 +3,8 @@ type: review
 title: 'Furiosa: A Mad Max Saga'
 year: '2024'
 date: 2024-06-01 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4.5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/furiosa-a-mad-max-saga_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/furiosa-a-mad-max-saga/
 page_name: furiosa-a-mad-max-saga
 tags:
+- movies
 - mad-max
 ---
 

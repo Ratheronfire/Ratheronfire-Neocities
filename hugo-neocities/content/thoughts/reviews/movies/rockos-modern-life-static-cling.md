@@ -3,7 +3,8 @@ type: review
 title: 'Rocko''s Modern Life: Static Cling'
 year: '2019'
 date: 2019-08-17 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false

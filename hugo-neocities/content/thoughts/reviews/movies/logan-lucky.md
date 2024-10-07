@@ -3,7 +3,8 @@ type: review
 title: Logan Lucky
 year: '2017'
 date: 2023-11-01 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false

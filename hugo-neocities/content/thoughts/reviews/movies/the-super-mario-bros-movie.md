@@ -3,7 +3,8 @@ type: review
 title: The Super Mario Bros. Movie
 year: '2023'
 date: 2023-04-09 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-super-mario-bros-movie_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-super-mario-bros-movie/
 page_name: the-super-mario-bros-movie
 tags:
+- movies
 - mario
 ---
 
