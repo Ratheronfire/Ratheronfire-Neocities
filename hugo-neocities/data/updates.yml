@@ -55,3 +55,8 @@
   link: ?comments
   description: Added comments sections using www.htmlcommentbox.com.
   preview: Added comments sections using [htmlcommentbox.com](https://www.htmlcommentbox.com).
+- title: Reorganized RSS feeds.
+  date: 2024-10-07T02:00:00-04:00
+  link: /misc/rss/
+  description: Reorganized pages into separate RSS feeds.
+  preview: Reorganized pages into [separate RSS feeds](/misc/rss/).
