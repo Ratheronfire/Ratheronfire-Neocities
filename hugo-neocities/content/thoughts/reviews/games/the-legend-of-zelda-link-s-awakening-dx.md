@@ -3,8 +3,7 @@ type: review
 title: 'The Legend of Zelda: Link''s Awakening DX'
 year: 1998
 date: 2022-09-13 00:00:00
-categories:
-- reviews
+categories: [reviews, gaming]
 draft: false
 rating: 5
 has_spoilers: false

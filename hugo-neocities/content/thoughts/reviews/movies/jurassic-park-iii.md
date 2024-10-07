@@ -3,8 +3,7 @@ type: review
 title: Jurassic Park III
 year: '2001'
 date: 2022-10-26 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2
 has_spoilers: true

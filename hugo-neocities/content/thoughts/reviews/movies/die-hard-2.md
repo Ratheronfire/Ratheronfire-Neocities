@@ -3,8 +3,7 @@ type: review
 title: Die Hard 2
 year: '1990'
 date: 2022-03-23 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

@@ -3,8 +3,7 @@ type: review
 title: 'Dragon Ball Super: Broly'
 year: '2018'
 date: 2019-01-30 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

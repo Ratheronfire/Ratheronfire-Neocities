@@ -3,8 +3,7 @@ type: review
 title: The Amazing Spider-Man 2
 year: '2014'
 date: 2024-05-08 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2
 has_spoilers: false

@@ -3,8 +3,7 @@ type: review
 title: "Mission: Impossible \u2013 Fallout"
 year: '2018'
 date: 2024-08-07 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

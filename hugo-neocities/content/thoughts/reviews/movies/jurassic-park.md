@@ -3,8 +3,7 @@ type: review
 title: Jurassic Park
 year: '1993'
 date: 2022-10-05 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

@@ -3,8 +3,7 @@ type: review
 title: Ocean's Twelve
 year: '2004'
 date: 2023-09-27 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

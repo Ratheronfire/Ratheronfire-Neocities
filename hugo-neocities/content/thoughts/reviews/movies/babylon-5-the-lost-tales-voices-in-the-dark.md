@@ -3,8 +3,7 @@ type: review
 title: 'Babylon 5: The Lost Tales - Voices in the Dark'
 year: '2007'
 date: 2023-11-15 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

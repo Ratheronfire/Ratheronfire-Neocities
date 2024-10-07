@@ -3,8 +3,7 @@ type: review
 title: 'Babylon 5: The Gathering'
 year: '1993'
 date: 2022-07-31 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

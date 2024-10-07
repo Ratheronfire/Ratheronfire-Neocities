@@ -3,8 +3,7 @@ type: review
 title: Planet of the Apes
 year: '1968'
 date: 2024-05-15 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

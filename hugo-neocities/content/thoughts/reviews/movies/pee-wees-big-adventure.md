@@ -3,8 +3,7 @@ type: review
 title: Pee-wee's Big Adventure
 year: '1985'
 date: 2023-08-16 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

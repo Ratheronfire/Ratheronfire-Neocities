@@ -1,8 +1,7 @@
 ---
 type: review
 draft: false
-categories:
-- reviews
+categories: [reviews, movies]
 title: 'The Lord of the Rings: The Fellowship of the Ring'
 year: '2001'
 rating: 5

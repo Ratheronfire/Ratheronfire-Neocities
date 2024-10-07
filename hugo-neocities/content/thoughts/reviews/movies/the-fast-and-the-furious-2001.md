@@ -3,8 +3,7 @@ type: review
 title: The Fast and the Furious
 year: '2001'
 date: 2023-02-08 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

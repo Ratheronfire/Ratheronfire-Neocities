@@ -3,8 +3,7 @@ type: review
 title: 'Doctor Who: The Day of the Doctor'
 year: '2013'
 date: 2013-12-23 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

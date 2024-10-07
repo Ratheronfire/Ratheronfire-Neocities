@@ -3,8 +3,7 @@ type: review
 title: Stop Making Sense
 year: '1984'
 date: 2023-09-11 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

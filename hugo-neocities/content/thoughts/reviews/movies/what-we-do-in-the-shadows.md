@@ -3,8 +3,7 @@ type: review
 title: What We Do in the Shadows
 year: '2014'
 date: 2023-10-25 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

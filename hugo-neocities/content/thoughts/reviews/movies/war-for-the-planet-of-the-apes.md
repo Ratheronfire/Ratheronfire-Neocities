@@ -3,8 +3,7 @@ type: review
 title: War for the Planet of the Apes
 year: '2017'
 date: 2024-09-04 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: true

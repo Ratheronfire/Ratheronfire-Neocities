@@ -3,8 +3,7 @@ type: review
 title: Jurassic World Dominion
 year: '2022'
 date: 2022-12-14 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2
 has_spoilers: false

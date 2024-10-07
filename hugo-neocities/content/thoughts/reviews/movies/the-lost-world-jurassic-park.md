@@ -3,8 +3,7 @@ type: review
 title: 'The Lost World: Jurassic Park'
 year: '1997'
 date: 2022-10-19 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2.5
 has_spoilers: false

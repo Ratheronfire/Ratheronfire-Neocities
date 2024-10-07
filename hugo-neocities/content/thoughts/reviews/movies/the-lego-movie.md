@@ -3,8 +3,7 @@ type: review
 title: The Lego Movie
 year: '2014'
 date: 2023-02-01 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4.5
 has_spoilers: false

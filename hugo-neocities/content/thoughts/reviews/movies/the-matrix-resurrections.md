@@ -3,8 +3,7 @@ type: review
 title: The Matrix Resurrections
 year: '2021'
 date: 2021-12-23 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

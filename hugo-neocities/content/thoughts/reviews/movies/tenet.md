@@ -3,8 +3,7 @@ type: review
 title: Tenet
 year: '2020'
 date: 2023-07-05 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

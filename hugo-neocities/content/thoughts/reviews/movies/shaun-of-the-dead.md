@@ -3,8 +3,7 @@ type: review
 title: Shaun of the Dead
 year: '2004'
 date: 2022-02-16 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4.5
 has_spoilers: false

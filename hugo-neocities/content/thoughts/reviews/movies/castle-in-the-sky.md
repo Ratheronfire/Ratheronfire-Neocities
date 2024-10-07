@@ -3,8 +3,7 @@ type: review
 title: Castle in the Sky
 year: '1986'
 date: 2022-06-22 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4.5
 has_spoilers: false

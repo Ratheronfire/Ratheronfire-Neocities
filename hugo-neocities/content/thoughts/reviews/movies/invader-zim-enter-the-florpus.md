@@ -3,8 +3,7 @@ type: review
 title: 'Invader Zim: Enter the Florpus'
 year: '2019'
 date: 2019-08-28 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

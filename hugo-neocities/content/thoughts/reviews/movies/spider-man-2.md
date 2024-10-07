@@ -3,8 +3,7 @@ type: review
 title: Spider-Man 2
 year: '2004'
 date: 2024-02-07 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

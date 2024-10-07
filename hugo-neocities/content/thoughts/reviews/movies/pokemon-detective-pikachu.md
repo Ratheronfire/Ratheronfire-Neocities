@@ -3,8 +3,7 @@ type: review
 title: "Pok\xE9mon Detective Pikachu"
 year: '2019'
 date: 2024-07-10 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: true

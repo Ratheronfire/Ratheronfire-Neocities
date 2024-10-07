@@ -3,8 +3,7 @@ type: review
 title: The Matrix
 year: '1999'
 date: 2021-11-24 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: true

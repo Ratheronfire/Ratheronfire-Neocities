@@ -3,8 +3,7 @@ type: review
 title: 'Mission: Impossible'
 year: '1996'
 date: 2024-06-19 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

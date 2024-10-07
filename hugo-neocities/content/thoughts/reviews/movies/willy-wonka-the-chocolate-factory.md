@@ -3,8 +3,7 @@ type: review
 title: Willy Wonka & the Chocolate Factory
 year: '1971'
 date: 2022-08-02 00:49:41.258000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

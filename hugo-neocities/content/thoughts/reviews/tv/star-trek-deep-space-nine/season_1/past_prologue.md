@@ -6,8 +6,7 @@ season: 1
 episode: 3
 season_url: ''
 date: 2023-12-18 23:00:00.000000
-categories:
-- reviews
+categories: [reviews, blog, tv]
 draft: true
 rating: 0
 has_spoilers: false

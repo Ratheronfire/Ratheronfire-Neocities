@@ -3,8 +3,7 @@ type: review
 title: Knives Out
 year: '2019'
 date: 2022-12-21 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

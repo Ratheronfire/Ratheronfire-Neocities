@@ -3,8 +3,7 @@ type: review
 title: Ralph Breaks the Internet
 year: '2018'
 date: 2023-07-19 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

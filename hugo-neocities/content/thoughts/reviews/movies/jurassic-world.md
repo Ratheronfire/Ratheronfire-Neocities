@@ -3,8 +3,7 @@ type: review
 title: Jurassic World
 year: '2015'
 date: 2022-11-30 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2
 has_spoilers: false

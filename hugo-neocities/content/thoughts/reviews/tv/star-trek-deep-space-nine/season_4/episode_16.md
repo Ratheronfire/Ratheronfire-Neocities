@@ -6,9 +6,7 @@ season: 4
 episode: 16
 season_url: ''
 date: 2023-12-10 03:35:11.314706
-categories:
-- blog
-- reviews
+categories: [reviews, blog, tv]
 draft: true
 rating: 0
 has_spoilers: false

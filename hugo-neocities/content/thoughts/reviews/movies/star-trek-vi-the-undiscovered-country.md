@@ -3,8 +3,7 @@ type: review
 title: 'Star Trek VI: The Undiscovered Country'
 year: '1991'
 date: 2022-07-31 23:15:56.099000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4.5
 has_spoilers: false

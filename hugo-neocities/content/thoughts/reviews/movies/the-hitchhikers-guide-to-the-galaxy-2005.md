@@ -3,8 +3,7 @@ type: review
 title: The Hitchhiker's Guide to the Galaxy
 year: '2005'
 date: 2022-08-02 00:47:49.657000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

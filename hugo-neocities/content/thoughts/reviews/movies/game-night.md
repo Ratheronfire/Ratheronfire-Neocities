@@ -3,8 +3,7 @@ type: review
 title: Game Night
 year: '2018'
 date: 2023-09-13 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

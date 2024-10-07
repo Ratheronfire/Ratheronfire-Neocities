@@ -3,8 +3,7 @@ type: review
 title: 'Furiosa: A Mad Max Saga'
 year: '2024'
 date: 2024-06-01 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4.5
 has_spoilers: false

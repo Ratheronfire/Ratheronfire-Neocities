@@ -3,8 +3,7 @@ type: review
 title: Coraline
 year: '2009'
 date: 2024-08-30 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4.5
 has_spoilers: true

@@ -3,8 +3,7 @@ type: review
 title: The Amazing Spider-Man
 year: '2012'
 date: 2024-05-01 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2.5
 has_spoilers: false

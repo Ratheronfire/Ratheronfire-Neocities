@@ -3,8 +3,7 @@ type: review
 title: Spider-Man 3
 year: '2007'
 date: 2024-02-14 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false
