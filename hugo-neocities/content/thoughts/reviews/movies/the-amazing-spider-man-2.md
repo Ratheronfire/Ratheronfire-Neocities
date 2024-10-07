@@ -3,7 +3,8 @@ type: review
 title: The Amazing Spider-Man 2
 year: '2014'
 date: 2024-05-08 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 2
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-amazing-spider-man-2_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-amazing-spider-man-2/
 page_name: the-amazing-spider-man-2
 tags:
+- movies
 - spider-man
 ---
 

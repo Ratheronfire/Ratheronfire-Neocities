@@ -3,7 +3,8 @@ type: review
 title: Hackers
 year: '1995'
 date: 2023-06-21 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false

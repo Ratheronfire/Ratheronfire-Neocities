@@ -3,7 +3,8 @@ type: review
 title: The PriceMaster
 year: '2001'
 date: 2023-12-04 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false

@@ -3,7 +3,8 @@ type: review
 title: 'The Lego Movie 2: The Second Part'
 year: '2019'
 date: 2023-05-03 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-lego-movie-2-the-second-part_poster
 external_review_url: https://letterboxd.com/ratheronfire/film/the-lego-movie-2-the-second-part/
 page_name: the-lego-movie-2-the-second-part
 tags:
+- movies
 - lego
 ---
 

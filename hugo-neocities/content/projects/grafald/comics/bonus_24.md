@@ -4,8 +4,9 @@ type: "image"
 date: 2014-02-13T01:00:00-04:00
 draft: false
 categories:
-- blog
-- projects
+- comics
+- collaborations
+tags:
 - grafald
 image_path: "../img/2014/bonus_24.png"
 alt_text: ""

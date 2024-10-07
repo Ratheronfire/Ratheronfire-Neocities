@@ -3,7 +3,8 @@ type: review
 title: 'The Lord of the Rings: The Return of the King'
 year: '2003'
 date: 2024-03-17 00:00:00.000000+00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: false
@@ -22,6 +23,7 @@ extra_reviews:
 
     There's a million more things I want to say about this movie and the trilogy as a whole, but my brain is absolutely worn out now, so maybe some other time I'll come back and jot down some more unorganized thoughts here.
 tags:
+- movies
 - lord-of-the-rings
 - middle-earth
 ---

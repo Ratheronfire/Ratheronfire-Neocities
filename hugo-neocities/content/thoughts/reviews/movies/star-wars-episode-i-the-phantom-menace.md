@@ -3,7 +3,8 @@ type: review
 title: "Star Wars: Episode I \u2013 The Phantom Menace"
 year: '1999'
 date: 2024-01-03 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 2.5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/star-wars-episode-i-the-phantom-menace_
 external_review_url: https://letterboxd.com/ratheronfire/film/star-wars-episode-i-the-phantom-menace/
 page_name: star-wars-episode-i-the-phantom-menace
 tags:
+- movies
  - star-wars
  - star-wars-prequels
 ---

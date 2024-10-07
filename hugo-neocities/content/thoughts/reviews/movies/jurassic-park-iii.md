@@ -3,7 +3,8 @@ type: review
 title: Jurassic Park III
 year: '2001'
 date: 2022-10-26 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 2
 has_spoilers: true
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/jurassic-park-iii_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/jurassic-park-iii/
 page_name: jurassic-park-iii
 tags:
+- movies
 - jurassic-park
 ---
 

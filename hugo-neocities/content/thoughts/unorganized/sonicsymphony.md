@@ -6,9 +6,9 @@ section: "Thoughts"
 description: "I attended the Sonic Symphony's Boston showing today, my second time so far. I had a blast there, and I wanted to write up something real quick to document my experience."
 thumbnail: "/thoughts/unorganized/img/sonic_symphony-1_thumb.jpg"
 categories:
-- gaming
 - blog
 tags:
+- gaming
 - sonic-the-hedgehog
 ---
 

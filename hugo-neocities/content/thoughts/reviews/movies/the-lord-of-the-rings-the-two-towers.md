@@ -3,7 +3,8 @@ type: review
 title: 'The Lord of the Rings: The Two Towers'
 year: '2002'
 date: 2024-03-10 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: true
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-lord-of-the-rings-the-two-towers_po
 external_review_url: https://letterboxd.com/ratheronfire/film/the-lord-of-the-rings-the-two-towers/
 page_name: the-lord-of-the-rings-the-two-towers
 tags:
+- movies
 - lord-of-the-rings
 - middle-earth
 extra_reviews:

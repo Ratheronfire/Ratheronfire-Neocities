@@ -3,7 +3,8 @@ type: review
 title: Indiana Jones and the Kingdom of the Crystal Skull
 year: '2008'
 date: 2023-06-14 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/indiana-jones-and-the-kingdom-of-the-cr
 external_review_url: https://letterboxd.com/ratheronfire/film/indiana-jones-and-the-kingdom-of-the-crystal-skull/
 page_name: indiana-jones-and-the-kingdom-of-the-crystal-skull
 tags:
+- movies
 - indiana-jones
 ---
 

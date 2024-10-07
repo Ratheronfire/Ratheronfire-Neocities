@@ -10,13 +10,13 @@ caption_mainpage: ""
 categories:
 - blog
 - projects
+- collaborations
+tags:
 - gregory-quest
 thumbnail: gregory-quest/img/machoman.jpg
 thumbnail_alt: Macho Man Randy Savage; image from https://bsky.app/profile/crtpixel.bsky.social/post/3kpsuwk3iei2c
 include_css:
 - gregory_quest
-tags:
-- gregory-quest
 ---
 
 {{< rawhtml >}}

@@ -3,7 +3,11 @@ type: review
 title: Sonic Superstars
 year: 2023
 date: 2023-10-31 00:00:00
-categories: [reviews, gaming]
+categories:
+- reviews
+tags:
+- gaming
+- sonic-the-hedgehog
 draft: false
 rating: 3.5
 has_spoilers: false
@@ -11,8 +15,6 @@ fanart_url: /thoughts/reviews/games/img/sonic-superstars_fanart.png
 poster_url: /thoughts/reviews/games/img/sonic-superstars_poster.png
 external_review_url: https://backloggd.com/games/sonic-superstars/
 page_name: sonic-superstars
-tags:
-- sonic-the-hedgehog
 ---
 
 I liked this game quite a bit, but I see the issues with it. The boss fights are pretty rough, especially the endgame bosses, though I think people are really exaggerating their issues. Compared to the original games all ending on long, drawn out fights with zero rings and limited lives, I think this game's fights are way more forgiving, even with the occasional insta-kill attack that's clearly telegraphed and not too hard to avoid.

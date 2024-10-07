@@ -31,8 +31,9 @@
 {{- $pages = $pages | first $limit }}
 {{- end }}
 
-{{- $pages = $pages | intersect (where site.Pages ".Content" "ne" "") }}
-{{- $pages = $pages | intersect (where site.Pages ".Params.hide_from_new" "ne" true) }}
+{{- $filtered_pages := $pages | intersect (where $pages ".Content" "ne" "") }}
+{{- $filtered_pages = $filtered_pages | union (where $pages ".Params.image_path" "ne" nil) }}
+{{- $filtered_pages = $filtered_pages | intersect (where $pages ".Params.hide_from_new" "ne" true) }}
 
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -49,7 +50,7 @@
     {{- with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
-    {{- range $pages }}
+    {{- range $filtered_pages }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>

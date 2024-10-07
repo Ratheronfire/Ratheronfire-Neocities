@@ -3,7 +3,8 @@ type: review
 title: 'Spider-Man: Across the Spider-Verse'
 year: '2023'
 date: 2023-06-03 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/spider-man-across-the-spider-verse_post
 external_review_url: https://letterboxd.com/ratheronfire/film/spider-man-across-the-spider-verse/
 page_name: spider-man-across-the-spider-verse
 tags:
+- movies
 - spider-man
 - spider-verse
 ---

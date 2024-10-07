@@ -3,7 +3,8 @@ type: review
 title: 'Dungeons & Dragons: Honor Among Thieves'
 year: '2023'
 date: 2024-05-19 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: false

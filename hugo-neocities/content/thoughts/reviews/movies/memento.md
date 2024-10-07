@@ -3,7 +3,8 @@ type: review
 title: Memento
 year: '2000'
 date: 2024-02-28 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: false

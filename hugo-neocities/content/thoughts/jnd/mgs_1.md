@@ -7,6 +7,7 @@ categories:
 categories: ["jnd"]
 tags:
 - metal-gear-solid
+- gaming
 ---
 
 *Originally posted to /r/JNDDeskscraps on September 1, 2019.*

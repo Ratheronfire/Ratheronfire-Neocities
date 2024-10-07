@@ -3,7 +3,8 @@ type: review
 title: War for the Planet of the Apes
 year: '2017'
 date: 2024-09-04 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: true
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/war-for-the-planet-of-the-apes_poster.p
 external_review_url: https://letterboxd.com/ratheronfire/film/war-for-the-planet-of-the-apes/
 page_name: war-for-the-planet-of-the-apes
 tags:
+- movies
 - planet-of-the-apes
 - planet-of-the-apes-sequels
 ---

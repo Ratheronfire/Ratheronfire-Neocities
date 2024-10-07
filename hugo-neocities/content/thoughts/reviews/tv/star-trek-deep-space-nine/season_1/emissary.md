@@ -6,13 +6,16 @@ season: 1
 episode: 1
 season_url: ''
 date: 2023-12-10 03:35:11.259566
-categories: [reviews, blog, tv]
+categories:
+- reviews
+- blog
 draft: false
 rating: 4
 has_spoilers: true
 fanart_url: /thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_1.png
 poster_url: /thoughts/reviews/tv/star-trek-deep-space-nine/series_poster.jpg
-tags: 
+tags:
+- tv
 - star-trek
 - star-trek-ds9
 ---

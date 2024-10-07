@@ -3,7 +3,8 @@ type: review
 title: Indiana Jones and the Temple of Doom
 year: '1984'
 date: 2023-05-17 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/indiana-jones-and-the-temple-of-doom_po
 external_review_url: https://letterboxd.com/ratheronfire/film/indiana-jones-and-the-temple-of-doom/
 page_name: indiana-jones-and-the-temple-of-doom
 tags:
+- movies
 - indiana-jones
 ---
 

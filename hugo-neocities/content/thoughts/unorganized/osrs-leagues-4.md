@@ -4,9 +4,9 @@ date: 2023-11-27T22:44:15-05:00
 draft: false
 section: "Thoughts"
 categories:
-- gaming
 - blog
 tags:
+- gaming
 - runescape
 - osrs
 - leagues

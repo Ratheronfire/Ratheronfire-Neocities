@@ -3,7 +3,8 @@ type: review
 title: Fast Five
 year: '2011'
 date: 2023-03-15 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/fast-five_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/fast-five/
 page_name: fast-five
 tags:
+- movies
 - fast-and-furious
 ---
 

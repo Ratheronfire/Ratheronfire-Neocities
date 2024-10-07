@@ -3,7 +3,8 @@ type: review
 title: The Boy and the Heron
 year: '2023'
 date: 2023-12-09 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: false

@@ -3,7 +3,8 @@ type: review
 title: UHF
 year: '1989'
 date: 2022-11-02 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false

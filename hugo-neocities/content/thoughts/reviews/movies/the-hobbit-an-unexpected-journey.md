@@ -3,7 +3,8 @@ type: review
 title: 'The Hobbit: An Unexpected Journey'
 year: '2012'
 date: 2022-08-01 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-hobbit-an-unexpected-journey_poster
 external_review_url: https://letterboxd.com/ratheronfire/film/the-hobbit-an-unexpected-journey/
 page_name: the-hobbit-an-unexpected-journey
 tags:
+- movies
 - the-hobbit
 - middle-earth
 extra_reviews:

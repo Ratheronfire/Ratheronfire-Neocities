@@ -3,7 +3,10 @@ type: review
 title: Doug Huggem
 year: 2024
 date: 2024-04-08 00:00:00
-categories: [reviews, gaming]
+categories:
+- reviews
+tags:
+- gaming
 draft: false
 rating: 5
 has_spoilers: false

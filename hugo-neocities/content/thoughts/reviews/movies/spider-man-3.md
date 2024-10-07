@@ -3,7 +3,8 @@ type: review
 title: Spider-Man 3
 year: '2007'
 date: 2024-02-14 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/spider-man-3_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/spider-man-3/
 page_name: spider-man-3
 tags:
+- movies
 - spider-man
 ---
 

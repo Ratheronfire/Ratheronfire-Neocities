@@ -3,7 +3,8 @@ type: review
 title: Teen Titans Go! To the Movies
 year: '2018'
 date: 2022-07-27 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 2.5
 has_spoilers: false

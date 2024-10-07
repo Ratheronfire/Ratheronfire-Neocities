@@ -1,7 +1,8 @@
 ---
 type: review
 draft: false
-categories: [reviews, movies]
+categories:
+- reviews
 title: 'The Lord of the Rings: The Fellowship of the Ring'
 year: '2001'
 rating: 5
@@ -11,6 +12,7 @@ has_spoilers: true
 date: 2023-10-08 00:00:00
 external_review_url: https://letterboxd.com/ratheronfire/film/the-lord-of-the-rings-the-fellowship-of-the-ring
 tags:
+- movies
 - lord-of-the-rings
 - middle-earth
 extra_reviews:

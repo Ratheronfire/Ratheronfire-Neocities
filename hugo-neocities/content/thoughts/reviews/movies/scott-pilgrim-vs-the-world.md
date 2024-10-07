@@ -3,7 +3,8 @@ type: review
 title: Scott Pilgrim vs. the World
 year: '2010'
 date: 2022-03-02 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false

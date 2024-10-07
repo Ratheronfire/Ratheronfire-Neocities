@@ -3,7 +3,8 @@ type: review
 title: Mean Girls
 year: '2004'
 date: 2023-10-18 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false

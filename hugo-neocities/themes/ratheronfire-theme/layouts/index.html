@@ -84,8 +84,8 @@
                         <ul>
                             {{ $new_pages := where .Site.Pages ".Kind" "page"  }}
                             {{ $new_pages = $new_pages | intersect (where .Site.Pages ".Content" "ne" "") }}
-                            {{ $new_pages = $new_pages | intersect (where .Site.Pages ".Params.hide_from_new" "ne" true) }}
                             {{ $new_pages = $new_pages | union (where .Site.Pages ".Params.image_path" "ne" nil) }}
+                            {{ $new_pages = $new_pages | intersect (where .Site.Pages ".Params.hide_from_new" "ne" true) }}
 
                             {{ range (sort $new_pages "Date").Reverse.Limit 15 }}
                                 <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>

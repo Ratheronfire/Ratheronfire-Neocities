@@ -4,8 +4,9 @@ type: "image"
 date: 2019-05-18T00:00:00-04:00
 draft: false
 categories:
-- blog
-- projects
+- comics
+- collaborations
+tags:
 - grafald
 image_path: "../img/2019/bonus_41.jpg"
 alt_text: ""

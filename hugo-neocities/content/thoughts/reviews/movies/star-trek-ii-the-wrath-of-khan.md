@@ -3,7 +3,8 @@ type: review
 title: 'Star Trek II: The Wrath of Khan'
 year: '1982'
 date: 2022-09-04 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: true
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/star-trek-ii-the-wrath-of-khan_poster.p
 external_review_url: https://letterboxd.com/ratheronfire/film/star-trek-ii-the-wrath-of-khan
 page_name: star-trek-ii-the-wrath-of-khan
 tags:
+- movies
 - star-trek
 - star-trek-tos
 ---

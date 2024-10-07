@@ -3,7 +3,8 @@ type: review
 title: The Fast and the Furious
 year: '2001'
 date: 2023-02-08 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/the-fast-and-the-furious-2001_poster.pn
 external_review_url: https://letterboxd.com/ratheronfire/film/the-fast-and-the-furious-2001/
 page_name: the-fast-and-the-furious-2001
 tags:
+- movies
 - fast-and-furious
 ---
 

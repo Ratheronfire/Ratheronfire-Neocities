@@ -3,7 +3,8 @@ type: review
 title: Beneath the Planet of the Apes
 year: '1970'
 date: 2024-05-22 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3
 has_spoilers: true
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/beneath-the-planet-of-the-apes_poster.p
 external_review_url: https://letterboxd.com/ratheronfire/film/beneath-the-planet-of-the-apes/
 page_name: beneath-the-planet-of-the-apes
 tags:
+- movies
 - planet-of-the-apes
 - planet-of-the-apes-originals
 ---

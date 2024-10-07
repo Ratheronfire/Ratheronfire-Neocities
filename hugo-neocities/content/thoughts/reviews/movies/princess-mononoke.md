@@ -3,7 +3,8 @@ type: review
 title: Princess Mononoke
 year: '1997'
 date: 2022-08-03 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 5
 has_spoilers: false

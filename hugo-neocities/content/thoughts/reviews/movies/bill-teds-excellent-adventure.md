@@ -3,7 +3,8 @@ type: review
 title: Bill & Ted's Excellent Adventure
 year: '1989'
 date: 2024-09-18 00:00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 4
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/bill-teds-excellent-adventure_poster.pn
 external_review_url: https://letterboxd.com/ratheronfire/film/bill-teds-excellent-adventure/
 page_name: bill-teds-excellent-adventure
 tags:
+- movies
 - bill-and-ted
 ---
 

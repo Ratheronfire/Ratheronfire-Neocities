@@ -3,7 +3,10 @@ type: review
 title: PowerWash Simulator
 year: 2022
 date: 2022-09-28 00:00:00
-categories: [reviews, gaming]
+categories:
+- reviews
+tags:
+- gaming
 draft: false
 rating: 4
 has_spoilers: false

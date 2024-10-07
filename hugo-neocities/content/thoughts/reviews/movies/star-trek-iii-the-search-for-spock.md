@@ -3,7 +3,8 @@ type: review
 title: 'Star Trek III: The Search for Spock'
 year: '1984'
 date: 2022-07-31 23:15:53.357000+00:00
-categories: [reviews, movies]
+categories:
+- reviews
 draft: false
 rating: 3.5
 has_spoilers: false
@@ -12,6 +13,7 @@ poster_url: /thoughts/reviews/movies/img/star-trek-iii-the-search-for-spock_post
 external_review_url: https://boxd.it/2b00
 page_name: star-trek-iii-the-search-for-spock
 tags:
+- movies
 - star-trek
 - star-trek-tos
 ---
