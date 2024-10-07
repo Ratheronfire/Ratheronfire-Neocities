@@ -6,9 +6,7 @@ season: 1
 episode: 1
 season_url: ''
 date: 2023-12-10 03:35:11.259566
-categories:
-- reviews
-- blog
+categories: [reviews, blog, tv]
 draft: false
 rating: 4
 has_spoilers: true

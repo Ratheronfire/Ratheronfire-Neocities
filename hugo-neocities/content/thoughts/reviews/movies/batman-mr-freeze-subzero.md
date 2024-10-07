@@ -3,8 +3,7 @@ type: review
 title: 'Batman & Mr. Freeze: SubZero'
 year: '1998'
 date: 2019-04-05 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

@@ -3,8 +3,7 @@ type: review
 title: 'The Hobbit: An Unexpected Journey'
 year: '2012'
 date: 2022-08-01 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

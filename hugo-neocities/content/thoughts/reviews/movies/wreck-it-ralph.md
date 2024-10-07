@@ -3,8 +3,7 @@ type: review
 title: Wreck-It Ralph
 year: '2012'
 date: 2023-07-12 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

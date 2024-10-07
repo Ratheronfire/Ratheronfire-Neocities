@@ -3,8 +3,7 @@ type: review
 title: Uninvited
 year: '1988'
 date: 2023-01-09 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2
 has_spoilers: false

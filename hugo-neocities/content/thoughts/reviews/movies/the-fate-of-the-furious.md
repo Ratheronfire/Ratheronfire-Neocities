@@ -3,8 +3,7 @@ type: review
 title: The Fate of the Furious
 year: '2017'
 date: 2023-04-05 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

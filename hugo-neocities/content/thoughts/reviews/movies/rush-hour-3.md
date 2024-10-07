@@ -3,8 +3,7 @@ type: review
 title: Rush Hour 3
 year: '2007'
 date: 2023-08-09 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 1.5
 has_spoilers: false

@@ -3,8 +3,7 @@ type: review
 title: 'Star Wars: The Last Jedi'
 year: '2017'
 date: 2024-04-10 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

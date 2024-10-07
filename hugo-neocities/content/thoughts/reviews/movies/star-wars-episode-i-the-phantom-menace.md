@@ -3,8 +3,7 @@ type: review
 title: "Star Wars: Episode I \u2013 The Phantom Menace"
 year: '1999'
 date: 2024-01-03 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2.5
 has_spoilers: false

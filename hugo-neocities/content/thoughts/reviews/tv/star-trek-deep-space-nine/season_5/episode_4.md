@@ -6,9 +6,7 @@ season: 5
 episode: 4
 season_url: ''
 date: 2023-12-10 03:35:11.323920
-categories:
-- blog
-- reviews
+categories: [reviews, blog, tv]
 draft: true
 rating: 0
 has_spoilers: false

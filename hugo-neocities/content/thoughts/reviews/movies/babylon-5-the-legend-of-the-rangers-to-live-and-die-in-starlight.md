@@ -3,8 +3,7 @@ type: review
 title: 'Babylon 5: The Legend of the Rangers - To Live and Die in Starlight'
 year: '2002'
 date: 2023-10-15 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2.5
 has_spoilers: false

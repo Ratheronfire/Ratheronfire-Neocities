@@ -3,8 +3,7 @@ type: review
 title: Spaceballs
 year: '1987'
 date: 2022-08-19 15:07:55.920000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

@@ -3,8 +3,7 @@ type: review
 title: Pee-wee's Big Holiday
 year: '2016'
 date: 2023-08-30 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

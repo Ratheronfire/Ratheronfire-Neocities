@@ -3,8 +3,7 @@ type: review
 title: 'Spider-Man: Into the Spider-Verse'
 year: '2018'
 date: 2022-08-01 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

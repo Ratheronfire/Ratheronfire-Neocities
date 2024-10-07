@@ -3,8 +3,7 @@ type: review
 title: 'Star Trek: Nemesis'
 year: '2002'
 date: 2022-07-31 23:16:38.211000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 1.5
 has_spoilers: false

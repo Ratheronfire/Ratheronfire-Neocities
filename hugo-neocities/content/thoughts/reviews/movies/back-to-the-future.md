@@ -3,8 +3,7 @@ type: review
 title: Back to the Future
 year: '1985'
 date: 2024-05-26 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

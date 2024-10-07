@@ -3,8 +3,7 @@ type: review
 title: 'The Fast and the Furious: Tokyo Drift'
 year: '2006'
 date: 2023-03-01 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

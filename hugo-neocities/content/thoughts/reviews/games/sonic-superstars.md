@@ -3,8 +3,7 @@ type: review
 title: Sonic Superstars
 year: 2023
 date: 2023-10-31 00:00:00
-categories:
-- reviews
+categories: [reviews, gaming]
 draft: false
 rating: 3.5
 has_spoilers: false

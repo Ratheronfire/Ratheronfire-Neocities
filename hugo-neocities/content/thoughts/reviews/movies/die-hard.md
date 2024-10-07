@@ -3,8 +3,7 @@ type: review
 title: Die Hard
 year: '1988'
 date: 2022-03-16 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

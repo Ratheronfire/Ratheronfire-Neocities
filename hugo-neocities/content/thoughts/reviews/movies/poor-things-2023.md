@@ -3,8 +3,7 @@ type: review
 title: Poor Things
 year: '2023'
 date: 2024-02-02 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

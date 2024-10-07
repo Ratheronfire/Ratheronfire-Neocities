@@ -3,8 +3,7 @@ type: review
 title: 'Solo: A Star Wars Story'
 year: '2018'
 date: 2024-04-17 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2.5
 has_spoilers: false

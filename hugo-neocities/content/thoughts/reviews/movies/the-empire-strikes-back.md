@@ -3,8 +3,7 @@ type: review
 title: The Empire Strikes Back
 year: '1980'
 date: 2023-11-15 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

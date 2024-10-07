@@ -3,8 +3,7 @@ type: review
 title: 'Star Trek: Generations'
 year: '1994'
 date: 2022-07-31 23:16:35.955000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

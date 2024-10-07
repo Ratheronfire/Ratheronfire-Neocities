@@ -3,8 +3,7 @@ type: review
 title: "Mission: Impossible \u2013 Dead Reckoning Part One"
 year: '2023'
 date: 2024-08-14 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

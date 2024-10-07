@@ -3,8 +3,7 @@ type: review
 title: Battle for the Planet of the Apes
 year: '1973'
 date: 2024-06-11 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2.5
 has_spoilers: false

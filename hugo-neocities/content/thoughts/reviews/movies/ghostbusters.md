@@ -3,8 +3,7 @@ type: review
 title: Ghostbusters
 year: '1984'
 date: 2024-06-23 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

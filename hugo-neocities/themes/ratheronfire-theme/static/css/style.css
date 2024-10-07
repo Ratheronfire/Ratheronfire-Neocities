@@ -37,6 +37,9 @@ the images as variables */
     --navbar-link-color: #ED64F5;
     --navbar-link-color-hover: #a49cba;
 
+    --category-link-background-color: rgb(120, 227, 80);
+    --tag-link-background-color: rgb(0, 1, 88);
+
     --title-color: #ED64F5;
 
     --code-no-lang-color: rgb(17, 243, 36);

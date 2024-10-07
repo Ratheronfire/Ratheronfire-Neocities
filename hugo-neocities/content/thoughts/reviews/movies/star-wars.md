@@ -3,8 +3,7 @@ type: review
 title: Star Wars
 year: '1977'
 date: 2023-11-08 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

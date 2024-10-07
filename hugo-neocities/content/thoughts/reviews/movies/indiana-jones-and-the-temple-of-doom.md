@@ -3,8 +3,7 @@ type: review
 title: Indiana Jones and the Temple of Doom
 year: '1984'
 date: 2023-05-17 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

@@ -3,8 +3,7 @@ type: review
 title: 'What We Left Behind: Looking Back at Star Trek: Deep Space Nine'
 year: '2018'
 date: 2019-05-13 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4.5
 has_spoilers: false

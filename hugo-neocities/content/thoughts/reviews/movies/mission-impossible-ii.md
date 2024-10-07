@@ -3,8 +3,7 @@ type: review
 title: 'Mission: Impossible II'
 year: '2000'
 date: 2024-06-26 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

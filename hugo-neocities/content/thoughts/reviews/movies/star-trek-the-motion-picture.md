@@ -3,8 +3,7 @@ type: review
 title: 'Star Trek: The Motion Picture'
 year: '1979'
 date: 2022-07-31 23:15:26.540000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

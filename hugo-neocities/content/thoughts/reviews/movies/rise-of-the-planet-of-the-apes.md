@@ -3,8 +3,7 @@ type: review
 title: Rise of the Planet of the Apes
 year: '2011'
 date: 2024-08-21 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

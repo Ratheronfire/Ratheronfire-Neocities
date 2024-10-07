@@ -3,8 +3,7 @@ type: review
 title: 'Star Trek III: The Search for Spock'
 year: '1984'
 date: 2022-07-31 23:15:53.357000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

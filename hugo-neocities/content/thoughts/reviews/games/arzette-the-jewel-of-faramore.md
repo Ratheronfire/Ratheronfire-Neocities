@@ -3,8 +3,7 @@ type: review
 title: 'Arzette: The Jewel of Faramore'
 year: 2024
 date: 2024-04-08 00:00:00
-categories:
-- reviews
+categories: [reviews, gaming]
 draft: false
 rating: 4
 has_spoilers: false

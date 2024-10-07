@@ -3,8 +3,7 @@ type: review
 title: Dawn of the Planet of the Apes
 year: '2014'
 date: 2024-08-28 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

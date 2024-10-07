@@ -176,8 +176,15 @@ header li>ul {
 
 /* Tag buttons */
 
-a.tag {
-    background: aqua;
+a.category-link {
+    background: var(--category-link-background-color);
+}
+
+a.tag-link {
+    background: var(--tag-link-background-color);
+}
+
+a.taxonomy-link {
     border-radius: 7px;
     padding: 0 5px 0 5px;
 }

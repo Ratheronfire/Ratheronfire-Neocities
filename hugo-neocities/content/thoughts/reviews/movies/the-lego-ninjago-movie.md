@@ -3,8 +3,7 @@ type: review
 title: The Lego Ninjago Movie
 year: '2017'
 date: 2023-04-12 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2.5
 has_spoilers: false

@@ -3,8 +3,7 @@ type: review
 title: 'The Lord of the Rings: The Return of the King'
 year: '2003'
 date: 2024-03-17 00:00:00.000000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

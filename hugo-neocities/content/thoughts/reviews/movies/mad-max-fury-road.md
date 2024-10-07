@@ -3,8 +3,7 @@ type: review
 title: 'Mad Max: Fury Road'
 year: '2015'
 date: 2024-05-31 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 5
 has_spoilers: false

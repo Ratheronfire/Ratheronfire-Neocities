@@ -3,8 +3,7 @@ type: review
 title: Howl's Moving Castle
 year: '2004'
 date: 2022-08-17 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

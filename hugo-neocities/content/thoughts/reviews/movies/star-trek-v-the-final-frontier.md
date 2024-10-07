@@ -3,8 +3,7 @@ type: review
 title: 'Star Trek V: The Final Frontier'
 year: '1989'
 date: 2022-07-31 23:15:58.205000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 2.5
 has_spoilers: false

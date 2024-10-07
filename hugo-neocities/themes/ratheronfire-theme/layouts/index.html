@@ -49,11 +49,13 @@
 
                     <hr />
                     <div class="center">
-                        <a href="misc/updates">More</a>
-                        <span class="spacer">&middot;</span>
-                        <a class="rss-link" href="updates.xml"><i class="fa fa-rss-square" aria-label="Updates RSS Feed" aria-hidden="true"></i> Updates RSS Feed</a>
+                        <a href="misc/updates">Update History</a>
                     </div>
                 </div>
+
+                <h2>
+                    <a class="rss-link" href="misc/rss"><i class="fa fa-rss-square" aria-label="Updates RSS Feed" aria-hidden="true"></i> RSS Feeds</a>
+                </h2>
 
                 <h3>Inferior Social Media</h3>
                 <ul>
@@ -92,16 +94,32 @@
                     </div>
 
                     <hr />
-                    <div class="center">
-                        <a href="/sitemap.xml">Sitemap</a>
-                        <span class="spacer">&middot;</span>
-                        <div class="rss-link"><a href="index.xml"><i class="fa fa-rss-square" aria-label="New Pages RSS Feed" aria-hidden="true"></i> New Pages RSS Feed</a></div>
-                    </div>
                 </div>
 
                 <hr />
 
-                <h3>Pages By Tag</h3>
+                <h3>All Categories</h3>
+
+                <div class="box">
+                    <div class="scrollable">
+                        <table>
+                            <thead>
+                                <th>Category</th>
+                                <th>Pages</th>
+                            </thead>
+                            <tbody>
+                                {{ range .Site.Taxonomies.categories.ByCount }}
+                                    <tr>
+                                        <td><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></td>
+                                        <td>{{ .Count }}</td>
+                                    </tr>
+                                {{ end }}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <h3>All Tags</h3>
 
                 <div class="box">
                     <div class="scrollable">
@@ -111,23 +129,16 @@
                                 <th>Pages</th>
                             </thead>
                             <tbody>
-                                {{ $tags := .Site.Taxonomies.tags.ByCount }}
-
-                                {{ range seq 15 }}
+                                {{ range .Site.Taxonomies.tags.ByCount }}
                                     <tr>
-                                        {{ $tag := index $tags . }}
-                                        <td><a href="{{ $tag.Page.Permalink }}">{{ $tag.Page.Title }}</a></td>
-                                        <td>{{ $tag.Count }}</td>
+                                        <td><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></td>
+                                        <td>{{ .Count }}</td>
                                     </tr>
                                 {{ end }}
                             </tbody>
                         </table>
                     </div>
                 </div>
-
-                <br />
-
-                <div class="center"><a href="https://neocities.org"><img src="/neocities.png"></a></div>
 
                 <hr />
 

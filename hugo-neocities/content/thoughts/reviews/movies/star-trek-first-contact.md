@@ -3,8 +3,7 @@ type: review
 title: 'Star Trek: First Contact'
 year: '1996'
 date: 2022-07-31 23:16:28.269000+00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

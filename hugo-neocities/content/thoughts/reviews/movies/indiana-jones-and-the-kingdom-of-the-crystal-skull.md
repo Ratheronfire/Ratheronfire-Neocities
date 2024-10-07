@@ -3,8 +3,7 @@ type: review
 title: Indiana Jones and the Kingdom of the Crystal Skull
 year: '2008'
 date: 2023-06-14 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false

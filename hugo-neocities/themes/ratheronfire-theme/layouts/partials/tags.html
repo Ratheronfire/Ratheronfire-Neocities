@@ -1,7 +1,17 @@
-{{ with .GetTerms "tags" }}
 <div>
-    {{ range . }}
-    <a class="tag" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>
+    {{ with .GetTerms "categories" }}
+        {{ range . }}
+        <a class="taxonomy-link category-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+    {{ end }}
+
+    {{ if and (.GetTerms "categories") (.GetTerms "tags") }}
+    &middot;
+    {{ end }}
+
+    {{ with .GetTerms "tags" }}
+        {{ range . }}
+        <a class="taxonomy-link tag-link" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>
+        {{ end }}
     {{ end }}
 </div>
-{{ end }}

@@ -3,8 +3,7 @@ type: review
 title: Turning Red
 year: '2022'
 date: 2022-03-09 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

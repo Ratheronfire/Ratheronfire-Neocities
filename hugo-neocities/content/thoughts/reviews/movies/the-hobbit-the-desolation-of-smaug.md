@@ -3,8 +3,7 @@ type: review
 title: 'The Hobbit: The Desolation of Smaug'
 year: '2013'
 date: 2023-12-13 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3.5
 has_spoilers: false

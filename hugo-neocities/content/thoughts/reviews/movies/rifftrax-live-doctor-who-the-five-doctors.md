@@ -3,8 +3,7 @@ type: review
 title: "RiffTrax Live: Doctor Who \u2013 The Five Doctors"
 year: '2017'
 date: 2017-08-17 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

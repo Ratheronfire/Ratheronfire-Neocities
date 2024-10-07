@@ -3,8 +3,7 @@ type: review
 title: Return of the Jedi
 year: '1983'
 date: 2023-11-22 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 4
 has_spoilers: false

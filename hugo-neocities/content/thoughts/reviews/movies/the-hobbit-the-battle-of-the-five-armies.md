@@ -3,8 +3,7 @@ type: review
 title: 'The Hobbit: The Battle of the Five Armies'
 year: '2014'
 date: 2023-12-20 00:00:00
-categories:
-- reviews
+categories: [reviews, movies]
 draft: false
 rating: 3
 has_spoilers: false
