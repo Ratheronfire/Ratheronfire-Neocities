@@ -53,10 +53,6 @@
                     </div>
                 </div>
 
-                <h2>
-                    <a class="rss-link" href="misc/rss"><i class="fa fa-rss-square" aria-label="Updates RSS Feed" aria-hidden="true"></i> RSS Feeds</a>
-                </h2>
-
                 <h3>Inferior Social Media</h3>
                 <ul>
                     <li><a href="https://neocities.org/site/ratheronfire" target="_blank">Neocities Profile</a></li>
@@ -94,6 +90,8 @@
                     </div>
 
                     <hr />
+
+                    <a class="rss-link center" href="misc/rss"><i class="fa fa-rss-square" aria-label="Updates RSS Feed" aria-hidden="true"></i> RSS Feeds</a>
                 </div>
 
                 <hr />
@@ -103,15 +101,10 @@
                 <div class="box">
                     <div class="scrollable">
                         <table>
-                            <thead>
-                                <th>Category</th>
-                                <th>Pages</th>
-                            </thead>
                             <tbody>
-                                {{ range .Site.Taxonomies.categories.ByCount }}
+                                {{ range .Site.Taxonomies.categories.Alphabetical }}
                                     <tr>
                                         <td><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></td>
-                                        <td>{{ .Count }}</td>
                                     </tr>
                                 {{ end }}
                             </tbody>
@@ -119,26 +112,7 @@
                     </div>
                 </div>
 
-                <h3>All Tags</h3>
-
-                <div class="box">
-                    <div class="scrollable">
-                        <table>
-                            <thead>
-                                <th>Tag</th>
-                                <th>Pages</th>
-                            </thead>
-                            <tbody>
-                                {{ range .Site.Taxonomies.tags.ByCount }}
-                                    <tr>
-                                        <td><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></td>
-                                        <td>{{ .Count }}</td>
-                                    </tr>
-                                {{ end }}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                <h3><a href="/tags">Post Tags</a></h3>
 
                 <hr />
 
