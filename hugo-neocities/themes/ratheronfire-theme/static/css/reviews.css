@@ -346,14 +346,17 @@
 }
 
 figure {
-    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 figure img {
-    width: 100%;
+    margin: 0 auto;
+}
+
+figure.center {
+    margin: 0;
 }
 
 /** List view **/
