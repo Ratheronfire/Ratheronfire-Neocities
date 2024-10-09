@@ -1,5 +1,5 @@
 ---
-title: "The 100% Accurate Chronological Storyline of Metal Gear (From Memory) [PART 1]"
+title: "The 100% Accurate Chronological Storyline of Metal Gear (From Memory) [PART 1] - Metal Gear Solid 3: Snake Eater"
 date: 2019-09-01T22:06:49-04:00
 draft: false
 categories:

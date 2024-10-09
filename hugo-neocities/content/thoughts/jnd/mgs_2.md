@@ -1,5 +1,5 @@
 ---
-title: "The 100% Accurate Chronological Storyline of Metal Gear (From Memory) [PART 2]"
+title: "The 100% Accurate Chronological Storyline of Metal Gear (From Memory) [PART 2] - Metal Gear Solid: Peace Walker"
 section: "Thoughts"
 date: 2021-01-19T21:59:41-04:00
 draft: false
