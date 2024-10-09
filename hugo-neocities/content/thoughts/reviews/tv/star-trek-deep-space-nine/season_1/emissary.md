@@ -12,6 +12,9 @@ categories:
 draft: false
 rating: 4
 has_spoilers: true
+synopsis: |
+    Three years after his wife died at the hands of the Borg and following the Cardassian withdrawal from the planet Bajor, Commander Benjamin Sisko and a new crew of Starfleet and Bajoran officers take command of an abandoned Cardassian space station and make an incredible discovery that will change the galaxy and Sisko's future.  
+    {{< cite "Memory Alpha" "https://memory-alpha.fandom.com/wiki/Emissary_(episode" >}}
 fanart_url: /thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_1.png
 poster_url: /thoughts/reviews/tv/star-trek-deep-space-nine/series_poster.jpg
 tags:
@@ -35,8 +38,10 @@ I *really* like this show.
 And so we begin with the opening two-parter, Emissary. Right away this episode pulls zero punches, dropping right into the Battle of Wolf 359, as the newly assimilated Locutus of Borg bears down on the USS Saratoga, where we're introduced to Benjamin Sisko.
 
 {{< figure
+    class="center"
+    width="50%"
     src="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_2.jpg"
-    target="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_2.jpg"
+    link="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_2.jpg"
     caption="Opening with the star of the other show attacking your new lead was a bold choice."
     alt="Locutus of Borg watching a few Federation starships firing on his Borg cube, including the USS Saratoga.">}}
 
@@ -45,8 +50,9 @@ You could argue this opening is too fanservicey and a cheap way to generate inte
 It also sets up some great character stuff between Sisko and Picard, when the two meet to discuss Sisko's promotion to commander of Deep Space 9, the former base of operations for the Cardassian occupation of Bajor.
 
 {{< figure
+    class="center"
     src="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_3.jpg"
-    target="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_3.jpg"
+    link="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_3.jpg"
     title="\"Yes, sir. We met in battle. I was on the Saratoga at Wolf 359.\""
     caption="You know, it's kinda funny that both of the screenshots I've included so far for the DS9 premiere are of a TNG character."
     alt="Captain Picard, grimacing after learning Sisko is a victim of Wolf 359.">}}
@@ -56,8 +62,9 @@ Picard's scenes in this episode are short, but not a second of them is wasted. T
 There's a bit from the 2022 run of comics that inverts this scene in a way I really enjoy.{{< sup "down" 1 >}}
 
 {{< figure
+    class="center"
     src="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_4.png"
-    target="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_4.png"
+    link="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_4.png"
     alt="Snippet from Star Trek (2022) #1. Sisko and Picard are talking in The Enterprise-D's meeting room. Picard: \"Then just ask for the damned thing! You're a war hero, captain! The man who defeated the Dominion.\" Sisko: \"Sure...and then I was taken by a mysterious alien race no one else understands and had my body and mind forever changed. ... *That's* why you. Of all people.\"">}}
 
 We also see quite a few different sides to Sisko as well over the course of this two-parter. We see him as a commander, as a caring father, as someone willing to play the Ferengi commerce game, as a baseball pitcher, as a lover, as the reluctant Emissary to the Bajoran people, we see him struggle with his past, and we see him try to make sense of the impossible.
@@ -77,16 +84,18 @@ The Prophets are one of the most controversial aspects of this show, but I've al
 The way the meeting with the Prophets is really interesting. I like the way they take on the appearance of people from Sisko's past. It's haunting seeing these familiar faces speaking in such an unfamiliar voice, especially when they take the form of Jennifer, Sisko's wife who was killed on the Saratoga.
 
 {{< figure
+    class="center"
     src="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_5.jpg"
-    target="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_5.jpg"
+    link="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_5.jpg"
     alt="Sisko in the Wormhole, seen in a memory of him playing baseball."
     title="\"You value your ignorance of what is to come?\" ... \"That may be the most important thing to understand about humans.\"">}}
 
 In this sequence we see Sisko use the game of baseball as a metaphor to explain the concept of linear existence, and in turn the Prophets use his explanation to interrogate Sisko on his inability to move on from his past trauma.
 
 {{< figure
+    class="center"
     src="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_6.jpg"
-    target="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_6.jpg"
+    link="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_6.jpg"
     alt="Sisko in the Wormhole, seen in a memory of him on the Saratoga, standing over Jennifer's lifeless body. A prophet is seen, in the image of a Bolian crewmember. Prophet: \"If all you say is true, why do you exist here?\""
     title="\"I exist here. I don't know if you can understand. I see her like this every time I close my eyes. In the darkness, in the blink of an eye, I see her like this.\"">}}
 
