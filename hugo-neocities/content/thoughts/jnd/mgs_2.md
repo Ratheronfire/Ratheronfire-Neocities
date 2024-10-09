@@ -5,9 +5,10 @@ date: 2021-01-19T21:59:41-04:00
 draft: false
 categories:
 - blog
-categories: ["jnd"]
 tags:
+- jnd-archive
 - metal-gear-solid
+- metal-gear-from-memory
 - gaming
 ---
 
