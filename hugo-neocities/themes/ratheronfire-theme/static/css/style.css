@@ -11,7 +11,8 @@ the images as variables */
     --body-bg-image: url('../img/space_backdrop.jpg');
 
     /* colors */
-    --content: #43256E; /* Unused? */
+    --content: #43256E;
+    /* Unused? */
 
     --background-color: #08031A;
     --main-background-color: #43256E;
@@ -27,7 +28,8 @@ the images as variables */
     --header-border-color: violet;
     --footer-background-color: #13092D;
 
-    --top-bar-background-color: #13092D; /* Unused? */
+    --top-bar-background-color: #13092D;
+    /* Unused? */
 
     --primary-text-color: #fceaff;
     --bold-text-color: #ED64F5;
@@ -45,7 +47,7 @@ the images as variables */
     --code-no-lang-color: rgb(17, 243, 36);
 
     --option-color: black;
-    
+
     --minecraft-nav-color: #0F0;
     --minecraft-nav-background-color: rgba(255, 255, 255, 0);
     --minecraft-nav-text-shadow-color: rgb(119, 119, 119);
@@ -162,7 +164,7 @@ aside {
 .center {
     width: 100%;
     display: flex;
-    
+
     text-align: center;
     justify-content: center;
 }
@@ -171,12 +173,12 @@ aside {
 between the sidebars! */
 main {
     background: linear-gradient(180deg,
-        var(--navbar-background-color) 0%,
-        var(--mid-gradient-color) 6%,
-        var(--main-background-color) 8%,
-        var(--main-background-color) 92%,
-        var(--mid-gradient-color) 94%,
-        var(--navbar-background-color) 100%);
+            var(--navbar-background-color) 0%,
+            var(--mid-gradient-color) 6%,
+            var(--main-background-color) 8%,
+            var(--main-background-color) 92%,
+            var(--mid-gradient-color) 94%,
+            var(--navbar-background-color) 100%);
 
     flex: 1;
     padding: 20px;
@@ -297,6 +299,7 @@ pre {
 }
 
 @media only screen and (max-width: 1520px) {
+
     code,
     pre {
         font-size: 24px;
@@ -321,6 +324,18 @@ a.image_scaled {
 img.image_scaled {
     width: 100%;
     margin: 0 auto;
+}
+
+blockquote {
+    background: var(--box-background-color);
+    border-left: 10px solid var(--box-border-color);
+    margin: 0 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote p {
+    display: inline;
 }
 
 /* BELOW THIS POINT IS MEDIA QUERY */
