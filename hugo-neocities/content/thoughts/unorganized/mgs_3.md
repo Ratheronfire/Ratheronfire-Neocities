@@ -1,7 +1,7 @@
 ---
 title: "The 100% Accurate Chronological Storyline of Metal Gear (From Memory) [PART 3] - Metal Gear Solid V: Ground Zeroes & The Phantom Pain"
 date: 2024-10-07T03:15:57-04:00
-draft: true
+draft: false
 categories:
 - blog
 tags:
@@ -66,7 +66,7 @@ One of the more prominent figures Snake rescues is Code Talker, a Navajo biologi
 
 ---
 
-Soon enough Snake is ready to take on Skullface directly, and infiltrates his base for their final confrontation. There, Skullface reveals himself as the leader of XOF, as well as the true purpose of the two psychically gifted soldiers he's been sending after Snake (Man on Fire and the child in the straitjacket, a.k.a. Psycho Mantis): In order for Sahelanthropus to reach its true potential, he needed to find a psychically trained individual with enough unfocused rage to take direct control of the machine, and the two of them are his best candidates. However, Psycho Mantis proves to be more powerful than anticipated, causing Sahelanthropus to go berzerk and attack everyone in sight.
+Soon enough Snake is ready to take on Skullface directly, and infiltrates his base for their final confrontation. There, Skullface reveals himself as the leader of XOF, as well as the true purpose of the two psychically gifted soldiers he's been sending after Snake (Man on Fire and the child in the straitjacket, a.k.a. Psycho Mantis): In order for Sahelanthropus to reach its true potential, he needed to find a psychically trained individual with enough unfocused rage to take direct control of the machine, and the two of them are his best candidates. However, Psycho Mantis proves to be more powerful than anticipated, causing Sahelanthropus to go berserk and attack everyone in sight.
 
 Wait, hold on, I'm getting ahead of myself. So, before Sahelanthropus goes berserk, Skullface takes Snake on an obnoxiously long ride out to Sahelanthropus' location, during which he explains his mission and manifesto. Basically, this is where MGSV begins to go into maximum Kojima mode, and it never really goes back. He tells Snake that he views the English language itself as a parasite by way of colonialist expansion erasing the culture of occupied territory, including their languages and all the oral history and context attached to them. He then explains that he's been working on a weapon to surpass Metal Gear: not Sahelanthropus, but something entirely new, which he believes will act as a deterrent against the English language, much in the same way as a nuclear deterrent.
 
@@ -83,6 +83,46 @@ In addition, throughout much of the game Snake and company struggle with an orga
 Back to the main story, after defeating Skullface, Snake returns to Mother Base once more, only to find that an unknown parasitic infection has spread, and a quarantine zone has been established to contain the infected. Snake enters the quarantine facility to determine who is infected and who can be spared, as he is forced to euthanize each of the infected. Ultimately he's forced to put down everyone who was quarantined, and just in time-- several of the infected were being driven by a sudden urge to break quarantine and escape into the outside, where their bodies would eventually be eaten by crows, who then would go on to spread their disease beyond the base. Ultimately it's determined that Huey was at fault for the outbreak. I don't remember how exactly, but it just kinda tracks, doesn't it?
 
 After ending the crisis, Snake attempts to determine the infection vector by examining the biographies of the infected. After studying their profiles for some time, he ultimately realizes that the single factor all of the infected share was language: specifically, they each spoke Kikongo. At this point, Snake finally learns Skullface's true motive: he's been developing a new strain of parasites which can spread as a virus, and which is trained to prime itself after the carrier speaks the language the parasites are attuned to. Later on, the staff at Mother Base become aware that they have been exposed to an English strain of the parasite, and those who are known to be infected are forced to stop speaking the affected languages, including Quiet-- she *is* capable of speech, but as she was the first carrier of the English strain and can only speak English, she's taken a vow of silence{{< sup "down" 2 >}} to prevent the parasites from spreading.
+
+---
+
+At this point the narrative has become real open-ended. Some of the things that happen include:
+
+* Mother Base collectively decides they're just done with Huey, and exile him in a dinky little raft, not before damaging his prosthetic legs.
+* Miller becomes obsessed with creating the perfect cheeseburger for Code Talker, bringing on the best and the brightest of Mother Base's R&D department to crack the code.
+* Snake begins making periodic excursions to hostile forward operating bases, sometimes to steal their nuclear arsenal, other times to destroy it entirely.
+  * Fun fact: There exists a cutscene which is intended to play only when all the players connected to the internet manage to deplete the total nuclear arsenal across the entire playerbase. However, due to a glitch, this cutscene was accidentally triggered on some platforms where the nuclear arsenals were far from being depleted.
+* Quiet gains Snake's trust, and begins joining him on missions to provide combat support.
+* Snake gets a dog. He's called D-Dog and he's a very good boy. He can knife enemy soldiers.
+* Eli is just a general pain for the base and constantly acts out.
+
+At one point, Quiet joins Snake on an excursion that leads to the two of them being forced to hold out at an abandoned mansion, against an onslaught of hostile forces. Afterwards, Snake, greatly weakened by the fight, is bitten by a venomous snake (ha) while attempting to exfiltrate. To make matters worse, a sandstorm is kicked up, making it impossible for the helicopter pilot to locate the two. Quiet is forced to reluctantly pick up Snake's walkie talkie and guide the pilot down, meaning that her English language parasites are now active. In order to protect the others, Quiet disappears after this, presumably to die alone in the desert.
+
+---
+
+And that's pretty much where the game ends! ...Sort of. The thing is, Metal Gear Solid V was never truly finished. Dataminers quickly realized that there was one last unfinished mission, which would take place in an entirely new location with unique cutscenes and everything. Unfortunately MGSV's production was notoriously rushed, and the developers never had time to finish this last mission. To make matters worse, not long after Konami decided to axe virtually the entirety of Kojima's team as well as Kojima himself, meaning that MGSV could never be truly finished.
+
+It's a shame, because the intended final mission could've been a really solid coda for the game, as well as connecting it to later entries in a more tangible way.
+
+This mission would start with Eli and Psycho Mantis teaming up to steal Sahelanthropus from Mother Base and bringing the other child soldiers to a remote island, where Eli set himself up as the leader of this sort of Lord of the Flies style society. Snake arrives shortly after to put a stop to it and reclaim Sahelanthropus, only to find that other factions have arrived as well, looking to take Sahelanthropus for themselves. While taking out the enemy combatants, Snake begins to feel the effects of his brain injury making him unable to distinguish the color red, and in his confusion accidentally shoots Eli, being unable to tell his outfit apart from the others. Sahelanthropus is more or less destroyed during the encounter, and Psycho Mantis uses his psychic magic powers to heal Eli, as well remove his vocal chord parasites.
+
+---
+
+Okay, at this point I guess all that's really left to cover is the ending proper. One of the lategame missions serves as essentially the "end of the story" lore dump, kicking off a series of cutscenes which give a ton of revelations about the story as it's been shown to the player.
+
+To start, it's revealed that Eli is a clone of Snake, as part of a secretive genetic project known as Les Enfants Terribles. There was a second son created in this project as well, but his whereabouts are unknown.
+
+The greater revelation is to do with Snake himself. The man who has been referred to as Snake (or Venom Snake, or Big Boss) throughout the game is not, in fact, the true Big Boss. The true Big Boss did not become comatose following the helicopter crash, but used the accident as cover to remove himself from the public eye. The surgeon who was with him on the helicopter is actually the man who fell into the coma, and during that period he was given extensive cosmetic surgery as well as I think some form of mind altering to turn him into a passable duplicate of Big Boss, who would be known as Venom Snake from then on.
+
+When Venom Snake finally discovered the truth, he was naturally furious, but ultimately had no choice but to continue serving as Big Boss's phantom. Eventually his version of Mother Base evolved into the paramilitary nation Outer Heaven, which he continued to rule as a means of protecting the true Big Boss.
+
+Ocelot and Miller fundamentally disagreed about this plot to engineer a second Big Boss, ultimately agreeing that, while they would continue to maintain a friendly rapport in public, eventually they both knew one of them would kill the other.
+
+...Alright, I think that about covers everything. There's undoubtedly so, so much more I'm forgetting. Frankly, I didn't think there was this much to cover, but here I am over 3,000 words later.
+
+So, next I guess would be the MSX games? I'll be honest, I've never played those. Maybe I'll do a real quick half-writeup on them just to maintain continuity.
+
+Here's hoping the next page won't take quite as long.
 
 ---
 
