@@ -4,6 +4,7 @@ title: 'Half-Life: 25th Anniversary Documentary'
 year: '2023'
 date: 2023-11-20 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

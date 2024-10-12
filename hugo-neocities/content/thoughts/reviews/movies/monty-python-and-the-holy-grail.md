@@ -4,6 +4,7 @@ title: Monty Python and the Holy Grail
 year: '1975'
 date: 2022-08-02 00:36:06.578000+00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

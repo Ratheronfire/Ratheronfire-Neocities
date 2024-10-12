@@ -4,6 +4,7 @@ title: Teen Titans Go! To the Movies
 year: '2018'
 date: 2022-07-27 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2.5

@@ -4,6 +4,7 @@ title: 'Babylon 5: The Gathering'
 year: '1993'
 date: 2022-07-31 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

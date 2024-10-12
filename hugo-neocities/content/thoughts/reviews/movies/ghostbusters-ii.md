@@ -4,6 +4,7 @@ title: Ghostbusters II
 year: '1989'
 date: 2024-07-14 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

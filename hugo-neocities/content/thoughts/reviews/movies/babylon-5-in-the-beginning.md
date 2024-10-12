@@ -4,6 +4,7 @@ title: 'Babylon 5: In the Beginning'
 year: '1998'
 date: 2023-09-07 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

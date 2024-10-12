@@ -4,6 +4,7 @@ title: "Star Wars: Episode III \u2013\_Revenge of the Sith"
 year: '2005'
 date: 2024-01-17 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

@@ -4,6 +4,7 @@ title: The Lego Movie
 year: '2014'
 date: 2023-02-01 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4.5

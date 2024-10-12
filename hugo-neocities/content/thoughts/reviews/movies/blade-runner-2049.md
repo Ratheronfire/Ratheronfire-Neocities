@@ -4,6 +4,7 @@ title: Blade Runner 2049
 year: '2017'
 date: 2022-05-25 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4.5

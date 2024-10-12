@@ -4,6 +4,7 @@ title: The Lego Ninjago Movie
 year: '2017'
 date: 2023-04-12 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2.5

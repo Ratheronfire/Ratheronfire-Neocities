@@ -4,6 +4,7 @@ title: The Wind Rises
 year: '2013'
 date: 2022-09-11 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

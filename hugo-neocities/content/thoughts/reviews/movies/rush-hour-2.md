@@ -4,6 +4,7 @@ title: Rush Hour 2
 year: '2001'
 date: 2023-08-02 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

@@ -4,6 +4,7 @@ title: Hot Fuzz
 year: '2007'
 date: 2022-02-23 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

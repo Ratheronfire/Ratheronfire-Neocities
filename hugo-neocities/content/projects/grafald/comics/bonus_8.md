@@ -8,7 +8,7 @@ categories:
 - collaborations
 tags:
 - grafald
-image_path: "../img/2012/bonus_8.png"
+image_path: "/projects/grafald/comics/img/2012/bonus_8.png"
 alt_text: ""
 author: "[KirbychuHRD](https://cohost.org/KirbychuHRD)"
 ---

@@ -4,6 +4,7 @@ title: Spirited Away
 year: '2001'
 date: 2022-08-10 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

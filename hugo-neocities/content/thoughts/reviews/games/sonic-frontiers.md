@@ -4,6 +4,7 @@ title: Sonic Frontiers
 year: 2022
 date: 2022-11-26 00:00:00
 categories:
+- archived-posts
 - reviews
 tags:
 - gaming

@@ -4,6 +4,7 @@ title: 'Arzette: The Jewel of Faramore'
 year: 2024
 date: 2024-04-08 00:00:00
 categories:
+- archived-posts
 - reviews
 tags:
 - gaming

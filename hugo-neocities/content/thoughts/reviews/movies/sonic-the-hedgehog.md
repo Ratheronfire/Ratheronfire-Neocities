@@ -4,6 +4,7 @@ title: Sonic the Hedgehog
 year: '2020'
 date: 2022-09-21 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

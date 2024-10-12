@@ -4,6 +4,7 @@ title: Scott Pilgrim vs. the World
 year: '2010'
 date: 2022-03-02 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

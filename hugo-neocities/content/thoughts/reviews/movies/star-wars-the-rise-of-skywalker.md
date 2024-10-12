@@ -4,6 +4,7 @@ title: 'Star Wars: The Rise of Skywalker'
 year: '2019'
 date: 2019-12-27 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2

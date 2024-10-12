@@ -4,6 +4,7 @@ title: 'The Lego Movie 2: The Second Part'
 year: '2019'
 date: 2023-05-03 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

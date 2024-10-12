@@ -4,6 +4,7 @@ title: Attack the Gas Station!
 year: '1999'
 date: 2023-09-06 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

@@ -4,6 +4,7 @@ title: The Fate of the Furious
 year: '2017'
 date: 2023-04-05 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

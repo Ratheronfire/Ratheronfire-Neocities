@@ -4,6 +4,7 @@ title: 'Dangeresque: The Roomisode Triungulate'
 year: 2023
 date: 2024-02-06 00:00:00
 categories:
+- archived-posts
 - reviews
 tags:
 - gaming

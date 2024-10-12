@@ -4,6 +4,7 @@ title: 'Dragon Ball Z: Battle of Gods'
 year: '2013'
 date: 2018-04-03 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

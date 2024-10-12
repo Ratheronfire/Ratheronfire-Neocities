@@ -4,6 +4,7 @@ title: 'The Hobbit: An Unexpected Journey'
 year: '2012'
 date: 2022-08-01 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

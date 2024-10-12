@@ -4,6 +4,7 @@ title: Wario Land 3
 year: 2000
 date: 2024-08-07 00:00:00
 categories:
+- archived-posts
 - reviews
 tags:
 - gaming

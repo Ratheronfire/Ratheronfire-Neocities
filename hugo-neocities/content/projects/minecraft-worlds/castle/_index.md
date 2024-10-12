@@ -7,6 +7,10 @@ caption_mainpage: ""
 categories:
 - blog
 - projects
+- collaborations
+tags:
+- gaming
+- minecraft
 image_folder: "/projects/minecraft-worlds/castle/img/"
 minecraft_slides:
 - id: 0

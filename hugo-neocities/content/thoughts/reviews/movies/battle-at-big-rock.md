@@ -4,6 +4,7 @@ title: Battle at Big Rock
 year: '2019'
 date: 2022-12-14 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

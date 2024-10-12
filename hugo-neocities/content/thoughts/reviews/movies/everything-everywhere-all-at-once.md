@@ -4,6 +4,7 @@ title: Everything Everywhere All at Once
 year: '2022'
 date: 2022-11-16 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

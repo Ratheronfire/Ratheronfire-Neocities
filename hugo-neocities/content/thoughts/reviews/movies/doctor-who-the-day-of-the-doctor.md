@@ -4,6 +4,7 @@ title: 'Doctor Who: The Day of the Doctor'
 year: '2013'
 date: 2013-12-23 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

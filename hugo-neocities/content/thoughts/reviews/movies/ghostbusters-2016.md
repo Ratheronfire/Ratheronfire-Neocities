@@ -4,6 +4,7 @@ title: Ghostbusters
 year: '2016'
 date: 2024-08-18 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

@@ -4,6 +4,7 @@ title: Star Trek
 year: '2009'
 date: 2023-01-11 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

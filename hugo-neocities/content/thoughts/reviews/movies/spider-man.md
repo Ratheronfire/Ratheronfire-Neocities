@@ -4,6 +4,7 @@ title: Spider-Man
 year: '2002'
 date: 2024-01-31 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

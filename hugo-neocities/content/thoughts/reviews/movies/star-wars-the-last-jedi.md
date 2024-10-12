@@ -4,6 +4,7 @@ title: 'Star Wars: The Last Jedi'
 year: '2017'
 date: 2024-04-10 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

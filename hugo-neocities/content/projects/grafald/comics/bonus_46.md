@@ -8,7 +8,7 @@ categories:
 - collaborations
 tags:
 - grafald
-image_path: "../img/2023/bonus_46.png"
+image_path: "/projects/grafald/comics/img/2023/bonus_46.png"
 alt_text: ""
 author: "Ratheronfire"
 ---

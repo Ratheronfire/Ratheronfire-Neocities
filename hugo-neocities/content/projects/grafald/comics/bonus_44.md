@@ -8,7 +8,7 @@ categories:
 - collaborations
 tags:
 - grafald
-image_path: "../img/2023/bonus_44.png"
+image_path: "/projects/grafald/comics/img/2023/bonus_44.png"
 alt_text: ""
 author: "[/u/siebdrucksalat](https://reddit.com/u/siebdrucksalat)"
 ---

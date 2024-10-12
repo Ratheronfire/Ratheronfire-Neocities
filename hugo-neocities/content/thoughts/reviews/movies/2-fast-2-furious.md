@@ -4,6 +4,7 @@ title: 2 Fast 2 Furious
 year: '2003'
 date: 2023-02-15 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2

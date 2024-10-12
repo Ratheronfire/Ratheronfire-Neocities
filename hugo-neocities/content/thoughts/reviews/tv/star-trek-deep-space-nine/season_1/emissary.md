@@ -4,6 +4,7 @@ type: review
 airdate: 1993-01-03 00:00:00
 season: 1
 episode: 1
+series: "Star Trek: Deep Space 9"
 season_url: ''
 date: 2023-12-10 03:35:11.259566
 categories:

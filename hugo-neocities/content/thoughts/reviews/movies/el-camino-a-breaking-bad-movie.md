@@ -4,6 +4,7 @@ title: 'El Camino: A Breaking Bad Movie'
 year: '2019'
 date: 2019-10-11 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

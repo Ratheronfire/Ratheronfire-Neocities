@@ -4,6 +4,7 @@ title: Ghostbusters
 year: '1984'
 date: 2024-06-23 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

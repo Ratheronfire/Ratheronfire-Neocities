@@ -4,6 +4,7 @@ title: A Christmas Carol
 year: '1999'
 date: 2023-12-26 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

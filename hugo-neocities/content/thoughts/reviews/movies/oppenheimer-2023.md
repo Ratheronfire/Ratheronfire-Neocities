@@ -4,6 +4,7 @@ title: Oppenheimer
 year: '2023'
 date: 2023-08-05 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4.5

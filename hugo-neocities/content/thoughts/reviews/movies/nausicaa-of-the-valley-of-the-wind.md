@@ -4,6 +4,7 @@ title: "Nausica\xE4 of the Valley of the Wind"
 year: '1984'
 date: 2022-06-15 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4.5

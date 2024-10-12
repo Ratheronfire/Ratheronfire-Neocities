@@ -4,6 +4,7 @@ title: Fast & Furious 6
 year: '2013'
 date: 2023-03-22 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

@@ -4,6 +4,7 @@ title: Furious 7
 year: '2015'
 date: 2023-03-29 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

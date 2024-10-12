@@ -4,6 +4,7 @@ title: 'Fast & Furious Presents: Hobbs & Shaw'
 year: '2019'
 date: 2023-04-19 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2

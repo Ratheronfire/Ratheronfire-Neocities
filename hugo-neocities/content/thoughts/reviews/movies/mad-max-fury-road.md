@@ -4,6 +4,7 @@ title: 'Mad Max: Fury Road'
 year: '2015'
 date: 2024-05-31 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

@@ -4,6 +4,7 @@ title: 'Star Trek IV: The Voyage Home'
 year: '1986'
 date: 2022-07-31 23:15:50.361000+00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

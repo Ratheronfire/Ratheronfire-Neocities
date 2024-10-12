@@ -4,6 +4,7 @@ title: Bill & Ted's Excellent Adventure
 year: '1989'
 date: 2024-09-18 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

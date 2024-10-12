@@ -4,6 +4,7 @@ title: 'The Lord of the Rings: The Two Towers'
 year: '2002'
 date: 2024-03-10 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

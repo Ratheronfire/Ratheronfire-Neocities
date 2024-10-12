@@ -4,6 +4,7 @@ title: Fast Five
 year: '2011'
 date: 2023-03-15 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

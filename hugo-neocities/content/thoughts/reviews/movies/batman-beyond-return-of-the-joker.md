@@ -4,6 +4,7 @@ title: 'Batman Beyond: Return of the Joker'
 year: '2000'
 date: 2019-07-10 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5
