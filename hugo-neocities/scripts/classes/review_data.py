@@ -15,6 +15,8 @@ class ReviewData:
     external_review_url: str
 
     page_name: str
+    
+    tags: list[str]
 
     def __init__(self) -> None:
         self.title = ''
@@ -28,6 +30,8 @@ class ReviewData:
         self.fanart_url = ''
         self.poster_url = ''
         self.external_review_url = ''
+        
+        self.tags = []
 
         self.page_name = ''
 
@@ -37,7 +41,8 @@ class ReviewData:
             'title': self.title,
             'year': self.release_year,
             'date': self.review_date,
-            'categories': ['reviews'],
+            'categories': ['archived-posts', 'reviews'],
+            'tags': self.tags,
             'draft': False,
             'rating': self.rating,
             'has_spoilers': self.has_spoilers,

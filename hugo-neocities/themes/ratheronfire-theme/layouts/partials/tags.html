@@ -5,13 +5,11 @@
         {{ end }}
     {{ end }}
 
-    {{ if and (.GetTerms "categories") (.GetTerms "tags") }}
-    &middot;
-    {{ end }}
+    {{ if and (.GetTerms "categories") (.GetTerms "tags") }}&middot;{{ end }}
 
     {{ with .GetTerms "tags" }}
         {{ range . }}
-        <a class="taxonomy-link tag-link" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>
+        <a class="taxonomy-link tag-link" href="{{ .RelPermalink }}">#{{ .LinkTitle | lower }}</a>
         {{ end }}
     {{ end }}
 </div>

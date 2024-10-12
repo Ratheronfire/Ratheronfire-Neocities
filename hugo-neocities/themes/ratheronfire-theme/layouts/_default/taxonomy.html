@@ -13,7 +13,7 @@
 
                     <h1 class="title">
                         {{ if eq $taxonomy_type "tags" }}
-                            #{{ .Title }}
+                            #{{ .Title | lower }}
                         {{ else }}
                             {{ .Title }}
                         {{ end }}
@@ -102,7 +102,7 @@
                                                 
                                                 {{ $newest := index $value.Pages 0 }}
 
-                                                <td><a href="{{ $name }}">{{if eq $.Params.taxonomy "tags" }}#{{ end }}{{ $name }}</a></td>
+                                                <td><a href="{{ $name }}">{{if eq $.Params.taxonomy "tags" }}#{{ end }}{{ $name | lower }}</a></td>
                                                 <td>{{ $pages.Len }}</td>
                                                 <td>{{ $newest.Params.date | time.Format ":date_long" }}</td>
                                                 <td class="table-rss rss-link"><a href="{{ $name }}/index.xml"><i class="fa fa-rss-square" aria-hidden="true" aria-label="RSS Feed"></i></a></td>
