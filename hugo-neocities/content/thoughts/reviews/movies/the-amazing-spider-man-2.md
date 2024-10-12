@@ -4,6 +4,7 @@ title: The Amazing Spider-Man 2
 year: '2014'
 date: 2024-05-08 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2

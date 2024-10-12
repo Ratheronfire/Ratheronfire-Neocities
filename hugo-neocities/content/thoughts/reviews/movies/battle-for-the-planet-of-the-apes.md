@@ -4,6 +4,7 @@ title: Battle for the Planet of the Apes
 year: '1973'
 date: 2024-06-11 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2.5

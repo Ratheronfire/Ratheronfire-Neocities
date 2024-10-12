@@ -4,6 +4,7 @@ title: Return of the Jedi
 year: '1983'
 date: 2023-11-22 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

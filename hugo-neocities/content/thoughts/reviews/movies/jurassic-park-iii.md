@@ -4,6 +4,7 @@ title: Jurassic Park III
 year: '2001'
 date: 2022-10-26 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2

@@ -4,6 +4,7 @@ title: Star Trek Beyond
 year: '2016'
 date: 2023-01-25 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4.5

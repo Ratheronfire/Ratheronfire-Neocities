@@ -4,6 +4,7 @@ title: Rise of the Planet of the Apes
 year: '2011'
 date: 2024-08-21 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

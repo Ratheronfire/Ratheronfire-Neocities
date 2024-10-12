@@ -4,6 +4,7 @@ title: Die Hard
 year: '1988'
 date: 2022-03-16 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

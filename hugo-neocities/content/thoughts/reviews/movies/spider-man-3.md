@@ -4,6 +4,7 @@ title: Spider-Man 3
 year: '2007'
 date: 2024-02-14 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

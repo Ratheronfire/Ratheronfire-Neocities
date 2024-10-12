@@ -4,6 +4,7 @@ title: The Hobbit
 year: '1977'
 date: 2022-08-04 01:07:22.052000+00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

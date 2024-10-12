@@ -4,6 +4,7 @@ title: 'Mission: Impossible III'
 year: '2006'
 date: 2024-07-03 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

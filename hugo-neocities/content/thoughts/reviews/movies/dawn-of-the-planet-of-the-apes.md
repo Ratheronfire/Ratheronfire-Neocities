@@ -4,6 +4,7 @@ title: Dawn of the Planet of the Apes
 year: '2014'
 date: 2024-08-28 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

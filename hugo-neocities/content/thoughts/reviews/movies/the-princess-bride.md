@@ -4,6 +4,7 @@ title: The Princess Bride
 year: '1987'
 date: 2022-09-14 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

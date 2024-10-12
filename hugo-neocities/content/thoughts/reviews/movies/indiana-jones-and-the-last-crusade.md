@@ -4,6 +4,7 @@ title: Indiana Jones and the Last Crusade
 year: '1989'
 date: 2023-05-24 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4.5

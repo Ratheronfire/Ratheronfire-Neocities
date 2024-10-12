@@ -4,6 +4,7 @@ title: Jurassic Park
 year: '1993'
 date: 2022-10-05 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

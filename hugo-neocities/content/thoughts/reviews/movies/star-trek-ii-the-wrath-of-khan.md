@@ -4,6 +4,7 @@ title: 'Star Trek II: The Wrath of Khan'
 year: '1982'
 date: 2022-09-04 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

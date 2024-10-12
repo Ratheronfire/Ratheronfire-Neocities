@@ -4,6 +4,7 @@ title: Paddington 2
 year: '2017'
 date: 2022-06-01 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

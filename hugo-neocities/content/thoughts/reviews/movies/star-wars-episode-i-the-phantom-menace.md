@@ -4,6 +4,7 @@ title: "Star Wars: Episode I \u2013 The Phantom Menace"
 year: '1999'
 date: 2024-01-03 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2.5

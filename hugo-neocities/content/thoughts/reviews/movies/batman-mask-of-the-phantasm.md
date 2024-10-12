@@ -4,6 +4,7 @@ title: 'Batman: Mask of the Phantasm'
 year: '1993'
 date: 2019-07-14 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4.5

@@ -4,6 +4,7 @@ title: 'Weird: The Al Yankovic Story'
 year: '2022'
 date: 2022-11-09 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

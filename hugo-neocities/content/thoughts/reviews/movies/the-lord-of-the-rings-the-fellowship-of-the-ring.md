@@ -2,6 +2,7 @@
 type: review
 draft: false
 categories:
+- archived-posts
 - reviews
 title: 'The Lord of the Rings: The Fellowship of the Ring'
 year: '2001'

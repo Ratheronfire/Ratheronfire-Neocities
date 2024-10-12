@@ -4,6 +4,7 @@ title: Super Mario Bros.
 year: '1993'
 date: 2023-05-31 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

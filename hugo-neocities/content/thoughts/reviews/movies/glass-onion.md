@@ -4,6 +4,7 @@ title: Glass Onion
 year: '2022'
 date: 2022-12-27 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4.5

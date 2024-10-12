@@ -4,6 +4,7 @@ title: Kiki's Delivery Service
 year: '1989'
 date: 2022-07-13 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

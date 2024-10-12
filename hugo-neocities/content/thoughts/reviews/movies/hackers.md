@@ -4,6 +4,7 @@ title: Hackers
 year: '1995'
 date: 2023-06-21 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

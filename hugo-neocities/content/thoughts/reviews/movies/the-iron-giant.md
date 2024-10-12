@@ -4,6 +4,7 @@ title: The Iron Giant
 year: '1999'
 date: 2023-12-27 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

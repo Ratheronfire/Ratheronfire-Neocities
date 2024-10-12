@@ -4,6 +4,7 @@ title: "Star Wars: Episode II \u2013\_Attack of the Clones"
 year: '2002'
 date: 2024-01-10 23:13:50.754000+00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2

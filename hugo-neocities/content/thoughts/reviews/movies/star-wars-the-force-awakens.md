@@ -4,6 +4,7 @@ title: 'Star Wars: The Force Awakens'
 year: '2015'
 date: 2022-07-31 23:13:55.172000+00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

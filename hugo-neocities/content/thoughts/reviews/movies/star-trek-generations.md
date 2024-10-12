@@ -4,6 +4,7 @@ title: 'Star Trek: Generations'
 year: '1994'
 date: 2022-07-31 23:16:35.955000+00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

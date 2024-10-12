@@ -4,6 +4,7 @@ title: "Mission: Impossible \u2013 Rogue Nation"
 year: '2015'
 date: 2024-07-31 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3.5

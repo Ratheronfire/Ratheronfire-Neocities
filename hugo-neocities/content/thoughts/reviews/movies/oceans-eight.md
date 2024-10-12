@@ -4,6 +4,7 @@ title: Ocean's Eight
 year: '2018'
 date: 2023-10-11 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2.5

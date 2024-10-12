@@ -4,6 +4,7 @@ title: 'Star Trek: Insurrection'
 year: '1998'
 date: 2022-07-31 23:16:40.553000+00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 2

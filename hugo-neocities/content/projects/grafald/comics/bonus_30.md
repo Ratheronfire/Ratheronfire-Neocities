@@ -8,7 +8,7 @@ categories:
 - collaborations
 tags:
 - grafald
-image_path: "../img/2015/bonus_30.png"
+image_path: "/projects/grafald/comics/img/2015/bonus_30.png"
 alt_text: ""
 author: "[hatsune-mike](https://cohost.org/hatsune-mike)"
 ---

@@ -4,6 +4,7 @@ title: 'Dragon Ball Z: Resurrection ''F'''
 year: '2015'
 date: 2018-04-03 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3

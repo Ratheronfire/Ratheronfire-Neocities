@@ -4,6 +4,7 @@ title: The Animatrix
 year: '2003'
 date: 2021-12-01 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

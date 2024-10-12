@@ -4,6 +4,7 @@ title: Planet of the Apes
 year: '1968'
 date: 2024-05-15 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 5

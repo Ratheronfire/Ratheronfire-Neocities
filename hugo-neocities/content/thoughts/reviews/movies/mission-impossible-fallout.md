@@ -4,6 +4,7 @@ title: "Mission: Impossible \u2013 Fallout"
 year: '2018'
 date: 2024-08-07 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

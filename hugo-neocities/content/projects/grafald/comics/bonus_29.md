@@ -8,7 +8,7 @@ categories:
 - collaborations
 tags:
 - grafald
-image_path: "../img/2015/bonus_29.png"
+image_path: "/projects/grafald/comics/img/2015/bonus_29.png"
 alt_text: ""
 author: "[KirbychuHRD](https://cohost.org/KirbychuHRD) and [hatsune-mike](https://cohost.org/hatsune-mike)"
 ---

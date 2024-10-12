@@ -4,6 +4,7 @@ title: "RiffTrax Live: Doctor Who \u2013 The Five Doctors"
 year: '2017'
 date: 2017-08-17 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

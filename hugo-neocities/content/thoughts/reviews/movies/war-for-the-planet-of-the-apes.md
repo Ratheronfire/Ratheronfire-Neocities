@@ -4,6 +4,7 @@ title: War for the Planet of the Apes
 year: '2017'
 date: 2024-09-04 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 4

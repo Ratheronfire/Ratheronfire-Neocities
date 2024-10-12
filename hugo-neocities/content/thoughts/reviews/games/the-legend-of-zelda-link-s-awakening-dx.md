@@ -4,6 +4,7 @@ title: 'The Legend of Zelda: Link''s Awakening DX'
 year: 1998
 date: 2022-09-13 00:00:00
 categories:
+- archived-posts
 - reviews
 tags:
 - gaming

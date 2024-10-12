@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content" id="flex">
+            <main>
+                <h1>{{ .Title }}</h1>
+
+                {{ partial "page_subheader" . }}
+
+                <i>Originally posted to Cohost on {{ .Params.original_date | time.Format ":date_long" }}.</i>
+                
+                {{ .Content }}
+
+                {{ partial "page_nav" . }}
+
+                {{ partial "tags" . }}
+
+                {{ partial "comments" . }}
+            </main>
+        </div>
+    </div>
+</div>
+{{ end }}

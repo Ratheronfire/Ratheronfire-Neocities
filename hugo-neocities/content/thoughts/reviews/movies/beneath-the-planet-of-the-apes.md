@@ -4,6 +4,7 @@ title: Beneath the Planet of the Apes
 year: '1970'
 date: 2024-05-22 00:00:00
 categories:
+- archived-posts
 - reviews
 draft: false
 rating: 3
