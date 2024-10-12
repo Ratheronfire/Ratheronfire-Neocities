@@ -30,6 +30,7 @@ class BackloggdScraper(Scraper):
         page = requests.get(url)
         
         review_data = ReviewData()
+        review_data.tags.append('gaming')
         
         if not page.ok:
             print(f'Unable to get game page {url}. Error Code {page.status_code}: {page.reason}')

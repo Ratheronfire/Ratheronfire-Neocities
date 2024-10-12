@@ -27,6 +27,7 @@ class LetterboxdScraper(Scraper):
         page = requests.get(url)
         
         review_data = ReviewData()
+        review_data.tags.append('movies')
         
         if page.status_code == 404 and self.username in page.url:
             # User page does not exist, so we'll just scrape the main film page instead.
