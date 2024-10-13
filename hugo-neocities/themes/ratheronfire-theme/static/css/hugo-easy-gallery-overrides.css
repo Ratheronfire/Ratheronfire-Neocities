@@ -1,0 +1,23 @@
+.gallery {
+    max-width: unset !important;
+}
+
+@media only screen and (min-width : 600px) {
+    .gallery .box {
+       width: 25% !important;
+       padding-bottom: 25% !important;
+    }
+ }
+
+ .box figcaption,
+ .pswp__caption__center {
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: 100% !important;
+ }
+
+a.pswp__share--facebook,
+a.pswp__share--twitter,
+a.pswp__share--pinterest {
+    display: none !important;
+}

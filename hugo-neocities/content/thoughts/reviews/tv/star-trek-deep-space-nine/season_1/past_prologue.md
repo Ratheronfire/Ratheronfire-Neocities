@@ -19,6 +19,8 @@ tags:
 - tv
 ---
 
+{{< load-photoswipe >}}
+
 After the series premiere, Deep Space 9 immediately hits the ground running with establishing its new characters, starting with this look into Kira and her past with the Bajoran underground resistance.
 
 But more on that later, because we have a new character to meet!

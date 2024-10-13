@@ -24,6 +24,8 @@ tags:
 - star-trek-ds9
 ---
 
+{{< load-photoswipe >}}
+
 When I heard that the [Delta Flyers podcast](https://the-delta-flyers.captivate.fm/) was going to begin covering Deep Space 9, something clicked in my head. I've been wanting to start writing up some TV reviews for a while, and I realized this was the perfect opportunity to get some words down about my all-time favorite series.
 
 I've seen Deep Space Nine all the way through twice now, and having also recently watched Babylon 5 for the first time recently, this era of sci-fi has been on my mind a bit.
@@ -40,7 +42,6 @@ And so we begin with the opening two-parter, Emissary. Right away this episode p
 
 {{< figure
     class="center"
-    width="50%"
     src="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_2.jpg"
     link="/thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_2.jpg"
     caption="Opening with the star of the other show attacking your new lead was a bold choice."

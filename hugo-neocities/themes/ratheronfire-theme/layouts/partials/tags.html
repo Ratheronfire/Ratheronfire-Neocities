@@ -12,4 +12,12 @@
         <a class="taxonomy-link tag-link" href="{{ .RelPermalink }}">#{{ .LinkTitle | lower }}</a>
         {{ end }}
     {{ end }}
+
+    {{ if .GetTerms "original-tags" }}<br /><br /> Original Tags: {{ end }}
+
+    {{ with .GetTerms "original-tags" }}
+        {{ range . }}
+        <a class="taxonomy-link tag-link original-tag-link">#{{ .LinkTitle | lower }}</a>
+        {{ end }}
+    {{ end }}
 </div>

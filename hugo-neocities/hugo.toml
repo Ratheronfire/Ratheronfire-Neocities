@@ -1,12 +1,13 @@
 baseURL = "https://ratheronfire.com/"
 languageCode = "en-us"
 title = "Ratheronfire's Assorted Collection of Odd Projects"
-theme = "ratheronfire-theme"
+theme = ["ratheronfire-theme", "hugo-easy-gallery"]
 enableGitInfo = true
 
 [taxonomies]
   category = "categories"
   tag = "tags"
+  original-tags = "original-tags"
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']

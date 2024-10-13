@@ -11,6 +11,8 @@ tags:
 - star-wars
 ---
 
+{{< load-photoswipe >}}
+
 I recently rewatched The Last Jedi for the first time since it came out, which also means it's the first time I've seen it since being subjected to, uh...  
 *7 years?* Of the internet having opinions on it. And while I certainly had some issues with it after my first viewing, I simply could not understand the vitriol this movie generated, or just how insanely disproportinate the reaction was to a bunch of extremely minor issues (a lot of which I honestly don't think are issues at all, but we'll get there).
 

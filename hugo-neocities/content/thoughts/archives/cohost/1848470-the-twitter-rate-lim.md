@@ -1,14 +1,13 @@
 ---
-title: "1848470 [Cohost Archive]"
-date: 2024-10-11T00:00:00-04:00
+title: "[Cohost Archive] Untitled - 1848470"
+date: 2024-10-16T00:00:00-04:00
 type: cohost
 original_date: 2023-07-03T21:06:33.184Z
 categories:
 - archived-posts
-- blog
 tags:
 - cohost
-draft: true
+draft: false
 ---
 
 The Twitter rate limiting stuff is real funny to me because I'm pretty certain that either it isn't actually rate limiting anyone, or it just doesn't work at all like it was explained. Twice now I've deliberately loaded a giant mass of tweets all at once, and I *do* get rate limited, but only for a couple minutes before they just forget and let me start seeing posts again unhindered.

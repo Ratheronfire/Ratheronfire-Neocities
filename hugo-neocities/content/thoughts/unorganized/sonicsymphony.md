@@ -12,9 +12,12 @@ tags:
 - sonic-the-hedgehog
 ---
 
+{{< load-photoswipe >}}
+
 I attended the Sonic Symphony's Boston showing today, my second time so far. I had a blast there, and I wanted to write up something real quick to document my experience.
 
 {{< figure
+    class="center"
     src="/thoughts/unorganized/img/sonic_symphony-1_thumb.jpg"
     link="/thoughts/unorganized/img/sonic_symphony-1.jpg"
     title="The orchestra getting ready to perform."
@@ -29,6 +32,7 @@ They turned [**this**](https://www.youtube.com/watch?v=c4zwIGF0mFQ) into an orch
 Honestly, I love the fact that this team is embracing all these different aspects of the overall sound of Sonic. Not many franchises I'm aware of can pivot from orchestral music to heavy metal to rap to techno-pop ballads so smoothly.
 
 {{< figure
+    class="center"
     src="/thoughts/unorganized/img/sonic_symphony-2_thumb.jpg"
     link="/thoughts/unorganized/img/sonic_symphony-2.jpg"
     title="Never in my life have I heard so many people cheer so after seeing a 12 year old girl get murdered by the military. It was great."
@@ -37,6 +41,7 @@ Honestly, I love the fact that this team is embracing all these different aspect
 Of course, the second part was an absolute knockout. The two lead singers were fantastic, as was everyone else (I think the conductor also started singing a bit towards the end!). Admittedly I'm not really enough of a music nerd to nail down specifics of what they were doing or what I liked so much, but the energy of this show was palpable, and the orchestration behind the band all throughout added so much.
 
 {{< figure
+    class="center"
     src="/thoughts/unorganized/img/sonic_symphony-3_thumb.jpg"
     link="/thoughts/unorganized/img/sonic_symphony-3.jpg"
     title="Kinda messed up this shot, whoops."
@@ -47,6 +52,7 @@ The audience's energy was infectious. Everyone around me was either losing their
 The kid sitting next to me was clearly having the time of his life, and frankly I'm glad for him.
 
 {{< figure
+    class="center"
     src="/thoughts/unorganized/img/sonic_symphony-4_thumb.jpg"
     link="/thoughts/unorganized/img/sonic_symphony-4.jpg"
     title="They had everyone turn on their camera flash for Reach For the Stars. Lotsa glow sticks in the mix, too."
@@ -57,6 +63,7 @@ Early on I noticed that one of the singers was doing some death metal-ish vocal 
 They did not disappoint.
 
 {{< figure
+    class="center"
     src="/thoughts/unorganized/img/sonic_symphony-5_thumb.jpg"
     link="/thoughts/unorganized/img/sonic_symphony-5.jpg"
     title="You know this was a real rock concert because the performers had some of the most dazzling outfits I've ever seen. Just look at those red/blue pants!"
@@ -66,6 +73,7 @@ They did not disappoint.
 Like the last time, the encore was Live and Learn (which was incredible, don't get me wrong, but it just feels a little incomplete without Open Your Heart), except this time they decided to follow it up with maybe their most beautiful performance.
 
 {{< figure
+    class="center"
     src="/thoughts/unorganized/img/sonic_symphony-6_thumb.jpg"
     link="/thoughts/unorganized/img/sonic_symphony-6.jpg"
     title="Never in a million years could I have predicted this ending."
@@ -78,6 +86,7 @@ For the record, the concert hall is *massive*, and yet they were able to fill th
 What an ending.
 
 {{< figure
+    class="center"
     src="/thoughts/unorganized/img/sonic_symphony-7_thumb.jpg"
     link="/thoughts/unorganized/img/sonic_symphony-7.jpg"
     title="One of those nights that I'll never forget."
@@ -86,6 +95,7 @@ What an ending.
 And just for fun, here's one last picture I took on the way back out. I didn't notice at the time but there's a bunch of Sonic fans hiding in this picture like little cryptids. Collect them all!
 
 {{< figure
+    class="center"
     src="/thoughts/unorganized/img/sonic_symphony-8_thumb.jpg"
     link="/thoughts/unorganized/img/sonic_symphony-8.jpg"
     title="Boston is a very pretty city at night."
