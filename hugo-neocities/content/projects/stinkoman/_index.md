@@ -28,6 +28,7 @@ tags:
 - stinkoman
 - homestar-runner
 - godot
+- gaming
 ---
 
 {{< youtube MitDNlfcgeM >}}
