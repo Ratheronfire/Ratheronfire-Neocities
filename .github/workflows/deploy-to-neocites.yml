@@ -6,6 +6,8 @@ on:
     branches:
       - master
   workflow_dispatch:
+  schedule:
+    - cron: "5 0 * * *"
 
 concurrency: # prevent concurrent deploys doing strange things
   group: deploy-to-neocities
@@ -23,6 +25,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        submodules: recursive
 
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
