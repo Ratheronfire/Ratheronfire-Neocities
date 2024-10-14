@@ -2,6 +2,7 @@
 title: "[Cohost Archive] Stinkoman 20X6 Progress Report"
 date: 2024-10-17T00:00:00-04:00
 type: cohost
+hide_from_new: true
 original_date: 2023-07-03T22:53:27.008Z
 categories:
 - archived-posts

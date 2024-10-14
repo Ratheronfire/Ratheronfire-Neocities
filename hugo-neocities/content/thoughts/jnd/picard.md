@@ -4,16 +4,15 @@ date: 2020-05-31T02:30:28-04:00
 draft: false
 categories:
 - blog
-categories: ["jnd"]
+- archived-posts
 tags:
+- jnd-archive
 - tv
 - star-trek
 - star-trek-picard
 ---
 
 *Originally posted to /r/JNDDeskscraps on May 31, 2020.*
-
------
 
 Since Kirbychu posted his thoughts a while back I wanted to put together some of mine too. It's really late as I'm typing this and I'm using my phone so things might get a bit messy but oh well.
 

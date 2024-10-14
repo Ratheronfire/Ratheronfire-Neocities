@@ -26,7 +26,7 @@ extra_reviews:
 tags:
 - movies
 - lord-of-the-rings
-- middle-earth
+- tolkien
 ---
 
 This movie achieves the unimaginable of earning 5 stars despite Legolas using the phrase "game over" after winning a drinking game.

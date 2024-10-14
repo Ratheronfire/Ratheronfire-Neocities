@@ -16,7 +16,7 @@ page_name: the-hobbit-the-desolation-of-smaug
 tags:
 - movies
 - the-hobbit
-- middle-earth
+- tolkien
 ---
 
 The added story bits are starting to drag the movies down more and more, but the parts that work still work for me.

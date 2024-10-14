@@ -5,6 +5,7 @@ date: 2021-01-19T21:59:41-04:00
 draft: false
 categories:
 - blog
+- archived-posts
 tags:
 - jnd-archive
 - metal-gear-solid
@@ -13,8 +14,6 @@ tags:
 ---
 
 *Originally posted to /r/JNDDeskscraps on January 19, 2021.*
-
------
 
 ...So it's been a while since I did the [first part](../mgs_1) of this, but Metal Gear's been on my mind lately so I want to go back to whatever this dumb project was now. The idea is to recount as much as I can of the games' storyline in chronological order, trying to avoid looking anything up if I can. Anyway, after MGS3, there are a couple side games which are questionably canon that I never actually played. Basically, all you need to know about those games is that sometime after the events of MGS3, Ocelot tracked down the full Philosophers' Legacy and used the money to found a secret organization called the Patriots, alongside Snake (aka David), SIGINT (aka Donald Anderson), Para-medic (aka Dr. Clark), and Major Zero (aka I forget if he actually had a real name). At this point, the Patriots were still in their infancy, their ultimate goal being to enact the Boss's will and establish a new world order where nationality and the ever-changing political climate would not force otherwise peaceful men into needless conflict. Around this time, Snake/Big Boss also began working with a fellow ex-soldier, Kazuhira Miller, to establish a paramilitary base called Outer Heaven, where soldiers of all backgrounds could live together and serve common interests independent of any larger governing bodies. This is around where the next game, Peace Walker, picks up. (This is probably the game I remember the least, so there's a lot of story elements I'm going to end up getting wrong or completely forgetting here.)
 

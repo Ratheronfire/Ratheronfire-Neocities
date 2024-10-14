@@ -4,6 +4,7 @@ date: 2019-09-01T22:06:49-04:00
 draft: false
 categories:
 - blog
+- archived-posts
 tags:
 - jnd-archive
 - metal-gear-solid
@@ -12,8 +13,6 @@ tags:
 ---
 
 *Originally posted to /r/JNDDeskscraps on September 1, 2019.*
-
------
 
 During WWII, a secret alliance between America, China, and I think the Soviet Union amassed a massive cache of funds split across hundreds of shell corporations and dummy accounts. The sequence of transactions necessary to extract all the funds was stored on a chip called the Philosophers' Legacy, named after the organization that acquired the fund. One of the Russian members intended to keep the funds for himself and pass them onto his descendants in the hopes they would be used to unite the world and put an end to all the meaningless conflict. However, rising tensions between the US and the Soviet Union during the Cold War resulted in the Philosophers disbanding, and the Legacy was soon divided among the three nations. Volgin, a man with electic powers and the intended ineritor of the Philosophers' Legacy, organized a team of expert soldiers and tactitians in order to recover the Legacy, including legendary American soldier The Boss, Eva, a CIA informant (who was secretly working for the Chinese government to recover the Legacy for them), Revolver Ocelot (who was secretly working for the KGB(but was actually secretly a CIA agent(but was really loyal to The Boss))). Below them was a second unit of special forces operatives including The Pain, The Fear, The Fury, The Sorrow, and The End. To the military world, this seemed to indicate that The Boss had defected to the Soviet Union, and so tensions suddenly escalated, leaving President Johnson little choice but to assign The Boss's pupil and closest friend, codenamed Naked Snake, to infiltrate Russian territory and kill The Boss as a show of good faith.
 

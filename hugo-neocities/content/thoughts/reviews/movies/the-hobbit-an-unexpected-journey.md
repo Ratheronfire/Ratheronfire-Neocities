@@ -16,7 +16,7 @@ page_name: the-hobbit-an-unexpected-journey
 tags:
 - movies
 - the-hobbit
-- middle-earth
+- tolkien
 extra_reviews:
 - date: 2023-12-06 00:00:00
   rating: 4

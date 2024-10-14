@@ -15,7 +15,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/the-lord-of-the-ri
 tags:
 - movies
 - lord-of-the-rings
-- middle-earth
+- tolkien
 extra_reviews:
 - date: 2024-06-08 00:00:00
   rating: 5
