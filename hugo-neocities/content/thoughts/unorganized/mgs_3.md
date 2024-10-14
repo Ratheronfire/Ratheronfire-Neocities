@@ -127,4 +127,5 @@ Here's hoping the next page won't take quite as long.
 ---
 
 {{< sup "up" 1 >}}Defenestrated is a fun word.  
+
 {{< sup "up" 2 >}}Unlike the Poopsmith, Quiet will not break her vow of silence to commemorate [two hundred Sbemails](https://homestarrunner.com/sbemails/200-email-thunder). She's also not voiced by John Linnell, so overall a disappointment on every level.

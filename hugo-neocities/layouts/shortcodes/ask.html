@@ -1,0 +1,7 @@
+<div class="card">
+    <img src="{{ .Get "avatar" }}" align="left" class="thumbnail">
+
+    <b>{{ .Get "handle" }} asked: </b>
+    <br />
+    <bl>{{ .Get "text" | markdownify }}</p>
+</div>

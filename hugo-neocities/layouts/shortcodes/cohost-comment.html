@@ -1,0 +1,35 @@
+{{ with .Parent }}
+<div class="inner-comment">
+{{ else }}
+<div class="card">
+{{ end }}
+    <img src="{{ .Get "avatar" }}" align="left" class="thumbnail">
+
+    <span class="comment-body">
+        {{ $display_name := .Get "display-name" }}
+        {{ $timestamp := .Get "timestamp" }}
+
+        {{ with $display_name }}<b>{{ . }}</b>{{ end }} {{ .Get "handle" }}{{ with $timestamp }} &middot; {{ . | time.Format "Mon Jan 2 3:04 PM MST" }}{{ end }}
+        <br />
+        <bl>{{ .Get "text" | markdownify }}</p>
+    </span>
+
+    {{ .Inner }}
+</div>
+<style>
+    .inner-comment {
+        display: inline-block;
+        border-left: 1px solid white;
+        margin-left: 60px;
+    }
+
+    .card img {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+
+    .card {
+        min-height: unset;
+    }
+</style>

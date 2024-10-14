@@ -2,6 +2,7 @@
 title: "[Cohost Archive] Stinkoman Remake - Level 9 is here!"
 date: 2024-10-15T00:00:00-04:00
 type: cohost
+hide_from_new: true
 original_date: 2022-12-25T02:15:31.611Z
 categories:
 - archived-posts
@@ -11,6 +12,11 @@ tags:
 - homestar-runner
 - godot
 - gaming
+original-tags:
+- gamedev
+- godot
+- homestarrunner
+- stinkoman
 draft: false
 ---
 

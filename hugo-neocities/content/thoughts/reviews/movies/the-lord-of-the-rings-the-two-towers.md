@@ -16,7 +16,7 @@ page_name: the-lord-of-the-rings-the-two-towers
 tags:
 - movies
 - lord-of-the-rings
-- middle-earth
+- tolkien
 extra_reviews:
 - date: 2024-06-09 00:00:00
   rating: 5

@@ -16,7 +16,7 @@ page_name: the-hobbit-the-battle-of-the-five-armies
 tags:
 - movies
 - the-hobbit
-- middle-earth
+- tolkien
 ---
 
 Enjoyed this more than the first time, but I've still got issues with it.

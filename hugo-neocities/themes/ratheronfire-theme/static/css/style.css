@@ -275,7 +275,15 @@ a.rss-link,
 }
 
 .card {
+    margin: 10px;
     min-height: 125px;
+    background-color: var(--box-background-color);
+    border: 1px solid var(--box-border-color);
+    border-radius: 4px;
+}
+
+.card img {
+    border-radius: 2px;
 }
 
 .thumbnail {

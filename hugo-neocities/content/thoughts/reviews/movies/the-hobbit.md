@@ -16,6 +16,6 @@ page_name: the-hobbit
 tags:
 - movies
 - the-hobbit
-- middle-earth
+- tolkien
 ---
 
