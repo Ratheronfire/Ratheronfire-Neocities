@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] Of all the Hosts I have encountered in my travels..."
-date: 2024-12-01T00:00:00-04:00
+date: 2024-10-18T08:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-09-30T15:12:47.387Z
 categories:
 - archived-posts

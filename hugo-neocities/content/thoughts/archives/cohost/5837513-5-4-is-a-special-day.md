@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] 5/4 is a special day for a franchise about battling fascism in space"
-date: 2024-11-21T00:00:00-04:00
+date: 2024-10-17T04:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-05-04T20:20:57.024Z
 categories:
 - archived-posts

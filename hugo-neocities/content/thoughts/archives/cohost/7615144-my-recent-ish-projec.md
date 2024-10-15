@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] My Recent-ish Projects"
-date: 2024-11-25T00:00:00-04:00
+date: 2024-10-17T12:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-09-09T23:45:26.582Z
 categories:
 - archived-posts

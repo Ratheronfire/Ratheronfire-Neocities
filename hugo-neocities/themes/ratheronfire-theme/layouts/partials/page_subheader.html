@@ -1,4 +1,4 @@
 {{ if not .Params.hide_date }}
-{{ .Date | time.Format ":date_long" }}{{ if .Params.author }} - by {{ .Params.author | markdownify }}{{ end }}{{ if .Lastmod }} <i style="float: right;">(Last modified {{ .Lastmod | time.Format "Mon Jan 2 3:04 PM MST" }})</i>{{ end }}
+<span title="{{ .Date | time.Format "Mon Jan 2 2006 3:04 PM MST" }}">{{ .Date | time.Format ":date_long" }}</span>{{ if .Params.author }} - by {{ .Params.author | markdownify }}{{ end }}{{ if .Lastmod }} <i style="float: right;">(Last modified {{ .Lastmod | time.Format "Mon Jan 2 2006 3:04 PM MST" }})</i>{{ end }}
 <hr />
 {{ end }}

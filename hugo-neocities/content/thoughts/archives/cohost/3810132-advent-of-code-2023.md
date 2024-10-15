@@ -1,6 +1,6 @@
 ---
 title: "[Cohost Archive] Advent of Code 2023, Day 9"
-date: 2024-11-06T00:00:00-04:00
+date: 2024-10-12T22:02:32-04:00
 type: cohost
 hide_from_new: true
 original_date: 2023-12-09T06:12:05.293Z

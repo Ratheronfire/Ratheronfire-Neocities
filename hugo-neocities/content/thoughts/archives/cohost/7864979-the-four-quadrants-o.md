@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] The four quadrants of my brain the past week or so."
-date: 2024-11-30T00:00:00-04:00
+date: 2024-10-18T04:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-09-28T08:05:31.372Z
 categories:
 - archived-posts

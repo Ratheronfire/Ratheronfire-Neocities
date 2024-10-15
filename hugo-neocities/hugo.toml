@@ -4,6 +4,8 @@ title = "Ratheronfire's Assorted Collection of Odd Projects"
 theme = ["ratheronfire-theme", "hugo-easy-gallery"]
 enableGitInfo = true
 
+[frontmatter]
+  date = ['original_date', 'date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
 [taxonomies]
   category = "categories"
   tag = "tags"

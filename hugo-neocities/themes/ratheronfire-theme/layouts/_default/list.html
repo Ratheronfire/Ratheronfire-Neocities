@@ -36,7 +36,7 @@
                             <td hugo-nav="{{ .RelPermalink}}">
                                 <a href="{{ .RelPermalink}}"> {{ .LinkTitle }} </a>
                             </td>
-                            <td>{{ .Params.date | time.Format ":date_long" }}</td>
+                            <td data-sort="{{ .Params.date.Unix }}" title="{{ .Params.date }}">{{ .Params.date | time.Format "1/2/2006" }}</td>
                         </tr>
                         {{ end }}
                     </tbody>

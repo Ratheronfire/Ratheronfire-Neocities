@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] Untitled - 5140259"
-date: 2024-11-20T00:00:00-04:00
+date: 2024-10-17T00:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-03-18T01:37:20.463Z
 categories:
 - archived-posts

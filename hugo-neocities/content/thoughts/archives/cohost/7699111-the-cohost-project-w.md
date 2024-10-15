@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] The Cohost Project was our last, best hope for posting."
-date: 2024-11-26T00:00:00-04:00
+date: 2024-10-17T16:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-09-12T21:24:42.024Z
 categories:
 - archived-posts

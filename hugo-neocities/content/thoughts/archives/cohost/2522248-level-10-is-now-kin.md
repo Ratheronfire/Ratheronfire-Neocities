@@ -1,6 +1,6 @@
 ---
 title: "[Cohost Archive] Level 10 is now (kinda) done! (Plus some thoughts on what's next for the remake)"
-date: 2024-10-18T00:00:00-04:00
+date: 2024-10-12T22:02:32-04:00
 type: cohost
 hide_from_new: true
 original_date: 2023-08-17T19:58:53.468Z

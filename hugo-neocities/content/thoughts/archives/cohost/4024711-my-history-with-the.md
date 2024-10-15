@@ -1,6 +1,6 @@
 ---
 title: "[Cohost Archive] My History With The Homestar Runner Fanstuff Wiki and Wiki User Wiki."
-date: 2024-11-12T00:00:00-04:00
+date: 2024-10-16T00:00:00-04:00
 type: cohost
 hide_from_new: true
 original_date: 2023-12-30T19:11:23.346Z

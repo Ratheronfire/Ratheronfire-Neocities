@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] A Final Look at My Work Part 3: Age of Clicking"
-date: 2024-12-03T00:00:00-04:00
+date: 2024-10-18T20:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-10-01T01:49:35.581Z
 categories:
 - archived-posts
