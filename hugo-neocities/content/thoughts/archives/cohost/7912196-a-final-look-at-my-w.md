@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] A Final Look at My Work Part 2: My Neocities Site"
-date: 2024-12-02T00:00:00-04:00
+date: 2024-10-18T16:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-09-30T22:41:54.143Z
 categories:
 - archived-posts

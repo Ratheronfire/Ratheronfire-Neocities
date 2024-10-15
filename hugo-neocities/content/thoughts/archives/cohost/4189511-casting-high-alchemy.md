@@ -1,11 +1,11 @@
 ---
 title: "[Cohost Archive] Untitled - 4189511"
-date: 2024-11-13T00:00:00-04:00
+date: 2024-10-16T04:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-01-16T05:14:06.864Z
 categories:
 - archived-posts
+- blog
 tags:
 - cohost
 - gaming

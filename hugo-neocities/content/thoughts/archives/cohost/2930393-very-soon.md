@@ -1,6 +1,6 @@
 ---
 title: "[Cohost Archive] Very soon..."
-date: 2024-10-21T00:00:00-04:00
+date: 2024-10-12T22:02:32-04:00
 type: cohost
 hide_from_new: true
 original_date: 2023-09-22T14:48:33.701Z

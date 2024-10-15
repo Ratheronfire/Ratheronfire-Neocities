@@ -1,6 +1,6 @@
 ---
 title: "[Cohost Archive] Alternate Stinkoman Trailers"
-date: 2024-10-26T00:00:00-04:00
+date: 2024-10-12T22:02:32-04:00
 type: cohost
 hide_from_new: true
 original_date: 2023-10-25T02:38:50.523Z

@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] A friend of mine posted a nice recap of our shared history with one of the dumbest, most niche fan communities I've ever known."
-date: 2024-11-12T00:00:00-04:00
+date: 2024-10-12T22:02:32-04:00
 type: cohost
-hide_from_new: true
 original_date: 2023-12-30T19:11:23.346Z
 categories:
 - archived-posts

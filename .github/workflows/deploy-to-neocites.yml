@@ -7,7 +7,7 @@ on:
       - master
   workflow_dispatch:
   schedule:
-    - cron: "5 4 * * *"
+    - cron: "15 0/4 * * *"
 
 concurrency: # prevent concurrent deploys doing strange things
   group: deploy-to-neocities

@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] Some unorganized thoughts on Raimi Spider-Man and my (lack of) experience with superhero pop culture"
-date: 2024-11-15T00:00:00-04:00
+date: 2024-10-16T08:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2024-02-15T06:17:50.146Z
 categories:
 - archived-posts

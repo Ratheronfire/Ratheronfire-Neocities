@@ -1,6 +1,6 @@
 ---
 title: "[Cohost Archive] Grafald rises from the great beyond"
-date: 2024-10-28T00:00:00-04:00
+date: 2024-10-12T22:02:32-04:00
 type: cohost
 original_date: 2023-10-31T00:20:52.859-04:00
 original-tags:

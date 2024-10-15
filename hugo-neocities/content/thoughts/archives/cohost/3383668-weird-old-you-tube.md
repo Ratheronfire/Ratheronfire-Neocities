@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] Weird Old YouTube"
-date: 2024-10-31T00:00:00-04:00
+date: 2024-10-15T20:00:00-04:00
 type: cohost
-hide_from_new: true
 original_date: 2023-11-02T04:09:22.104Z
 categories:
 - archived-posts

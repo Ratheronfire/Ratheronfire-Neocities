@@ -1,8 +1,7 @@
 ---
 title: "[Cohost Archive] My Stinkoman 20X6 remake is now out!"
-date: 2024-10-22T00:00:00-04:00
+date: 2024-10-12T22:02:32-04:00
 type: cohost
-hide_from_new: true
 original_date: 2023-09-22T15:34:39.154Z
 categories:
 - archived-posts
