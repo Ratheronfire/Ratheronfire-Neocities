@@ -20,8 +20,8 @@
 
 {{- $pctx := . }}
 {{- if .IsHome }}
-  {{ $pctx = .Site }}
-{{ end }}
+  {{- $pctx = .Site }}
+{{- end }}
 
 {{- $pages := slice }}
 {{- if or $.IsHome $.IsSection }}
@@ -60,9 +60,13 @@
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       <description>{{ partial "rss_content" . | transform.XMLEscape | safeHTML }}</description>
+
+      {{- range .GetTerms "categories" }}<category term="{{ .Title }}"></category>{{ end }}
+      {{- range .GetTerms "tags" }}<category term="{{ .Title | lower }}"></category>{{ end }}
     </item>
     {{- end }}
   </channel>
