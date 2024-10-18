@@ -1,0 +1,73 @@
+{
+    "tiles": {
+        "O": {
+            "char": "~",
+            "color": "white",
+            "backgroundColor": "blue",
+            "name": "ocean"
+        },
+        "G": {
+            "char": ".",
+            "color": "black",
+            "backgroundColor": "green",
+            "name": "ground"
+        }
+    },
+    "startingScreen": "0_0",
+    "screens": {
+        "0_0": {
+            "x": 0,
+            "y": 0,
+            "description": "This is the first test screen.",
+            "tiles": [
+                "OOOOOOOOOOOOOOOOOOOO",
+                "OOGGGGGGGGGGGOOOGOGG",
+                "OGGGGGGGGGGGGGGGGGGG",
+                "OGGGGGGGGGGGGGGGGGGG",
+                "OGGGGGGGGGGGGGGGGGGG",
+                "OGGGGGGGGGGGGGGGGGGG",
+                "OOGGGGGGGGGGGGGGGGGG",
+                "OOGGGGGGGGGGGGGGGGGG",
+                "OOOGGGGGGGGGGGGGGGGG",
+                "OOOGGGGGGGGGGGGGGGGG",
+                "OOGGGGGGGGGGGOOGGGGG",
+                "OOGGGGGGGGGGOOOOOGGG",
+                "OOGGGGGGGGGOOOOOGGGG",
+                "OOGGGGGGGGOOOOOGGGGG",
+                "OGGGGGGGGGGOOGGGGGGG",
+                "OGGGGGGGGGGGGGGGGGGG",
+                "OOGGGGGGGGGGGGGGGGGG",
+                "OOGGGGGGGGGGGGGGGGGG",
+                "OGGGGGGGGGGGGGGGGGGG",
+                "OGGGGGGGGGGGGGGGGGGG"
+            ]
+        },
+        "1_0": {
+            "x": 1,
+            "y": 0,
+            "description": "This is the second test screen.",
+            "tiles": [
+                "OOOOOOOOOOOOOOOOOOOO",
+                "GGGOOOOOOOOGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGGGGGGGGGGGGG"
+            ]
+        }
+    }
+}
