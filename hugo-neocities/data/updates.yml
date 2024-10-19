@@ -60,3 +60,8 @@
   link: /misc/rss/
   description: Reorganized pages into separate RSS feeds.
   preview: Reorganized pages into [separate RSS feeds](/misc/rss/).
+- title: Server upgrade, replaced comments section.
+  date: 2024-10-19T11:00:00-04:00
+  link: ?server-upgrade
+  description: Upgraded the storage capacity for the server that hosts some of the more heavy-duty projects at storage.ratheronfire.com. Also replaced the comments section with [Comentario](https://docs.comentario.app/en/) using a self-hosted backend.
+  preview: Upgraded storage capacity for storage.ratheronfire.com, replaced comments with [Comentario](https://docs.comentario.app/en/).
