@@ -1,5 +1,6 @@
 from feedgen.feed import FeedGenerator
 from hugo_page_helpers import read_hugo_page
+import markdown2
 
 update_path = 'hugo-neocities/data/updates.yml'
 
@@ -22,7 +23,7 @@ def generate_rss_feed():
         fe.id(f'https://ratheronfire.com/{update["link"]}')
         fe.title(update['title'])
         fe.link(href=f'https://ratheronfire.com/{update["link"]}')
-        fe.description(update['description'])
+        fe.description(markdown2.markdown(update['description']))
         fe.pubDate(update['date'])
     
     fg.rss_file('hugo-neocities/static/updates.xml')
