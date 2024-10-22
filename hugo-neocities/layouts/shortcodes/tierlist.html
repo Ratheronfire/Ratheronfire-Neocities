@@ -1,0 +1,38 @@
+<table>
+    <tbody>
+        {{ .Inner }}
+    </tbody>
+</table>
+
+<style>
+    .tier {
+        height: 100px;
+    }
+
+    .tier-label {
+        text-align: center;
+        width: 110px;
+
+        font-size: 64px;
+        font-weight: bold;
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+
+    .tier-label.small-title {
+        font-size: initial;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    .tier-elements {
+        display: flex;
+        align-items: center;
+    }
+
+    .tier-elements img {
+        height: 100px;
+    }
+
+    .tier-elements figure {
+        margin: 0;
+    }
+</style>
