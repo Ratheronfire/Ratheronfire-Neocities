@@ -1,0 +1,4 @@
+<tr class="tier">
+    <td class="tier-label {{ with .Get "label-size" }}{{ if eq . "small" }}small-title{{ end }}{{ end }}" style="background-color: {{ .Get "color" }};">{{ .Get "label" }}</td>
+    <td class="tier-elements">{{ .Inner }}</td>
+</tr>
