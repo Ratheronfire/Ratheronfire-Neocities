@@ -107,7 +107,7 @@ After having played the tiniest bit of Shadow Generations, it's pretty clear to 
 And that's all the games for this post! Initially my goal was to go through all the games roughly in release order, but I won't hold myself to that if I find myself wanting to branch out into different directions. For now, here's the current standing of my tier list:
 
 {{< tierlist >}}
-    {{< tier label="S" color="gold" >}}
+    {{< tier label="S" color="no-repeat bottom 100% left 50% url('https://i.redd.it/lecl6s0i4rv81.jpg'); background-size: 120%" >}}
         {{< figure
             src="/thoughts/unorganized/img/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover-thumb.jpg"
             link="/thoughts/unorganized/img/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover.jpg"
