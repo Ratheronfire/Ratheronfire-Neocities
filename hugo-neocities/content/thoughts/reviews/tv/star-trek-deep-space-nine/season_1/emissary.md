@@ -15,7 +15,7 @@ rating: 4
 has_spoilers: true
 synopsis: |
     Three years after his wife died at the hands of the Borg and following the Cardassian withdrawal from the planet Bajor, Commander Benjamin Sisko and a new crew of Starfleet and Bajoran officers take command of an abandoned Cardassian space station and make an incredible discovery that will change the galaxy and Sisko's future.  
-    {{< cite "Memory Alpha" "https://memory-alpha.fandom.com/wiki/Emissary_(episode" >}}
+    {{< cite "Memory Alpha" "https://memory-alpha.fandom.com/wiki/Emissary_(episode)" >}}
 fanart_url: /thoughts/reviews/tv/star-trek-deep-space-nine/season_1/img/ep1_1.png
 poster_url: /thoughts/reviews/tv/star-trek-deep-space-nine/series_poster.jpg
 tags:
