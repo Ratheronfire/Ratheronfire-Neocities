@@ -10,7 +10,6 @@ tags:
 - osrs
 - leagues
 ---
----
 
 {{< load-photoswipe >}}
 
