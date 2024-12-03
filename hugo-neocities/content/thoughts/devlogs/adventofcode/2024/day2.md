@@ -11,7 +11,7 @@ tags:
 
 Not too bad today! It seemed like this problem was going to be more complicated than it was at first, but the solution I ended up with was pretty straightforward.
 
-[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2024/day-1.py) to see my source code for this day's problem.
+[Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2024/day-2.py) to see my source code for this day's problem.
 
 ***{{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}} If you haven't solved today or any day's puzzle yet yourself, there's bound to be spoilers in these writeups. {{< icon color="yellow" aria-label="Spoiler Warning" >}}fa-exclamation-triangle{{< /icon >}}***
 
