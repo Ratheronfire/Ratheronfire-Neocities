@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 Not as bad as I was expecting today. I think the main complication was figuring out how best to structure the input data, but even that was pretty straightforward today.

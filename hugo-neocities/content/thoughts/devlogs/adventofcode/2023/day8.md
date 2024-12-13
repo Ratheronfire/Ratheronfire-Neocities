@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 Interesting one today. The kind of problem where your options are either spending an unimaginable amount of time brute-forcing a bunch of calculation, or dig deep enough to figure out what's actually going on.

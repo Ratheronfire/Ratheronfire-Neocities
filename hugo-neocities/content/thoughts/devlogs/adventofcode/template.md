@@ -3,8 +3,9 @@ title: "Advent of Code 20XX - Day X"
 date: 2023-12-02T01:00:00-04:00
 draft: true
 tags:
-    - advent-of-code
-    - aoc20XX
+- advent-of-code
+- devlog
+- aoc20XX
 ---
 
 [Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/20XX/day-X.py) to see my source code for this day's problem.

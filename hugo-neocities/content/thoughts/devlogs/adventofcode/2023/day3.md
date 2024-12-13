@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 Well, here we are, the first grid-based puzzle of 2023. Luckily I've been working on a nice set of helper functions for these sorts of puzzles, so that took care of a lot of the work I'd otherwise have to repeat today (although I may have forgotten how it worked a bit and wasted a good 10 or 20 minutes debugging for nothing, oh well).

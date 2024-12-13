@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 Sometimes it's hard to predict just how hard an AoC puzzle will be. Some that look like a breeze will end up taking days, meanwhile the ones that seem like impossible tasks are done after half an hour, and luckily today was one of the latter puzzles.

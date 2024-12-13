@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2024
+- advent-of-code
+- devlog
+- aoc2024
 ---
 
 I massively overcomplicated this one. Pretty simple problem in retrospect, but my attempt to write a smart solution backfired super hard this time.

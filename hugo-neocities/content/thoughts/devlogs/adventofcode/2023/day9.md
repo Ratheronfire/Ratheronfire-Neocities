@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives it's derivatives

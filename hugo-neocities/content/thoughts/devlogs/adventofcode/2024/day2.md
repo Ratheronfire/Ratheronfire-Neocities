@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2024
+- advent-of-code
+- devlog
+- aoc2024
 ---
 
 Not too bad today! It seemed like this problem was going to be more complicated than it was at first, but the solution I ended up with was pretty straightforward.

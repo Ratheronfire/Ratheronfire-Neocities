@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2024
+- advent-of-code
+- devlog
+- aoc2024
 ---
 
 Somehow it's already been a year since the last [Advent of Code](https://adventofcode.com/), which of course means it's once again time to see how much brain liquefaction I can tolerate! I started doing writeups [last year](../../2023/day1), and while I never actually finished, I had a ton of fun doing and so naturally I'd like to continue the trend this year.
