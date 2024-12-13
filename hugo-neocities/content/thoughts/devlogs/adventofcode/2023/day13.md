@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 Day 12 tanked my momentum pretty hard. I'm going to try and get back to it eventually, but for now I'm going to just make writeups for the remainder at my own pace.

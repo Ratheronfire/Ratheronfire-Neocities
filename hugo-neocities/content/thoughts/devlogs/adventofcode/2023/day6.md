@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 And the Advent of Code pendulum swings once more.

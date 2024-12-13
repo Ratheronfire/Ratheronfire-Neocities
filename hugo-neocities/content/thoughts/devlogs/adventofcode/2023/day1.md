@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 Last year I was introduced to [Advent of Code](https://adventofcode.com/), a yearly coding challenge that runs throughout the month of December with increasingly complex problems each week. Although I wasn't able to finish all 25 days last time, I was excited to try my hand again this year, and I thought I would compile my thoughts for each day as I went.

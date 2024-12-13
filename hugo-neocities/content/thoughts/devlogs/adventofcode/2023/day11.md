@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 Clearly today's puzzle was meant to trick people like me who default to using grids to solve puzzles when grids are put in front of us.

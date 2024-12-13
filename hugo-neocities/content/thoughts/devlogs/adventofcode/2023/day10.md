@@ -5,8 +5,9 @@ draft: false
 categories:
 - blog
 tags:
-    - advent-of-code
-    - aoc2023
+- advent-of-code
+- devlog
+- aoc2023
 ---
 
 I did evil things today. Evil, unspeakable things. My solution for part 2 today is insane, entirely not the intended solution, and takes over a minute to run.
