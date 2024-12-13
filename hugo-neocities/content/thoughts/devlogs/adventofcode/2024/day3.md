@@ -7,6 +7,8 @@ tags:
     - aoc2024
 ---
 
+*(Editor's note: I meant to post this a few days ago but it didn't actually go up. Whoops!)*
+
 I've been a bit backlogged on getting to these puzzles due to the new [OldSchool RuneScape Leagues event](/thoughts/unorganized/osrs-leagues-5_1) so I'm going to try and catch up a bit today if I can.
 
 The key to a lot of these puzzles is that they often present themselves as being more complicated and thorny than they really are (except when they're worse actually). Today's was the former.
