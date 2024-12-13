@@ -1,7 +1,7 @@
 ---
 title: "Advent of Code 2024 - Day 3"
 date: 2024-12-07T11:45:18-05:00
-draft: true
+draft: false
 tags:
 - advent-of-code
 - devlog
