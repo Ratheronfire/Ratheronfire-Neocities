@@ -12,7 +12,7 @@ tags:
 
 Last year I was introduced to [Advent of Code](https://adventofcode.com/), a yearly coding challenge that runs throughout the month of December with increasingly complex problems each week. Although I wasn't able to finish all 25 days last time, I was excited to try my hand again this year, and I thought I would compile my thoughts for each day as I went.
 
-My submissions are available on a public git repository [here](https://github.com/Ratheronfire/advent-of-code), where I've been writing up my solutions in Python, along with some helper functions I've been building gradually as needed. Naturally day 1's code wasn't too complicated, but I'm already starting to dread some of the later days, knowing [where things can go](https://github.com/Ratheronfire/advent-of-code/blob/master/2022/day-22.py).
+My submissions are available on a public git repository [here](https://github.com/Ratheronfire/advent-of-code), where I've been writing up my solutions in Python, along with some helper functions I've been building gradually as needed. Naturally day 1's code wasn't too complicated, but I'm already starting to dread some of the later days, knowing [where things can go](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2022/day-22.py).
 
 [Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2023/day-1.py) to see my source code for this day's problem.
 
