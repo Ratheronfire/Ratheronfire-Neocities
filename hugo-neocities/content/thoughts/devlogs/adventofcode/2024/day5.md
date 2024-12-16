@@ -131,7 +131,7 @@ So, to "correct" the list, I would:
 * While there are still rules left:
   * Select the single number present only on the lefthand side of those rules,
   * Add that number to the new list,
-  * And emove any rules with that number on the left from consideration.
+  * And remove any rules with that number on the left from consideration.
 
 The end result was the correctly ordered list, without having to deal with any of that pesky math.
 
