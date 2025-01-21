@@ -1,0 +1,39 @@
+
+    #game-container {
+        display: flex;
+        min-height: 486px;
+    }
+
+    #game-text {
+        flex-grow: 1;
+    }
+    
+    #minimap {
+        min-width: 440px;
+        white-space: pre;
+    }
+
+    .minimap-line {
+        line-height: 19px;
+    }
+
+    .minimap-line code {
+        margin-right: 1px;
+    }
+
+    .grid-border-left {
+        border-left: 1px solid yellow;
+    }
+
+    .minimap-line code.grid-border-right {
+        border-right: 1px solid yellow;
+        margin-right: 0;
+    }
+
+    .grid-border-top {
+        border-top: 1px solid yellow;
+    }
+
+    .grid-border-bottom {
+        border-bottom: 1px solid yellow;
+    }
