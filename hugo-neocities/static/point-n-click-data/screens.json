@@ -1,5 +1,5 @@
 {
-    "tiles": {
+    "staticTileData": {
         "O": {
             "char": "~",
             "color": "white",
@@ -55,9 +55,9 @@
                 "GGGGGGGGGGGGGGGGGGGG",
                 "GGGGGGGGGGGGGGGGGGGG",
                 "GGGGGGGGGGGGGGGGGGGG",
-                "GGGGGGGGGGGGGGGGGGGG",
-                "GGGGGGGGGGGGGGGGGGGG",
-                "GGGGGGGGGGGGGGGGGGGG",
+                "GGGGGGGGG0...GGGGGGG",
+                "GGGGGGGGG....GGGGGGG",
+                "GGGGGGGGG....GGGGGGG",
                 "GGGGGGGGGGGGGGGGGGGG",
                 "GGGGGGGGGGGGGGGGGGGG",
                 "GGGGGGGGGGGGGGGGGGGG",
@@ -67,7 +67,53 @@
                 "GGGGGGGGGGGGGGGGGGGG",
                 "GGGGGGGGGGGGGGGGGGGG",
                 "GGGGGGGGGGGGGGGGGGGG"
-            ]
+            ],
+            "subTiles": [
+                {
+                    "testTrue": {
+                        "conditions": [
+                            {
+                                "varName": "test",
+                                "comparison": "=",
+                                "testValue": true
+                            }
+                        ],
+                        "tiles": [
+                            "G!!G",
+                            "!!!!",
+                            "!GG!"
+                        ]
+                    },
+                    "testFalse": {
+                        "conditions": [
+                            {
+                                "varName": "test",
+                                "comparison": "=",
+                                "testValue": false
+                            }
+                        ],
+                        "tiles": [
+                            "G??G",
+                            "????",
+                            "?OO?"
+                        ]
+                    }
+                }
+            ],
+            "variableTileData": {
+                "?": {
+                    "char": "?",
+                    "color": "blue",
+                    "backgroundColor": "red",
+                    "name": "testFalse"
+                },
+                "!": {
+                    "char": "!",
+                    "color": "red",
+                    "backgroundColor": "blue",
+                    "name": "testTrue"
+                }
+            }
         }
     }
 }
