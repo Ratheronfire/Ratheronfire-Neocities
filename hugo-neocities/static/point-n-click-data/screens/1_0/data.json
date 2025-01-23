@@ -1,0 +1,19 @@
+{
+    "x": 1,
+    "y": 0,
+    "description": "This is the second test screen.",
+    "variableTileData": {
+        "?": {
+            "char": "?",
+            "color": "blue",
+            "backgroundColor": "red",
+            "name": "testFalse"
+        },
+        "!": {
+            "char": "!",
+            "color": "red",
+            "backgroundColor": "blue",
+            "name": "testTrue"
+        }
+    }
+}
