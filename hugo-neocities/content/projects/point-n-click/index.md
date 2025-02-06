@@ -3,6 +3,7 @@ title: "Point N Click"
 date: 2024-10-17T18:00:17-04:00
 draft: true
 ---
+{{< rawhtml >}}
 <!-- ─│┌┐└┘├┤┬┴┼▲▼►◄╋┃━ -->
 <span id="game-container">
     <p id="game-text">
@@ -10,15 +11,17 @@ draft: true
     </p>
     <code id="minimap"><span id="minimap-text"></span>
         <span id="screen-text"></span>
-                                              <a href="#" onclick="moveToScreen(new Vector2(0, 1))">N</a>
+                                              <a id="nav-up" href="#">N</a>
                                               ▲
                                               ┃
-                                          <a href="#" onclick="moveToScreen(new Vector2(-1, 0))">W</a>◄━━╋━━►<a href="#" onclick="moveToScreen(new Vector2(1, 0))">E</a>
+                                          <a  id="nav-left" href="#">W</a>◄━━╋━━►<a  id="nav-right" href="#">E</a>
                                               ┃
                                               ▼
-                                              <a href="#" onclick="moveToScreen(new Vector2(0, -1))">S</a>
+                                              <a  id="nav-down" href="#">S</a>
     </code>
 </span>
 
-<script src="/point-n-click-data/map-controller.js"></script>
 <link rel="stylesheet" href="/point-n-click-data/style.css">
+{{</ rawhtml >}}
+
+{{< js-build >}}

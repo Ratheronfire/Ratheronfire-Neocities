@@ -1,0 +1,1 @@
+export gameJson from '../point-n-click-data/screens.json';
