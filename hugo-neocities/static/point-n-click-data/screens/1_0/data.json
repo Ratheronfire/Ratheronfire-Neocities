@@ -15,5 +15,8 @@
             "backgroundColor": "blue",
             "name": "testTrue"
         }
-    }
+    },
+    "subtileIDs": [
+        [ "testTrue", "testFalse" ]
+    ]
 }

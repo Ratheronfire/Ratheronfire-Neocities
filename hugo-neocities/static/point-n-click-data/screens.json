@@ -14,7 +14,7 @@
         }
     },
     "startingScreen": "0_0",
-    "screens": [
+    "screenIDs": [
         "0_0", "1_0"
     ]
 }

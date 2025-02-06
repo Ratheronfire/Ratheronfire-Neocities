@@ -4,12 +4,30 @@ title = "Ratheronfire's Assorted Collection of Odd Projects"
 theme = ["ratheronfire-theme", "hugo-easy-gallery"]
 enableGitInfo = true
 
+[build]
+  [build.buildStats]
+    enable = true
+[[build.cachebusters]]
+    source = 'assets/watching/hugo_stats\.json'
+    target = 'styles\.css'
+[[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
+[[build.cachebusters]]
+    source = 'assets/.*\.(js|ts|jsx|tsx)'
+    target = 'js'
+[[build.cachebusters]]
+    source = 'assets/.*\.(.*)$'
+    target = '$1'
+
 [frontmatter]
   date = ['original_date', 'date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
+
 [taxonomies]
   category = "categories"
   tag = "tags"
   original-tags = "original-tags"
+
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
