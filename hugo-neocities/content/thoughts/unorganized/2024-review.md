@@ -1,41 +1,28 @@
 ---
-title: "Stuff I Saw/Played/Looked at For a Bit in 2024"
+title: "Stuff I Saw/Played/Looked at For a Bit in 2024 - Part 1: Movies"
 date: 2024-12-27T16:56:50-05:00
-draft: true
+draft: false
 section: "Thoughts"
 categories:
 - blog
 tags:
+- year-in-review
+- 2024
 - movies
+- dune
 - planet-of-the-apes
+- alien
 - sonic-the-hedgehog
 - lord-of-the-rings
-- tv
-- babylon-5
-- doctor-who
-- star-trek
-- star-trek-discovery
-- star-trek-prodigy
-- star-trek-lower-decks
-- what-we-do-in-the-shadows
-- gaming
-- legend-of-zelda
-- runescape
-- osrs
-- leagues
-- advent-of-code
-- minecraft
-- balloon-smp
-- too-many-tags
 ---
 
 {{< load-photoswipe >}}
 
+*So this post was originally supposed to go up in late December and also cover a lot more than just movies, but a \*ton\* of stuff came up that distracted me, so I'm just gonna break it up into multiple parts so I can finally get at least something posted.*
+
 Since it's already that time of year again, I thought I'd sit down and write up a quick post about some of the stuff I've enjoyed over the past year. Of course, because I'm me, that immediately devolved into listing out just about every little thing I've experienced, and condemning myself to hours of effort for what could've been a 10 minute task.
 
 But it's fun, and isn't that what matters? Probably not but I'm doing it anyway.
-
-# Movies
 
 ### Poor Things
 
@@ -100,52 +87,20 @@ That song over the credits was pretty bad. Ending on a dud of a song when you're
 
 ### The War of the Rohirrim
 
-I haven't actually seen this yet but I wanted to add it to the list anyway.
+I'm not sure why we're suddenly getting so much Tolkien stuff (I'm lying, it's money) but when I heard that a Lord of the Rings anime was in the work, I was curious, if nothing else. Admittedly I've never been very big on anime, and I could probably count the number of shows I've seen front to back on one hand, so my interest in this movie was way more on the Tolkien side than anything else.
 
-just pretend my actual review is unless I forgot to add it before uploading this post, in which case oops
+I didn't have super high expectations going in, so I was pleasantly surprised at how enjoyable this movie was. It being set so many years before even The Hobbit let them stick to telling their own story (though of course they couldn't escape the inevitable camera winking towards the end). From what I understand this story is *very* loosely based on elements from the LOTR appendices, with some amount of embellishment for the sake of the story (I don't think the main character even had a name originally).
 
-# Shows
+The artstyle was pretty nice for the most part, but whenever they would try to mix in 3D elements the style clash really took me out of it. It's a shame, because when the visual style works, it *really* works, especially a scene fairly early on with this half-decomposed elephant that's reminiscent of something out of Nausicaa. There were also a lot of wide shots of landscapes where I couldn't tell if it was CG, hand painted, or just live action footage disguised with a filter, but either way it still just felt out of place.
 
-### Babylon 5
+Ultimately this movie isn't really necessary, but I enjoyed it for what it was. I'm not sure how well it'd work on someone who isn't already a fan of Tolkien or more specifically the Peter Jackson films, but I was happy with it.
 
-Okay so this show is 30 years old and I didn't watch it in 2024 but I thought about it a lot in 2024 so it goes on the list.
+---
 
-Babylon 5 has a somewhat complicated history with Star Trek: Deep Space 9, which is probably my all-time favorite show. The two have a *lot* in common, to the point where arguments that one show was stealing ideas from the other run rampant to this day. Where do I stand on it? I dunno, they're both really good so I don't see the need for debate.
+So, that's the first of who knows how many 2024 year in review posts done, and it only took me just under two months!
 
-### The Rings of Power
+surely I'll have the rest of these done in no time (not a chance)
 
-### Doctor Who
-
-### Star Trek: Discovery
-
-### Star Trek: Prodigy
-
-### Star Trek: Lower Decks
-
-### What We Do in the Shadows
-
-# Games
-
-### Arzette: The Jewel of Faramore
-
-### Penny's Big Breakaway
-
-### UFO 50
-
-### Shadow Generations
-
-### The Legend of Zelda: Echoes of Wisdom
-
-### OldSchool RuneScape (Leagues V: Raging Echoes)
-
-# Other Stuff
-
-### They Might Be Giants
-
-### Advent of Code
-
-### Balloon SMP
-
-### IDW Comics
+---
 
 {{< sup "up" 1 >}} For the uninitiated, a virus brought to earth by astronauts renders cats and dogs extinct, so humans decide to domesticate apes to cure their loneliness, and somehow just being domesticated is enough to cause apes to rapidly develop intelligence and mount an armed resistance within maybe 5 years?
