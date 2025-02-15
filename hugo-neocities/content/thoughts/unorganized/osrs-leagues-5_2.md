@@ -17,20 +17,20 @@ Not as exciting as day 1, but I made progress on some pretty important skills to
 
 {{< gallery caption-effect="none" >}}
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-2/summary.png"
-        link="/thoughts/unorganized/img/leagues-5/day-2/summary.png"
+        src="/img/thoughts/unorganized/leagues-5/day-2/summary.png"
+        link="/img/thoughts/unorganized/leagues-5/day-2/summary.png"
         class="center"
         alt="My Leagues summary screen after day 2.">}}
 
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-2/summary_2.png"
-        link="/thoughts/unorganized/img/leagues-5/day-2/summary_2.png"
+        src="/img/thoughts/unorganized/leagues-5/day-2/summary_2.png"
+        link="/img/thoughts/unorganized/leagues-5/day-2/summary_2.png"
         class="center"
         alt="More of the summary that didn't fit into the first image.">}}
 
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-2/levels.png"
-        link="/thoughts/unorganized/img/leagues-5/day-2/levels.png"
+        src="/img/thoughts/unorganized/leagues-5/day-2/levels.png"
+        link="/img/thoughts/unorganized/leagues-5/day-2/levels.png"
         class="center"
         alt="My levels.">}}
 {{</ gallery >}}

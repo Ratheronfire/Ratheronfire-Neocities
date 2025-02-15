@@ -13,7 +13,7 @@ tags:
 ---
 
 {{< figure
-    src="/thoughts/unorganized/img/balloonsmp.png"
+    src="/img/thoughts/unorganized/balloonsmp.png"
     link="https://balloonsmp.neocities.org"
     class="center"
     alt="Balloon SMP Logo">}}

@@ -18,20 +18,20 @@ And just like that, it's all over.
 
 {{< gallery caption-effect="none" >}}
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-52/summary.png"
-        link="/thoughts/unorganized/img/leagues-5/day-52/summary.png"
+        src="/img/thoughts/unorganized/leagues-5/day-52/summary.png"
+        link="/img/thoughts/unorganized/leagues-5/day-52/summary.png"
         class="center"
         alt="My Leagues summary screen after day 52.">}}
 
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-52/summary_2.png"
-        link="/thoughts/unorganized/img/leagues-5/day-52/summary_2.png"
+        src="/img/thoughts/unorganized/leagues-5/day-52/summary_2.png"
+        link="/img/thoughts/unorganized/leagues-5/day-52/summary_2.png"
         class="center"
         alt="More of the summary that didn't fit into the first image.">}}
 
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-52/levels.png"
-        link="/thoughts/unorganized/img/leagues-5/day-52/levels.png"
+        src="/img/thoughts/unorganized/leagues-5/day-52/levels.png"
+        link="/img/thoughts/unorganized/leagues-5/day-52/levels.png"
         class="center"
         alt="My levels.">}}
 {{</ gallery >}}

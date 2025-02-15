@@ -23,8 +23,8 @@ To start, I want to talk about a few of the criticisms that I don't really think
 - "*You can't drop bombs in space, there's no gravity!*"  
 Okay, look. I'm no scientist, but I think people are massively overcomplicating this scene for no good reason. For those who don't know/don't remember the scene, right at the start of the movie there's a sequence where one of the rebel bomber ships tries to attack a First Order ship, using a huge array of bombs with a drop-out panel that, when activated, causes them all to fall out the bottom of the ship.
 {{< figure
-    src="/thoughts/unorganized/img/lastjedi-1.png"
-    target="/thoughts/unorganized/img/lastjedi-1.png"
+    src="/img/thoughts/unorganized/lastjedi-1.png"
+    target="/img/thoughts/unorganized/lastjedi-1.png"
     caption=""
     alt="An array of bombs lined up into vertical stacks, with a catwalk-ish platform in the center.">}}
 I have no idea if Star Wars media has ever described how artificial gravity works exactly (who am I kidding it's Star Wars of course they have), but either way, the ship absolutely does have artificial gravity, since the activation switch falls during this sequence. Once it's hit, the panels keeping the bombs in place are removed, and gravity takes over, dragging the bombs down and out of the ship's artificial gravity. Then, because there's no air or gravity to act on them in the vacuum of space, the bombs will keep moving in that same direction with that same momentum, leading them straight into the enemy ship.  The lack of gravity in space isn't a bug, it's a feature.  
