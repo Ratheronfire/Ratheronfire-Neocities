@@ -20,20 +20,20 @@ So, here's where I'm standing so far after the first day:
 
 {{< gallery caption-effect="none" >}}
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-1/summary.png"
-        link="/thoughts/unorganized/img/leagues-5/day-1/summary.png"
+        src="/img/thoughts/unorganized/leagues-5/day-1/summary.png"
+        link="/img/thoughts/unorganized/leagues-5/day-1/summary.png"
         class="center"
         alt="My Leagues summary screen after day 1.">}}
 
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-1/summary_2.png"
-        link="/thoughts/unorganized/img/leagues-5/day-1/summary_2.png"
+        src="/img/thoughts/unorganized/leagues-5/day-1/summary_2.png"
+        link="/img/thoughts/unorganized/leagues-5/day-1/summary_2.png"
         class="center"
         alt="More of the summary that didn't fit into the first image.">}}
 
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-1/levels.png"
-        link="/thoughts/unorganized/img/leagues-5/day-1/levels.png"
+        src="/img/thoughts/unorganized/leagues-5/day-1/levels.png"
+        link="/img/thoughts/unorganized/leagues-5/day-1/levels.png"
         class="center"
         alt="My levels.">}}
 {{</ gallery >}}
@@ -76,21 +76,21 @@ Lastly, just for the hell of it, here's some heatmaps{{< sup "down" 1 >}} of my 
 
 You can find the plugins I used [here for the heatmaps](https://runelite.net/plugin-hub/show/world-heatmap) and [here for the bank screenshot](https://runelite.net/plugin-hub/show/bank-screenshot).
 
-* [Bank](/thoughts/unorganized/img/leagues-5/day-1/bank.png)
-* [Movement \(Type A\)](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-37_TYPE_A.tif)
-* [Movement \(Type B\)](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-39_TYPE_B.tif)
-* [XP Gained](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-39_XP_GAINED.tif)
-* [Teleport Paths](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-40_TELEPORT_PATHS.tif)
-* [Teleported To](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-40_TELEPORTED_TO.tif)
-* [Teleported From](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-41_TELEPORTED_FROM.tif)
-* [Loot Value](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-41_LOOT_VALUE.tif)
-* [Places Spoken At](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-42_PLACES_SPOKEN_AT.tif)
-* [Random Event Spawns](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-42_RANDOM_EVENT_SPAWNS.tif)
-* [Deaths](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-43_DEATHS.tif)
-* [NPC Deaths](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-43_NPC_DEATHS.tif)
-* [Bob the Cat Sightings](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-44_BOB_THE_CAT_SIGHTING.tif)
-* [Damage Taken](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-44_DAMAGE_TAKEN.tif)
-* [Damage Given](/thoughts/unorganized/img/leagues-5/day-1/2024-11-28_03-45_DAMAGE_GIVEN.tif)
+* [Bank](/img/thoughts/unorganized/leagues-5/day-1/bank.png)
+* [Movement \(Type A\)](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-37_TYPE_A.tif)
+* [Movement \(Type B\)](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-39_TYPE_B.tif)
+* [XP Gained](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-39_XP_GAINED.tif)
+* [Teleport Paths](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-40_TELEPORT_PATHS.tif)
+* [Teleported To](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-40_TELEPORTED_TO.tif)
+* [Teleported From](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-41_TELEPORTED_FROM.tif)
+* [Loot Value](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-41_LOOT_VALUE.tif)
+* [Places Spoken At](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-42_PLACES_SPOKEN_AT.tif)
+* [Random Event Spawns](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-42_RANDOM_EVENT_SPAWNS.tif)
+* [Deaths](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-43_DEATHS.tif)
+* [NPC Deaths](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-43_NPC_DEATHS.tif)
+* [Bob the Cat Sightings](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-44_BOB_THE_CAT_SIGHTING.tif)
+* [Damage Taken](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-44_DAMAGE_TAKEN.tif)
+* [Damage Given](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-45_DAMAGE_GIVEN.tif)
 
 ---
 

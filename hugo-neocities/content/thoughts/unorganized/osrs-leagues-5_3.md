@@ -17,20 +17,20 @@ tags:
 
 {{< gallery caption-effect="none" >}}
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-3/summary.png"
-        link="/thoughts/unorganized/img/leagues-5/day-3/summary.png"
+        src="/img/thoughts/unorganized/leagues-5/day-3/summary.png"
+        link="/img/thoughts/unorganized/leagues-5/day-3/summary.png"
         class="center"
         alt="My Leagues summary screen after day 3.">}}
 
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-3/summary_2.png"
-        link="/thoughts/unorganized/img/leagues-5/day-3/summary_2.png"
+        src="/img/thoughts/unorganized/leagues-5/day-3/summary_2.png"
+        link="/img/thoughts/unorganized/leagues-5/day-3/summary_2.png"
         class="center"
         alt="More of the summary that didn't fit into the first image.">}}
 
     {{< figure
-        src="/thoughts/unorganized/img/leagues-5/day-3/levels.png"
-        link="/thoughts/unorganized/img/leagues-5/day-3/levels.png"
+        src="/img/thoughts/unorganized/leagues-5/day-3/levels.png"
+        link="/img/thoughts/unorganized/leagues-5/day-3/levels.png"
         class="center"
         alt="My levels.">}}
 {{</ gallery >}}
@@ -38,8 +38,8 @@ tags:
 Managed to level herblore just enough to get a handful of prayer potions, and with that I was able to defeat Scurrius, meaning I finally have my third ranged mastery! And with the Desert unlocked, I've started working on getting outfitted with darts.
 
 {{< figure
-    src="/thoughts/unorganized/img/leagues-5/day-3/crab_murder.gif"
-    link="/thoughts/unorganized/img/leagues-5/day-3/crab_murder.gif"
+    src="/img/thoughts/unorganized/leagues-5/day-3/crab_murder.gif"
+    link="/img/thoughts/unorganized/leagues-5/day-3/crab_murder.gif"
     class="center"
     alt="Gif of my character absolutely destroying an ammonite crab with absurdly fast darts."
     title="Look at how fast this pitiful creature dies at my hand now">}}

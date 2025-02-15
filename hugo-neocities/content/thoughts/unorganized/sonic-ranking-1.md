@@ -107,36 +107,36 @@ After having played the tiniest bit of Shadow Generations, it's pretty clear to 
 And that's all the games for this post! Initially my goal was to go through all the games roughly in release order, but I won't hold myself to that if I find myself wanting to branch out into different directions. For now, here's the current standing of my tier list:
 
 {{< tierlist >}}
-    {{< tier label="S" color="no-repeat bottom 100% left 50% url('/thoughts/unorganized/img/scrunt.jpg'); background-size: 120%" >}}
+    {{< tier label="S" color="no-repeat bottom 100% left 50% url('/img/thoughts/unorganized/scrunt.jpg'); background-size: 120%" >}}
         {{< figure
-            src="/thoughts/unorganized/img/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover-thumb.jpg"
-            link="/thoughts/unorganized/img/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover.jpg"
+            src="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover.jpg"
             alt="Sonic the Hedgehog 2 (Genesis)">}}
         {{< figure
-            src="/thoughts/unorganized/img/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover-thumb.jpg"
-            link="/thoughts/unorganized/img/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover.jpg"
+            src="/img/thoughts/unorganized/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover.jpg"
             alt="Sonic Adventure">}}
     {{</ tier >}}
     {{< tier label="A" color="yellow" >}}
         {{< figure
-            src="/thoughts/unorganized/img/sonic-ranking/11131127-sonic-frontiers-xbox-one-front-cover-thumb.jpg"
-            link="/thoughts/unorganized/img/sonic-ranking/11131127-sonic-frontiers-xbox-one-front-cover.jpg"
+            src="/img/thoughts/unorganized/sonic-ranking/11131127-sonic-frontiers-xbox-one-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/11131127-sonic-frontiers-xbox-one-front-cover.jpg"
             alt="Sonic Frontiers">}}
         {{< figure
-            src="/thoughts/unorganized/img/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover-thumb.jpg"
-            link="/thoughts/unorganized/img/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover.jpg"
+            src="/img/thoughts/unorganized/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover.jpg"
             alt="Sonic the Hedgehog (Genesis)">}}
         {{< figure
-            src="/thoughts/unorganized/img/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover-thumb.jpg"
-            link="/thoughts/unorganized/img/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover.jpg"
+            src="/img/thoughts/unorganized/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover.jpg"
             alt="The Murder of Sonic the Hedgehog">}}
     {{</ tier >}}
     {{< tier label="B" color="orange" >}}
     {{</ tier >}}
     {{< tier label="C" color="green" >}}
         {{< figure
-            src="/thoughts/unorganized/img/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover-thumb.jpg"
-            link="/thoughts/unorganized/img/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover.jpg"
+            src="/img/thoughts/unorganized/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover.jpg"
             alt="Sonic Superstars">}}
     {{</ tier >}}
 {{</ tierlist >}}

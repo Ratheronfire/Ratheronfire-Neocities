@@ -58,8 +58,8 @@ Me and some friends have been running [movie nights](https://letterboxd.com/rath
 The original is of course an all-time great, with its unfolding mystery and exploration of ape culture, the examination of religion, and of course the final reveal that I'm sure everyone knows by now. Based on the bits of the later movies I'd heard of, I expected the remainder of the original set of films to be in so-bad-it's-good territory, but they're surprisingly enjoyable, and every bit as dark as the original (arguably more, honestly). They also go to some really weird places I couldn't possibly have predicted.
 
 {{< figure
-    src="/thoughts/unorganized/img/2024-review/escape-from-the-planet-of-the-apes-cornelius.jpg"
-    link="/thoughts/unorganized/img/2024-review/escape-from-the-planet-of-the-apes-cornelius.jpg"
+    src="/img/thoughts/unorganized/2024-review/escape-from-the-planet-of-the-apes-cornelius.jpg"
+    link="/img/thoughts/unorganized/2024-review/escape-from-the-planet-of-the-apes-cornelius.jpg"
     class="center"
     caption="Surely nothing bad could ever happen to an ape wearing such a nice looking suit!"
     alt="A scene from Escape from the Planet of the Apes, featuring Cornelius, an ape, in 1970s America wearing a dapper little suit.">}}

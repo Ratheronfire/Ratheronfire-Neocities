@@ -4,7 +4,7 @@ date: 2024-09-16T02:00:00-04:00
 draft: false
 section: "Thoughts"
 description: "I attended the Sonic Symphony's Boston showing today, my second time so far. I had a blast there, and I wanted to write up something real quick to document my experience."
-thumbnail: "/thoughts/unorganized/img/sonic_symphony-1_thumb.jpg"
+thumbnail: "/img/thoughts/unorganized/sonic_symphony-1_thumb.jpg"
 categories:
 - blog
 tags:
@@ -18,8 +18,8 @@ I attended the Sonic Symphony's Boston showing today, my second time so far. I h
 
 {{< figure
     class="center"
-    src="/thoughts/unorganized/img/sonic_symphony-1_thumb.jpg"
-    link="/thoughts/unorganized/img/sonic_symphony-1.jpg"
+    src="/img/thoughts/unorganized/sonic_symphony-1_thumb.jpg"
+    link="/img/thoughts/unorganized/sonic_symphony-1.jpg"
     title="The orchestra getting ready to perform."
     alt="The orchestra preparing before the show started. The screen above is showing the time until the concert begins.">}}
 
@@ -33,8 +33,8 @@ Honestly, I love the fact that this team is embracing all these different aspect
 
 {{< figure
     class="center"
-    src="/thoughts/unorganized/img/sonic_symphony-2_thumb.jpg"
-    link="/thoughts/unorganized/img/sonic_symphony-2.jpg"
+    src="/img/thoughts/unorganized/sonic_symphony-2_thumb.jpg"
+    link="/img/thoughts/unorganized/sonic_symphony-2.jpg"
     title="Never in my life have I heard so many people cheer so after seeing a 12 year old girl get murdered by the military. It was great."
     alt="Performance of \"I Am... All of Me\". On the screen above is the scene from I think Shadow the Hedgehog of one of the G.U.N. soldiers about to shoot Maria.">}}
 
@@ -42,8 +42,8 @@ Of course, the second part was an absolute knockout. The two lead singers were f
 
 {{< figure
     class="center"
-    src="/thoughts/unorganized/img/sonic_symphony-3_thumb.jpg"
-    link="/thoughts/unorganized/img/sonic_symphony-3.jpg"
+    src="/img/thoughts/unorganized/sonic_symphony-3_thumb.jpg"
+    link="/img/thoughts/unorganized/sonic_symphony-3.jpg"
     title="Kinda messed up this shot, whoops."
     alt="Another picture of the performers except it's kinda blurry because my hand slipped. Some stuff from Sonic and the Black Knight is up on the screen.">}}
 
@@ -53,8 +53,8 @@ The kid sitting next to me was clearly having the time of his life, and frankly 
 
 {{< figure
     class="center"
-    src="/thoughts/unorganized/img/sonic_symphony-4_thumb.jpg"
-    link="/thoughts/unorganized/img/sonic_symphony-4.jpg"
+    src="/img/thoughts/unorganized/sonic_symphony-4_thumb.jpg"
+    link="/img/thoughts/unorganized/sonic_symphony-4.jpg"
     title="They had everyone turn on their camera flash for Reach For the Stars. Lotsa glow sticks in the mix, too."
     alt="During \"Reach For the Stars\", the band asked everyone to turn on their flashlights. Really blurry picture this time, but you can see a bunch of phone lights and glow sticks all throughout the audience.">}}
 
@@ -64,8 +64,8 @@ They did not disappoint.
 
 {{< figure
     class="center"
-    src="/thoughts/unorganized/img/sonic_symphony-5_thumb.jpg"
-    link="/thoughts/unorganized/img/sonic_symphony-5.jpg"
+    src="/img/thoughts/unorganized/sonic_symphony-5_thumb.jpg"
+    link="/img/thoughts/unorganized/sonic_symphony-5.jpg"
     title="You know this was a real rock concert because the performers had some of the most dazzling outfits I've ever seen. Just look at those red/blue pants!"
     caption="I was not at all surprised to learn that the woman singer, Adrienne Cowan, is also part of a metal band aside from this."
     alt="The band performing \"Break Through it All\" while looking really, really cool. Also some Sonic Frontiers stuff on the screen, naturally.">}}
@@ -74,8 +74,8 @@ Like the last time, the encore was Live and Learn (which was incredible, don't g
 
 {{< figure
     class="center"
-    src="/thoughts/unorganized/img/sonic_symphony-6_thumb.jpg"
-    link="/thoughts/unorganized/img/sonic_symphony-6.jpg"
+    src="/img/thoughts/unorganized/sonic_symphony-6_thumb.jpg"
+    link="/img/thoughts/unorganized/sonic_symphony-6.jpg"
     title="Never in a million years could I have predicted this ending."
     alt="The bandleaders in a little ring at the front of the stage, performing an incredible acoustic rendition of \"One Way Dream\".">}}
 
@@ -87,8 +87,8 @@ What an ending.
 
 {{< figure
     class="center"
-    src="/thoughts/unorganized/img/sonic_symphony-7_thumb.jpg"
-    link="/thoughts/unorganized/img/sonic_symphony-7.jpg"
+    src="/img/thoughts/unorganized/sonic_symphony-7_thumb.jpg"
+    link="/img/thoughts/unorganized/sonic_symphony-7.jpg"
     title="One of those nights that I'll never forget."
     alt="One last picture of the band, closing out at the end of the show.">}}
 
@@ -96,8 +96,8 @@ And just for fun, here's one last picture I took on the way back out. I didn't n
 
 {{< figure
     class="center"
-    src="/thoughts/unorganized/img/sonic_symphony-8_thumb.jpg"
-    link="/thoughts/unorganized/img/sonic_symphony-8.jpg"
+    src="/img/thoughts/unorganized/sonic_symphony-8_thumb.jpg"
+    link="/img/thoughts/unorganized/sonic_symphony-8.jpg"
     title="Boston is a very pretty city at night."
     alt="A picture of some of the skyscapers in Boston. You can kinda make out a few people who dressed up/cosplayed for the show.">}}
 

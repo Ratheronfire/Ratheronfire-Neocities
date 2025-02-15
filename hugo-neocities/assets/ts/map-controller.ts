@@ -356,7 +356,7 @@ async function loadScreen(newScreenID) {
     $("#screen-text").text(`Screen (${currentScreen.pos.x}, ${currentScreen.pos.y})`);
 }
 
-export function moveToScreen(offset) {
+function moveToScreen(offset) {
     var newScreen = currentScreen.pos.plus(offset);
 
     loadScreen(newScreen.toString);

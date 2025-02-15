@@ -45,8 +45,8 @@ There's just one tiny little problem with that explanation, though:
 
 {{< figure
     class="center"
-    src="/thoughts/unorganized/img/the_end.png"
-    link="/thoughts/unorganized/img/the_end.png"
+    src="/img/thoughts/unorganized/the_end.png"
+    link="/img/thoughts/unorganized/the_end.png"
     alt="The End, from Metal Gear Solid 3, dressed head-to-toe in a heavy camouflage coat."
     title="50 points if you can guess the problem.">}}
 

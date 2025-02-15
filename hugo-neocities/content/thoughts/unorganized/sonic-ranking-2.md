@@ -1,0 +1,100 @@
+---
+title: "The Ranking of Sonics - Volume 2"
+date: 2025-02-08T22:08:17-05:00
+draft: true
+section: "Thoughts"
+description: "My ranking of Sonic games and media continues, finally!"
+categories:
+- blog
+- reviews
+tags:
+- gaming
+- sonic-the-hedgehog
+- ranking-of-sonics
+- retroachivements
+---
+
+{{< load-photoswipe >}}
+
+It's that time again when I, the sole arbiter of correct opinions, present the final and absolute truth of the Sonic series.
+
+Or maybe this is all wrong, I dunno.
+
+---
+
+## Sonic Generations
+
+Still a really solid game! It's lost a bit of its luster since 2011 when so many of the later entries have both figured out 2D physics better and also are generally better to play, but there's still some fun to be had with this one. The levels themselves are a lot of fun in both 2D and 3D, and the sheer volume of new remixes means this game has had a permanent place in my music shuffle ever since.
+
+At the same time though, this game established a lot of nostalgia-baiting trends that *really* dragged Sonic down for a while, like the obsession with the Green Hill/Chemical Plant/Sky Sanctuary trifecta and treating Classic Sonic as a recurring character completely separate from modern Sonic (except when they're still the same person sometimes).
+
+The bonus stages aren't very good and there are way too many of them. I do like the collectibles though (which seems to be a pretty unpopular opinion), they do a good job of highlighting alternate routes without making them too obvious. (That said, the remaster adds a bunch of Chao to every level though and those are just thrown around thoughtlessly.)
+
+Still not a fan of the final boss, either. It felt like they wanted to make another Adventure style showstopper fight, but it's not interesting, the gameplay doesn't make sense, and your buddies refuse to shut up and let you play. Not a great note to end on. That said, it did open the door for Shadow Generations, and...
+
+## Shadow Generations
+
+...Folks, I think they've done it. This is pure, crystallized Sonic.
+
+The levels give you so much room for momentum with just the right level of pushback to challenge you to find faster routes, the gameplay is smooth and responsive, it looks downright gorgeous, and of course we get a bunch of incredible new remixes. The hub level in particular was particularly inspired. It took the best parts of the Frontiers experience and seamlessly combined it with the White Space hub from Sonic Generations, while also serving as a tutorial for all the new movement options, *and* providing a bunch of interesting new gameplay challenges on top of all that! I do wish finding all the collectibles was a little bit less awkward, but everything else about it was top-notch.
+
+I was also a big fan of the boss fights this time around. They were all reminiscent of their original fights, but redesigned from the top down to be more intuitive and engaging, with exactly the right balance of difficulty and fairness. Especially impressive when you look at how little they had to work with with fights like Metal Overlord from Heroes.
+
+I also want to give a ton of props to the writing. For this game as a followup to Sonic Generations, you'd think the story would be more or less an afterthought, since these games are way more about celebrating the older games rather than standing on their own, and yet they gave Shadow's character arc so much weight and showed sides of him we rarely get to see. I love how this game takes the whole "let's go on a fun trip through all our past adventures" bit from Sonic Gens and turns it on its head, with Shadow quite literally running from and struggling to escape his past. I saw a lot of speculation about the constant reuse of Radical Highway, and there was one interpretation I really enjoyed which was that Black Doom is specifically picking that setting to remind Shadow of his darkest days when he was little more than a puppet for both Gerald and Black Doom himself. They took the framework of a nostalgic throwback game and recontextualized it into a story about trauma and self determination and I love it.
+
+The movie DLC was... fine, I guess? The level itself was good but it really could've used a bit more content for how much they sold it for. Maybe a new boss fight or something, but I don't really know what that could be. Keanu's line readings were pretty dull, which is especially odd considering he's actually really good in the movie, and it's not like he hasn't done voice acting for games before. Maybe they could only afford like a half hour or so in the booth.
+
+## Sonic Adventure 2
+
+## Sonic 3 [b/w](http://hrwiki.org/wiki/b/w) Knuckles
+
+## Sonic the Hedgehog 3 (Film)
+
+## Sonic (Restaurant)
+
+---
+
+{{< tierlist >}}
+    {{< tier label="S" color="no-repeat bottom 100% left 50% url('/img/thoughts/unorganized/scrunt.jpg'); background-size: 120%" >}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover.png"
+            link="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover.png"
+            alt="Shadow Generations">}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover.jpg"
+            alt="Sonic the Hedgehog 2 (Genesis)">}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover.jpg"
+            alt="Sonic Adventure">}}
+    {{</ tier >}}
+    {{< tier label="A" color="yellow" >}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/11131127-sonic-frontiers-xbox-one-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/11131127-sonic-frontiers-xbox-one-front-cover.jpg"
+            alt="Sonic Frontiers">}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover.jpg"
+            alt="Sonic the Hedgehog (Genesis)">}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover.jpg"
+            alt="The Murder of Sonic the Hedgehog">}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/Sonic_Generations-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/Sonic_Generations.jpg"
+            alt="Sonic Generations">}}
+    {{</ tier >}}
+    {{< tier label="B" color="orange" >}}
+    {{</ tier >}}
+    {{< tier label="C" color="green" >}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover.jpg"
+            alt="Sonic Superstars">}}
+    {{</ tier >}}
+{{</ tierlist >}}
+
+---
