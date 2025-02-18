@@ -38,13 +38,23 @@ Still not a fan of the final boss, either. It felt like they wanted to make anot
 
 The levels give you so much room for momentum with just the right level of pushback to challenge you to find faster routes, the gameplay is smooth and responsive, it looks downright gorgeous, and of course we get a bunch of incredible new remixes. The hub level in particular was particularly inspired. It took the best parts of the Frontiers experience and seamlessly combined it with the White Space hub from Sonic Generations, while also serving as a tutorial for all the new movement options, *and* providing a bunch of interesting new gameplay challenges on top of all that! I do wish finding all the collectibles was a little bit less awkward, but everything else about it was top-notch.
 
-I was also a big fan of the boss fights this time around. They were all reminiscent of their original fights, but redesigned from the top down to be more intuitive and engaging, with exactly the right balance of difficulty and fairness. Especially impressive when you look at how little they had to work with with fights like Metal Overlord from Heroes.
+I was a big fan of the boss fights this time around. They were all reminiscent of their original fights, but redesigned from the top down to be more intuitive and engaging, with exactly the right balance of difficulty and fairness. Especially impressive when you look at how little they had to work with with fights like Metal Overlord from Heroes.
 
 I also want to give a ton of props to the writing. For this game as a followup to Sonic Generations, you'd think the story would be more or less an afterthought, since these games are way more about celebrating the older games rather than standing on their own, and yet they gave Shadow's character arc so much weight and showed sides of him we rarely get to see. I love how this game takes the whole "let's go on a fun trip through all our past adventures" bit from Sonic Gens and turns it on its head, with Shadow quite literally running from and struggling to escape his past. I saw a lot of speculation about the constant reuse of Radical Highway, and there was one interpretation I really enjoyed which was that Black Doom is specifically picking that setting to remind Shadow of his darkest days when he was little more than a puppet for both Gerald and Black Doom himself. They took the framework of a nostalgic throwback game and recontextualized it into a story about trauma and self determination and I love it.
 
 The movie DLC was... fine, I guess? The level itself was good but it really could've used a bit more content for how much they sold it for. Maybe a new boss fight or something, but I don't really know what that could be. Keanu's line readings were pretty dull, which is especially odd considering he's actually really good in the movie, and it's not like he hasn't done voice acting for games before. Maybe they could only afford like a half hour or so in the booth.
 
 ## Sonic Adventure 2
+
+Following my experience playing [Sonic Adventure](/thoughts/unorganized/sonic-ranking-1/#sonic-adventure) for the last post, I decided to try my hand at the RetroAchievements for the sequel. As of the time I'm writing this post, I've beaten the main game, and I'm currently, uh... just over a third of the way through the achievement set.
+
+Turns out getting the A Ranks is every bit as obscene as I've always imagined it to be. I spent the better part of a day grinding away at it, and for my troubles I've only just managed to finish up City Escape. So, that's just thirty more stages to go! Plus the boss rushes. And the handful of other emblems. and all the Chao Garden stuff. And a number of other achievements.
+
+So, that's not getting done any time soon. But masochistic achievements aside, this game is still fantastic. In retrospect, having played the two again with adult eyes, I greatly prefer Adventure 1, for a few reasons. The main reason for me is the controls: In SA2, virtually all of your controls are mapped to one of two buttons: one for jumping, and one for basically everything else. I get it's supposed to be streamlined and intuitive or whatever, but even after having beaten the game I'm constantly somersaulting when I want to spindash or bouncing when I want to light speed dash (and that's not getting into how unreliable the homing attack is). The camera is a pain as well, but it's about par for the course for this era.
+
+The other big issue I have is with the three different kinds of gameplay on offer, each one being a slightly less fun version of one of the modes from SA1. The Sonic/Shadow speed levels are *mostly* fine, but having the spindash be a held input rather than something mashable means my habit of zooming through every level doesn't work anymore, and instead causes you to somersault and immediately lose all momentum. The treasure hunting stages are decent as well, but the exploration just isn't as fun, and having to find each item in a specific order is a needless time waster. By far the worst offender is the mech stages. These are just... so boring. You move slow, the controls are super unresponsive, and unlike the Gamma levels in SA1 it just doesn't feel as fun to rack up lock-on combos since there's no real benefit other than points.
+
+It's funny going back now and seeing how the game presents its story. In my mind it was way bigger and more involved, and so every time a big plot point comes and goes in a thirty second cutscene I get whiplash. It really feels like a majority of this game's reputation is owed to things that came about after the fact from later games, and from the audience themselves building the story up into something bigger than it was originally. The stuff with Gerald's final testament is still super strong, and the way it's presented feels uniquely Sonic Adventure and uniquely 2000s in a way I can't really describe.
 
 ## Sonic 3 [b/w](http://hrwiki.org/wiki/b/w) Knuckles
 
@@ -57,13 +67,13 @@ The movie DLC was... fine, I guess? The level itself was good but it really coul
 {{< tierlist >}}
     {{< tier label="S" color="no-repeat bottom 100% left 50% url('/img/thoughts/unorganized/scrunt.jpg'); background-size: 120%" >}}
         {{< figure
-            src="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover.png"
-            link="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover.png"
-            alt="Shadow Generations">}}
-        {{< figure
             src="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover-thumb.jpg"
             link="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover.jpg"
             alt="Sonic the Hedgehog 2 (Genesis)">}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover.png"
+            link="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover.png"
+            alt="Shadow Generations">}}
         {{< figure
             src="/img/thoughts/unorganized/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover-thumb.jpg"
             link="/img/thoughts/unorganized/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover.jpg"
