@@ -21,7 +21,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.126.1
+      HUGO_VERSION: 0.136.2
 
     steps:
     - uses: actions/checkout@v3
@@ -75,6 +75,6 @@ jobs:
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@master
       with:
-        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: false
         dist_dir: hugo-neocities/public
