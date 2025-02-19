@@ -1,7 +1,7 @@
 ---
 title: "The Ranking of Sonics - Volume 2"
 date: 2025-02-08T22:08:17-05:00
-draft: true
+draft: false
 section: "Thoughts"
 description: "My ranking of Sonic games and media continues, finally!"
 categories:
@@ -19,6 +19,8 @@ tags:
 It's that time again when I, the sole arbiter of correct opinions, present the final and absolute truth of the Sonic series.
 
 Or maybe this is all wrong, I dunno.
+
+This time I decided I'd like to mix in some of the non-game Sonic media as well, because after all what's another three or ten posts? Not like I'm going to be finishing this any time soon either way.
 
 ---
 
@@ -58,14 +60,36 @@ It's funny going back now and seeing how the game presents its story. In my mind
 
 ## Sonic 3 [b/w](http://hrwiki.org/wiki/b/w) Knuckles
 
+And of course I've also been trying my hand at the Retroachievements set for Sonic 3 & Knuckles, but unlike Adventure 2 I did actually manage to finish this one.{{< sup "down" 1 >}} Having played all of the main 3 Genesis Sonics (I'm of the opinion that Sonic 3 + Sonic & Knuckles is and has always been a single complete game), I have to echo the common sentiment that 3 is absolutely the best, personal preference for 2 aside. The music is (mostly) top-notch, the level design and overall balance demonstrate the mastery that this team had built up since their first entry{{< sup "down" 2 >}}, and the graphics are some of the most beautiful and well-realized this era of gaming had to offer. It also does a great job of telling a story without words or lengthy cutscenes, something that Sonic CD also did, to slightly less success in my opinion.
+
+Hydrocity is two words.
+
 ## Sonic the Hedgehog 3 (Film)
 
+I said a lot more about this movie in my [2024 review post](/thoughts/unorganized/2024-review/#sonic-the-hedgehog-3), but in short, I really enjoyed it! General kids movie annoyances aside, it was a fun time, and a better exploration of these characters than I expected it to be. It feels like they've finally started to dial in the right balance of obligatory Hollywood stuff and genuine love for the source material, and I'm excited to see what's next.
+
 ## Sonic (Restaurant)
+
+Now this is a bit of an odd departure for this franchise. Rather than a game or a movie or a comic or anything sensible like that, this entry is a restaurant I guess? Not sure why the series went in this direction, but sure I guess.
+
+The food is nothing to write home about, just slightly below-average fast food fare. Their breakfast burritos are probably my favorite of the menu options I've tried, though I'll admit I also have a soft spot for their desserts and their pretzel sticks. Their fries are pretty unimpressive, which is one of the most unforgivable sins a fast food place can commit if you ask me.
+
+There's not much else here for the hardcore Sonic fan, unfortunately. There's no memorable characters and hardly any music, unless you count the guy behind the counter yelling "I don't know why you keep asking us about that stupid hedgehog, we're just a fast food restaurant, please just make your order already".
+
+It doesn't have any long boss fights, so I guess it beats out Sonic Superstars at least.
+
+---
+
+And that's that for this update! Surprisingly I haven't listed anything lower than C yet, but I suppose it's only a matter of time before I have to take a look at the Game Gear games.
 
 ---
 
 {{< tierlist >}}
     {{< tier label="S" color="no-repeat bottom 100% left 50% url('/img/thoughts/unorganized/scrunt.jpg'); background-size: 120%" >}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/4747965-sonic-the-hedgehog-3-genesis-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/4747965-sonic-the-hedgehog-3-genesis-front-cover.jpg"
+            alt="Sonic the Hedgehog 3 (Genesis)">}}
         {{< figure
             src="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover-thumb.jpg"
             link="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover.jpg"
@@ -96,10 +120,18 @@ It's funny going back now and seeing how the game presents its story. In my mind
             src="/img/thoughts/unorganized/sonic-ranking/Sonic_Generations-thumb.jpg"
             link="/img/thoughts/unorganized/sonic-ranking/Sonic_Generations.jpg"
             alt="Sonic Generations">}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/SM3ChaoIsComingPoster(wBilling)-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/SM3ChaoIsComingPoster(wBilling).jpg"
+            alt="Sonic the Hedgehog 3 (Film)">}}
     {{</ tier >}}
     {{< tier label="B" color="orange" >}}
     {{</ tier >}}
     {{< tier label="C" color="green" >}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/196-thumb.jpeg"
+            link="/img/thoughts/unorganized/sonic-ranking/196.jpeg"
+            alt="Sonic the Restaurant">}}
         {{< figure
             src="/img/thoughts/unorganized/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover-thumb.jpg"
             link="/img/thoughts/unorganized/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover.jpg"
@@ -108,3 +140,7 @@ It's funny going back now and seeing how the game presents its story. In my mind
 {{</ tierlist >}}
 
 ---
+
+{{< sup "up" 1 >}} If nothing else, it gave me something to do this past January when I spent a good 14 or so hours on the train to and from my first MAGFest.
+
+{{< sup "up" 2 >}} Okay, *technically* it's not really the same team all the way from 1-3 (especially considering the split between the devs who stayed in Japan to work on CD and those that left to work on 2), but you get what I mean.
