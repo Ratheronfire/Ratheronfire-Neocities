@@ -4,6 +4,13 @@ title = "Ratheronfire's Assorted Collection of Odd Projects"
 theme = ["ratheronfire-theme", "hugo-easy-gallery"]
 enableGitInfo = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        title = true
+        level = true
+
 [build]
   [build.buildStats]
     enable = true

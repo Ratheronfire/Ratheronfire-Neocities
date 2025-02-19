@@ -1,6 +1,6 @@
 ---
 title: "Stuff I Saw/Played/Looked at For a Bit in 2024 - Part 1: Movies"
-date: 2024-12-27T16:56:50-05:00
+date: 2025-01-15T01:04:00-05:00
 draft: false
 section: "Thoughts"
 categories:
