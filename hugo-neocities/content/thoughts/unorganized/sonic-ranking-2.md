@@ -95,7 +95,7 @@ And that's that for this update! Surprisingly I haven't listed anything lower th
             link="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover.jpg"
             alt="Sonic the Hedgehog 2 (Genesis)">}}
         {{< figure
-            src="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover.png"
+            src="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover-thumb.png"
             link="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover.png"
             alt="Shadow Generations">}}
         {{< figure
@@ -112,6 +112,10 @@ And that's that for this update! Surprisingly I haven't listed anything lower th
             src="/img/thoughts/unorganized/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover-thumb.jpg"
             link="/img/thoughts/unorganized/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover.jpg"
             alt="Sonic the Hedgehog (Genesis)">}}
+        {{< figure
+            src="/img/thoughts/unorganized/sonic-ranking/36901-sonic-adventure-2-dreamcast-front-cover-thumb.jpg"
+            link="/img/thoughts/unorganized/sonic-ranking/36901-sonic-adventure-2-dreamcast-front-cover.jpg"
+            alt="Sonic Adventure 2">}}
         {{< figure
             src="/img/thoughts/unorganized/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover-thumb.jpg"
             link="/img/thoughts/unorganized/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover.jpg"

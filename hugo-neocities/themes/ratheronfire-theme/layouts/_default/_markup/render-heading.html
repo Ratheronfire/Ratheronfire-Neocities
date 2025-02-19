@@ -1,0 +1,4 @@
+<h{{ .Level }} id="{{ .Anchor }}" {{- with .Attributes.class }} class="{{ . }}" {{- end }}></h>
+  {{ .Text }}
+  {{ if not (eq .Page.Path "/") }}<a class="pull-right" href="#{{ .Anchor }}"><i class="fa fa-link" aria-hidden="true"></i></a>{{ end }}
+</h{{ .Level }}>
