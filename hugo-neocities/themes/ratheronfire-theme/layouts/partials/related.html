@@ -1,0 +1,10 @@
+{{ $pagesToShow := 5 }}
+{{ with .Site.RegularPages.Related . | first $pagesToShow }}
+<p class="plaintext">
+    Related pages:
+
+    {{ range $index, $page := . }}
+    <a href="{{ $page.RelPermalink }}">{{ $page.LinkTitle | truncate 40 }}</a>{{ if not (eq $index (sub $pagesToShow 1)) }} | {{ end }}
+    {{ end }}
+</p>
+{{ end }}
