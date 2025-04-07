@@ -7,7 +7,9 @@
 
                 {{ partial "page_subheader" . }}
                 
-                {{ .Content }}
+                <span data-pagefind-body>
+                    {{ .Content }}
+                </span>
 
                 {{ partial "page_nav" . }}
 
