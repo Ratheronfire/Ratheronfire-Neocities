@@ -15,7 +15,10 @@
 
                 {{ partial "page_subheader" . }}
                 
-                {{ .Content }}
+                <span data-pagefind-body>
+                    {{ .Content }}
+                </span>
+                
                 {{ end }}
 
                 {{ partial "page_nav" . }}

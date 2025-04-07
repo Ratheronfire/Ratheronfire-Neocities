@@ -7,7 +7,7 @@
 
     {{ $episode_pages := sort $pages ".Params.episode" "desc" }}
 
-    <div class="blog__navigate">
+    <div class="blog__navigate" data-pagefind-ignore="all">
         <div class="blog__navigateButtons">
             <div class="blog__navigateButtons__previous">
                 {{ if $episode_pages }}

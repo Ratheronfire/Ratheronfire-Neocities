@@ -18,8 +18,10 @@
                     <img src="{{ page.Params.image_path }}" title="{{ page.Params.alt_text }}" alt="{{ page.Params.alt_text }}">
                 </a>
                 {{ end }}
-
-                {{ .Content }}
+                
+                <span data-pagefind-body>
+                    {{ .Content }}
+                </span>
 
                 {{ partial "page_nav" . }}
 

@@ -72,6 +72,10 @@ jobs:
       # Hugo expects the 404 page to be 404.html, but Neocities uses not_found.html.
       run: mv "hugo-neocities/public/404.html" "hugo-neocities/public/not_found.html"
 
+    - name: Index Pagefind search
+      run: |
+        python -m pagefind --site hugo-neocities/public
+
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@master
       with:

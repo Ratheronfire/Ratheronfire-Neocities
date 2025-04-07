@@ -2,7 +2,7 @@
 <div class="container">
     <div class="section">
         <div class="content" id="flex">
-            <main>
+            <main data-pagefind-body>
                 <h1 class="title">{{ .Title }}</h1>
                 
                 {{ range $update := sort $.Site.Data.updates "date" "desc" }}

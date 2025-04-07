@@ -9,7 +9,9 @@
 
                 <i>Originally posted to Cohost on {{ .Params.original_date | time.Format ":date_long" }}.</i>
                 
-                {{ .Content }}
+                <span data-pagefind-body>
+                    {{ .Content }}
+                </span>
 
                 {{ partial "page_nav" . }}
 

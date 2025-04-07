@@ -71,7 +71,7 @@
         {{ if .synopsis }}
             {{ .synopsis | markdownify }}
         {{ else }}
-            <p>
+            <p data-pagefind-body>
                 {{ or .content "No written review yet for this page." }}
             </p>
 
@@ -102,7 +102,7 @@
                         {{ end }}
                     </div>
                     
-                    <p>
+                    <p data-pagefind-body>
                         {{ .text | markdownify }}
                     </p>
                 {{ end }}

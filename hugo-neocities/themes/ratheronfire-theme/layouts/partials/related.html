@@ -1,6 +1,6 @@
 {{ $pagesToShow := 5 }}
 {{ with .Site.RegularPages.Related . | first $pagesToShow }}
-<p class="plaintext">
+<p class="plaintext" data-pagefind-ignore="all">
     Related pages:
 
     {{ range $index, $page := . }}
