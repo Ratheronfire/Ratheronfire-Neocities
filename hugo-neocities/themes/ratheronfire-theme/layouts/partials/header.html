@@ -63,9 +63,12 @@
                         </li>
                     </ul>
                 </li>
-                <li>
+                <li id="search-button">
                     <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
                     <script src="/pagefind/pagefind-ui.js"></script>
+                    <input type="checkbox" id="search-toggle">
+                    <label id="search-open" for="search-toggle"><i class="fa fa-search" aria-hidden="true"></i></label>
+                    <label id="search-close" for="search-toggle"><i class="fa fa-close" aria-hidden="true"></i></label>
                     <div id="search" class="box"></div>
                     <script>
                         window.addEventListener('DOMContentLoaded', (event) => {
