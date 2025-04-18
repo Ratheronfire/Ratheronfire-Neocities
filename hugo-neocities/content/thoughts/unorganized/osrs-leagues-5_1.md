@@ -79,18 +79,18 @@ You can find the plugins I used [here for the heatmaps](https://runelite.net/plu
 * [Bank](/img/thoughts/unorganized/leagues-5/day-1/bank.png)
 * [Movement \(Type A\)](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-37_TYPE_A.tif)
 * [Movement \(Type B\)](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-39_TYPE_B.tif)
-* [XP Gained](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-39_XP_GAINED.tif)
-* [Teleport Paths](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-40_TELEPORT_PATHS.tif)
-* [Teleported To](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-40_TELEPORTED_TO.tif)
-* [Teleported From](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-41_TELEPORTED_FROM.tif)
-* [Loot Value](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-41_LOOT_VALUE.tif)
-* [Places Spoken At](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-42_PLACES_SPOKEN_AT.tif)
-* [Random Event Spawns](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-42_RANDOM_EVENT_SPAWNS.tif)
-* [Deaths](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-43_DEATHS.tif)
-* [NPC Deaths](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-43_NPC_DEATHS.tif)
-* [Bob the Cat Sightings](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-44_BOB_THE_CAT_SIGHTING.tif)
-* [Damage Taken](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-44_DAMAGE_TAKEN.tif)
-* [Damage Given](/img/thoughts/unorganized/leagues-5/day-1/2024-11-28_03-45_DAMAGE_GIVEN.tif)
+* ~~XP Gained~~
+* ~~Teleport Paths~~
+* ~~Teleported To~~
+* ~~Teleported From~~
+* ~~Loot Value~~
+* ~~Places Spoken At~~
+* ~~Random Event Spawns~~
+* ~~Deaths~~
+* ~~NPC Deaths~~
+* ~~Bob the Cat Sightings~~
+* ~~Damage Taken~~
+* ~~Damage Given~~
 
 ---
 
