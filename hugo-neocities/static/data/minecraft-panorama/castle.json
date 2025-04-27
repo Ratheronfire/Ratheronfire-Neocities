@@ -1,0 +1,45 @@
+{
+    "firstScene": "17457062073",
+    "scenes": {
+        "17457062073": {
+            "title": "Main Castle Gate",
+            "caption": "The main gate into our base. I tried to create a redstone mechanism to lock it, but all I was able to figure out was just pushing that row of specially marked blocks up as an obstacle.",
+            "hotSpots": [
+                {
+                    "pitch": -14.438588846153676,
+                    "yaw": 18.20716982906487,
+                    "sceneId": "17457083842",
+                    "targetPitch": -29.459379075883948,
+                    "targetYaw": 158.56132855123252
+                },
+                {
+                    "pitch": 3.17570886618868,
+                    "yaw": 0.6638262584495,
+                    "sceneId": "17457084017"
+                }
+            ]
+        },
+        "17457083842": {
+            "title": "Gate Drawbridge",
+            "caption": "Eh, it works.",
+            "hotSpots": [
+                {
+                    "pitch": -7.554711775856429,
+                    "yaw": 179.98924538911388,
+                    "sceneId": "17457062073"
+                }
+            ]
+        },
+        "17457084017": {
+            "title": "Base Entrance",
+            "caption": "After passing through the front gate, you arrive at the entrance to our base proper. I think this update must have been when stained-glass windows were newly added because I used them quite a bit on this build.",
+            "hotSpots": [
+                {
+                    "pitch": -3.8552460609314245,
+                    "yaw": 180.10297653799222,
+                    "sceneId": "17457062073"
+                }
+            ]
+        }
+    }
+}

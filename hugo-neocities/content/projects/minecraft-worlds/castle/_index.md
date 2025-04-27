@@ -11,7 +11,7 @@ categories:
 tags:
 - gaming
 - minecraft
-image_folder: "/projects/minecraft-worlds/castle/img/"
+image_folder: "/projects/minecraft-worlds/castle/img"
 minecraft_slides:
 - id: 0
   title: Main Castle Gate
@@ -1066,3 +1066,5 @@ minecraft_slides:
 ---
 
 {{< minecraft >}}
+
+<!-- {{< pannellum "/data/minecraft-panorama/castle.json" >}} -->
