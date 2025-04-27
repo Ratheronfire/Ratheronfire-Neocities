@@ -1,0 +1,102 @@
+<link rel="stylesheet" href="/pannellum/pannellum.css" />
+<script type="text/javascript" src="/pannellum/pannellum.js"></script>
+
+<div id="panorama">
+    <div class="caption-box-container">
+        <div id="caption-box"></div>
+    </div>
+</div>
+<script>
+    fetch({{ .Get 0 }}).then(response => response.json()).then(jsonData => {
+        var panoramaConfig = {
+            "default": {
+                "firstScene": jsonData["firstScene"]
+            },
+
+            "scenes": {},
+            "autoLoad": true,
+            "hotSpotDebug": {{ hugo.IsDevelopment }}
+        };
+
+        for (let scene of Object.keys(jsonData["scenes"])) {
+            var sceneData = jsonData["scenes"][scene];
+
+            for (let hotSpot of sceneData["hotSpots"]) {
+                hotSpot["type"] = "scene",
+                hotSpot["cssClass"] = "pnlm-hotspot-base pnlm-hotspot pnlm-sprite pnlm-scene pnlm-pointer basic-scene-hotspot"
+            }
+
+            panoramaConfig["scenes"][scene] = {
+                "title": sceneData["title"],
+                "caption": sceneData["caption"],
+                "type": "cubemap",
+                "cubeMap": [
+                    `{{ $.Page.Params.image_folder }}/panorama-${scene}/panorama_0.png`,
+                    `{{ $.Page.Params.image_folder }}/panorama-${scene}/panorama_1.png`,
+                    `{{ $.Page.Params.image_folder }}/panorama-${scene}/panorama_2.png`,
+                    `{{ $.Page.Params.image_folder }}/panorama-${scene}/panorama_3.png`,
+                    `{{ $.Page.Params.image_folder }}/panorama-${scene}/panorama_4.png`,
+                    `{{ $.Page.Params.image_folder }}/panorama-${scene}/panorama_5.png`,
+                ],
+                "hotSpots": sceneData["hotSpots"]
+            };
+        }
+
+        console.log(panoramaConfig);
+        
+        var viewer = pannellum.viewer('panorama', panoramaConfig);
+        onLoad.apply({viewer: viewer});
+        viewer.on("load", () => onLoad(viewer));
+    });
+
+    function onLoad(viewer) {
+        if (viewer != undefined) {
+            var caption = viewer.getConfig()["caption"] || "";
+            $("#caption-box").text(caption);
+
+            $(".caption-box-container").css("display", caption.length == 0 ? 'none' : 'initial');
+        }
+    }
+</script>
+
+<style>
+    #panorama {
+        height: 800px;
+    }
+
+    .basic-scene-hotspot {
+        border: var(--minecraft-nav-color) 2px solid;
+        background-color: var(--minecraft-nav-color);
+        opacity: 0.6;
+    }
+
+    .basic-scene-hotspot:hover {
+        opacity: 1;
+    }
+
+    .caption-box-container {
+        position: absolute;
+        right: 0;
+        bottom: 4px;
+
+        max-width: 1000px;
+        
+        -webkit-transform: translateZ(9999px);
+        transform: translateZ(9999px);
+
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 0 3px 3px 0;
+        padding-right: 10px;
+
+        color: #fff;
+        text-align: right;
+        z-index: 2;
+    }
+
+    #caption-box {
+        position: relative;
+        display: table;
+        padding-left: 5px;
+        margin-bottom: 3px;
+    }
+</style>
