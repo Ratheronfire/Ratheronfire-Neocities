@@ -1,12 +1,15 @@
 ---
 title: An Ode to Giant Bomb
-description: "<>"
-date: 2025-05-04T03:05:54.382Z
+description: <>
+date: 2025-05-04T06:21:18.621Z
 preview: ""
-section: "Thoughts"
-draft: true
-tags: [ gaming, giant-bomb ]
-categories: [ blog ]
+section: Thoughts
+draft: false
+tags:
+    - gaming
+    - giant-bomb
+categories:
+    - blog
 ---
 
 *It was a website about video games.*
