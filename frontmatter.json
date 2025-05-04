@@ -1,0 +1,82 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/hugo-neocities/content"
+    },
+    {
+      "title": "projects",
+      "path": "[[workspace]]/hugo-neocities/content/projects"
+    },
+    {
+      "title": "thoughts",
+      "path": "[[workspace]]/hugo-neocities/content/thoughts"
+    },
+    {
+      "title": "unorganized",
+      "path": "[[workspace]]/hugo-neocities/content/thoughts/unorganized"
+    },
+    {
+      "title": "reviews",
+      "path": "[[workspace]]/hugo-neocities/content/thoughts/reviews"
+    },
+    {
+      "title": "misc",
+      "path": "[[workspace]]/hugo-neocities/content/misc"
+    },
+    {
+      "title": "devlogs",
+      "path": "[[workspace]]/hugo-neocities/content/thoughts/devlogs"
+    }
+  ],
+  "frontMatter.git.enabled": true
+}

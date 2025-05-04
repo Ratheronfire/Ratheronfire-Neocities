@@ -31,7 +31,7 @@ tags:
 - gaming
 ---
 
-{{< youtube MitDNlfcgeM >}}
+{{< youtube id="MitDNlfcgeM" class="yt yt-medium" >}}
 
 ## Credits & Thanks
 

@@ -29,7 +29,7 @@ First off is [Stinkoman 20X6](/projects/stinkoman/), my fanmade remake of the [H
 
 I put out the 1.0 update just about a year ago today, alongside this trailer:
 
-{{< youtube MitDNlfcgeM >}}
+{{< youtube id="MitDNlfcgeM" class="yt yt-medium" >}}
 
 ---
 
@@ -126,7 +126,7 @@ I call him 2-Up.
 
 I also created a level editor! ...Well, sorta. It's very buggy, and only has the bare essentials of an editor, but it's there! Someday I'll finish it, probably.
 
-{{< youtube 2OKvVPYtIVs >}}
+{{< youtube id="2OKvVPYtIVs" class="yt yt-medium" >}}
 
 And I made my own custom character! Pan Pan is *mostly* finished, but I'm not sure I'm entirely happy with his controls at the moment. His controls are loosely based around the bounce shield from Sonic 3, plus the bomb bouncing mechanic for Plague Knight in the Shovel Knight DLCs and a bit of the Surge character mod for Sonic Robo Blast 2.
 

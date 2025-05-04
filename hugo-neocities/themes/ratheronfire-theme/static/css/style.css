@@ -432,3 +432,40 @@ feel free to play around with the order!
         font-size: 32px;
     }
 }
+
+.yt iframe,
+.yt object,
+.yt embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.yt-medium {
+    position: relative;
+    height: 790px;
+    overflow: hidden;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.yt-right {
+    position: relative;
+    height: 250px;
+    width: 25%;
+    overflow: hidden;
+    float: right;
+}
+
+.yt-grid {
+    position: relative;
+    height: 250px;
+    width: 25%;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, hr {
+    clear: both;
+}

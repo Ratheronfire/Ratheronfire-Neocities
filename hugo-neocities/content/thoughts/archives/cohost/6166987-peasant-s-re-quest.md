@@ -22,7 +22,7 @@ original-tags:
 draft: false
 ---
 
-{{< youtube JrpGWipDNjk >}}
+{{< youtube id="JrpGWipDNjk" class="yt yt-medium" >}}
 
 {{< rawhtml >}}
     <small>That name is terrible but I'm sticking with it</small>

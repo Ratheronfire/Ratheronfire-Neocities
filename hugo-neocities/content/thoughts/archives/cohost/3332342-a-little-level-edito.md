@@ -26,4 +26,4 @@ draft: false
 
 Now that I've finished recreating all of the original Flash Stinkoman, I've started going back and touching up the level editor again. Lots of work to be done still, but it's in a much more stable place now.
 
-{{< youtube mc9SiIA_Px8 >}}
+{{< youtube id="mc9SiIA_Px8" class="yt yt-medium" >}}

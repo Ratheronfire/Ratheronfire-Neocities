@@ -24,7 +24,7 @@ draft: false
 
 After nearly three years, it's finally time: My Godot remake of Stinkoman 20X6 is complete! Every level, every cutscene, and a whole lot more. To celebrate, I've put together a little trailer.
 
-{{< youtube MitDNlfcgeM >}}
+{{< youtube id="MitDNlfcgeM" class="yt yt-medium" >}}
 
 You can get the game now at [https://ratheronfire.com/projects/stinkoman/](/projects/stinkoman/) for Windows/Mac/Linux/Android, and it's also playable in the browser.
 

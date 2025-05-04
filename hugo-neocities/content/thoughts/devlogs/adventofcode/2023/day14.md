@@ -14,7 +14,7 @@ Another day, another grid puzzle.
 
 Here's some suggested music to accompany this writeup:
 
-{{< youtube ZeAsP7JdHqU >}}
+{{< youtube id="ZeAsP7JdHqU" class="yt yt-medium" >}}
 
 [Click here](https://github.com/Ratheronfire/advent-of-code/blob/master/year_2023/day-14.py) to see my source code for this day's problem.
 
