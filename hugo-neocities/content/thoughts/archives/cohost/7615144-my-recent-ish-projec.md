@@ -40,7 +40,7 @@ Since Cohost is sadly shutting down soon, I thought I'd take this moment to quic
 
 This is a fully playable remake of [Stinkoman 20X6](https://homestarrunner.com/stinkogame), a Mega Man styled Flash game from one of my all-time favorite sites of yesteryear, [Homestar Runner](https://homestarrunner.com).
 
-{{< youtube MitDNlfcgeM >}}
+{{< youtube id="MitDNlfcgeM" class="yt yt-medium" >}}
 
 This remake includes everything featured in the original games: All the levels, all the cutscenes, and the Stinkomanuél, as well as some quality of life improvements, a time attack mode, a boss rush, and high scores.
 
@@ -54,7 +54,7 @@ Builds are available for PC/Mac/Linux/Android, as well the browser itself, natur
 
 After finishing primary development on Stinkoman, I decided to start working on Peasant's Quest, also in Godot. While this game isn't nearly as far along as I'd like, I did post a proof-of-concept demo video to YouTube a little while back:
 
-{{< youtube JrpGWipDNjk >}}
+{{< youtube id="JrpGWipDNjk" class="yt yt-medium" >}}
 
 -----
 

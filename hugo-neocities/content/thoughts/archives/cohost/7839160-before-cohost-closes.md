@@ -20,8 +20,8 @@ draft: false
 
 This truth has haunted me ever since I fist discovered it.
 
-{{< youtube video="hD2ocvBU9-Q" start="254" >}}
+{{< youtube id="hD2ocvBU9-Q" start="254" class="yt yt-medium" >}}
 
-{{< youtube Rqz_JyAUZyg >}}
+{{< youtube id="Rqz_JyAUZyg" class="yt yt-medium" >}}
 
 ## ***HIS WORLD IS THE ELEVENTH DOCTOR'S THEME***

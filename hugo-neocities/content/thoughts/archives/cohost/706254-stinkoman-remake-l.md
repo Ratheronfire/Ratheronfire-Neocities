@@ -44,4 +44,4 @@ Here, have an early Christmas present: Level 9 of my remake of [@StrongBadActual
 
 If you're curious about the updated tileset, it was based off of unused tiles briefly shown off in the Level 10 trailer.
 
-{{< youtube KIFtMpMYNsg >}}
+{{< youtube id="KIFtMpMYNsg" class="yt yt-medium" >}}

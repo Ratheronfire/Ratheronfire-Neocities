@@ -46,4 +46,4 @@ Hey! Guess I might as well put up something here about my ongoing project, a rem
 
 For a comparison against the original version plus a few other release showcases, you can take a look at my YouTube channel here:
 
-{{< youtube bo5xfULkQQM >}}
+{{< youtube id="bo5xfULkQQM" class="yt yt-medium" >}}

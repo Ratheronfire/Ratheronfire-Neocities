@@ -19,13 +19,13 @@ Decided to upload a couple alternative cuts of the Stinkoman reveal trailer, wit
 
 ---
 
-{{< youtube ryvk4u_UXgw >}}
+{{< youtube id="ryvk4u_UXgw" class="yt yt-medium" >}}
 
 This one used the ingame level 10 music in place of the remix. While I think the final version is paced a lot better, there's one key moment of musical serendipity in this version that I'm still in love with.
 
 ---
 
-{{< youtube IN9aD_zI_lc >}}
+{{< youtube id="IN9aD_zI_lc" class="yt yt-medium" >}}
 
 For this version I included a fantastic mandolin duet cover of the level 1 music for the ending fadeout, made by [VoodooPupMusic](https://twitter.com/VoodooPupMusic) and [AustinNebbia](https://twitter.com/AustinNebbia) for the [Decemberweenvent Calendar](https://homestarrunner.com/toons/decemberweenvent-calendar) last year.
 

@@ -46,7 +46,7 @@ I've been slowly updating and fixing the level editor for Stinkoman, though it'l
 
 In the meantime though, I've also started working on a new character, which you can see below:
 
-{{< youtube 2OKvVPYtIVs >}}
+{{< youtube id="2OKvVPYtIVs" class="yt yt-medium" >}}
 
 ------
 

@@ -20,7 +20,7 @@ A recent hobby I've acquired (inspired a fair bit by things like the RTVS Camecl
 
 I've been amassing a playlist of anything that I found particularly interesting, noteworthy, or just too funny not to include, which you can find here:
 
-{{< youtube playlist="PLLAonBWfMw6lyS2gUJ0H-2oBxnUh_zwqE" >}}
+https://www.youtube.com/playlist?list=PLLAonBWfMw6lyS2gUJ0H-2oBxnUh_zwqE
 
 ---
 
