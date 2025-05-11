@@ -12,6 +12,10 @@ categories:
     - blog
 ---
 
+> ***EDITED 5/11/24 -- NEVERMIND WE'RE GOOD NOW, GIANT BOMB FOREVER AND ALL THAT***
+
+------
+
 *It was a website about video games.*
 
 Well, seems like it's finally happening. After 17-odd years, numerous hosts joining and departing, and an unimaginable amount of videos, it appears that Giant Bomb is facing its final days, being run aground by soulless corporate executives motivated only by lines on graphs without any concern for the reality hiding behind those numbers. If you had told me a few years ago, when I was listening to the Giant Beastcast week after week that the site which occupied so much of my mind would soon get scooped up by Fandom and gutted for spare parts, I'm not sure I'd believe you.
