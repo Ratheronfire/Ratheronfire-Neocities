@@ -83,15 +83,34 @@
                             {{ $new_pages = $new_pages | union (where .Site.Pages ".Params.image_path" "ne" nil) }}
                             {{ $new_pages = $new_pages | intersect (where .Site.Pages ".Params.hide_from_new" "ne" true) }}
 
-                            {{ range (sort $new_pages "Date").Reverse.Limit 15 }}
-                                <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                            {{ range (sort $new_pages "Date").Reverse.Limit 30 }}
+                                <li class="{{if (in .Params.categories "blog") }}blog-post{{ else }}not-blog-post{{ end }}"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
                             {{ end }}
                         </ul>
                     </div>
 
                     <hr />
 
-                    <a class="rss-link center" href="misc/rss"><i class="fa fa-rss-square" aria-label="Updates RSS Feed" aria-hidden="true"></i> RSS Feeds</a>
+                    <div class="center">
+                        <a class="rss-link" href="misc/rss"><i class="fa fa-rss-square" aria-label="Updates RSS Feed" aria-hidden="true"></i> RSS Feeds</a>
+                        <span id="only-blog-filter-container" style="display: none;">
+                            &nbsp;|<input type="checkbox" id="blog-filter" onchange="onBlogFilterChange(this)">
+                            <label for="blog-filter">Only Blog Posts</label>
+                        </span>
+
+                        <script>
+                            window.addEventListener('DOMContentLoaded', (event) => {
+                                document.getElementById("only-blog-filter-container").style = "display: initial";
+                            });
+
+                            function onBlogFilterChange(checkbox) {
+                                for (const link of document.querySelectorAll("li.not-blog-post")) {
+                                    link.style = "display: " + (checkbox.checked ? "none" : "initial");
+                                }
+                            }
+                        </script>
+                    </div>
+                    
                 </div>
 
                 <hr />
@@ -129,6 +148,7 @@
         </div>
     </div>
 </div>
+
 <style>
     .scrollable {
         max-height: 250px;
