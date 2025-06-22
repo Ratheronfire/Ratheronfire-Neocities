@@ -51,7 +51,8 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/hugo-neocities/content"
+      "path": "[[workspace]]/hugo-neocities/content",
+      "title": "content"
     },
     {
       "title": "projects",
@@ -76,6 +77,10 @@
     {
       "title": "devlogs",
       "path": "[[workspace]]/hugo-neocities/content/thoughts/devlogs"
+    },
+    {
+      "title": "nes-emulator",
+      "path": "[[workspace]]/hugo-neocities/content/thoughts/devlogs/nes-emulator"
     }
   ],
   "frontMatter.git.enabled": true
