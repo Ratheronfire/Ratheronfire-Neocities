@@ -1,6 +1,7 @@
 ---
 title: "Let's Make an NES Emulator! - Part 1: The Story So Far"
-description: ""
+description: "I've been working on a basic NES emulator in Godot for a while now and decided to start keeping a log of my progress."
+thumbnail: "/img/thoughts/devlogs/nes-emulator/part-1/emulator.png"
 date: 2025-06-21T17:19:48.408Z
 preview: ""
 draft: false
