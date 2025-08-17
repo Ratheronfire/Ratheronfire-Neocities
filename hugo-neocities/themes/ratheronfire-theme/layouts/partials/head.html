@@ -31,3 +31,5 @@
 {{ range .Params.include_css }}
         <link rel="stylesheet" href="/css/{{ . }}.css" type="text/css" media="all" />
 {{ end }}
+
+{{- $.Page.Store.Set "figurecount" 0 -}}

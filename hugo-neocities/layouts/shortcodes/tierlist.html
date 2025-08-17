@@ -7,6 +7,8 @@
 <style>
     .tier {
         height: 100px;
+
+        position: relative;
     }
 
     .tier-label {
@@ -36,5 +38,38 @@
 
     .tier-elements figure {
         margin: 0;
+    }
+
+    .tier .img {
+        background-image: none !important;
+        display: flex;
+    }
+
+    .tier summary {
+        list-style: none;
+    }
+
+    .tier figure {
+        cursor: pointer;
+    }
+
+    .tier summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .tier details figcaption::before {
+        content: '► ';
+    }
+
+    .tier details[open] figcaption::before {
+        content: '▼ ';
+    }
+
+    .tier .box details:open {
+        width: 100%;
+    }
+
+    .tier figcaption a {
+        color: var(--rss-link-color);
     }
 </style>
