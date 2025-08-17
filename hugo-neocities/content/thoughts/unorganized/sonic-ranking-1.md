@@ -141,6 +141,8 @@ And that's all the games for this post! Initially my goal was to go through all 
     {{</ tier >}}
 {{</ tierlist >}}
 
+***[(Click here to see the full tier list.)](/thoughts/reviews/tierlists/sonic)***
+
 Thanks for reading! No idea when I'll get the next post up but I want to try and get these posts out fairly regularly.
 
 Okay, that's all the time I've got. I gotta to get back to playing Sonic X Shadow Generations on my Nintendo 3DS.

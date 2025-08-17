@@ -91,35 +91,15 @@ And that's that for this update! Surprisingly I haven't listed anything lower th
             link="/img/thoughts/unorganized/sonic-ranking/4747965-sonic-the-hedgehog-3-genesis-front-cover.jpg"
             alt="Sonic the Hedgehog 3 (Genesis)">}}
         {{< figure
-            src="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover-thumb.jpg"
-            link="/img/thoughts/unorganized/sonic-ranking/4128226-sonic-the-hedgehog-2-genesis-front-cover.jpg"
-            alt="Sonic the Hedgehog 2 (Genesis)">}}
-        {{< figure
             src="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover-thumb.png"
             link="/img/thoughts/unorganized/sonic-ranking/19309715-sonic-x-shadow-generations-xbox-one-front-cover.png"
             alt="Shadow Generations">}}
-        {{< figure
-            src="/img/thoughts/unorganized/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover-thumb.jpg"
-            link="/img/thoughts/unorganized/sonic-ranking/36438-sonic-adventure-dreamcast-front-cover.jpg"
-            alt="Sonic Adventure">}}
     {{</ tier >}}
     {{< tier label="A" color="yellow" >}}
-        {{< figure
-            src="/img/thoughts/unorganized/sonic-ranking/11131127-sonic-frontiers-xbox-one-front-cover-thumb.jpg"
-            link="/img/thoughts/unorganized/sonic-ranking/11131127-sonic-frontiers-xbox-one-front-cover.jpg"
-            alt="Sonic Frontiers">}}
-        {{< figure
-            src="/img/thoughts/unorganized/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover-thumb.jpg"
-            link="/img/thoughts/unorganized/sonic-ranking/5299693-sonic-the-hedgehog-genesis-front-cover.jpg"
-            alt="Sonic the Hedgehog (Genesis)">}}
         {{< figure
             src="/img/thoughts/unorganized/sonic-ranking/36901-sonic-adventure-2-dreamcast-front-cover-thumb.jpg"
             link="/img/thoughts/unorganized/sonic-ranking/36901-sonic-adventure-2-dreamcast-front-cover.jpg"
             alt="Sonic Adventure 2">}}
-        {{< figure
-            src="/img/thoughts/unorganized/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover-thumb.jpg"
-            link="/img/thoughts/unorganized/sonic-ranking/16987194-the-murder-of-sonic-the-hedgehog-windows-front-cover.jpg"
-            alt="The Murder of Sonic the Hedgehog">}}
         {{< figure
             src="/img/thoughts/unorganized/sonic-ranking/Sonic_Generations-thumb.jpg"
             link="/img/thoughts/unorganized/sonic-ranking/Sonic_Generations.jpg"
@@ -136,12 +116,10 @@ And that's that for this update! Surprisingly I haven't listed anything lower th
             src="/img/thoughts/unorganized/sonic-ranking/196-thumb.jpeg"
             link="/img/thoughts/unorganized/sonic-ranking/196.jpeg"
             alt="Sonic the Restaurant">}}
-        {{< figure
-            src="/img/thoughts/unorganized/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover-thumb.jpg"
-            link="/img/thoughts/unorganized/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover.jpg"
-            alt="Sonic Superstars">}}
     {{</ tier >}}
 {{</ tierlist >}}
+
+***[(Click here to see the full tier list.)](/thoughts/reviews/tierlists/sonic)***
 
 ---
 
