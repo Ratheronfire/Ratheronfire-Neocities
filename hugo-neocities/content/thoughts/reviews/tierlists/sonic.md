@@ -1,17 +1,17 @@
 ---
-title: "The Ranking of Sonics"
-date: 2020-01-01T00:00:00-04:00
+title: The Ranking of Sonics
+date: 2025-08-17T02:56:54.486Z
 draft: false
-section: "Thoughts"
+section: Thoughts
 is_subpage: true
 categories:
-- blog
-- reviews
+    - blog
+    - reviews
 tags:
-- gaming
-- sonic-the-hedgehog
-- ranking-of-sonics
-- tier-lists
+    - gaming
+    - sonic-the-hedgehog
+    - ranking-of-sonics
+    - tier-lists
 ---
 
 {{< details summary="To see the individual review pages, check here:" >}}
