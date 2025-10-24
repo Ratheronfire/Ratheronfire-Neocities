@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/howls-moving-castle_fanart.png
 poster_url: /thoughts/reviews/movies/img/howls-moving-castle_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/howls-moving-castle/
 page_name: howls-moving-castle
+tags:
+- movies
 ---
 

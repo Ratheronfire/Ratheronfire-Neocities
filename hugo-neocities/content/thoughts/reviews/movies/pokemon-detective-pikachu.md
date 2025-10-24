@@ -15,6 +15,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/pokemon-detective-
 page_name: pokemon-detective-pikachu
 tags:
 - movies
+- gaming
 - pokemon
 ---
 

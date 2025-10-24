@@ -15,6 +15,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/half-life-25th-ann
 page_name: half-life-25th-anniversary-documentary
 tags:
 - movies
+- gaming
 - half-life
 ---
 

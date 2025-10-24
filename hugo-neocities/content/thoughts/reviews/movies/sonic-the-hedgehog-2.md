@@ -15,6 +15,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/sonic-the-hedgehog
 page_name: sonic-the-hedgehog-2
 tags:
 - movies
+- gaming
 - sonic-the-hedgehog
 ---
 

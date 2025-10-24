@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/attack-the-gas-station_fanart.png
 poster_url: /thoughts/reviews/movies/img/attack-the-gas-station_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/attack-the-gas-station/
 page_name: attack-the-gas-station
+tags:
+- movies
 ---
 

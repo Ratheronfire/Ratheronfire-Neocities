@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/rockos-modern-life-static-cling_fanart.
 poster_url: /thoughts/reviews/movies/img/rockos-modern-life-static-cling_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/rockos-modern-life-static-cling/
 page_name: rockos-modern-life-static-cling
+tags:
+- movies
 ---
 

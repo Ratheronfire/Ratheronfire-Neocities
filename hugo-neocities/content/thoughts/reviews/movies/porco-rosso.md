@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/porco-rosso_fanart.png
 poster_url: /thoughts/reviews/movies/img/porco-rosso_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/porco-rosso/
 page_name: porco-rosso
+tags:
+- movies
 ---
 

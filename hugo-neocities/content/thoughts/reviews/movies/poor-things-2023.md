@@ -13,6 +13,8 @@ fanart_url: /thoughts/reviews/movies/img/poor-things-2023_fanart.png
 poster_url: /thoughts/reviews/movies/img/poor-things-2023_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/poor-things-2023/
 page_name: poor-things-2023
+tags:
+- movies
 ---
 
 I saw Spider-Man (2002) earlier this week, so I'm 2 for 2 on movies where Willem Dafoe gets to be a weird little freak for a couple hours.

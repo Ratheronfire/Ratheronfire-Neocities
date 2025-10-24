@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/willy-wonka-the-chocolate-factory_fanar
 poster_url: /thoughts/reviews/movies/img/willy-wonka-the-chocolate-factory_poster.png
 external_review_url: https://boxd.it/2aLu
 page_name: willy-wonka-the-chocolate-factory
+tags:
+- movies
 ---
 

@@ -13,6 +13,8 @@ fanart_url: ''
 poster_url: /thoughts/reviews/movies/img/a-christmas-carol-1999_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/a-christmas-carol-1999/
 page_name: a-christmas-carol-1999
+tags:
+- movies
 ---
 
 People like to joke that this is Picard playing on the Holodeck, but let's be real, this is exactly the sort of game Q would pull.

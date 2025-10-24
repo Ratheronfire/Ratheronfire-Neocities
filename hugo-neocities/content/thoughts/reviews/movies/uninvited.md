@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/uninvited_fanart.png
 poster_url: /thoughts/reviews/movies/img/uninvited_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/uninvited/
 page_name: uninvited
+tags:
+- movies
 ---
 

@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/tenet_fanart.png
 poster_url: /thoughts/reviews/movies/img/tenet_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/tenet/
 page_name: tenet
+tags:
+- movies
 ---
 

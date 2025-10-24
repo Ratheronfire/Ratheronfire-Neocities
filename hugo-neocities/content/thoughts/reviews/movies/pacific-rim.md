@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/pacific-rim_fanart.png
 poster_url: /thoughts/reviews/movies/img/pacific-rim_poster.png
 external_review_url: https://boxd.it/2cB2
 page_name: pacific-rim
+tags:
+- movies
 ---
 

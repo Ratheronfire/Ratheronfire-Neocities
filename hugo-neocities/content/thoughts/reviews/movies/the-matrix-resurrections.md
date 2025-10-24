@@ -7,7 +7,7 @@ categories:
 - archived-posts
 - reviews
 draft: false
-rating: 4
+rating: 4.5
 has_spoilers: false
 fanart_url: /thoughts/reviews/movies/img/the-matrix-resurrections_fanart.png
 poster_url: /thoughts/reviews/movies/img/the-matrix-resurrections_poster.png

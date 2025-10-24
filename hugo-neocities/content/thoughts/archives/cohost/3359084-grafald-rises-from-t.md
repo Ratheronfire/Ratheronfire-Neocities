@@ -51,12 +51,12 @@ This page is managed by the Steward of Grafald, [@KirbychuHRD](https://cohost.or
                 text="how"
                 timestamp="2023-10-31T00:27:46.420-04:00"
             >}}
-            {{< cohost-comment
-                handle="@ratheronfire"
-                avatar="/avatar.png"
-                text="I dunno, it just happened one day"
-                timestamp="2023-10-31T00:30:00.741-04:00"
-            />}}
+                {{< cohost-comment
+                    handle="@ratheronfire"
+                    avatar="/avatar.png"
+                    text="I dunno, it just happened one day"
+                    timestamp="2023-10-31T00:30:00.741-04:00"
+                />}}
             {{</ cohost-comment >}}
         {{</ cohost-comment >}}
     {{</ cohost-comment >}}

@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/hot-fuzz_fanart.png
 poster_url: /thoughts/reviews/movies/img/hot-fuzz_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/hot-fuzz/
 page_name: hot-fuzz
+tags:
+- movies
 ---
 

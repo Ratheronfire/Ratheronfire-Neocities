@@ -47,11 +47,10 @@ class LetterboxdScraper(Scraper):
         page_sections = page.url.split('/')
         film_page = page_sections[-2] if page_sections[-1] == '' else page_sections[-1]
         review_data.page_name = film_page
+
+        film_id = re.search('film:(\d+)', self.select_element('script[type="text/javascript"]').text)[1]
         
-        poster_url = f'https://letterboxd.com/ajax/poster/film/{film_page}/hero/300x450/'
-        poster_page = requests.get(poster_url)
-        poster_document = BeautifulSoup(poster_page.content, features="html.parser")
-        review_data.poster_url = poster_document.find('img')['src']
+        review_data.poster_url = f'https://a.ltrbxd.com/resized/film-poster/{"/".join(str(film_id))}/{film_id}-{film_page}-0-300-0-450-crop.jpg'
         
         if not self.need_activity_page:
             rating_text = self.select_element(".rating").get_text()
@@ -66,18 +65,18 @@ class LetterboxdScraper(Scraper):
             review_data.review_date = parser.parse(date_str)
         
             try:
-                review_element = self.select_element(".review div:last-child div:last-child")
+                review_element = self.select_element(".review div:last-child div:last-child .js-review-body")
                 if review_element:
                     review_data.review_text = reformat_html_text(str(review_element))
             except IndexError:
                 pass
         
-            review_data.title = self.select_element(".film-title-wrapper a").get_text()
-            review_data.release_year = self.select_element(".film-title-wrapper .metadata").get_text()
+            review_data.title = self.select_element(".film-viewing-info-wrapper .-film .name a").get_text()
+            review_data.release_year = self.select_element(".film-viewing-info-wrapper .releasedate a").get_text()
             review_data.has_spoilers = len(self.select_elements(".contains-spoilers")) > 0
         
         try:
-            review_data.fanart_url = self.document.find(id="backdrop")['data-backdrop']
+            review_data.fanart_url = self.select_element('meta[property="og:image"]')['content']
         except:
             pass
         

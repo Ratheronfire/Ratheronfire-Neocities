@@ -1,6 +1,6 @@
 ---
 type: review
-title: The Super Mario Bros. Movie
+title: The Super Mario Bros. Movie (2023)
 year: '2023'
 date: 2023-04-09 00:00:00
 categories:
@@ -15,6 +15,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/the-super-mario-br
 page_name: the-super-mario-bros-movie
 tags:
 - movies
+- gaming
 - mario
 ---
 

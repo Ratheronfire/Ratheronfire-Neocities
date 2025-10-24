@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/nausicaa-of-the-valley-of-the-wind_fana
 poster_url: /thoughts/reviews/movies/img/nausicaa-of-the-valley-of-the-wind_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/nausicaa-of-the-valley-of-the-wind/
 page_name: nausicaa-of-the-valley-of-the-wind
+tags:
+- movies
 ---
 

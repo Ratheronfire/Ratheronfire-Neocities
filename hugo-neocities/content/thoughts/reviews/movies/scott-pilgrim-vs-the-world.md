@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/scott-pilgrim-vs-the-world_fanart.png
 poster_url: /thoughts/reviews/movies/img/scott-pilgrim-vs-the-world_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/scott-pilgrim-vs-the-world/
 page_name: scott-pilgrim-vs-the-world
+tags:
+- movies
 ---
 

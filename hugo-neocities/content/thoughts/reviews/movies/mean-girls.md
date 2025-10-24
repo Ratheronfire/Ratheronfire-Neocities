@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/mean-girls_fanart.png
 poster_url: /thoughts/reviews/movies/img/mean-girls_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/mean-girls/
 page_name: mean-girls
+tags:
+- movies
 ---
 

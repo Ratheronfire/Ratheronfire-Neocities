@@ -13,5 +13,8 @@ fanart_url: /thoughts/reviews/movies/img/monty-python-and-the-holy-grail_fanart.
 poster_url: /thoughts/reviews/movies/img/monty-python-and-the-holy-grail_poster.png
 external_review_url: https://boxd.it/29GI
 page_name: monty-python-and-the-holy-grail
+tags:
+- movies
+- monty-python
 ---
 

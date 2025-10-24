@@ -16,6 +16,10 @@ page_name: the-matrix-revolutions
 tags:
 - movies
 - the-matrix
+extra_reviews:
+- date: 2025-07-12 00:00:00
+  rating: 3.5
+  text: If there was just a little bit less of the Zion fight and it wasn't all at once, it'd be on the same level as the rest of the series, instead of just being one of the greatest and most important movies of the 2000s.
 ---
 
 *(Note: I wrote this up as a rough summary of my thoughts after watching the series for the first time leading up to the new movie. Copying them over here for posterity.)*

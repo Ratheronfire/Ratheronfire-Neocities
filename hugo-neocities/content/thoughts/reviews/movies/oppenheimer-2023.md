@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/oppenheimer-2023_fanart.png
 poster_url: /thoughts/reviews/movies/img/oppenheimer-2023_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/oppenheimer-2023/
 page_name: oppenheimer-2023
+tags:
+- movies
 ---
 

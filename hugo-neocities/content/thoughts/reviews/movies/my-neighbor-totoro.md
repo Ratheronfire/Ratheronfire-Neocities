@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/my-neighbor-totoro_fanart.png
 poster_url: /thoughts/reviews/movies/img/my-neighbor-totoro_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/my-neighbor-totoro/
 page_name: my-neighbor-totoro
+tags:
+- movies
 ---
 

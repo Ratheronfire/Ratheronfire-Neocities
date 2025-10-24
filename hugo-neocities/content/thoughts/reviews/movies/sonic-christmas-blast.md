@@ -15,6 +15,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/sonic-christmas-bl
 page_name: sonic-christmas-blast
 tags:
 - movies
+- gaming
 - sonic-the-hedgehog
 ---
 

@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/the-worlds-end_fanart.png
 poster_url: /thoughts/reviews/movies/img/the-worlds-end_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-worlds-end/
 page_name: the-worlds-end
+tags:
+- movies
 ---
 

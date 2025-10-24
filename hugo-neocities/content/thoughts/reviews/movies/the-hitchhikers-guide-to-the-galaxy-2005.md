@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/the-hitchhikers-guide-to-the-galaxy-200
 poster_url: /thoughts/reviews/movies/img/the-hitchhikers-guide-to-the-galaxy-2005_poster.png
 external_review_url: https://boxd.it/20VE
 page_name: the-hitchhikers-guide-to-the-galaxy-2005
+tags:
+- movies
 ---
 

@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/the-spongebob-squarepants-movie_fanart.
 poster_url: /thoughts/reviews/movies/img/the-spongebob-squarepants-movie_poster.png
 external_review_url: https://boxd.it/1SYq
 page_name: the-spongebob-squarepants-movie
+tags:
+- movies
 ---
 

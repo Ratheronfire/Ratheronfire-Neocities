@@ -1,6 +1,6 @@
 ---
 type: review
-title: Super Mario Bros.
+title: Super Mario Bros. (1993)
 year: '1993'
 date: 2023-05-31 00:00:00
 categories:
@@ -15,6 +15,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/super-mario-bros/
 page_name: super-mario-bros
 tags:
 - movies
+- gaming
 - mario
 ---
 

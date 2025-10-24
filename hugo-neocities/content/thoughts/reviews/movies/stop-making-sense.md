@@ -13,6 +13,9 @@ fanart_url: /thoughts/reviews/movies/img/stop-making-sense_fanart.png
 poster_url: /thoughts/reviews/movies/img/stop-making-sense_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/stop-making-sense/
 page_name: stop-making-sense
+tags:
+- movies
+- music
 ---
 
 I feel like I could watch this 10 more times focusing on someone else each time and not get bored.

@@ -1,6 +1,6 @@
 ---
 type: review
-title: Sonic the Hedgehog
+title: Sonic the Hedgehog (2020)
 year: '2020'
 date: 2022-09-21 00:00:00
 categories:
@@ -15,6 +15,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/sonic-the-hedgehog
 page_name: sonic-the-hedgehog
 tags:
 - movies
+- gaming
 - sonic-the-hedgehog
 ---
 

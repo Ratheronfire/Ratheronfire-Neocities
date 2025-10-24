@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/castle-in-the-sky_fanart.png
 poster_url: /thoughts/reviews/movies/img/castle-in-the-sky_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/castle-in-the-sky/
 page_name: castle-in-the-sky
+tags:
+- movies
 ---
 

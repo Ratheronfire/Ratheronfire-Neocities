@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/ponyo_fanart.png
 poster_url: /thoughts/reviews/movies/img/ponyo_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/ponyo/
 page_name: ponyo
+tags:
+- movies
 ---
 
