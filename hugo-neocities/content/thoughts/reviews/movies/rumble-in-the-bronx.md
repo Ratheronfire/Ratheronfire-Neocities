@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/rumble-in-the-bronx_fanart.png
 poster_url: /thoughts/reviews/movies/img/rumble-in-the-bronx_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/rumble-in-the-bronx/
 page_name: rumble-in-the-bronx
+tags:
+- movies
 ---
 

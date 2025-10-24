@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/sunshine-2007_fanart.png
 poster_url: /thoughts/reviews/movies/img/sunshine-2007_poster.png
 external_review_url: https://boxd.it/28Xy
 page_name: sunshine-2007
+tags:
+- movies
 ---
 

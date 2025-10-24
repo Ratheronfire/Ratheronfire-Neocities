@@ -7,7 +7,7 @@ categories:
 - archived-posts
 - reviews
 draft: false
-rating: 3.5
+rating: 4
 has_spoilers: false
 fanart_url: /thoughts/reviews/movies/img/star-trek-first-contact_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-trek-first-contact_poster.png

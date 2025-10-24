@@ -8,7 +8,7 @@ from classes.review_data import ReviewData
 def reformat_html_text(text: str):
     text = re.sub(r'<br ?/>', '\n', text)
     text = re.sub(r'</p>', '\n\n', text)
-    text = re.sub(r'(<div>|</div>|<p>)', '', text)
+    text = re.sub(r'(<div ?[^>]*>|</div>|<p>)', '', text)
     
     return text
 

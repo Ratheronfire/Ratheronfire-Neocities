@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/weird-the-al-yankovic-story-2022_fanart
 poster_url: /thoughts/reviews/movies/img/weird-the-al-yankovic-story-2022_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/weird-the-al-yankovic-story-2022/
 page_name: weird-the-al-yankovic-story-2022
+tags:
+- movies
 ---
 

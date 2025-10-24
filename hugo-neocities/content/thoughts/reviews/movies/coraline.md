@@ -13,6 +13,8 @@ fanart_url: /thoughts/reviews/movies/img/coraline_fanart.png
 poster_url: /thoughts/reviews/movies/img/coraline_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/coraline/
 page_name: coraline
+tags:
+- movies
 ---
 
 The biggest jumpscare in this movie is the surprise They Might Be Giants song.

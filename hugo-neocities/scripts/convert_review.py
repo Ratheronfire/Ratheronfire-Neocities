@@ -26,6 +26,8 @@ class ReviewConverter:
     
     def __init__(self) -> None:
         self.parser = ArgumentParser(prog='ReviewConverter')
+        self.parser.set_defaults(func=lambda _: self.parser.print_help())
+
         subparsers = self.parser.add_subparsers(title='subcommands', description='valid subcommands', help='additional help')
         self.parser.add_argument('-s', '--simulate', action='store_true', help='Scrape review data without writing to file')
         self.parser.add_argument('-f', '--force-overwrite', action='store_true', help='Forcibly overwrite existing files')

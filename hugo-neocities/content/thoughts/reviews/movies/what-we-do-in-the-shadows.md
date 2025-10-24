@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/what-we-do-in-the-shadows_fanart.png
 poster_url: /thoughts/reviews/movies/img/what-we-do-in-the-shadows_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/what-we-do-in-the-shadows/
 page_name: what-we-do-in-the-shadows
+tags:
+- movies
 ---
 

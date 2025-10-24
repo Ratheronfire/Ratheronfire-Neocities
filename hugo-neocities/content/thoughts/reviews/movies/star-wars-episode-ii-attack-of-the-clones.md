@@ -16,6 +16,6 @@ page_name: star-wars-episode-ii-attack-of-the-clones
 tags:
 - movies
 - star-wars
- - star-wars-prequels
+- star-wars-prequels
 ---
 

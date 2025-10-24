@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/the-wind-rises_fanart.png
 poster_url: /thoughts/reviews/movies/img/the-wind-rises_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-wind-rises/
 page_name: the-wind-rises
+tags:
+- movies
 ---
 

@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/shaun-of-the-dead_fanart.png
 poster_url: /thoughts/reviews/movies/img/shaun-of-the-dead_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/shaun-of-the-dead/
 page_name: shaun-of-the-dead
+tags:
+- movies
 ---
 

@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/game-night_fanart.png
 poster_url: /thoughts/reviews/movies/img/game-night_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/game-night/
 page_name: game-night
+tags:
+- movies
 ---
 

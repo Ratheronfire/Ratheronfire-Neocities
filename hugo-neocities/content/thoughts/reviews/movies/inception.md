@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/inception_fanart.png
 poster_url: /thoughts/reviews/movies/img/inception_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/inception/
 page_name: inception
+tags:
+- movies
 ---
 

@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/uhf_fanart.png
 poster_url: /thoughts/reviews/movies/img/uhf_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/uhf/
 page_name: uhf
+tags:
+- movies
 ---
 

@@ -7,7 +7,7 @@ categories:
 - archived-posts
 - reviews
 draft: false
-rating: 1.5
+rating: 2
 has_spoilers: false
 fanart_url: /thoughts/reviews/movies/img/star-trek-nemesis_fanart.png
 poster_url: /thoughts/reviews/movies/img/star-trek-nemesis_poster.png

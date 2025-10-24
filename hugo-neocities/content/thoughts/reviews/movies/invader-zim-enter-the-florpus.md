@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/invader-zim-enter-the-florpus_fanart.pn
 poster_url: /thoughts/reviews/movies/img/invader-zim-enter-the-florpus_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/invader-zim-enter-the-florpus/
 page_name: invader-zim-enter-the-florpus
+tags:
+- movies
 ---
 

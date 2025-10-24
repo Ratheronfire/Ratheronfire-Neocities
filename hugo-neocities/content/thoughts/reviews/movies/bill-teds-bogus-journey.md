@@ -6,8 +6,6 @@ date: 2024-10-16 00:00:00
 categories:
 - archived-posts
 - reviews
-tags:
-- movies
 draft: false
 rating: 3.5
 has_spoilers: false

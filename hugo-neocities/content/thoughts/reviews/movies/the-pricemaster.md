@@ -13,6 +13,8 @@ fanart_url: ''
 poster_url: /thoughts/reviews/movies/img/the-pricemaster_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/the-pricemaster/
 page_name: the-pricemaster
+tags:
+- movies
 ---
 
 THE RATING IS...

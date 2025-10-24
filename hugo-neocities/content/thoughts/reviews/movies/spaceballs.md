@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/spaceballs_fanart.png
 poster_url: /thoughts/reviews/movies/img/spaceballs_poster.png
 external_review_url: https://boxd.it/29cy
 page_name: spaceballs
+tags:
+- movies
 ---
 

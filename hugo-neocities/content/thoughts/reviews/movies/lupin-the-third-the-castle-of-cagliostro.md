@@ -13,5 +13,7 @@ fanart_url: /thoughts/reviews/movies/img/lupin-the-third-the-castle-of-cagliostr
 poster_url: /thoughts/reviews/movies/img/lupin-the-third-the-castle-of-cagliostro_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/lupin-the-third-the-castle-of-cagliostro/
 page_name: lupin-the-third-the-castle-of-cagliostro
+tags:
+- movies
 ---
 

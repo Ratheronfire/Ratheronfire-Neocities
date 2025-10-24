@@ -16,5 +16,6 @@ page_name: star-trek-vi-the-undiscovered-country
 tags:
 - movies
 - star-trek
+- star-trek-tos
 ---
 

@@ -13,6 +13,8 @@ fanart_url: /thoughts/reviews/movies/img/primer_fanart.png
 poster_url: /thoughts/reviews/movies/img/primer_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/primer/
 page_name: primer
+tags:
+- movies
 ---
 
 Ow.

@@ -16,6 +16,10 @@ page_name: the-matrix-reloaded
 tags:
 - movies
 - the-matrix
+extra_reviews:
+- date: 2025-06-21 00:00:00
+  rating: 4.5
+  text: I can't believe you all made me assume this movie was bad, how dare you.
 ---
 
 *(Note: I wrote this up as a rough summary of my thoughts after watching the series for the first time leading up to the new movie. Copying them over here for posterity.)*

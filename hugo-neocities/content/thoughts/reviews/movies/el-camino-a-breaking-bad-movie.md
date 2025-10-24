@@ -13,6 +13,9 @@ fanart_url: /thoughts/reviews/movies/img/el-camino-a-breaking-bad-movie_fanart.p
 poster_url: /thoughts/reviews/movies/img/el-camino-a-breaking-bad-movie_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/el-camino-a-breaking-bad-movie/
 page_name: el-camino-a-breaking-bad-movie
+tags:
+- movies
+- breaking-bad
 ---
 
 Breaking Bad really didn't need an epilogue, but at least it was a good one.

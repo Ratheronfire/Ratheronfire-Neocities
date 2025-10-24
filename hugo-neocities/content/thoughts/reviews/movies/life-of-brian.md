@@ -13,5 +13,8 @@ fanart_url: /thoughts/reviews/movies/img/life-of-brian_fanart.png
 poster_url: /thoughts/reviews/movies/img/life-of-brian_poster.png
 external_review_url: https://boxd.it/2a4q
 page_name: life-of-brian
+tags:
+- movies
+- monty-python
 ---
 

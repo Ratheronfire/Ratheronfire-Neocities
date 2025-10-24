@@ -1,6 +1,6 @@
 ---
 type: review
-title: 'Sonic the Hedgehog: The Movie'
+title: 'Sonic the Hedgehog: The Movie (OVA)'
 year: '1996'
 date: 2022-12-28 00:00:00
 categories:
@@ -15,6 +15,7 @@ external_review_url: https://letterboxd.com/ratheronfire/film/sonic-the-hedgehog
 page_name: sonic-the-hedgehog-the-movie
 tags:
 - movies
+- gaming
 - sonic-the-hedgehog
 ---
 
