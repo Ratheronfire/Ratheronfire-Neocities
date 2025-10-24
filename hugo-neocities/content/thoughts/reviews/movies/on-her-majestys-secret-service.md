@@ -8,6 +8,7 @@ categories:
 - reviews
 tags:
 - movies
+- james-bond
 draft: false
 rating: 4
 has_spoilers: false

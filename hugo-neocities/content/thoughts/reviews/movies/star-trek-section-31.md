@@ -6,6 +6,7 @@ date: 2025-01-27 00:00:00
 categories:
 - archived-posts
 - reviews
+- blog
 tags:
 - movies
 - star-trek

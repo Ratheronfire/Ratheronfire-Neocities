@@ -6,6 +6,7 @@ date: 2025-10-03 00:00:00
 categories:
 - archived-posts
 - reviews
+- blog
 tags:
 - movies
 - gaming
