@@ -5,6 +5,7 @@ year: '1999'
 date: 2021-11-24 00:00:00
 categories:
 - archived-posts
+- reviews
 - blog
 draft: false
 rating: 5

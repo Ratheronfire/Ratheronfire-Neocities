@@ -6,6 +6,7 @@ date: 2023-06-03 00:00:00
 categories:
 - archived-posts
 - reviews
+- blog
 draft: false
 rating: 5
 has_spoilers: true

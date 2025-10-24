@@ -94,9 +94,19 @@
                     <div class="center">
                         <a class="rss-link" href="misc/rss"><i class="fa fa-rss-square" aria-label="Updates RSS Feed" aria-hidden="true"></i> RSS Feeds</a>
                         <span id="only-blog-filter-container" style="display: none;">
-                            &nbsp;|<input type="checkbox" id="blog-filter" onchange="onBlogFilterChange(this)">
+                            &nbsp;|<input type="checkbox" id="blog-filter" checked onchange="onBlogFilterChange(this)">
                             <label for="blog-filter">Only Blog Posts</label>
                         </span>
+
+                        <style>
+                            li.not-blog-post {
+                                display: var(--not-blogs-display-state);
+                            }
+
+                            :root {
+                                --not-blogs-display-state: none;
+                            }
+                        </style>
 
                         <script>
                             window.addEventListener('DOMContentLoaded', (event) => {
@@ -104,9 +114,8 @@
                             });
 
                             function onBlogFilterChange(checkbox) {
-                                for (const link of document.querySelectorAll("li.not-blog-post")) {
-                                    link.style = "display: " + (checkbox.checked ? "none" : "initial");
-                                }
+                                document.documentElement.style.cssText = "--not-blogs-display-state: " + 
+                                    (checkbox.checked ? "none" : "list-item");
                             }
                         </script>
                     </div>
