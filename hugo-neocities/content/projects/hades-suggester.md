@@ -9,7 +9,6 @@ thumbnail: "https://storage.ratheronfire.com/hades-suggester/assets/misc/TitanBl
 thumbnail_alt: "Please play Hades."
 thumbnail_mainpage: ""
 override_url: "https://storage.ratheronfire.com/hades-suggester/"
-categories: ["Projects"]
 categories:
 - blog
 - projects

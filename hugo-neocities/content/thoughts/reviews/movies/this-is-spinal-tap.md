@@ -15,7 +15,5 @@ fanart_url: /thoughts/reviews/movies/img/this-is-spinal-tap_fanart.png
 poster_url: /thoughts/reviews/movies/img/this-is-spinal-tap_poster.png
 external_review_url: https://letterboxd.com/ratheronfire/film/this-is-spinal-tap/
 page_name: this-is-spinal-tap
-tags:
-- movies
 ---
 

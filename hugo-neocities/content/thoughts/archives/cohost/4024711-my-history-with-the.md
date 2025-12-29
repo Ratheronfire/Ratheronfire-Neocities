@@ -14,7 +14,6 @@ original-tags:
 - 2000s nostalgia
 - fanfic
 draft: false
-hide_from_new: true
 author: "@KirbychuHRD"
 ---
 

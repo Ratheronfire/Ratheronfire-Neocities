@@ -18,6 +18,10 @@
             <option disabled>More to come probably!</option>
         </select>
     </div>
+    <div id="custom-fonts-checkbox">
+        <input type="checkbox" id="custom-fonts" onchange="setCustomFonts()">
+        <label for="custom-fonts">Enable Custom Fonts</label>
+    </div>
     <div id="header" style="height: 165px;"></div>
     <noscript>
     </noscript>
@@ -306,5 +310,25 @@
         document.querySelector("#theme-select").value = localStorage.getItem("theme");
     }
 
+    function setCustomFonts() {
+        var checked = document.querySelector("#custom-fonts").checked;
+
+        localStorage.setItem("enableCustomFonts", checked);
+        
+        if (checked) {
+            document.querySelector("main").classList.remove("fonts-disabled");
+        } else {
+            document.querySelector("main").classList.add("fonts-disabled");
+        }
+    }
+    
+    if (localStorage.getItem("theme") != null) {
+        document.querySelector("#theme-select").value = localStorage.getItem("theme");
+    }
     setTheme();
+    
+    if (localStorage.getItem("enableCustomFonts") != null) {
+        document.querySelector("#custom-fonts").checked = localStorage.getItem("enableCustomFonts") === "true";
+    }
+    setTimeout(() => setCustomFonts(), 10);
 </script>

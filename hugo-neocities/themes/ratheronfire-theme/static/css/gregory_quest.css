@@ -48,27 +48,31 @@
     src: url('/fonts/RuneScape-Surok.ttf');
 }
 
-main>p {
+main:not(.fonts-disabled)>p,
+main:not(.fonts-disabled)>span>p {
     font-family: RuneScape-Quill;
     font-size: 36px;
 }
 
-main>h2 {
+main:not(.fonts-disabled)>h2,
+main:not(.fonts-disabled)>span>h2 {
     font-family: RuneScape-Barbarian-Assault;
     font-size: 48px;
 
     color: white;
 }
 
-main>p:has(code) {
+main:not(.fonts-disabled)>p:has(code),
+main:not(.fonts-disabled)>span>p:has(code) {
     width: 100%;
 
     background-color: black;
 }
 
-main>p>a>code,
-main table code,
-main>blockquote {
+main:not(.fonts-disabled)>p>a>code,
+main:not(.fonts-disabled)>span>p>a>code,
+main:not(.fonts-disabled) table code,
+main:not(.fonts-disabled)>blockquote {
     color: var(--gregory-quest-blockquote-color);
     font-family: RuneScape-Plain-12;
     font-size: 24px;
@@ -81,7 +85,7 @@ main>blockquote {
     font-size: unset;
 }
 
-.ethereal-text i>span {
+main:not(.fonts-disabled) .ethereal-text i>span {
     display: inline-block;
 
     color: black;
