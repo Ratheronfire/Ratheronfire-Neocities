@@ -19,6 +19,12 @@ you can add them directly to the <div id="header"></div> element! */
     right: 0;
 }
 
+#custom-fonts-checkbox {
+    position: absolute;
+    bottom: 72px;
+    right: 0;
+}
+
 @media only screen and (max-width: 1520px) {
     #theme-select-container {
         bottom: 60px;
