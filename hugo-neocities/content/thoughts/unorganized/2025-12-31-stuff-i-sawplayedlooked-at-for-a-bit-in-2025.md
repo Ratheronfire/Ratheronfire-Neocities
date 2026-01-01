@@ -3,7 +3,7 @@ title: Stuff I Saw/Played/Looked at For a Bit in 2025
 description: ""
 date: 2025-12-31T23:23:01.150Z
 preview: ""
-draft: true
+draft: false
 tags:
 - year-in-review
 - 2025
