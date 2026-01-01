@@ -1,0 +1,29 @@
+{{- $.Page.Store.Add "spoilercount" 1 -}}
+
+<input type="checkbox" class="spoiler-text" id="spoiler-text-{{$.Page.Store.Get "spoilercount"}}"/>
+<label for="spoiler-text-{{$.Page.Store.Get "spoilercount"}}">{{ .Inner | markdownify }}</label>
+
+<style>
+    .spoiler-text {
+        display: none;
+    }
+
+    .spoiler-text+label,
+    .spoiler-text+label p {
+        filter: blur(6px);
+
+        cursor: pointer;
+
+        background-color: var(--box-border-color);
+
+        outline: solid 2px var(--bold-text-color);
+        border-radius: 5px;
+    }
+
+    .spoiler-text:checked+label,
+    .spoiler-text:checked+label p {
+        background-color: unset;
+
+        filter: none;
+    }
+</style>
