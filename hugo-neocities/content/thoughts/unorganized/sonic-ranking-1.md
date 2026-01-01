@@ -11,7 +11,7 @@ tags:
 - gaming
 - sonic-the-hedgehog
 - ranking-of-sonics
-- retroachivements
+- retroachievements
 ---
 
 {{< load-photoswipe >}}
