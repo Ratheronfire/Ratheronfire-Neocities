@@ -25,7 +25,7 @@ So after the last post I thought I'd try and tackle some of the Game Gear/Master
 
 The first 8-bit outing is... fine. It starts out pretty solid with levels that passingly mimic the feel of the 16-bit originals, albiet scaled way, way down. This game also establishes the trend of throwing traditional Sonic conventions entirely out the window. For starters, the Chaos Emerals aren't gathered from special stages, but are instead hidden in the second acts of each zone. (There is a special stage as well, but it seems to only be for lives/continues/points.) Like Genesis Sonic 1 this game has three acts per zone, but the third act is always a short leadup to the boss without any rings, which IMO helps avoid the bloated feeling of having three full acts to run through.
 
-## Sonic the Hedgehog (8-bit)
+## Sonic the Hedgehog 2 (8-bit)
 
 On the surface this game is more of the same, but it has a lot of issues that only become apparent after the first zone. To its credit, though, they finally managed to avoid the trope of the Green Hill analogue being the first stage, but only by virtue of Green Hills Zone being the fourth zone instead (why Hills is plural suddenly is anyone's guess). The main hook of this game is that each stage introduces its own unique gimmick, including such highlights as a paraglider with needlessly confusing inputs, bubbles which slowly lift you up underwater segments until you inevitably hit a wall 75% of the way down and are forced to repeat the whole ascent again, and pipe mazes where you move way too fast to have a chance at telling where you're going next.
 
