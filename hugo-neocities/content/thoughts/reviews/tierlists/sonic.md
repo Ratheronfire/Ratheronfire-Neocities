@@ -77,8 +77,23 @@ tags:
         {{</ tier-figure >}}
     {{</ tier >}}
     {{< tier label="B" color="orange" >}}
+        {{< tier-figure
+            src="/img/thoughts/unorganized/sonic-ranking/4268267-sonic-the-hedgehog-chaos-game-gear-front-cover-thumb.jpg"
+            link="/thoughts/unorganized/sonic-ranking-3/#sonic-chaos"
+            caption="Sonic Chaos">}}
+        {{</ tier-figure >}}
+        {{< tier-figure
+            src="/img/thoughts/unorganized/sonic-ranking/10628-sonic-the-hedgehog-triple-trouble-game-gear-front-cover-thumb.jpg"
+            link="/thoughts/unorganized/sonic-ranking-3/#sonic-triple-trouble"
+            caption="Sonic Triple Trouble">}}
+        {{</ tier-figure >}}
     {{</ tier >}}
     {{< tier label="C" color="green" >}}
+        {{< tier-figure
+            src="/img/thoughts/unorganized/sonic-ranking/5169991-sonic-the-hedgehog-sega-master-system-front-cover-thumb.jpg"
+            link="/thoughts/unorganized/sonic-ranking-3/#sonic-the-hedgehog-8-bit"
+            caption="Sonic the Hedgehog (Game Gear/Master System)">}}
+        {{</ tier-figure >}}
         {{< tier-figure
             src="/img/thoughts/unorganized/sonic-ranking/196-thumb.jpeg"
             link="/thoughts/unorganized/sonic-ranking-2/#sonic-restaurant"
@@ -88,6 +103,20 @@ tags:
             src="/img/thoughts/unorganized/sonic-ranking/17745351-sonic-superstars-xbox-one-front-cover-thumb.jpg"
             link="/thoughts/unorganized/sonic-ranking-1/#sonic-superstars"
             caption="Sonic Superstars">}}
+        {{</ tier-figure >}}
+        {{< tier-figure
+            src="/img/thoughts/unorganized/sonic-ranking/4275037-sonic-the-hedgehog-2-sega-master-system-front-cover-thumb.jpg"
+            link="/thoughts/unorganized/sonic-ranking-3/#sonic-the-hedgehog-2-8-bit"
+            caption="Sonic the Hedgehog 2 (Game Gear/Master System)">}}
+        {{</ tier-figure >}}
+    {{</ tier >}}
+    {{< tier label="D" color="cyan" >}}
+    {{</ tier >}}
+    {{< tier label="E" color="gray" >}}
+        {{< tier-figure
+            src="/img/thoughts/unorganized/sonic-ranking/5048382-sonic-blast-game-gear-front-cover-thumb.jpg"
+            link="/thoughts/unorganized/sonic-ranking-3/#sonic-blast"
+            caption="Sonic Blast">}}
         {{</ tier-figure >}}
     {{</ tier >}}
 {{</ tierlist >}}
