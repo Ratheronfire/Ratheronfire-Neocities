@@ -17,6 +17,7 @@ tags:
 {{< details summary="To see the individual review pages, check here:" >}}
 * [Volume 1](/thoughts/unorganized/sonic-ranking-1)
 * [Volume 2](/thoughts/unorganized/sonic-ranking-2)
+* [Volume 3](/thoughts/unorganized/sonic-ranking-3)
 {{</ details >}}
 
 ---
