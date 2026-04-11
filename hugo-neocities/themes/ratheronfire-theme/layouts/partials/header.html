@@ -1,27 +1,4 @@
 <header class="container" style="position: relative">
-    <div style="position: absolute;">
-        <a style="color: yellow; font-size: 30px" onclick="nextHeader()">
-            <i class="fa fa-sun" aria-hidden="true"></i>
-        </a>
-        <a style="color: white; font-size: 30px" onclick="setHeaderByHour()">
-            <i class="fa fa-refresh" aria-hidden="true"></i>
-        </a>
-    </div>
-    <div id="theme-select-container">
-        <label for="theme-select">Theme</label>
-        <select id="theme-select" onchange="setTheme()">
-            <option value="default" selected>Default</option>
-            <option value="red">Red Iculous</option>
-            <option value="green">Jungle</option>
-            <option value="dark">Dark</option>
-            <option value="light">Light</option>
-            <option disabled>More to come probably!</option>
-        </select>
-    </div>
-    <div id="custom-fonts-checkbox">
-        <input checked type="checkbox" id="custom-fonts" onchange="setCustomFonts()">
-        <label for="custom-fonts">Enable Custom Fonts</label>
-    </div>
     <div id="header" style="height: 165px;"></div>
     <noscript>
     </noscript>
@@ -67,18 +44,59 @@
                         </li>
                     </ul>
                 </li>
-                <li id="search-button">
+                <li id="buttons">
                     <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
                     <script src="/pagefind/pagefind-ui.js"></script>
+
                     <input type="checkbox" id="search-toggle">
-                    <label id="search-open" for="search-toggle"><i class="fa fa-search" aria-hidden="true"></i></label>
-                    <label id="search-close" for="search-toggle"><i class="fa fa-close" aria-hidden="true"></i></label>
+                    <input type="checkbox" id="settings-toggle">
+
+                    <label id="search-open" for="search-toggle">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </label>
+                    <label id="search-close" for="search-toggle">
+                        <i class="fa fa-close" aria-hidden="true"></i>
+                    </label>
+
                     <div id="search" class="box"></div>
+                    
                     <script>
                         window.addEventListener('DOMContentLoaded', (event) => {
                             new PagefindUI({ element: "#search", showSubResults: true });
                         });
                     </script>
+
+                    <label id="settings-open" for="settings-toggle">
+                        <i class="fa fa-gear" aria-hidden="true"></i>
+                    </label>
+                    <label id="settings-close" for="settings-toggle">
+                        <i class="fa fa-close" aria-hidden="true"></i>
+                    </label>
+                    <div id="settings" class="box">
+                        <button onclick="nextHeader()">
+                            Adjust Time of Day
+                        </button>
+                        <button onclick="setHeaderByHour()">
+                            Reset Time of Day
+                        </button>
+
+                        <hr />
+                        
+                        <label for="theme-select">Theme</label>
+                        <select id="theme-select" onchange="setTheme()">
+                            <option value="default" selected>Default</option>
+                            <option value="red">Red Iculous</option>
+                            <option value="green">Jungle</option>
+                            <option value="dark">Dark</option>
+                            <option value="light">Light</option>
+                            <option disabled>More to come probably!</option>
+                        </select>
+
+                        <br />
+
+                        <input checked type="checkbox" id="custom-fonts" onchange="setCustomFonts()">
+                        <label for="custom-fonts">Enable Custom Fonts</label>
+                    </div>
                 </li>
             </ul>
         </nav>

@@ -7,27 +7,17 @@
     /* if you want to put images IN the header, 
 you can add them directly to the <div id="header"></div> element! */
     background-size: 100%;
+
     background-position: right 0 top -87px;
+    background-size: cover;
     background-image: var(--header-image);
 
     image-rendering: pixelated;
 }
 
-#theme-select-container {
-    position: absolute;
-    bottom: 42px;
-    right: 0;
-}
-
-#custom-fonts-checkbox {
-    position: absolute;
-    bottom: 72px;
-    right: 0;
-}
-
-@media only screen and (max-width: 1520px) {
-    #theme-select-container {
-        bottom: 60px;
+@media (max-width: 1200px) {
+    #header {
+        background-position: center;
     }
 }
 
@@ -109,9 +99,21 @@ header li>ul {
     align-items: center;
 }
 
-@media only screen and (max-width: 1520px) {
+@media (max-width: 667px) {
     .blog__navigateButtons a {
-        font-size: 24px;
+        font-size: 11pt;
+    }
+
+    a.taxonomy-link {
+        font-size: 12pt;
+    }
+
+    .related {
+        font-size: 12pt;
+    }
+
+    .footer-nav {
+        font-size: 11pt;
     }
 }
 
@@ -199,7 +201,7 @@ a.taxonomy-link {
 
 footer {
     margin-top: 0px;
-    padding-bottom: 0;
+    padding-bottom: 10px;
 }
 
 footer:empty {

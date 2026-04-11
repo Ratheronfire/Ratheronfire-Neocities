@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container footer-nav">
     {{ if not .Params.hide_footer_nav }}
         <footer id="footer">{{ range (.Ancestors).Reverse }}<a href="{{ .RelPermalink }}"><-- {{ cond (eq .Name "Ratheronfire's Assorted Collection of Odd Projects") "Home" .Name }}/</a>{{ end }}</footer>
     {{ end }}

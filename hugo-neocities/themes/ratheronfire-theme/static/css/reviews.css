@@ -376,17 +376,17 @@ figure.center {
     opacity: 0.7;
 }
 
-@media only screen and (max-width: 1520px) {
+@media (max-width: 667px) {
     .review__title-container>h2 {
-        font-size: 32px;
+        font-size: 14pt;
     }
     
     .review__title-season {
-        font-size: 24px;
+        font-size: 14pt;
     }
     
     .review__title-year {
-        font-size: 24px;
+        font-size: 14pt;
     }
     
     .review__title-rating {
@@ -440,14 +440,14 @@ figure.center {
     }
     
     .review__note {
-        font-size: 24px;
+        font-size: 12pt;
     }
     
     .review__body {
-        font-size: 32px;
+        font-size: 14pt;
     }
     
     .review__title-season {
-        font-size: 18px;
+        font-size: 16pt;
     }
 }

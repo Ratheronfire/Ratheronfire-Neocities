@@ -25,12 +25,12 @@ tbody tr:nth-child(odd) {
     justify-content: right;
 }
 
-@media only screen and (max-width: 1520px) {
+@media (max-width: 667px) {
     select,
     option,
     input,
     .dt-paging button {
-        font-size: 24px;
+        font-size: 14pt;
     }
 
     #js-table_info {
