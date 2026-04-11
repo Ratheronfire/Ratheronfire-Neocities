@@ -185,7 +185,7 @@ main {
             var(--navbar-background-color) 100%);
 
     flex: 1;
-    padding: 20px;
+    padding: 10px;
     order: 2;
 }
 
@@ -227,9 +227,9 @@ h1 {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 1520px) {
+@media (max-width: 667px) {
     h1 {
-        font-size: 32px;
+        font-size: 18pt;
     }
 }
 
@@ -262,6 +262,24 @@ a.rss-link,
 .box {
     background-color: var(--box-background-color);
     border: 1px solid var(--box-border-color);
+    padding: 10px;
+}
+
+.box-title {
+    background: #000000;
+    background: linear-gradient(180deg,
+        var(--header-border-color) 0%,
+        var(--table-even-row-background-color) 10%,
+        var(--table-odd-row-background-color) 90%,
+        var(--header-border-color) 100%);
+    
+    border: 1px solid var(--box-border-color);
+    border-bottom: unset;
+
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--title-color);
+
     padding: 10px;
 }
 
@@ -310,11 +328,11 @@ pre {
     max-width: 860px;
 }
 
-@media only screen and (max-width: 1520px) {
-
+@media (max-width: 667px) {
     code,
     pre {
-        font-size: 24px;
+        font-size: 12pt;
+        max-width: 90vw;
     }
 }
 
@@ -330,31 +348,59 @@ nav li {
     margin: auto;
 }
 
-nav li#search-button {
+nav li#buttons {
     margin-right: 30px;
     width: 20px;
+
+    display: flex;
 }
 
-input#search-toggle {
+input#search-toggle,
+input#settings-toggle {
     display: none;
 }
 
-label[for=search-toggle] {
+label[for=search-toggle],
+label[for=settings-toggle] {
     cursor: pointer;
 }
 
-input#search-toggle:checked ~ label#search-open,
+#navbar li>label {
+    min-width: 25px;
+    min-height: 25px;
+
+    border: 1px solid var(--bold-text-color);
+    border-radius: 6px;
+    background: var(--primary-text-color);
+    color: var(--aside-background-color);
+    
+    justify-content: center;
+    align-items: center;
+}
+
 input#search-toggle ~ label#search-close,
-div#search {
+input#settings-toggle ~ label#settings-close,
+input#search-toggle:checked ~ label#search-open,
+input#settings-toggle:checked ~ label#settings-open,
+div#search,
+div#settings {
     display: none;
 }
 
+input#search-toggle ~ label#search-open,
+input#settings-toggle ~ label#settings-open,
 input#search-toggle:checked ~ label#search-close,
-input#search-toggle:checked ~ div#search {
+input#settings-toggle:checked ~ label#settings-close {
+    display: flex;
+}
+
+input#search-toggle:checked ~ div#search,
+input#settings-toggle:checked ~ div#settings {
     display: initial;
 }
 
-div#search {
+div#search,
+div#settings {
     position: absolute;
     right: 0px;
     z-index: 10;
@@ -362,7 +408,8 @@ div#search {
     top: 208px;
 }
 
-div#search p {
+div#search p,
+div#settings p {
     color: var(--primary-text-color);
 }
 
@@ -399,7 +446,7 @@ and then subtrack it by 100. use this new number as the
 "max-width" value below
 */
 
-@media only screen and (max-width: 1520px) {
+@media (max-width: 1037px) {
     #flex {
         flex-wrap: wrap;
     }
@@ -429,7 +476,11 @@ feel free to play around with the order!
     }
 
     body {
-        font-size: 32px;
+        font-size: 14pt;
+    }
+
+    figure img {
+        max-width: 70vw;
     }
 }
 

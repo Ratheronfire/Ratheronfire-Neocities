@@ -1,11 +1,18 @@
 <table>
-    <tbody>
+    <tbody class="tierlist">
         {{ .Inner }}
     </tbody>
 </table>
 
 <style>
+    .tierlist {
+        display: block;
+        max-width: calc(100vw - 80px);
+        overflow-x: auto;
+    }
+
     .tier {
+        width: 100%;
         height: 100px;
 
         position: relative;
@@ -13,7 +20,7 @@
 
     .tier-label {
         text-align: center;
-        width: 110px;
+        min-width: 110px;
 
         color: white;
 

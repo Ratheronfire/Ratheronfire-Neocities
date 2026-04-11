@@ -5,14 +5,18 @@
             <main>
                 {{ .Content }}
 
-                <span class="center">
+                <span id="webdeck-iframe" class="center">
                     <iframe src="/webdeck-player/index.html" height="260" width="604"></iframe>
+
+                    <a id="webdeck-external"
+                        onclick="window.open('/webdeck-player/index.html', 'Web Deck Player', 'height=250, width=600')">
+                        <i class="fa fa-external-link"></i>
+                    </a> 
                 </span>
 
-                <a style="position: relative; right: -770px; top: -260px;"
-                    onclick="window.open('/webdeck-player/index.html', 'Web Deck Player', 'height=250, width=600')">
-                    <i class="fa fa-external-link"></i>
-                </a> 
+                <a id="webdeck-fallback" onclick="window.open('/webdeck-player/index.html', 'Web Deck Player', 'height=250, width=600')">
+                    Window size too small to render WebDeck player. Click here to open in a new tab.
+                </a>
 
                 <hr />
 
@@ -36,7 +40,7 @@
             </main>
 
             <aside id="leftSidebar" style="margin-right: 0px;">
-                <h2>Updates</h2>
+                <div class="box-title">Updates</div>
                 <div class="box">
                     <div class="scrollable">
                         {{ range $update := first 5 (sort $.Site.Data.updates "date" "desc") }}
@@ -73,8 +77,7 @@
             </aside>
 
             <aside id="rightSidebar" style="margin-right: 0px; position: relative;">
-                <h3>New Pages</h3>
-
+                <div class="box-title">New Pages</div>
                 <div class="box">
                     <div class="scrollable">
                         <ul>
@@ -119,13 +122,11 @@
                             }
                         </script>
                     </div>
-                    
                 </div>
 
-                <hr />
+                <br />
 
-                <h3>All Categories</h3>
-
+                <div class="box-title">All Categories</div>
                 <div class="box">
                     <div class="scrollable">
                         <table>
@@ -179,6 +180,34 @@
         border: 3px solid brown;
         border-radius: 8px;
         border-block-color: gray;
+    }
+
+    #webdeck-iframe {
+        position: relative;
+    }
+
+    #webdeck-external {
+        position: relative;
+        right: 20px;
+    }
+
+    #webdeck-fallback {
+        display: none;
+    }
+
+    #webdeck-external,
+    #webdeck-fallback {
+        cursor: pointer;
+    }
+
+    @media(max-width: 670px) {
+        #webdeck-iframe {
+            display: none;
+        }
+
+        #webdeck-fallback {
+            display: initial;
+        }
     }
 </style>
 {{ end }}

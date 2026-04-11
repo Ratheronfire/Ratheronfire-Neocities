@@ -65,3 +65,8 @@
   link: ?server-upgrade
   description: Upgraded the storage capacity for the server that hosts some of the more heavy-duty projects at storage.ratheronfire.com. Also replaced the comments section with [Comentario](https://docs.comentario.app/en/) using a self-hosted backend.
   preview: Upgraded storage capacity for storage.ratheronfire.com, replaced comments with [Comentario](https://docs.comentario.app/en/).
+- title: CSS Updates
+  date: 2024-10-19T11:00:00-04:00
+  link: ?css-update
+  description: Tweaked the CSS across the site.
+  preview: Lots of CSS updates, cleaned up the navbar and improved handling for responsive displays.
