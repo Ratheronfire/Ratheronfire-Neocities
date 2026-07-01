@@ -5,6 +5,9 @@ theme = ["ratheronfire-theme", "hugo-easy-gallery"]
 enableGitInfo = true
 timeZone = "America/New_York"
 
+[security]
+  allowContent = ['.*']
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]

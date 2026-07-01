@@ -51,18 +51,6 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/hugo-neocities/content",
-      "title": "content"
-    },
-    {
-      "title": "projects",
-      "path": "[[workspace]]/hugo-neocities/content/projects"
-    },
-    {
-      "title": "thoughts",
-      "path": "[[workspace]]/hugo-neocities/content/thoughts"
-    },
-    {
       "title": "unorganized",
       "path": "[[workspace]]/hugo-neocities/content/thoughts/unorganized"
     },
@@ -83,5 +71,6 @@
       "path": "[[workspace]]/hugo-neocities/content/thoughts/devlogs/nes-emulator"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.framework.startCommand": "hugo server -wDF hugo-neocities"
 }
